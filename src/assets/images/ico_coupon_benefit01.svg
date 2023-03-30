@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="View_box" data-name="View box" width="60" height="60" transform="translate(-6.736 -7.112)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_24_freeshipping" data-name="Icon / 24 / freeshipping" transform="translate(6.736 7.112)" clip-path="url(#clip-path)">
+    <path id="path" d="M30.156,1H34.3A11.846,11.846,0,0,1,46.141,12.846v9.692H42.989" transform="translate(5.046 10.127)" fill="none" stroke="#fff" stroke-width="2"/>
+    <path id="path-2" data-name="path" d="M37.916,32.889H14.864" transform="translate(1.432 -0.224)" fill="none" stroke="#fff" stroke-width="2"/>
+    <path id="path-3" data-name="path" d="M6.227,32.889H3.015" transform="translate(0.647 -0.224)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <g id="path-4" data-name="path" transform="translate(5.958 27.28)" fill="none" stroke="#fff" stroke-width="2">
+      <circle cx="5.384" cy="5.384" r="5.384" stroke="none"/>
+      <circle cx="5.384" cy="5.384" r="4.384" fill="none"/>
+    </g>
+    <g id="path-5" data-name="path" transform="translate(38.264 27.28)" fill="none" stroke="#fff" stroke-width="2">
+      <circle cx="5.384" cy="5.384" r="5.384" stroke="none"/>
+      <circle cx="5.384" cy="5.384" r="4.384" fill="none"/>
+    </g>
+    <path id="path-6" data-name="path" d="M12.467,9.731H34.7v21H3.132" transform="translate(0.531 -5.497)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="path-7" data-name="path" d="M17.566,13.463H3.076" transform="translate(0.586 -3.574)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="path-8" data-name="path" d="M23.891,13.463H3.076" transform="translate(-8.524 1.484)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="path-9" data-name="path" d="M17.216,13.463H3.076" transform="translate(-4.923 6.543)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="path-10" data-name="path" d="M38.529,13.463V24.8h8.9" transform="translate(3.251 -1.717)" fill="none" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

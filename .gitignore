@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+dist/**/*.html
+dist/assets/css
+dist/assets/images
+dist/assets/js
+dist/lg5-common-gp/
