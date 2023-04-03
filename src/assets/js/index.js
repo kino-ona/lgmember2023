@@ -25,10 +25,8 @@ $(document).ready(function(){
 
 		$contents.each(function (index) {
 			if ($(window).scrollTop() >= $(this).offset().top - $('.box_navigation').height()) {
+				$fixbx.addClass('fill');
 				$tabs.parent().eq(index).addClass("active").siblings().removeClass("active");
-				console.log(0);
-			} else if ($(window).scrollTop() < $($contents).eq(0).offset().top - $('.box_navigation').height()) {
-				$tabs.parent().removeClass("active");
 			}
 		});
 	
@@ -61,8 +59,11 @@ $(document).ready(function(){
 			// });
 			$contents.each(function (index) {
 				if (windowTop >= $(this).offset().top - $('.box_navigation').height()) {
+					$fixbx.addClass('fill');
 					$tabs.parent().eq(index).addClass("active").siblings().removeClass("active");
+					$('#select_list-item').find('span').html($tabs.parent().eq(index).addClass("active").find('a').html())
 				} else if (windowTop < $($contents).eq(0).offset().top - $('.box_navigation').height()) {
+					$fixbx.removeClass('fill');
 					$tabs.parent().removeClass("active");
 				}
 			});
@@ -100,7 +101,7 @@ $(document).ready(function(){
 	});
 
 	// slick
-	$('.lgmembersweek .product--hotdeal .product__list').slick({
+	$('.lgmembersweek .hotdeal .product__list').slick({
 		speed: 600,
 		infinite: false,
 		slidesToShow: 4,
@@ -111,28 +112,30 @@ $(document).ready(function(){
 				breakpoint: 767,
 				settings: {
 					slidesToShow: 1,
+					slidesToScroll: 1,
+					rows: 1,
 					focusOnSelect: true
 				}
 			}
 		]
 	});
-	// $('.lgmembersweek .product__swiper').slick({
-	// 	speed: 600,
-	// 	infinite: false,
-	// 	slidesToShow: 5,
-	// 	focusOnSelect: false,
-	// 	swipeToSlide: true,
-	// 	responsive: [
-	// 		{
-	// 			breakpoint: 767,
-	// 			settings: {
-	// 				arrows: false,
-	// 				slidesToShow: 2.4,
-	// 				focusOnSelect: true
-	// 			}
-	// 		}
-	// 	]
-	// });
+	$('.lgmembersweek .experience .product__list').slick({
+		speed: 600,
+		infinite: false,
+		slidesToShow: 5,
+		focusOnSelect: false,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					arrows: false,
+					slidesToShow: 2.4,
+					focusOnSelect: true
+				}
+			}
+		]
+	});
 	// $('.lgmembersweek .product__showroom').slick({
 	// 	speed: 800,
 	// 	infinite: false,
@@ -151,27 +154,27 @@ $(document).ready(function(){
 
 	// 제품 레이어
 	if ($(window).width() > 767) {
-		$('.lgmembersweek .product__showroom .product__layer').on({
+		$('.lgmembersweek .experience .showroom .showroom__layer').on({
 			mouseenter: function(event){
-				$(this).find('.product__target').addClass('product__target--opened');
+				$(this).find('.showroom__target').addClass('showroom__target--opened');
 			},
 			mouseleave: function(event){
-				$(this).find('.product__target').removeClass('product__target--opened');
+				$(this).find('.showroom__target').removeClass('showroom__target--opened');
 			}
-		})
+		});
 	}
 	$(window).resize(function(){
 		if ($(window).width() > 767) {
-			$('.lgmembersweek .product__showroom .product__layer').on({
+			$('.lgmembersweek .experience .showroom .showroom__layer').on({
 				mouseenter: function(event){
-					$(this).find('.product__target').addClass('product__target--opened');
+					$(this).find('.showroom__target').addClass('showroom__target--opened');
 				},
 				mouseleave: function(event){
-					$(this).find('.product__target').removeClass('product__target--opened');
+					$(this).find('.showroom__target').removeClass('showroom__target--opened');
 				}
-			})
+			});
 		} else if ($(window).width() <= 767) {
-			$('.lgmembersweek .product__showroom .product__layer').off('mouseenter mouseleave');
+			$('.lgmembersweek .experience .showroom .showroom__layer').off('mouseenter mouseleave');
 		}
 	});
 
@@ -179,8 +182,9 @@ $(document).ready(function(){
 	$('.lgmembersweek .tab__button').on('click', function (event) {
 		event.preventDefault();
 		
-		if ($($(this).attr('href')).find('.product__swiper, .product__showroom').length > 0) {
-			// $($(this).attr('href')).find('.product__showroom').slick('refresh');
+		if ($($(this).attr('href')).find('.product').length > 0) {
+			$($(this).attr('href')).find('.product .product__list').slick('refresh', false);
+			console.log($($(this).attr('href')).find('.product .product__list'));
 		}
 
 		$(this).closest('.tab').find('.tab__item').removeClass('tab__item--active');
