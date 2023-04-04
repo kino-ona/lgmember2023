@@ -27,7 +27,6 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/mic-head-script.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
-	
 </head>
 
 <body>
@@ -54,7 +53,7 @@
 	<!-- // component (navigation) -->
 
    <!-- breadcrumb -->
-   <c:import url="/${localeCd }/breadCrumb">
+   <c:import url="/${localeCd}/breadCrumb">
       <c:param name="bizType" value="${bizType}" />
    </c:import>
    <!-- // breadcrumb -->
@@ -69,31 +68,35 @@
 			<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
 
 			<!-- Required input ## Model List Start -->
+			<!-- Event Gift Model -->
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value=""/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value=""/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value=""/>
 
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07515106|MD07515090|MD07535523|MD07535625|MD07535506|MD07535512"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07560092|MD07535378|MD07508602|MD07560685|MD07508373"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07548378|MD07546609|MD07546566|MD07552142|MD07551798|MD07504084"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558451|MD07552081|MD07532532"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07553060|MD06164217|MD07546436|MD07550947|MD07559465|MD07553001|MD07553142|MD07559451|MD07559332|MD06006237"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07547412|MD07547135|MD07569939|MD07568141|MD07560062"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07532987|MD07568226|MD07568250|MD07546805|MD07564074"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07555423|MD07555790|MD07571411|MD07554813|MD07561317|MD07570903|MD07560062"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07560077|MD07560054|MD05775808|MD07551400|MD07539127"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521601|MD07563943|MD06175496|MD07560054"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD06006476"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546868|MD07546781|MD07551260|MD07547235|MD07551327|MD07569939|MD07555550|MD07559233|MD07540676|MD07521601|MD07527380|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05775808|MD07562475|MD07554813|MD07555423"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
 
 			<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07560014|MD07563206|MD07548339|MD07548375|MD07548443|MD07548331|MD07522781|MD07550459|MD07546576|MD07550445|MD07546595|MD07550724|MD07550539|MD07550515|MD06090818|MD07548316"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07509794|MD05601631|MD07509931|MD07538824|MD07510893|MD05806672|MD07525947|MD07528451|MD07528365|MD07533086|MD07551762|MD07560489|MD05180420|MD07532624|MD05941396|MD05818913"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07535464|MD07558328|MD07535480|MD07535474|MD07535404|MD07535414|MD07535502|MD07535335|MD07515106|MD07535446|MD07535454|MD07514379|MD07535516|MD07535521|MD07535475|MD07536912"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07560022|MD07558429|MD06219397|MD06219436|MD07504795|MD05761888|MD06159736|MD07522764|MD07506308|MD07553005|MD07553012|MD07553684|MD07553045|MD07555788|MD07553001|MD07553015"/>
+			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07546868"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07546868"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07546868"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07546868"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
 		<link rel="stylesheet" href="${path}/assets/css/index.css">
 		<link rel="stylesheet" href="${path}/assets/css/index_it.css">
-		<div class="lgmembersweek">
+		<div class="lgmembersweek" data-locale="it">
 			<div class="box_navigation">
 				<div class="box_nav-position">
 					<div class="box_navigation-inner">
@@ -154,14 +157,14 @@
 			<div class="hotdeal">
 				<div class="anchors" id="SpecialDeal"></div>
 				<div id="box_content1" class="section">
-					<div class="section__container">
+					<div class="section__container section__container--hotdeal" data-list="hotDeal">
 						<div class="section__set">
 							<div class="section__anchor">
 								<p>MASSIMO RISPARMIO</p>
 							</div>
 							<p class="section__title">Offerte Top</p>
 							<p class="section__desc">Approfitta delle offerte esclusive sui prodotti selezionati per te</p>
-							<div class="product">
+							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
 
 									<template class="contents-template">
@@ -324,26 +327,79 @@
 			<div class="experience">
 				<div class="anchors" id="NextLevelExperience"></div>
 				<div id="box_content3" class="section">
-					<div class="section__container">
+					<div class="section__container section__container--lifestyle" data-list="lifeStyle">
+
 						<div class="section__set">
 							<div class="tab">
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
-										<a href="#entertaiment" class="tab__button">INTRATTENIMENT</a>
+										<a href="#entertaiment" data-tab-name="entertaiment" class="tab__button">INTRATTENIMENT</a>
 									</div>
 									<div class="tab__item">
-										<a href="#gaming" class="tab__button">GAMING</a>
+										<a href="#gaming" data-tab-name="gaming" class="tab__button">GAMING</a>
 									</div>
 									<div class="tab__item">
-										<a href="#working" class="tab__button">SMARTWORKING</a>
+										<a href="#working" data-tab-name="working" class="tab__button">SMARTWORKING</a>
 									</div>
 									<div class="tab__item">
-										<a href="#homekeeping" class="tab__button">SMART HOME</a>
+										<a href="#homekeeping" data-tab-name="homekeeping" class="tab__button">SMART HOME</a>
 									</div>
 									<div class="tab__item">
-										<a href="#energysaving" class="tab__button">RISPARMIO ENERGETICO</a>
+										<a href="#energysaving" data-tab-name="energysaving" class="tab__button">RISPARMIO ENERGETICO</a>
 									</div>
 								</div>
+
+								<template class="contents-template">
+									<div class="product__item">
+										<div class="product__img">
+											<div class="product__flags">
+												<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
+												<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
+											</div>
+											<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
+
+											<!-- 
+												// common.js add-to-cart dataLayer 공통 로직 진입을 위해
+												// .products-info / .js-compare 클래스 추가
+												// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
+											-->
+											<div class="button">
+												<div class="button__row">
+													<a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
+														<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
+													</a>
+													<a role="button" href="#" class="button__item  atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+												</div>
+											</div>
+										</div>
+										<div class="product__info">
+											<p class="product__name">*userFriendlyName*</p>
+											<p class="product__sn sku">*modelName*</p>
+											<!-- <div class="product__price">
+												<p class="product__cost">
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*finalPrice*</span>
+												</p>
+												<div>
+													<span class="product__discount">
+														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+														<span class="number">*originPrice*</span>
+													</span>
+													<span class="product__highlight">*discountMsg*</span>
+												</div>
+											</div> -->
+											<!-- <div class="product__members">
+												<span class="product__text">
+													<spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/>
+												</span>
+												<span class="product__highlight">
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+														<span class="number">*membershipPriceValue*</span>
+												</span>
+											</div> -->
+										</div>
+									</div>
+								</template>
 								<div class="tab__contents">
 									<div id="entertaiment" class="tab__panel tab__panel--entertaiment" style="display: block;">
 										<div class="section__header">
@@ -364,7 +420,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -383,7 +439,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -400,260 +456,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
+												<div class="product__list product__swiper"></div>
 											</div>
 										</div>
 									</div>
@@ -676,7 +479,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -693,98 +496,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-												</div>
+												<div class="product__list product__swiper"></div>
 											</div>
 										</div>
 									</div>
@@ -807,7 +519,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -826,7 +538,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -843,98 +555,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-												</div>
+												<div class="product__list product__swiper"></div>
 											</div>
 										</div>
 									</div>
@@ -957,7 +578,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -976,7 +597,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -995,7 +616,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -1012,98 +633,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-												</div>
+												<div class="product__list product__swiper"></div>
 											</div>
 										</div>
 									</div>
@@ -1126,7 +656,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -1145,7 +675,7 @@
 														<div class="showroom__target">
 															<a href="#" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="../assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -1162,98 +692,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
-															<div class="button">
-																<div class="button__row">
-																	<a href="#" class="button__item button__item--leanmore">LEARN MORE</a>
-																	<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-																</div>
-															</div>
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-														</div>
-													</div>
-												</div>
+												<div class="product__list product__swiper"></div>
 											</div>
 										</div>
 									</div>
@@ -1271,7 +710,7 @@
 				<div class="anchors" id="BuymoreSavemoreHomeAppliance"></div>
 				<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
 				<div id="box_content4" class="section">
-					<div class="section__container">
+					<div class="section__container section__container--hottest" data-list="hottest">
 						<div class="section__set">
 							<div class="section__anchor">
 								<p>PIÙ ACQUISTI, PIÙ RISPARMI</p>
@@ -1323,87 +762,63 @@
 										<a href="#computerproducts" class="tab__button">INFORMATICA</a>
 									</div>
 								</div>
+
+								<!-- <template class="contents-template">
+									<div class="product__item">
+										<div class="product__img">
+											<div class="product__flags">
+												<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
+												<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
+											</div>
+											<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
+										</div>
+										<div class="product__info">
+											<p class="product__name">*userFriendlyName*</p>
+											<p class="product__sn sku">*modelName*</p>
+											<div class="product__price">
+												<p class="product__cost">
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*finalPrice*</span>
+												</p>
+												<div>
+													<span class="product__discount">
+														<span class="product__discount">
+															<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+															<span class="number">*originPrice*</span>
+														</span>
+													</span>
+													<span class="product__highlight">*discountMsg*</span>
+												</div>
+											</div>
+											<div class="product__members">
+												<span class="product__text"><spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/></span>
+												<span class="product__highlight">
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*membershipPriceValue*</span>
+												</span>
+												<div class="product__alert d-none">
+													*reStockAlertText*
+												</div>
+											</div>
+											<div class="product__bottom">
+												<div class="learn-more">
+													<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
+														<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
+													</a>
+												</div>
+												<div class="button">
+													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</template> -->
 								<div class="tab__contents">
 									<div id="tv" class="tab__panel tab__panel--tv" style="display: block;">
 										<p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p>
 										<div class="product">
 											<div class="product__mask">
-												<div class="product__list">
-													<div class="product__item">
-														<div class="product__img">
-															<div class="product__flags">
-																<span class="product__flag">NEW</span>
-																<span class="product__flag">CASHBACK</span>
-															</div>
-															<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-																<div class="product__alert">
-																	<span>!</span>
-																	Out of Stock
-																</div>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
+												<div class="product__list"></div>
 											</div>
 										</div>
 										<div class="button">
@@ -1416,82 +831,7 @@
 										<p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p>
 										<div class="product">
 											<div class="product__mask">
-												<div class="product__list">
-													<div class="product__item">
-														<div class="product__img">
-															<div class="product__flags">
-																<span class="product__flag">NEW</span>
-																<span class="product__flag">CASHBACK</span>
-															</div>
-															<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-																<div class="product__alert">
-																	<span>!</span>
-																	Out of Stock
-																</div>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
+												<div class="product__list"></div>
 											</div>
 										</div>
 										<div class="button">
@@ -1504,82 +844,7 @@
 										<p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p>
 										<div class="product">
 											<div class="product__mask">
-												<div class="product__list">
-													<div class="product__item">
-														<div class="product__img">
-															<div class="product__flags">
-																<span class="product__flag">NEW</span>
-																<span class="product__flag">CASHBACK</span>
-															</div>
-															<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-																<div class="product__alert">
-																	<span>!</span>
-																	Out of Stock
-																</div>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
+												<div class="product__list"></div>
 											</div>
 										</div>
 										<div class="button">
@@ -1592,82 +857,7 @@
 										<p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p>
 										<div class="product">
 											<div class="product__mask">
-												<div class="product__list">
-													<div class="product__item">
-														<div class="product__img">
-															<div class="product__flags">
-																<span class="product__flag">NEW</span>
-																<span class="product__flag">CASHBACK</span>
-															</div>
-															<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-																<div class="product__alert">
-																	<span>!</span>
-																	Out of Stock
-																</div>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="product__item">
-														<div class="product__img">
-															<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-														</div>
-														<div class="product__info">
-															<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-															<p class="product__sn">OLED77C26LD</p>
-															<div class="product__price">
-																<p class="product__cost">£849.98</p>
-																<div>
-																	<span class="product__discount">£1,049.98</span>
-																	<span class="product__highlight">19% Off</span>
-																</div>
-															</div>
-															<div class="product__members">
-																<span class="product__text">LG Members only</span>
-																<span class="product__highlight">£832.98</span>
-															</div>
-															<div class="product__bottom">
-																<div class="learn-more">
-																	<a href="#" class="learn-more__link">
-																		<span class="learn-more__text">SCOPRI DI PIÙ</span>
-																	</a>
-																</div>
-																<div class="button">
-																	<a href="#" class="button__item">
-																		AGGIUNGI AL<br>
-																		CARRELLO
-																	</a>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
+												<div class="product__list"></div>
 											</div>
 										</div>
 										<div class="button">
@@ -1692,11 +882,11 @@
 	<!-- // top button -->
 	
 	<!-- footer seo copy -->
-	<c:import url="/${localeCd }/footerSeoCopy"/> 
+	<c:import url="/${localeCd}/footerSeoCopy"/> 
 	<!-- footer seo copy -->
 	
 	<!-- footer main contents -->
-	<c:import url="/${localeCd }/footer">
+	<c:import url="/${localeCd}/footer">
 	    <c:param name="bizType" value="${bizType}"/>
 	    <c:param name="siteType" value="${siteType}"/>
 	</c:import>
@@ -1722,7 +912,7 @@
 		_dl = 
 		{
 			"page_name" : {
-				"super_category" : "memberdays2022H2",
+				"super_category" : "memberdays2023H1",
 				"bu" : "",
 				"gmc_bu" : "",
 				"sub_category_list" : "",
@@ -1741,7 +931,7 @@
 			"isLogin" : "",
 			"country_code" : "${country}",
 			"language_code" : "${language}",
-			"page_category_l1" : "${country}:memberdays2022H2",
+			"page_category_l1" : "${country}:memberdays2023H1",
 			"page_category_l2" : "",
 			"page_category_l3" : "",
 			"page_category_l4" : "",
@@ -1766,29 +956,9 @@
 	<script>
 		if($('.add-to-cart').length > 0) {
       $('.add-to-cart').on('click', function (e) {
-        fbq('trackCustom', '2022H2MemberDays AddToBasket');
+        fbq('trackCustom', '2023H1MemberDays AddToBasket');
       });
     }
-
-		$('.win__popup__with__coupon').find('.popup__button').on('click', function() {
-			dataLayer.push({
-			'event' : 'starstamp_coupon_download_click',
-			'bu' : 'HE, HA, BS_IT_B2C, BS',
-			'pageType' : 'MICROSITE',
-			'superCategory': '{superCategory}',
-			'category': '{category}',
-			'subcategory' : '{subcategory}',
-			'modelYear' : '{modelYear}',
-			'modelName' : '{modelName}',
-			'modelCode': '{modelCode}',
-			'salesModelCode': '{salesModelCode}',
-			'sku': '{sku}',
-			'suffix': '{suffix}',
-			'price': '{price}',
-			'currencyCode': '{currencyCode}',
-			'theme': '{theme}'
-			})
-		})
 
 		$(document).ready(function(){
 			var href = window.location.href;
@@ -1845,8 +1015,7 @@
 	
 	<!-- UI Script -->
 	<script src="${path}/assets/js/index.js"></script>
-	<script src="${path}/assets/js/index-ajax.js"></script>
-	<script src="${path}/assets/js/index-add-to-cart.js"></script>
+	<!-- <script src="${path}/assets/js/index-ajax.js"></script> -->
 	<!--// UI Script -->
 </body>
 </html>
