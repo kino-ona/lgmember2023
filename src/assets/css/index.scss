@@ -21,6 +21,9 @@
 			text-decoration: none;
 		}
 	}
+	button {
+		outline: none;
+	}
 
 	em {
 		font-style: normal;
@@ -1376,6 +1379,9 @@
 	
 					.button__row {
 						justify-content: center;
+						button {
+							cursor: pointer;
+						}
 					}
 	
 					.button__item {

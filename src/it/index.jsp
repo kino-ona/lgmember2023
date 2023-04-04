@@ -1,124 +1,98 @@
-<!doctype html>
-<html data-countrycode="it" dir="ltr" lang="it">
-
+<%@ page language="java" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
+<%@ include file="/WEB-INF/jsp/gp/common/include/head/head.jsp" %>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days Promotion: Up to 15% Off Only For Members | LG UK</title>
+	<title>LG Member Days Promotion: Up to 17% Off Only For Members | LG Italia</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL 20th December 2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
-	<link rel="canonical" href="https://www.lg.com/uk/memberdays">
+	<link rel="canonical" href="https://www.lg.com/it/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
-	<meta property="og:site_name" content="LG UK">
+	<meta property="og:site_name" content="LG Italia">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG UK">
-	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
-	<meta property="og:url" content="https://www.lg.com/uk/memberdays">
+	<meta property="og:title" content="LG Member Days Promotion: Up to 17% Off Only For Members | LG Italia">
+	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL 20th December 2022.">
+	<meta property="og:url" content="https://www.lg.com/it/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@LGUK">
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Corporation",
-			"name": "LG UK",
-			"alternateName": "LG Electronics",
-			"url": "https://www.lg.com/uk/memberdays",
-			"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
-			"sameAs": [
-				"https://www.facebook.com/LGUK",
-				"https://twitter.com/LGUK",
-				"https://www.youtube.com/user/LGBlogUK",
-				"http://www.instagram.com/lg_uk"
-			]
-		}
-	</script>
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "WebSite",
-			"name": "LG UK",
-			"url": "https://www.lg.com/uk/memberdays",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"target": "https://www.lg.com/uk/search/search-all?search={search_term_string}",
-				"query-input": "required name=search_term_string"}
-			}
-	</script>
+	<meta name="twitter:site" content="@LGIT">
 	<meta content="#a50034" name="theme-color">
-
-	<meta content="#a50034" name="test-color">
-	<link href="../lg5-common-gp/bootstrap/4.1.3/css/bootstrap-grid.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-	<link rel="preload" href="../lg5-common-gp/webfonts/LG_Smart_Regular.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="../lg5-common-gp/webfonts/LG_Smart_Bold.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="../lg5-common-gp/webfonts/LG_Smart_SemiBold.woff2" as="font" type="font/woff2" crossorigin>
-	<link href="../lg5-common-gp/css/default.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/components.min.css" type="text/css" rel="stylesheet">
-	<!--[if IE 9]>
-	<link href="../lg5-common-gp/css/default-for-ie9.min.css" type="text/css" rel="stylesheet">
-	<![endif]-->
-	<link href="../lg5-common-gp/css/GPC0150.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0101.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0003.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0059.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0064.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0065.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0022.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0055.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0045.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0078.min.css" type="text/css" rel="stylesheet">
+	<!-- // default code -->
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/mic-head-script.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
+	
 </head>
 
 <body>
-	<div class="iw_viewport-wrapper">
-		<!-- header -->
-		@@include('../inc/header.inc',{
-		"webroot":"."
-		})
-		<!--// header -->
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/body-noscript.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/google-tag-manager.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
+	
+	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
+		<meta itemprop="name" content="LG Member Days Promotion: Up to 17% Off Only For Members | LG Italia"/>
+		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
+		<meta itemprop="url" content="https://www.lg.com/it/memberdays" />
+		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL 20th December 2022." />
+		<meta itemprop="keywords" content="" />
+	</div>
+	
+	<c:set var='bizType' value='${$bizType }' />
+	<c:set var='siteType' value='MKT' />
+	<!-- component (navigation) -->
+	<c:import url="/${localeCd}/gnb">
+	    <c:param name="bizType" value="${bizType}"/>
+	    <c:param name="siteType" value="${siteType}"/>
+	    <c:param name="isMobile" value="${isMobile}"/>
+	</c:import>
+	<!-- // component (navigation) -->
 
+   <!-- breadcrumb -->
+   <c:import url="/${localeCd }/breadCrumb">
+      <c:param name="bizType" value="${bizType}" />
+   </c:import>
+   <!-- // breadcrumb -->
+
+	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
+
+	<!-- Enter Code Here -->
+	<div class="wrapper">
 		<!-- Tracking Event Setting -->
-		<input type="hidden" class="addtocart-datelayer-use-flag" value="<spring:message code='addtocart-datelayer-use-flag' text='addtocart-datelayer-use-flag'/>">
-		<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
+			<input type="hidden" class="addtocart-datelayer-use-flag" value="<spring:message code='addtocart-datelayer-use-flag' text='addtocart-datelayer-use-flag'/>">
+			<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
 
-		<!-- Required input ## Model List Start -->
-		<!-- Event Gift Model -->
-		<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07546563"/>
-		<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07560092"/>
-		<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07553060"/>
+			<!-- Required input ## Model List Start -->
 
-		<!-- Life Style Model -->
-		<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07515106|MD07515090|MD07535523|MD07535625"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07560092|MD07535378|MD07508602|MD07560685|MD07508373"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07548335|MD07546609|MD07546566|MD07552142|MD07551798|MD07504084"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558451|MD07552081|MD07532532|MD07553060|MD07552999|MD07550947"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD06164217|MD07553142|MD07546436|MD07545548|MD07559465|MD07559465|MD07559451|MD07559332"/>
+			<!-- Life Style Model -->
+			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07515106|MD07515090|MD07535523|MD07535625|MD07535506|MD07535512"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07560092|MD07535378|MD07508602|MD07560685|MD07508373"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07548378|MD07546609|MD07546566|MD07552142|MD07551798|MD07504084"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558451|MD07552081|MD07532532"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07553060|MD06164217|MD07546436|MD07550947|MD07559465|MD07553001|MD07553142|MD07559451|MD07559332|MD06006237"/>
 
-		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD06006476"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="../assets/images/hotdeal_product.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
-		<!-- ex. multiple model thumb / alt text 
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="../assets/images/hotdeal_product.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-		-->
+			<!-- Hot Deal Model / thumb - alt text -->
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD06006476"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
 
-		<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07550459|MD07546576|MD07550445|MD07546595|MD07534673|MD07550724|MD07550539|MD07550515|MD07526381|MD06090818|MD07548316"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07525947|MD07528451|MD07528365|MD07533086|MD07551762|MD07560489|MD07551785|MD05180420|MD05096604|MD07532624|MD05941396|MD05818913"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07535480|MD07517580|MD07535313|MD07535474|MD07535404|MD07535414|MD07535502|MD07535502|MD07535542|MD07514347|MD07535454|MD07514379|MD07535516|MD07535521|MD07535475|MD07536912"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07560035|MD07558381|MD05761888|MD07508534|MD06236556|MD06159736|MD07522764|MD07506308|MD07500441|MD07553005|MD07553012|MD07553684|MD07553045|MD07555788|MD07525713|MD07523609"/>
-	<!-- Required input ## Model List End -->
-
-		<!-- 여기서부터 컨텐츠 시작 -->
-		<link rel="stylesheet" href="../assets/css/index.css">
-		<link rel="stylesheet" href="../assets/css/index_it.css">
+			<!-- Hottest Gift Model -->
+			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07560014|MD07563206|MD07548339|MD07548375|MD07548443|MD07548331|MD07522781|MD07550459|MD07546576|MD07550445|MD07546595|MD07550724|MD07550539|MD07550515|MD06090818|MD07548316"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07509794|MD05601631|MD07509931|MD07538824|MD07510893|MD05806672|MD07525947|MD07528451|MD07528365|MD07533086|MD07551762|MD07560489|MD05180420|MD07532624|MD05941396|MD05818913"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07535464|MD07558328|MD07535480|MD07535474|MD07535404|MD07535414|MD07535502|MD07535335|MD07515106|MD07535446|MD07535454|MD07514379|MD07535516|MD07535521|MD07535475|MD07536912"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07560022|MD07558429|MD06219397|MD06219436|MD07504795|MD05761888|MD06159736|MD07522764|MD07506308|MD07553005|MD07553012|MD07553684|MD07553045|MD07555788|MD07553001|MD07553015"/>
+		<!-- Required input ## Model List End -->
+	
+		<!--  Content Start  -->
+		<link rel="stylesheet" href="${path}/assets/css/index.css">
+		<link rel="stylesheet" href="${path}/assets/css/index_it.css">
 		<div class="lgmembersweek">
 			<div class="box_navigation">
 				<div class="box_nav-position">
@@ -189,552 +163,63 @@
 							<p class="section__desc">Approfitta delle offerte esclusive sui prodotti selezionati per te</p>
 							<div class="product">
 								<div class="product__mask">
-									<div class="product__list">
+
+									<template class="contents-template">
 										<div class="product__item">
 											<div class="product__img">
-												<div class="product__flags">
+												<!-- <div class="product__flags">
 													<span class="product__flag">NEW</span>
 													<span class="product__flag">CASHBACK</span>
-												</div>
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
+												</div> -->
+												<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
+											<!-- 
+												// common.js add-to-cart dataLayer 공통 로직 진입을 위해
+												// .products-info / .js-compare 클래스 추가
+												// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
+											-->
+											<div class="product__info products-info">
+												<p class="product__name">*userFriendlyName*</p>
+												<p class="product__sn sku">*modelName*</p>
 												<div class="product__price">
-													<p class="product__cost">£849.98</p>
+													<p class="product__cost">
+														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+														<span class="number">*finalPrice*</span>
+													</p>
 													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
+														<span class="product__discount">
+															<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+															<span class="number">*originPrice*</span>
+														</span>
+														<span class="product__highlight">*discountMsg*</span>
 													</div>
 												</div>
 												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
+													<span class="product__text"><spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/></span>
+													<span class="product__highlight">
+														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+														<span class="number">*membershipPriceValue*</span>
+													</span>
 													<div class="product__alert">
-														<span>!</span>
-														Out of Stock
+														<!-- <span>!</span> -->
+														*reStockAlertText*
 													</div>
 												</div>
 												<div class="product__bottom">
 													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
+														<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
+															<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
 														</a>
 													</div>
 													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
+														<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparklingdeals_add_to_cart_click" data-link-name="sparklingdeals_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+														<!-- <a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
 													</div>
 												</div>
 											</div>
 										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<div class="product__flags">
-													<span class="product__flag">NEW</span>
-													<span class="product__flag">CASHBACK</span>
-												</div>
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-													<div class="product__alert">
-														<span>!</span>
-														Out of Stock
-													</div>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="product__item">
-											<div class="product__img">
-												<img src="../assets/images/@img_product.png" alt="Exclusive Model gram 17 Limited to 100 units">
-											</div>
-											<div class="product__info">
-												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
-												<p class="product__sn">OLED77C26LD</p>
-												<div class="product__price">
-													<p class="product__cost">£849.98</p>
-													<div>
-														<span class="product__discount">£1,049.98</span>
-														<span class="product__highlight">19% Off</span>
-													</div>
-												</div>
-												<div class="product__members">
-													<span class="product__text">LG Members only</span>
-													<span class="product__highlight">£832.98</span>
-												</div>
-												<div class="product__bottom">
-													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">SCOPRI DI PIÙ</span>
-														</a>
-													</div>
-													<div class="button">
-														<a href="#" class="button__item">
-															AGGIUNGI AL<br>
-															CARRELLO
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+									</template>
+									<div class="product__list"></div>
 								</div>
 							</div>
 							<div class="section__footer">
@@ -2199,87 +1684,169 @@
 			</div>
 		</div>
 
-		<!-- footer -->
-		@@include('../inc/footer.inc',{
-		"webroot":"."
-		})
-		<!--// footer -->
-
-
+		<!-- // Content End  -->
 	</div>
-	<script src="../lg5-common-gp/library/jquery.min.js"></script>
-	<!-- <script>
+
+	<!-- top button -->
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/top.jsp" />
+	<!-- // top button -->
+	
+	<!-- footer seo copy -->
+	<c:import url="/${localeCd }/footerSeoCopy"/> 
+	<!-- footer seo copy -->
+	
+	<!-- footer main contents -->
+	<c:import url="/${localeCd }/footer">
+	    <c:param name="bizType" value="${bizType}"/>
+	    <c:param name="siteType" value="${siteType}"/>
+	</c:import>
+	<!--// footer main contents -->
+	
+	<!-- default code -->
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
+	<!-- // default code -->
+	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
+	
+	<!--  _dl  -->
+	<script>
 		var standardData = {};
 		standardData = {
-			"siteType": "B2C",
-			"pageType": "home",
-			"pdpStatus": "",
-			"level1": "",
-			"level2": "",
-			"level3": ""
+			"siteType" : "B2C",
+			"pageType" : "MICROSITE",
+			"pdpStatus" : "",
+			"level1" : "MICROSITE",
+			"level2" : "",
+			"level3" : ""
 		};
 
-		_dl = {
-			"page_name": {
-				"super_category": "",
-				"bu": "",
-				"gmc_bu": "",
-				"sub_category_list": "",
-				"sub_category": "",
-				"page_purpose": "home",
-				"model_year": "",
-				"category": "",
-				"sku": ""
+		_dl = 
+		{
+			"page_name" : {
+				"super_category" : "memberdays2022H2",
+				"bu" : "",
+				"gmc_bu" : "",
+				"sub_category_list" : "",
+				"sub_category" : "",
+				"page_purpose" : "MICROSITE",
+				"model_year" : "",
+				"model_name" : "",
+				"model_code" : "",
+				"sales_model_code" : "",
+				"currency_code" : "",
+				"price" : "",
+				"category" : "",
+				"sku" : "",
+				"theme" : "",
 			},
-			"isLogin": "",
-			"country_code": "uk",
-			"language_code": "en",
-			"page_category_l1": "",
-			"page_category_l2": "",
-			"page_category_l3": "",
-			"page_category_l4": "",
-			"referrer": "",
-			"keywordSrchSrcPage": "",
-			"products": [],
-			"page_event": null,
-			"uid": ""
+			"isLogin" : "",
+			"country_code" : "${country}",
+			"language_code" : "${language}",
+			"page_category_l1" : "${country}:memberdays2022H2",
+			"page_category_l2" : "",
+			"page_category_l3" : "",
+			"page_category_l4" : "",
+			"referrer" : "",
+			"keywordSrchSrcPage" : "",
+			"products" : [ ],
+			"page_event" : null,
+			"uid" : ""
 		};
-
+		
 		var dataLayer = window.dataLayer || [];
 		dataLayer.push({
 			'event': 'dataLayer',
-			'dataLayer': _dl,
-			'standardData': standardData
+			'dataLayer' : _dl,
+			'standardData' : standardData
 		});
-	</script> -->
-	<div class="eprivacy-load-js" data-url="https://display.ugc.bazaarvoice.com/static/LGElectronics-en/en_GB/bvapi.js"
-		id="bvScript"></div>
-	<div class="eprivacy-load-intercom" data-url="/uk/intercom/intercom.js"></div>
-	<!--[if IE 9]>
-	<script src="../lg5-common-gp/library/matchMedia.min.js"></script>
-	<script src="../lg5-common-gp/library/matchMedia.addListener.min.js"></script>
-	<![endif]-->
-	<script src="../lg5-common-gp/library/bootstrap.min.js"></script>
-	<script src="../lg5-common-gp/library/plugins.common.min.js"></script>
-	<script src="../lg5-common-gp/library/chosen.min.js"></script>
-	<script src="../lg5-common-gp/library/mCustomScrollbar.min.js"></script>
-	<script src="../lg5-common-gp/library/modal.min.js"></script>
-	<script src="../lg5-common-gp/library/panzoom.min.js"></script>
-	<script src="../lg5-common-gp/library/hammer.min.js"></script>
-	<script src="../lg5-common-gp/library/form-validation.min.js"></script>
-	<script src="../lg5-common-gp/library/jquery.event.move.min.js"></script>
-	<script src="../lg5-common-gp/library/jquery.twentytwenty.min.js"></script>
-	<script src="../lg5-common-gp/library/jquery.plugin.min.js"></script>
-	<script src="../lg5-common-gp/library/jquery.countdown.min.js"></script>
-	<script src="../lg5-common-gp/js/common.min.js"></script>
-	<script src="../lg5-common-gp/js/e-privacy.min.js"></script>
-	<script src="../lg5-common-gp/js/customer/add-to-cart.min.js"></script>
-	<script src="../lg5-common-gp/js/customer/wishlist.min.js"></script>
+	</script>
+	<!--// _dl -->
+
+	
+	<!-- your js -->
+	<script>
+		if($('.add-to-cart').length > 0) {
+      $('.add-to-cart').on('click', function (e) {
+        fbq('trackCustom', '2022H2MemberDays AddToBasket');
+      });
+    }
+
+		$('.win__popup__with__coupon').find('.popup__button').on('click', function() {
+			dataLayer.push({
+			'event' : 'starstamp_coupon_download_click',
+			'bu' : 'HE, HA, BS_IT_B2C, BS',
+			'pageType' : 'MICROSITE',
+			'superCategory': '{superCategory}',
+			'category': '{category}',
+			'subcategory' : '{subcategory}',
+			'modelYear' : '{modelYear}',
+			'modelName' : '{modelName}',
+			'modelCode': '{modelCode}',
+			'salesModelCode': '{salesModelCode}',
+			'sku': '{sku}',
+			'suffix': '{suffix}',
+			'price': '{price}',
+			'currencyCode': '{currencyCode}',
+			'theme': '{theme}'
+			})
+		})
+
+		$(document).ready(function(){
+			var href = window.location.href;
+			if(href.indexOf('BuymoreSavemoreTV') != -1) {    
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(0).addClass('tab__item--active');    
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('BuymoreSavemoreAudio') != -1) {
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(1).addClass('tab__item--active');  
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(2).addClass('tab__item--active');  
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(3).addClass('tab__item--active');  
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+		});
+	</script>
+	
 	<!-- UI Script -->
-	<script src="../assets/js/index.js"></script>
-	<script src="../assets/js/index-ajax.js"></script>
+	<script src="${path}/assets/js/index.js"></script>
+	<script src="${path}/assets/js/index-ajax.js"></script>
+	<script src="${path}/assets/js/index-add-to-cart.js"></script>
 	<!--// UI Script -->
-
 </body>
-
 </html>
