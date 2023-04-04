@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+@use 'mixins';
+
+.lgmembersweek {
+
+	.experience {
+
+		.tab {
+
+			&__panel {
+
+				&--homekeeping {
+
+					.showroom {
+
+						&__item {
+							background-image: url('../images/it/bg_showroom_homekeeping01.png');
+						}
+					}
+				}
+			}
+		}
+	}
+}
