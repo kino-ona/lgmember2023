@@ -136,7 +136,7 @@ $(document).ready(function () {
     rows: 2,
     responsive: [
       {
-        breakpoint: 767,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -154,10 +154,10 @@ $(document).ready(function () {
     swipeToSlide: true,
     responsive: [
       {
-        breakpoint: 767,
+        breakpoint: 1024,
         settings: {
           arrows: false,
-          slidesToShow: 2.4,
+          slidesToShow: 2.3,
           focusOnSelect: true,
         },
       },
@@ -217,11 +217,10 @@ $(document).ready(function () {
   $(".lgmembersweek .tab__button").on("click", function (event) {
     event.preventDefault();
 
-    if ($($(this).attr("href")).find(".product").length > 0) {
+    if ($($(this).attr("href")).find(".product--experience").length > 0) {
       $($(this).attr("href"))
         .find(".product .product__list")
         .slick("refresh", false);
-      console.log($($(this).attr("href")).find(".product .product__list"));
     }
 
     $(this).closest(".tab").find(".tab__item").removeClass("tab__item--active");
