@@ -87,7 +87,7 @@
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
 
 			<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07546868"/>
+			<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07546868"/>
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07546868"/>
 			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07546868"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07546868"/>
@@ -174,7 +174,8 @@
 													<span class="product__flag">NEW</span>
 													<span class="product__flag">CASHBACK</span>
 												</div> -->
-												<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
+												<!-- <img src="*hotdealImageAddr*" alt="*hotdealImageAltText*"> -->
+												<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 											</div>
 											<!-- 
 												// common.js add-to-cart dataLayer 공통 로직 진입을 위해
@@ -750,20 +751,48 @@
 							<div class="tab">
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
-										<a href="#tv" class="tab__button">TV</a>
+										<a href="#tv" 
+											data-tab-name="tv" 
+											data-track-group="mic" 
+											data-track-opt="category" 
+											data-track-name="selectProductCategory" 
+											data-link-area="memberdays_H2_Category_click_tv"
+											data-link-name="memberdays_2022H2"
+											class="tab__button">TV</a>
 									</div>
 									<div class="tab__item">
-										<a href="#audio" class="tab__button">AUDIO</a>
+										<a href="#audio"
+										data-tab-name="tv" 
+										data-track-group="mic" 
+										data-track-opt="category" 
+										data-track-name="selectProductCategory" 
+										data-link-area="memberdays_H2_Category_click_tv"
+										data-link-name="memberdays_2022H2"
+										class="tab__button">AUDIO</a>
 									</div>
 									<div class="tab__item">
-										<a href="#homeappliance" class="tab__button">ELETTRODOMESTICI</a>
+										<a href="#homeappliance"
+										data-tab-name="tv" 
+										data-track-group="mic" 
+										data-track-opt="category" 
+										data-track-name="selectProductCategory" 
+										data-link-area="memberdays_H2_Category_click_tv"
+										data-link-name="memberdays_2022H2"
+										class="tab__button">ELETTRODOMESTICI</a>
 									</div>
 									<div class="tab__item">
-										<a href="#computerproducts" class="tab__button">INFORMATICA</a>
+										<a href="#computerproducts"
+										data-tab-name="tv" 
+										data-track-group="mic" 
+										data-track-opt="category" 
+										data-track-name="selectProductCategory" 
+										data-link-area="memberdays_H2_Category_click_tv"
+										data-link-name="memberdays_2022H2"
+										class="tab__button">INFORMATICA</a>
 									</div>
 								</div>
 
-								<!-- <template class="contents-template">
+								<template class="contents-template">
 									<div class="product__item">
 										<div class="product__img">
 											<div class="product__flags">
@@ -812,7 +841,7 @@
 											</div>
 										</div>
 									</div>
-								</template> -->
+								</template>
 								<div class="tab__contents">
 									<div id="tv" class="tab__panel tab__panel--tv" style="display: block;">
 										<p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p>

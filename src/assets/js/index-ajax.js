@@ -62,10 +62,10 @@ $(document).ready(function () {
       swipeToSlide: true,
       responsive: [
         {
-          breakpoint: 767,
+          breakpoint: 1024,
           settings: {
             arrows: false,
-            slidesToShow: 2.4,
+            slidesToShow: 2.3,
             focusOnSelect: true,
           },
         },
@@ -74,13 +74,16 @@ $(document).ready(function () {
     hotDealSlickOpt: {
       speed: 600,
       infinite: false,
-      slidesToShow: 3,
-      focusOnSelect: false,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      rows: 2,
       responsive: [
         {
-          breakpoint: 767,
+          breakpoint: 1024,
           settings: {
             slidesToShow: 1,
+            slidesToScroll: 1,
+            rows: 1,
             focusOnSelect: true,
           },
         },
@@ -95,7 +98,6 @@ $(document).ready(function () {
 
       // Tab Type Model List - Default Display
       $("[data-list] .tab__panel").each(function () {
-        console.log($(this));
         if ($(this).attr("style") != undefined) {
           let listName = $(this).closest(".section__container").data("list");
           lgMembersWeek.ajaxModelList($(this), listName);
@@ -332,20 +334,20 @@ $(document).ready(function () {
           // priceValue = nvl(p.rPrice,'')+'.'+nvl(p.rPriceCent,'00');
         }
 
-        let hotDealImageAddr, hotDealImageAltText;
-        if (listName == "hotDeal") {
-          hotDealImageAddr = listArray[listName]["thumb" + (i + 1)];
-          if (p.obsInventoryFlag == "N")
-            hotDealImageAltText =
-              p.userFriendlyName.replace(/"/g, "''") +
-              " " +
-              listArray[listName]["altClose"];
-          else
-            hotDealImageAltText =
-              p.userFriendlyName.replace(/"/g, "''") +
-              " " +
-              listArray[listName]["alt" + (i + 1)];
-        }
+        let hotdealImageAddr, hotdealImageAltText;
+        // if (listName == "hotDeal") {
+        //   hotdealImageAddr = listArray[listName]["thumb" + (i + 1)];
+        //   if (p.obsInventoryFlag == "N")
+        //     hotdealImageAltText =
+        //       p.userFriendlyName.replace(/"/g, "''") +
+        //       " " +
+        //       listArray[listName]["altClose"];
+        //   else
+        //     hotdealImageAltText =
+        //       p.userFriendlyName.replace(/"/g, "''") +
+        //       " " +
+        //       listArray[listName]["alt" + (i + 1)];
+        // }
 
         template = template
           .replace(/\*modelId\*/g, p.modelId)
@@ -380,8 +382,8 @@ $(document).ready(function () {
               ? "/lg5-common-gp/images/common/product-default-list-260.jpg"
               : p.smallImageAddr
           )
-          .replace(/\*hotDealImageAddr\*/g, hotDealImageAddr)
-          .replace(/\*hotDealImageAltText\*/g, hotDealImageAltText)
+          .replace(/\*hotdealImageAddr\*/g, hotdealImageAddr)
+          .replace(/\*hotdealImageAltText\*/g, hotdealImageAltText)
           .replace(/\*productTag1\*/g, p.productTag1)
           .replace(/\*productTag2\*/g, p.productTag2)
           .replace(/\*productTag1UserType\*/g, p.productTag1UserType)
