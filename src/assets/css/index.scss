@@ -1390,7 +1390,7 @@
 					}
 	
 					.button__item {
-						max-width: 240px;
+						max-width: 250px;
 					}
 				}
 			}
@@ -1966,6 +1966,8 @@
 			font-size: 14px;
 			line-height: 16px;
 			text-align: center;
+			padding-left: 10px;
+			padding-right: 10px;
 
 			&--secondary {
 				background-color: #000;
