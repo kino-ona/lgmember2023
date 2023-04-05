@@ -103,7 +103,7 @@ $(document).ready(function () {
       });
 
       // Hot Deal Model List
-      lgMembersWeek.ajaxModelList($("#hotDeal"), "hotDeal");
+      lgMembersWeek.ajaxModelList($("#hotdeal"), "hotDeal");
 
       lgMembersWeek.addEvent();
     },
@@ -224,9 +224,9 @@ $(document).ready(function () {
       console.log(targetModelType);
 
       switch (listName) {
-        // case "eventGift":
-        //   $target = $targetPanel.find(".coupon__list");
-        //   break;
+        case "eventGift":
+          $target = $targetPanel.find(".coupon__list");
+          break;
         case "lifeStyle":
           $target = $targetPanel.find(".product__swiper");
           break;

@@ -25,8 +25,8 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
-	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/mic-head-script.jsp" />
-	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
+	<!-- <jsp:include page="/WEB-INF/jsp/gp/common/include/head/mic-head-script.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" /> -->
 </head>
 
 <body>
@@ -81,7 +81,7 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521601|MD07563943|MD06175496|MD07560054"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotDeal" value="MD07546868|MD07546781|MD07551260|MD07547235|MD07551327|MD07569939|MD07555550|MD07559233|MD07540676|MD07521601|MD07527380|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05775808|MD07562475|MD07554813|MD07555423"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546868|MD07546781|MD07551260|MD07547235|MD07551327|MD07569939|MD07555550|MD07559233|MD07540676|MD07521601|MD07527380|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05775808|MD07562475|MD07554813|MD07555423"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
@@ -96,7 +96,7 @@
 		<!--  Content Start  -->
 		<link rel="stylesheet" href="${path}/assets/css/index.css">
 		<link rel="stylesheet" href="${path}/assets/css/index_it.css">
-		<div class="lgmembersweek" data-locale="it">
+		<div class="lgmembersweek" data-locale="it" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="box_navigation">
 				<div class="box_nav-position">
 					<div class="box_navigation-inner">
@@ -157,14 +157,14 @@
 			<div class="hotdeal">
 				<div class="anchors" id="SpecialDeal"></div>
 				<div id="box_content1" class="section">
-					<div class="section__container section__container--hotDeal" data-list="hotDeal">
+					<div class="section__container section__container--hotdeal" data-list="hotDeal">
 						<div class="section__set">
 							<div class="section__anchor">
 								<p>MASSIMO RISPARMIO</p>
 							</div>
 							<p class="section__title">Offerte Top</p>
 							<p class="section__desc">Approfitta delle offerte esclusive sui prodotti selezionati per te</p>
-							<div id="hotDeal" class="product product--hotDeal">
+							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
 
 									<template class="contents-template">
@@ -892,12 +892,7 @@
 	</c:import>
 	<!--// footer main contents -->
 	
-	<!-- default code -->
-	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
-	<!-- // default code -->
-	<!-- <script src="/lg5-common-gp/library/form-validation.min.js"></script> -->
-	
-	<!--  _dl  -->
+	<!--_dl  -->
 	<script>
 		var standardData = {};
 		standardData = {
@@ -950,6 +945,11 @@
 		});
 	</script>
 	<!--// _dl -->
+	
+	<!-- default code -->
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
+	<!-- // default code -->
+	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
 
 	
 	<!-- your js -->
