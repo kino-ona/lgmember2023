@@ -613,6 +613,7 @@
 				font-weight: 700;
 				font-size: 16px;
 				cursor: pointer;
+				word-break: normal;
 
 				&:before {
 					content: '';
@@ -634,6 +635,10 @@
 						display: block;
 					}
 				}
+				@media (max-width: 1440px) {
+					font-size: 13px;
+				}
+
 				
 			}
 
@@ -1608,6 +1613,11 @@
 			margin-top: 40px;
 			font-size: 16px;
 			text-align: center;
+		}
+		@media (max-width: 1440px) {
+			&__title {
+				font-size: 42px;
+			}
 		}
 
 		@media (max-width: 1024px) {

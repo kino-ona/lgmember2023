@@ -52,26 +52,26 @@
 	<meta content="#a50034" name="theme-color">
 
 	<meta content="#a50034" name="test-color">
-	<link href="../lg5-common-gp/bootstrap/4.1.3/css/bootstrap-grid.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-	<link rel="preload" href="../lg5-common-gp/webfonts/LG_Smart_Regular.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="../lg5-common-gp/webfonts/LG_Smart_Bold.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="../lg5-common-gp/webfonts/LG_Smart_SemiBold.woff2" as="font" type="font/woff2" crossorigin>
-	<link href="../lg5-common-gp/css/default.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/components.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/bootstrap/4.1.3/css/bootstrap-grid.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<link rel="preload" href="https://www.lg.com/lg5-common-gp/webfonts/LG_Smart_Regular.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="https://www.lg.com/lg5-common-gp/webfonts/LG_Smart_Bold.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="https://www.lg.com/lg5-common-gp/webfonts/LG_Smart_SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+	<link href="https://www.lg.com/lg5-common-gp/css/default.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/components.min.css" type="text/css" rel="stylesheet">
 	<!--[if IE 9]>
-	<link href="../lg5-common-gp/css/default-for-ie9.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/default-for-ie9.min.css" type="text/css" rel="stylesheet">
 	<![endif]-->
-	<link href="../lg5-common-gp/css/GPC0150.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0101.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0003.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0059.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0064.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0065.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0022.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0055.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0045.min.css" type="text/css" rel="stylesheet">
-	<link href="../lg5-common-gp/css/GPC0078.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0150.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0101.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0003.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0059.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0064.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0065.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0022.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0055.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0045.min.css" type="text/css" rel="stylesheet">
+	<link href="https://www.lg.com/lg5-common-gp/css/GPC0078.min.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -119,7 +119,7 @@
 		<!-- 여기서부터 컨텐츠 시작 -->
 		<link rel="stylesheet" href="../assets/css/index.css">
 		<link rel="stylesheet" href="../assets/css/index_it.css">
-		<div class="lgmembersweek">
+		<div class="lgmembersweek" data-locale="it" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="box_navigation">
 				<div class="box_nav-position">
 					<div class="box_navigation-inner">
@@ -180,14 +180,14 @@
 			<div class="hotdeal">
 				<div class="anchors" id="SpecialDeal"></div>
 				<div id="box_content1" class="section">
-					<div class="section__container">
+					<div class="section__container section__container--hotdeal" data-list="hotDeal">
 						<div class="section__set">
 							<div class="section__anchor">
 								<p>MASSIMO RISPARMIO</p>
 							</div>
 							<p class="section__title">Offerte Top</p>
 							<p class="section__desc">Approfitta delle offerte esclusive sui prodotti selezionati per te</p>
-							<div class="product">
+							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
 									<div class="product__list">
 										<div class="product__item">
@@ -839,24 +839,24 @@
 			<div class="experience">
 				<div class="anchors" id="NextLevelExperience"></div>
 				<div id="box_content3" class="section">
-					<div class="section__container">
+					<div class="section__container section__container--lifestyle" data-list="lifeStyle">
 						<div class="section__set">
 							<div class="tab">
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
-										<a href="#entertaiment" class="tab__button">INTRATTENIMENT</a>
+										<a href="#entertaiment" data-tab-name="entertaiment" class="tab__button">INTRATTENIMENT</a>
 									</div>
 									<div class="tab__item">
-										<a href="#gaming" class="tab__button">GAMING</a>
+										<a href="#gaming" data-tab-name="gaming" class="tab__button">GAMING</a>
 									</div>
 									<div class="tab__item">
-										<a href="#working" class="tab__button">SMARTWORKING</a>
+										<a href="#working" data-tab-name="working" class="tab__button">SMARTWORKING</a>
 									</div>
 									<div class="tab__item">
-										<a href="#homekeeping" class="tab__button">SMART HOME</a>
+										<a href="#homekeeping" data-tab-name="homekeeping" class="tab__button">SMART HOME</a>
 									</div>
 									<div class="tab__item">
-										<a href="#energysaving" class="tab__button">RISPARMIO ENERGETICO</a>
+										<a href="#energysaving" data-tab-name="energysaving" class="tab__button">RISPARMIO ENERGETICO</a>
 									</div>
 								</div>
 								<div class="tab__contents">
@@ -915,7 +915,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
+												<div class="product__list product__swiper">
 													<div class="product__item">
 														<div class="product__img">
 															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
@@ -1208,7 +1208,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
+												<div class="product__list product__swiper">
 													<div class="product__item">
 														<div class="product__img">
 															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
@@ -1358,7 +1358,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
+												<div class="product__list product__swiper">
 													<div class="product__item">
 														<div class="product__img">
 															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
@@ -1527,7 +1527,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
+												<div class="product__list product__swiper">
 													<div class="product__item">
 														<div class="product__img">
 															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
@@ -1677,7 +1677,7 @@
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
-												<div class="product__list">
+												<div class="product__list product__swiper">
 													<div class="product__item">
 														<div class="product__img">
 															<img src="../assets/images/@img_product.png" alt="77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD">
@@ -1786,7 +1786,7 @@
 				<div class="anchors" id="BuymoreSavemoreHomeAppliance"></div>
 				<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
 				<div id="box_content4" class="section">
-					<div class="section__container">
+					<div class="section__container section__container--hottest" data-list="hottest">
 						<div class="section__set">
 							<div class="section__anchor">
 								<p>PIÙ ACQUISTI, PIÙ RISPARMI</p>
@@ -1826,16 +1826,44 @@
 							<div class="tab">
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
-										<a href="#tv" class="tab__button">TV</a>
+										<a href="#tv" 
+											data-tab-name="tv" 
+											data-track-group="mic" 
+											data-track-opt="category" 
+											data-track-name="selectProductCategory" 
+											data-link-area="memberdays_H1_Category_click_tv"
+											data-link-name="memberdays_2023H1"
+											class="tab__button">TV</a>
 									</div>
 									<div class="tab__item">
-										<a href="#audio" class="tab__button">AUDIO</a>
+										<a href="#audio"
+										data-tab-name="audio" 
+										data-track-group="mic" 
+										data-track-opt="category" 
+										data-track-name="selectProductCategory" 
+										data-link-area="memberdays_H1_Category_click_audio"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">AUDIO</a>
 									</div>
 									<div class="tab__item">
-										<a href="#homeappliance" class="tab__button">ELETTRODOMESTICI</a>
+										<a href="#homeappliance"
+										data-tab-name="homeappliance" 
+										data-track-group="mic" 
+										data-track-opt="category" 
+										data-track-name="selectProductCategory" 
+										data-link-area="memberdays_H1_Category_click_homeappliance"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">ELETTRODOMESTICI</a>
 									</div>
 									<div class="tab__item">
-										<a href="#computerproducts" class="tab__button">INFORMATICA</a>
+										<a href="#computerproducts"
+										data-tab-name="computerproducts" 
+										data-track-group="mic" 
+										data-track-opt="category" 
+										data-track-name="selectProductCategory" 
+										data-link-area="memberdays_H1_Category_click_computerproducts"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">INFORMATICA</a>
 									</div>
 								</div>
 								<div class="tab__contents">
@@ -2011,7 +2039,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/soundbar','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ TV</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/soundbar','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ AUDIO</button>
 											</div>
 										</div>
 									</div>
@@ -2099,7 +2127,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/elettrodomestici','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ TV</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/elettrodomestici','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ ELETTRODOMESTICI</button>
 											</div>
 										</div>
 									</div>
@@ -2187,7 +2215,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/informatica','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ TV</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/informatica','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ INFORMATICA</button>
 											</div>
 										</div>
 									</div>
@@ -2207,7 +2235,7 @@
 
 
 	</div>
-	<script src="../lg5-common-gp/library/jquery.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/jquery.min.js"></script>
 	<!-- <script>
 		var standardData = {};
 		standardData = {
@@ -2256,25 +2284,25 @@
 		id="bvScript"></div>
 	<div class="eprivacy-load-intercom" data-url="/uk/intercom/intercom.js"></div>
 	<!--[if IE 9]>
-	<script src="../lg5-common-gp/library/matchMedia.min.js"></script>
-	<script src="../lg5-common-gp/library/matchMedia.addListener.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/matchMedia.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/matchMedia.addListener.min.js"></script>
 	<![endif]-->
-	<script src="../lg5-common-gp/library/bootstrap.min.js"></script>
-	<script src="../lg5-common-gp/library/plugins.common.min.js"></script>
-	<script src="../lg5-common-gp/library/chosen.min.js"></script>
-	<script src="../lg5-common-gp/library/mCustomScrollbar.min.js"></script>
-	<script src="../lg5-common-gp/library/modal.min.js"></script>
-	<script src="../lg5-common-gp/library/panzoom.min.js"></script>
-	<script src="../lg5-common-gp/library/hammer.min.js"></script>
-	<script src="../lg5-common-gp/library/form-validation.min.js"></script>
-	<script src="../lg5-common-gp/library/jquery.event.move.min.js"></script>
-	<script src="../lg5-common-gp/library/jquery.twentytwenty.min.js"></script>
-	<script src="../lg5-common-gp/library/jquery.plugin.min.js"></script>
-	<script src="../lg5-common-gp/library/jquery.countdown.min.js"></script>
-	<script src="../lg5-common-gp/js/common.min.js"></script>
-	<script src="../lg5-common-gp/js/e-privacy.min.js"></script>
-	<script src="../lg5-common-gp/js/customer/add-to-cart.min.js"></script>
-	<script src="../lg5-common-gp/js/customer/wishlist.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/bootstrap.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/plugins.common.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/chosen.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/mCustomScrollbar.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/modal.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/panzoom.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/hammer.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/form-validation.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/jquery.event.move.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/jquery.twentytwenty.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/jquery.plugin.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/library/jquery.countdown.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/js/common.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/js/e-privacy.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/js/customer/add-to-cart.min.js"></script>
+	<script src="https://www.lg.com/lg5-common-gp/js/customer/wishlist.min.js"></script>
 	<!-- UI Script -->
 	<script src="../assets/js/index.js"></script>
 	<script src="../assets/js/index-ajax.js"></script>

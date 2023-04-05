@@ -756,38 +756,38 @@
 											data-track-group="mic" 
 											data-track-opt="category" 
 											data-track-name="selectProductCategory" 
-											data-link-area="memberdays_H2_Category_click_tv"
-											data-link-name="memberdays_2022H2"
+											data-link-area="memberdays_H1_Category_click_tv"
+											data-link-name="memberdays_2023H1"
 											class="tab__button">TV</a>
 									</div>
 									<div class="tab__item">
 										<a href="#audio"
-										data-tab-name="tv" 
+										data-tab-name="audio" 
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H2_Category_click_tv"
-										data-link-name="memberdays_2022H2"
+										data-link-area="memberdays_H1_Category_click_audio"
+										data-link-name="memberdays_2023H1"
 										class="tab__button">AUDIO</a>
 									</div>
 									<div class="tab__item">
 										<a href="#homeappliance"
-										data-tab-name="tv" 
+										data-tab-name="homeappliance" 
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H2_Category_click_tv"
-										data-link-name="memberdays_2022H2"
+										data-link-area="memberdays_H1_Category_click_homeappliance"
+										data-link-name="memberdays_2023H1"
 										class="tab__button">ELETTRODOMESTICI</a>
 									</div>
 									<div class="tab__item">
 										<a href="#computerproducts"
-										data-tab-name="tv" 
+										data-tab-name="computerproducts" 
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H2_Category_click_tv"
-										data-link-name="memberdays_2022H2"
+										data-link-area="memberdays_H1_Category_click_computerproducts"
+										data-link-name="memberdays_2023H1"
 										class="tab__button">INFORMATICA</a>
 									</div>
 								</div>
