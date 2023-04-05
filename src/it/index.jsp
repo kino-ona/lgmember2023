@@ -69,9 +69,9 @@
 
 			<!-- Required input ## Model List Start -->
 			<!-- Event Gift Model -->
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value=""/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value=""/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value=""/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07547412"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07547412"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07547412"/>
 
 			<!-- Life Style Model -->
 			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07547412|MD07547135|MD07569939|MD07568141|MD07560062"/>
@@ -81,7 +81,7 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521601|MD07563943|MD06175496|MD07560054"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546868|MD07546781|MD07551260|MD07547235|MD07551327|MD07569939|MD07555550|MD07559233|MD07540676|MD07521601|MD07527380|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05775808|MD07562475|MD07554813|MD07555423"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotDeal" value="MD07546868|MD07546781|MD07551260|MD07547235|MD07551327|MD07569939|MD07555550|MD07559233|MD07540676|MD07521601|MD07527380|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05775808|MD07562475|MD07554813|MD07555423"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
@@ -157,14 +157,14 @@
 			<div class="hotdeal">
 				<div class="anchors" id="SpecialDeal"></div>
 				<div id="box_content1" class="section">
-					<div class="section__container section__container--hotdeal" data-list="hotDeal">
+					<div class="section__container section__container--hotDeal" data-list="hotDeal">
 						<div class="section__set">
 							<div class="section__anchor">
 								<p>MASSIMO RISPARMIO</p>
 							</div>
 							<p class="section__title">Offerte Top</p>
 							<p class="section__desc">Approfitta delle offerte esclusive sui prodotti selezionati per te</p>
-							<div id="hotdeal" class="product product--hotdeal">
+							<div id="hotDeal" class="product product--hotDeal">
 								<div class="product__mask">
 
 									<template class="contents-template">
@@ -836,7 +836,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/soundbar','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ TV</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/soundbar','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ AUDIO</button>
 											</div>
 										</div>
 									</div>
@@ -849,7 +849,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/elettrodomestici','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ TV</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/elettrodomestici','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ ELETTRODOMESTICI</button>
 											</div>
 										</div>
 									</div>
@@ -862,7 +862,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/informatica','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ TV</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/informatica','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ INFORMATICA</button>
 											</div>
 										</div>
 									</div>
@@ -882,11 +882,11 @@
 	<!-- // top button -->
 	
 	<!-- footer seo copy -->
-	<c:import url="/${localeCd}/footerSeoCopy"/> 
+	<c:import url="/${localeCd }/footerSeoCopy"/> 
 	<!-- footer seo copy -->
 	
 	<!-- footer main contents -->
-	<c:import url="/${localeCd}/footer">
+	<c:import url="/${localeCd }/footer">
 	    <c:param name="bizType" value="${bizType}"/>
 	    <c:param name="siteType" value="${siteType}"/>
 	</c:import>
@@ -895,7 +895,7 @@
 	<!-- default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
 	<!-- // default code -->
-	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
+	<!-- <script src="/lg5-common-gp/library/form-validation.min.js"></script> -->
 	
 	<!--  _dl  -->
 	<script>
@@ -1015,7 +1015,7 @@
 	
 	<!-- UI Script -->
 	<script src="${path}/assets/js/index.js"></script>
-	<!-- <script src="${path}/assets/js/index-ajax.js"></script> -->
+	<script src="${path}/assets/js/index-ajax.js"></script>
 	<!--// UI Script -->
 </body>
 </html>
