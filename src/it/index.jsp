@@ -25,8 +25,8 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
-	<!-- <jsp:include page="/WEB-INF/jsp/gp/common/include/head/mic-head-script.jsp" />
-	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" /> -->
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/mic-head-script.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
 </head>
 
 <body>
@@ -205,7 +205,7 @@
 														<span class="number">*membershipPriceValue*</span>
 													</span>
 													<div class="product__alert">
-														<!-- <span>!</span> -->
+														<span>!</span>
 														*reStockAlertText*
 													</div>
 												</div>
@@ -921,7 +921,6 @@
 	</c:import>
 	<!--// footer main contents -->
 	
-	<!--_dl  -->
 	<script>
 		var standardData = {};
 		standardData = {
