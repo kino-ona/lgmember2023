@@ -32,9 +32,14 @@
 		}
 	}
 
-	.product__info {
-		.product__highlight {
-			display: flex;
+	.product {
+
+		&__price {
+
+			div {
+				display: flex;
+				flex-direction: column;
+			}
 		}
 	}
 }
