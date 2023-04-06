@@ -25,13 +25,19 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
-	<!-- <jsp:include page="/WEB-INF/jsp/gp/common/include/head/mic-head-script.jsp" />
-	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" /> -->
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-TVMVHN');</script>
+		<!-- End Google Tag Manager -->
+	
 </head>
 
 <body>
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/body-noscript.jsp" />
-	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/google-tag-manager.jsp" />
+	<!-- <jsp:include page="/WEB-INF/jsp/gp/common/include/body/google-tag-manager.jsp" /> -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
@@ -68,7 +74,6 @@
 			<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
 
 			<!-- Required input ## Model List Start -->
-
 			<!-- Life Style Model -->
 			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07547412|MD07547135|MD07569939|MD07568141|MD07560062"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07532987|MD07568226|MD07568250|MD07546805|MD07564074"/>
@@ -79,8 +84,8 @@
 			<!-- Hot Deal Model / thumb - alt text -->
 			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546868|MD07546781|MD07551260|MD07547235|MD07551327|MD07569939|MD07555550|MD07559233|MD07540676|MD07521601|MD07527380|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05775808|MD07562475|MD07554813|MD07555423"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
+			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07546868"/>
@@ -104,16 +109,32 @@
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
-								<a href="#SpecialDeal" class="link">OFFERTE TOP</a>
+								<a href="#SpecialDeal"
+								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-link-area="memberdays_H1_Anchor_click_P1_spacialdeal" 
+								data-link-name="memberdays_2023H1" 
+								class="link">OFFERTE TOP</a>
 							</li>
 							<li class="list-item">
-								<a href="#MemberExclusiveBenefits" class="link">OFFERTE DEDICATE AI MEMBER</a>
+								<a href="#MemberExclusiveBenefits"
+								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-link-area="memberdays_H1_Anchor_click_P1_memberexclusivebenefits" 
+								data-link-name="memberdays_2023H1" 
+								class="link">OFFERTE DEDICATE AI MEMBER</a>
 							</li>
 							<li class="list-item">
-								<a href="#NextLevelExperience" class="link">ESPERIENZA DI LIVELLO SUPERIORE</a>
+								<a href="#NextLevelExperience"
+								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-link-area="memberdays_H1_Anchor_click_P1_nextlevelexperience" 
+								data-link-name="memberdays_2023H1" 
+								class="link">ESPERIENZA DI LIVELLO SUPERIORE</a>
 							</li>
 							<li class="list-item">
-								<a href="#BuymoreSavemore" class="link">CREA IL TUO SET</a>
+								<a href="#BuymoreSavemore"
+								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-link-area="memberdays_H1_Anchor_click_P1_buymoresavemore" 
+								data-link-name="memberdays_2023H1" 
+								class="link">CREA IL TUO SET</a>
 							</li>
 						</ul>
 					</div>
@@ -137,11 +158,18 @@
 						</p>
 						<div class="button">
 							<div class="button__row">
-								<a href="#SpecialDeal" class="button__item">VAI ALLE OFFERTE</a>
+								<a href="#SpecialDeal" 
+								data-track-name="memberdays_mainbanner_click"
+								data-link-area="memberdays_H1_Mainbanner_click_P1_VIEW_PRODUCTS"
+  							data-link-name="memberdays_2023H1"
+								class="button__item">VAI ALLE OFFERTE</a>
 							</div>
 						</div>
 						<div class="visual__term">
-							<a href="#">
+							<a href="#TnC" 
+								data-track-name="memberdays_mainbanner_click"
+								data-link-area="memberdays_H1_Mainbanner_click_P1_Terms_Conditions"
+								data-link-name="memberdays_2023H1">
 								Termini e condizioni
 								<i></i>
 							</a>
@@ -207,13 +235,13 @@
 												</div>
 												<div class="product__bottom">
 													<div class="learn-more">
-														<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
+														<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="largest_savings_learn_more_click" data-track-name="largest_savings_learn_more_click" data-link-name="largest_savings_learn_more_click">
 															<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
 														</a>
 													</div>
 													<div class="button">
-														<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparklingdeals_add_to_cart_click" data-link-name="sparklingdeals_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
-														<!-- <a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
+														<a role="button" href="#" class="button__item button__item--red atc-members-week add_to_cart" data-track-group="product" data-link-area="largest_savings_add_to_cart_click" data-track-name="largest_savings_add_to_cart_click" data-link-name="largest_savings_add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+														<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
 													</div>
 												</div>
 											</div>
@@ -283,7 +311,11 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/it/my-lg" target="_blank" class="button__item button__item--secondary">ACCEDI O REGISTRATI</a>
+												<a href="https://www.lg.com/it/my-lg" target="_blank" 
+												data-track-name="exclusive_link_click"
+												data-link-area="memberdays_H1_Exclusive_click_P1_MY_ACCOUNT"
+												data-link-name="memberdays_2023H1"
+												class="button__item button__item--secondary">ACCEDI O REGISTRATI</a>
 											</div>
 										</div>
 									</div>
@@ -310,7 +342,10 @@
 									</div>
 								</div>
 								<div class="section__term section__term--right">
-									<a href="#">
+									<a href="#TnC"
+									data-track-name="exclusive_link_click"
+									data-link-area="memberdays_H1_Exclusive_click_P1_Terms_Conditions"
+									data-link-name="memberdays_2023H1">
 										Termini e condizioni
 										<i></i>
 									</a>
@@ -330,19 +365,44 @@
 							<div class="tab">
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
-										<a href="#entertaiment" data-tab-name="entertaiment" class="tab__button">INTRATTENIMENT</a>
+										<a href="#entertaiment" 
+										data-tab-name="entertaiment" data-track-group="mic" data-track-opt="theme" 
+										data-track-val="home" data-track-name="experience_category_click"
+										data-link-area="memberdays_H1_Experience_click_P1_entertaiment"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">INTRATTENIMENT</a>
 									</div>
 									<div class="tab__item">
-										<a href="#gaming" data-tab-name="gaming" class="tab__button">GAMING</a>
+										<a href="#gaming" 
+										data-tab-name="gaming" data-track-group="mic" data-track-opt="theme" 
+										data-track-val="home" data-track-name="experience_category_click"
+										data-link-area="memberdays_H1_Experience_click_P1_gaming"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">GAMING</a>
 									</div>
 									<div class="tab__item">
-										<a href="#working" data-tab-name="working" class="tab__button">SMARTWORKING</a>
+										<a href="#working" 
+										data-tab-name="working" data-track-group="mic" data-track-opt="theme" 
+										data-track-val="home" data-track-name="experience_category_click"
+										data-link-area="memberdays_H1_Experience_click_P1_working"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">SMARTWORKING</a>
 									</div>
 									<div class="tab__item">
-										<a href="#homekeeping" data-tab-name="homekeeping" class="tab__button">SMART HOME</a>
+										<a href="#homekeeping" 
+										data-tab-name="homekeeping" data-track-group="mic" data-track-opt="theme" 
+										data-track-val="home" data-track-name="experience_category_click"
+										data-link-area="memberdays_H1_Experience_click_P1_homekeeping"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">SMART HOME</a>
 									</div>
 									<div class="tab__item">
-										<a href="#energysaving" data-tab-name="energysaving" class="tab__button">RISPARMIO ENERGETICO</a>
+										<a href="#energysaving" 
+										data-tab-name="energysaving" data-track-group="mic" data-track-opt="theme" 
+										data-track-val="home" data-track-name="experience_category_click"
+										data-link-area="memberdays_H1_Experience_click_P1_energysaving"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">RISPARMIO ENERGETICO</a>
 									</div>
 								</div>
 
@@ -365,7 +425,8 @@
 													<a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 													</a>
-													<a role="button" href="#" class="button__item  atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+													<a role="button" href="#" class="button__item atc-members-week add_to_cart" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
 												</div>
 											</div>
 										</div>
@@ -411,11 +472,19 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -430,11 +499,19 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -470,11 +547,19 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -510,11 +595,19 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -529,11 +622,19 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -569,11 +670,19 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -588,11 +697,19 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank" 
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -607,11 +724,19 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank" 
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank" 
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -647,11 +772,19 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -666,11 +799,19 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
@@ -748,21 +889,21 @@
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
 										<a href="#tv" 
-											data-tab-name="tv" 
-											data-track-group="mic" 
-											data-track-opt="category" 
-											data-track-name="selectProductCategory" 
-											data-link-area="memberdays_H1_Category_click_tv"
-											data-link-name="memberdays_2023H1"
-											class="tab__button">TV</a>
+										data-tab-name="tv" 
+										data-track-group="mic" 
+										data-track-opt="category" 
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_TV"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">TV</a>
 									</div>
 									<div class="tab__item">
 										<a href="#audio"
 										data-tab-name="audio" 
 										data-track-group="mic" 
 										data-track-opt="category" 
-										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H1_Category_click_audio"
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_AUDIO"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">AUDIO</a>
 									</div>
@@ -771,8 +912,8 @@
 										data-tab-name="homeappliance" 
 										data-track-group="mic" 
 										data-track-opt="category" 
-										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H1_Category_click_homeappliance"
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_HOME_APPLIANCE"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">ELETTRODOMESTICI</a>
 									</div>
@@ -781,8 +922,8 @@
 										data-tab-name="computerproducts" 
 										data-track-group="mic" 
 										data-track-opt="category" 
-										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H1_Category_click_computerproducts"
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_COMPUTER_PRODUCTS"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">INFORMATICA</a>
 									</div>
@@ -827,12 +968,13 @@
 											</div>
 											<div class="product__bottom">
 												<div class="learn-more">
-													<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
+													<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
 													</a>
 												</div>
 												<div class="button">
-													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+													<a role="button" href="#" class="button__item atc-members-week add_to_cart" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
 												</div>
 											</div>
 										</div>
@@ -848,7 +990,15 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/tv','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ TV</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/tv','_blank')" 
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="TV"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV"
+												data-link-name="memberdays_2023H1"
+												class="button__item button__item--secondary">MOSTRA DI PIÙ TV</button>
 											</div>
 										</div>
 									</div>
@@ -861,7 +1011,15 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/soundbar','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ AUDIO</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/soundbar','_blank')"
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="AUDIO"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_AUDIO"
+												data-link-name="memberdays_2023H1"
+												class="button__item button__item--secondary">MOSTRA DI PIÙ AUDIO</button>
 											</div>
 										</div>
 									</div>
@@ -874,7 +1032,15 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/elettrodomestici','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ ELETTRODOMESTICI</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/elettrodomestici','_blank')"
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="HOMEAPPLIANCE"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_HOMEAPPLIANCE"
+												data-link-name="memberdays_2023H1"
+												class="button__item button__item--secondary">MOSTRA DI PIÙ ELETTRODOMESTICI</button>
 											</div>
 										</div>
 									</div>
@@ -887,7 +1053,15 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/it/informatica','_blank')" class="button__item button__item--secondary">MOSTRA DI PIÙ INFORMATICA</button>
+												<button type="button" onclick="window.open('https://www.lg.com/it/informatica','_blank')"
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="COMPUTERPRODUCTS"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTERPRODUCTS"
+												data-link-name="memberdays_2023H1"
+												class="button__item button__item--secondary">MOSTRA DI PIÙ INFORMATICA</button>
 											</div>
 										</div>
 									</div>
@@ -901,7 +1075,7 @@
 
 		<!-- // Content End  -->
 	</div>
-
+	<div id="TnC"></div>
 	<!-- top button -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/top.jsp" />
 	<!-- // top button -->
@@ -980,7 +1154,12 @@
 	<script>
 		if($('.add-to-cart').length > 0) {
       $('.add-to-cart').on('click', function (e) {
-        fbq('trackCustom', '2023H1MemberDays AddToBasket');
+        fbq('trackCustom', '2023H1GMCMemberDay AddToBasket');
+      });
+    }
+		if($('.learn-more__link').length > 0) {
+      $('.learn-more__link').on('click', function (e) {
+        fbq('trackCustom', '2023H1GMCMemberDay LearnMore');
       });
     }
 
