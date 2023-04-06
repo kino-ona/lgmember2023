@@ -648,12 +648,12 @@ $(document).ready(function () {
       });
 
       // box_navigation(sticky menu) position
-      if ($(".box_navigation").length) {
-        const originFixbxOffset = $(".box_navigation").offset();
-        $(window).scroll(function () {
-          lgMembersWeek.stickyTab(originFixbxOffset);
-        });
-      }
+      // if ($(".box_navigation").length) {
+      //   const originFixbxOffset = $(".box_navigation").offset();
+      //   $(window).scroll(function () {
+      //     lgMembersWeek.stickyTab(originFixbxOffset);
+      //   });
+      // }
 
       // tracking Event data setting
       // submit
