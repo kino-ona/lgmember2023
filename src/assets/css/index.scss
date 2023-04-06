@@ -996,6 +996,10 @@
 					margin: 0 auto;
 					padding: 0;
 
+					img {
+						border-radius: 20px;
+					}
+
 					.button {
 						display: none;
 						align-items: center;
@@ -1027,7 +1031,7 @@
 								color: #000;
 							}
 						}
-					}
+					}					
 				}
 
 				&__info {
