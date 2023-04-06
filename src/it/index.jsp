@@ -25,8 +25,8 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
-	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/mic-head-script.jsp" />
-	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" />
+	<!-- <jsp:include page="/WEB-INF/jsp/gp/common/include/head/mic-head-script.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/gateway-foresee.jsp" /> -->
 </head>
 
 <body>
@@ -187,13 +187,13 @@
 												<p class="product__sn sku">*modelName*</p>
 												<div class="product__price">
 													<p class="product__cost">
-														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 														<span class="number">*finalPrice*</span>
+														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													</p>
 													<div>
 														<span class="product__discount">
-															<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 															<span class="number">*originPrice*</span>
+															<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 														</span>
 														<span class="product__highlight">*discountMsg*</span>
 													</div>
@@ -201,8 +201,8 @@
 												<div class="product__members">
 													<span class="product__text"><spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/></span>
 													<span class="product__highlight">
-														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 														<span class="number">*membershipPriceValue*</span>
+														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													</span>
 													<div class="product__alert">
 														<span>!</span>
@@ -806,14 +806,14 @@
 											<p class="product__sn sku">*modelName*</p>
 											<div class="product__price">
 												<p class="product__cost">
-													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													<span class="number">*finalPrice*</span>
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 												</p>
 												<div>
 													<span class="product__discount">
 														<span class="product__discount">
-															<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 															<span class="number">*originPrice*</span>
+															<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 														</span>
 													</span>
 													<span class="product__highlight">*discountMsg*</span>
@@ -822,8 +822,8 @@
 											<div class="product__members">
 												<span class="product__text"><spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/></span>
 												<span class="product__highlight">
-													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													<span class="number">*membershipPriceValue*</span>
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 												</span>
 												<div class="product__alert d-none">
 													*reStockAlertText*

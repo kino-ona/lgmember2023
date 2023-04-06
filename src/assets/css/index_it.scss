@@ -41,5 +41,11 @@
 				flex-direction: column;
 			}
 		}
+
+		&__info {
+			.unit {
+				margin-left: -5px;
+			}
+		}
 	}
 }

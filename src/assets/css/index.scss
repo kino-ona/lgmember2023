@@ -1841,6 +1841,27 @@
 				display: none !important;
 			}
 		}
+		@media (min-width: 1024px) and (max-width: 1440px) {
+
+			&__bottom {
+	
+				.button {
+					flex: 0 1 95px;
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+			&__cost {
+				font-size: 20px;
+			}
+			&__info {
+
+				.product__highlight {
+					font-size: 12px;
+				}
+			}
+		}
 
 		@media (max-width: 1024px) {
 
@@ -1881,10 +1902,6 @@
 
 			&__info {
 				margin-top: 30px;
-
-				.product__highlight {
-					font-size: 12px;
-				}
 			}
 
 			&__name {
@@ -1977,6 +1994,13 @@
 				background-color: #000;
 			}
 		}
+		@media (max-width: 1440px) {
+
+			&__item {
+				font-size: 12px;
+				line-height: 12px;
+			}
+		}
 
 		@media (max-width: 1024px) {
 
@@ -1997,6 +2021,13 @@
 
 		&__text {
 			text-decoration: underline;
+		}
+
+		@media (max-width: 1440px) {
+
+			&__link {
+				font-size: 12px;
+			}
 		}
 
 		@media (max-width: 1024px) {
