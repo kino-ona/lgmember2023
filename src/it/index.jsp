@@ -68,10 +68,6 @@
 			<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
 
 			<!-- Required input ## Model List Start -->
-			<!-- Event Gift Model -->
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07547412"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07547412"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07547412"/>
 
 			<!-- Life Style Model -->
 			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07547412|MD07547135|MD07569939|MD07568141|MD07560062"/>
