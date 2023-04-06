@@ -225,6 +225,15 @@
 				margin: 0 10px;
 			}
 		}
+		@media (max-width: 1440px) {
+			.slick {
+
+				&-slide {
+					row-gap: 14px;
+					margin: 0 7px;
+				}
+			}
+		}
 
 		@media (max-width: 1024px) {
 			
@@ -1619,6 +1628,10 @@
 			text-align: center;
 		}
 		@media (max-width: 1440px) {
+
+			&__container {
+				padding: 100px 20px 0;
+			}
 			&__title {
 				font-size: 42px;
 			}
@@ -1842,6 +1855,9 @@
 			}
 		}
 		@media (min-width: 1024px) and (max-width: 1440px) {
+			&__item {
+				padding: 15px 22px;
+			}
 
 			&__bottom {
 	
@@ -1851,7 +1867,7 @@
 			}
 		}
 
-		@media (max-width: 1024px) {
+		@media (min-width: 1024px) and (max-width: 1440px) {
 			&__cost {
 				font-size: 20px;
 			}
