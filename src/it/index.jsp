@@ -1151,7 +1151,6 @@
 	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
 	
 	<!-- your js -->
-
 	<script>
 		var timerDl = setTimeout(function() { 
 			$(document).ready(function(){
