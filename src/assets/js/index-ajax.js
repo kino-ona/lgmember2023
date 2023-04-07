@@ -223,7 +223,6 @@ $(document).ready(function () {
         paramData =
           "listType=EVENT&requestModelIdList=" +
           paramModel.replace(/\|/g, "%257C");
-      console.log(targetModelType);
 
       switch (listName) {
         case "eventGift":

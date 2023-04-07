@@ -2323,6 +2323,66 @@
 	<!-- UI Script -->
 	<script src="../assets/js/index.js"></script>
 	<script src="../assets/js/index-ajax.js"></script>
+	<script>
+		if($('.add-to-cart').length > 0) {
+			$('.add-to-cart').on('click', function (e) {
+				fbq('trackCustom', '2023H1GMCMemberDay AddToBasket');
+			});
+		}
+		if($('.learn-more__link').length > 0) {
+			$('.learn-more__link').on('click', function (e) {
+				fbq('trackCustom', '2023H1GMCMemberDay LearnMore');
+			});
+		}
+		var timer = setTimeout(function() { 
+			if($('.product--hotdeal').find('.slick-next').length > 0) {
+				$('.product--hotdeal').find('.slick-next').on('click', function (e) {
+					console.log($(this))
+					window.dataLayer.push({
+						"event": "largest_savings_next_click",
+						"pageType": "MICROSITE",
+						"category": "Click",
+						"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
+						"label": "Content:memberdays_H1_Largestsavings_click_P1 Next"
+					});
+				});
+			}
+			if($('.product--hotdeal').find('.slick-prev').length > 0) {
+				$('.product--hotdeal').find('.slick-prev').on('click', function (e) {
+					window.dataLayer.push({
+						"event": "largest_savings_prev_click",
+						"pageType": "MICROSITE",
+						"category": "Click",
+						"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
+						"label": "Content:memberdays_H1_Largestsavings_click_P1 Prev"
+					});
+				});
+			}
+
+			if($('.section__container--lifestyle').find('.tab__panel').length > 0) {
+				$('.section__container--lifestyle').find('.tab__panel').each(function (i) {
+					if($(this).find('.slick-list').length > 0) { 
+								console.log('testtest=', $(this))
+						if($(this).find('.slick-list').find('.slick-next').length > 0) {
+							$(this).find('.slick-list').find('.slick-next').on('click', function (e) {
+
+								window.dataLayer.push({
+									"event": "experience_next_click",
+									"pageType": "MICROSITE",
+									"category": "Click",
+									"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
+									"label": "Content:memberdays_H1_Experience_click_P1 Next"
+								});
+							});
+						}
+					}
+				});
+			}
+			clearTimeout(timer);     
+		}, 600);
+
+		
+	</script>
 	<!--// UI Script -->
 
 </body>

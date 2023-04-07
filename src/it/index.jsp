@@ -25,13 +25,14 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
+
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-		})(window,document,'script','dataLayer','GTM-TVMVHN');</script>
-		<!-- End Google Tag Manager -->
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TVMVHN');</script>
+	<!-- End Google Tag Manager -->
 	
 </head>
 
@@ -1148,67 +1149,128 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
 	<!-- // default code -->
 	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
-
 	
 	<!-- your js -->
-	<script>
-		if($('.add-to-cart').length > 0) {
-      $('.add-to-cart').on('click', function (e) {
-        fbq('trackCustom', '2023H1GMCMemberDay AddToBasket');
-      });
-    }
-		if($('.learn-more__link').length > 0) {
-      $('.learn-more__link').on('click', function (e) {
-        fbq('trackCustom', '2023H1GMCMemberDay LearnMore');
-      });
-    }
 
+	<script>
+		var timerDl = setTimeout(function() { 
+			$(document).ready(function(){
+				if($('.add-to-cart').length > 0) {
+					$('.add-to-cart').on('click', function (e) {
+						fbq('trackCustom', '2023H1GMCMemberDay AddToBasket');
+					});
+				}
+				if($('.learn-more__link').length > 0) {
+					$('.learn-more__link').on('click', function (e) {
+						fbq('trackCustom', '2023H1GMCMemberDay LearnMore');
+					});
+				}
+				if($('.product--hotdeal').find('.slick-next').length > 0) {
+					$('.product--hotdeal').find('.slick-next').on('click', function (e) {
+						console.log('memberdays_H1_Largestsavings_click_P1 Next', $(this))
+						window.dataLayer.push({
+							"event": "largest_savings_next_click",
+							"pageType": "MICROSITE",
+							"category": "Click",
+							"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
+							"label": "Content:memberdays_H1_Largestsavings_click_P1 Next"
+						});
+					});
+				}
+				if($('.product--hotdeal').find('.slick-prev').length > 0) {
+					$('.product--hotdeal').find('.slick-prev').on('click', function (e) {
+						console.log('memberdays_H1_Largestsavings_click_P1 Prev', $(this))
+						window.dataLayer.push({
+							"event": "largest_savings_prev_click",
+							"pageType": "MICROSITE",
+							"category": "Click",
+							"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
+							"label": "Content:memberdays_H1_Largestsavings_click_P1 Prev"
+						});
+					});
+				}
+
+				if($('.section__container--lifestyle').find('.tab__panel').length > 0) {
+					$('.section__container--lifestyle').find('.tab__panel').each(function (i) {
+						if($(this).find('.slick-list').length > 0) { 
+							var $slick = $(this).find('.slick-list');
+							$slick.find('.slick-next').on('click', function (e) {
+								console.log('memberdays_H1_Experience_click_P1 Next', $(this))
+
+								window.dataLayer.push({
+									"event": "experience_next_click",
+									"pageType": "MICROSITE",
+									"category": "Click",
+									"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
+									"label": "Content:memberdays_H1_Experience_click_P1 Next"
+								});
+							});
+							$slick.find('.slick-prev').on('click', function (e) {
+								console.log('memberdays_H1_Experience_click_P1 Prev', $(this))
+
+								window.dataLayer.push({
+									"event": "experience_next_click",
+									"pageType": "MICROSITE",
+									"category": "Click",
+									"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
+									"label": "Content:memberdays_H1_Experience_click_P1 Prev"
+								});
+							});
+						}
+					});
+				}
+			});
+
+			clearTimeout(timerDl);     
+		}, 1200);
+	</script>
+	<script>
 		$(document).ready(function(){
 			var href = window.location.href;
 			if(href.indexOf('BuymoreSavemoreTV') != -1) {    
-				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
-        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content3 .tab__list .tab__item').eq(0).addClass('tab__item--active');    
+				$('#box_content4 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content4 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content4 .tab__list .tab__item').eq(0).addClass('tab__item--active');    
 				var timer = setTimeout(function() {         
-					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').click();
-					console.log($('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').html())
-					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
+					$('#box_content4 .tab__list .tab__item').eq(0).find('.tab__button').click();
+					console.log($('#box_content4 .tab__list .tab__item').eq(0).find('.tab__button').html())
+					$('#box_content4 .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
 					    
 					clearTimeout(timer);     
 				}, 600);
 			}
 			if(href.indexOf('BuymoreSavemoreAudio') != -1) {
-				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
-        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content3 .tab__list .tab__item').eq(1).addClass('tab__item--active');  
+				$('#box_content4 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content4 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content4 .tab__list .tab__item').eq(1).addClass('tab__item--active');  
 				var timer = setTimeout(function() {         
-					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').click();
-					console.log($('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').html())
-					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
+					$('#box_content4 .tab__list .tab__item').eq(1).find('.tab__button').click();
+					console.log($('#box_content4 .tab__list .tab__item').eq(1).find('.tab__button').html())
+					$('#box_content4 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
 					    
 					clearTimeout(timer);     
 				}, 600);
 			}
 			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {
-				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
-        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content3 .tab__list .tab__item').eq(2).addClass('tab__item--active');  
+				$('#box_content4 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content4 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content4 .tab__list .tab__item').eq(2).addClass('tab__item--active');  
 				var timer = setTimeout(function() {         
-					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').click();
-					console.log($('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').html())
-					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
+					$('#box_content4 .tab__list .tab__item').eq(2).find('.tab__button').click();
+					console.log($('#box_content4 .tab__list .tab__item').eq(2).find('.tab__button').html())
+					$('#box_content4 .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
 					    
 					clearTimeout(timer);     
 				}, 600);
 			}
 			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {
-				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
-        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content3 .tab__list .tab__item').eq(3).addClass('tab__item--active');  
+				$('#box_content4 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content4 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content4 .tab__list .tab__item').eq(3).addClass('tab__item--active');  
 				var timer = setTimeout(function() {         
-					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').click();
-					console.log($('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').html())
-					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').trigger('click')    
+					$('#box_content4 .tab__list .tab__item').eq(3).find('.tab__button').click();
+					console.log($('#box_content4 .tab__list .tab__item').eq(3).find('.tab__button').html())
+					$('#box_content4 .tab__list .tab__item').eq(3).find('.tab__button').trigger('click')    
 					    
 					clearTimeout(timer);     
 				}, 600);
