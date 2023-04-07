@@ -76,24 +76,23 @@
 
 			<!-- Required input ## Model List Start -->
 			<!-- Life Style Model -->
-			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07547412|MD07547135|MD07569939|MD07568141|MD07560062"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07532987|MD07568226|MD07568250|MD07546805|MD07564074"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07555423|MD07555790|MD07571411|MD07554813|MD07561317|MD07570903|MD07560062"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07560077|MD07560054|MD05775808|MD07551400|MD07539127"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521601|MD07563943|MD06175496|MD07560054"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07572581"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07572581"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07572581"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07572581"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07572581"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546868|MD07546781|MD07551260|MD07547235|MD07551327|MD07569939|MD07555550|MD07559233|MD07540676|MD07521601|MD07527380|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05775808|MD07562475|MD07554813|MD07555423"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07572581"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 			<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07546868"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07546868"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07546868"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07546868"/>
+			<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07572581"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07572581"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07572581"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07572581"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -404,6 +403,58 @@
 										class="tab__button">ENERGY SAVING</a>
 									</div>
 								</div>
+								<template class="contents-template">
+									<div class="product__item">
+										<div class="product__img">
+											<div class="product__flags">
+												<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
+												<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
+											</div>
+											<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
+
+											<!-- 
+												// common.js add-to-cart dataLayer 공통 로직 진입을 위해
+												// .products-info / .js-compare 클래스 추가
+												// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
+											-->
+											<div class="button">
+												<div class="button__row">
+													<a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
+														<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
+													</a>
+													<a role="button" href="#" class="button__item atc-members-week add_to_cart" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
+												</div>
+											</div>
+										</div>
+										<div class="product__info">
+											<p class="product__name">*userFriendlyName*</p>
+											<p class="product__sn sku">*modelName*</p>
+											<!-- <div class="product__price">
+												<p class="product__cost">
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*finalPrice*</span>
+												</p>
+												<div>
+													<span class="product__discount">
+														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+														<span class="number">*originPrice*</span>
+													</span>
+													<span class="product__highlight">*discountMsg*</span>
+												</div>
+											</div> -->
+											<!-- <div class="product__members">
+												<span class="product__text">
+													<spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/>
+												</span>
+												<span class="product__highlight">
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+														<span class="number">*membershipPriceValue*</span>
+												</span>
+											</div> -->
+										</div>
+									</div>
+								</template>
 								<div class="tab__contents">
 									<div id="entertaiment" class="tab__panel tab__panel--entertaiment" style="display: block;">
 										<div class="section__header">
@@ -418,13 +469,21 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -437,13 +496,21 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -477,13 +544,21 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -517,13 +592,21 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -536,13 +619,21 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -576,13 +667,21 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -595,13 +694,21 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank" 
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -635,13 +742,21 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -654,13 +769,21 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -673,13 +796,21 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" class="showroom__anchor">
+														<a href="#" target="_blank"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" class="showroom__link">
+															<a href="#" target="_blank"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="./assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
 																</div>
 																<div class="showroom__cont">
 																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
@@ -761,8 +892,8 @@
 										data-tab-name="tv" 
 										data-track-group="mic" 
 										data-track-opt="category" 
-										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H1_Category_click_tv"
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_TV"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">TV</a>
 									</div>
@@ -771,8 +902,8 @@
 										data-tab-name="audio" 
 										data-track-group="mic" 
 										data-track-opt="category" 
-										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H1_Category_click_audio"
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_AUDIO"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">AUDIO</a>
 									</div>
@@ -781,8 +912,8 @@
 										data-tab-name="homeappliance" 
 										data-track-group="mic" 
 										data-track-opt="category" 
-										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H1_Category_click_homeappliance"
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_HOME_APPLIANCE"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">HOME APPLIANCE</a>
 									</div>
@@ -791,8 +922,8 @@
 										data-tab-name="computerproducts" 
 										data-track-group="mic" 
 										data-track-opt="category" 
-										data-track-name="selectProductCategory" 
-										data-link-area="memberdays_H1_Category_click_computerproducts"
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_COMPUTER_PRODUCTS"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">COMPUTER PRODUCTS</a>
 									</div>
@@ -859,7 +990,15 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/uk/tvs','_blank')"class="button__item button__item--secondary">SEE MORE TV</button>
+												<button type="button" onclick="window.open('https://www.lg.com/uk/tvs','_blank')" 
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="TV"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV"
+												data-link-name="memberdays_2023H1" 
+												class="button__item button__item--secondary">SEE MORE TV</button>
 											</div>
 										</div>
 									</div>
@@ -873,7 +1012,15 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/uk/soundbars','_blank')" class="button__item button__item--secondary">SEE MORE AUDIO</button>
+												<button type="button" onclick="window.open('https://www.lg.com/uk/soundbars','_blank')"
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="AUDIO"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_AUDIO"
+												data-link-name="memberdays_2023H1" 
+												class="button__item button__item--secondary">SEE MORE AUDIO</button>
 											</div>
 										</div>
 									</div>
@@ -887,7 +1034,15 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/uk/appliances','_blank')" class="button__item button__item--secondary">SEE MORE HOME APPLIANCE</button>
+												<button type="button" onclick="window.open('https://www.lg.com/uk/appliances','_blank')" 
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="HOMEAPPLIANCE"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_HOMEAPPLIANCE"
+												data-link-name="memberdays_2023H1" 
+												class="button__item button__item--secondary">SEE MORE HOME APPLIANCE</button>
 											</div>
 										</div>
 									</div>
@@ -901,7 +1056,15 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/uk/computer-products','_blank')" class="button__item button__item--secondary">SEE MORE COMPUTER PRODUCTS</button>
+												<button type="button" onclick="window.open('https://www.lg.com/uk/computer-products','_blank')" 
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="COMPUTERPRODUCTS"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTERPRODUCTS"
+												data-link-name="memberdays_2023H1" 
+												class="button__item button__item--secondary">SEE MORE COMPUTER PRODUCTS</button>
 											</div>
 										</div>
 									</div>
@@ -1120,6 +1283,5 @@
 	<script src="${path}/assets/js/index.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
 	<!--// UI Script -->
-
 </body>
 </html>
