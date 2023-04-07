@@ -199,6 +199,7 @@
 			&__container {
 				padding-top: 80px;
 				padding-bottom: 80px;
+				border-radius: 40px;
 			}
 		}
 
@@ -385,21 +386,18 @@
 				}
 
 				.button {
-					
-					&:not(:first-child) {
-						margin-top: 40px;
-					}
+					margin-top: 40px;
 				}
 			}
 
 			&__benefit {
-				padding: 40px 30px 44px;
+				padding: 40px 20px;
 				border-radius: 40px;
 				background-color: #E3201D;
 				text-align: center;
 
 				.benefit-list {
-					margin-top: 20px;
+					margin-top: 40px;
 
 					&__item {
 						position: relative;
@@ -476,7 +474,7 @@
 
 			&__title {
 				font-weight: 700;
-				font-size: 36px;
+				font-size: 30px;
 			}
 		}
 
@@ -534,10 +532,7 @@
 					}
 
 					.button {
-					
-						&:not(:first-child) {
-							margin-top: 20px;
-						}
+						margin-top: 20px;
 					}
 				}
 
@@ -623,6 +618,7 @@
 				font-size: 16px;
 				cursor: pointer;
 				word-break: normal;
+				text-transform: uppercase;
 
 				&:before {
 					content: '';
@@ -1361,6 +1357,7 @@
 				font-weight: 700;
 				font-size: 16px;
 				text-align: center;
+				text-transform: uppercase;
 
 				&:before {
 					content: '';

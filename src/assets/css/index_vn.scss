@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+@use 'mixins';
+
+.lgmembersweek {
+
+	.benefit {
+
+		.coupon {
+
+			.coupon-list {
+				
+				&__coupon {
+
+					p {
+						font-size: 38px;
+					}
+				}
+			}
+		}
+	}
+}
