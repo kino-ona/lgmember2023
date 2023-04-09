@@ -176,4 +176,24 @@ $(document).ready(function () {
     $(`a[href="${target}"]`).trigger("click");
   });
   // $('.brandtabs-container .tabs-menu a:first').trigger('click');
+
+  // Deal Custom carousel nav
+  $(".hotdeal .carousel-prev").click(function (e) {
+    e.preventDefault();
+    $(this).parent().find(".product__list").slick("slickPrev");
+  });
+  $(".hotdeal .carousel-next").click(function (e) {
+    e.preventDefault();
+    $(this).parent().find(".product__list").slick("slickNext");
+  });
+
+  // Experience Custom carousel nav
+  $(".experience .carousel-prev").click(function (e) {
+    e.preventDefault();
+    $(this).parent().find(".product__list").slick("slickPrev");
+  });
+  $(".experience .carousel-next").click(function (e) {
+    e.preventDefault();
+    $(this).parent().find(".product__list").slick("slickNext");
+  });
 });

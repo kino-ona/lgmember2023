@@ -75,23 +75,23 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Life Style Model -->
-		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07572581"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07572581"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07572581"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07572581"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07572581"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07570645|MD07556836|MD07572670|MD07559729|MD05888956|MD07559974"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570645|MD07556836|MD07572670|MD07559729|MD05888956|MD07559974"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07570645"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07570645"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07570645"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07572581"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570645"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07572581"/>
-		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07572581"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07572581"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07572581"/>
+		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07570645"/>
+		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07570645"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07570645"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07570645"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -247,6 +247,16 @@
 										</div>
 									</template>
 									<div class="product__list"></div>
+									<button class="carousel-nav carousel-prev" aria-label="Previous"
+									data-track-group="mic" 
+									data-track-name="largest_savings_prev_click"
+									data-link-area="memberdays_H1_Largestsavings_click_P1 Prev" 
+									data-link-name="memberdays_2023H1"><span>Preview</span></button>
+									<button class="carousel-nav carousel-next" aria-label="Next"
+									data-track-group="mic" 
+									data-track-name="largest_savings_next_click"
+									data-link-area="memberdays_H1_Largestsavings_click_P1 Next" 
+									data-link-name="memberdays_2023H1"><span>Next</span></button>
 								</div>
 							</div>
 							<div class="section__footer">
@@ -508,6 +518,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
+												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												data-track-group="mic" 
+												data-track-name="experience_prev_click"
+												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
+												data-link-name="memberdays_2023H1"><span>Preview</span></button>
+												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-track-group="mic" 
+												data-track-name="experience_next_click	"
+												data-link-area="memberdays_H1_Experience_click_P1 Next" 
+												data-link-name="memberdays_2023H1"><span>Next</span></button>
 											</div>
 										</div>
 									</div>
@@ -556,6 +576,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
+												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												data-track-group="mic" 
+												data-track-name="experience_prev_click"
+												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
+												data-link-name="memberdays_2023H1"><span>Preview</span></button>
+												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-track-group="mic" 
+												data-track-name="experience_next_click	"
+												data-link-area="memberdays_H1_Experience_click_P1 Next" 
+												data-link-name="memberdays_2023H1"><span>Next</span></button>
 											</div>
 										</div>
 									</div>
@@ -631,6 +661,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
+												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												data-track-group="mic" 
+												data-track-name="experience_prev_click"
+												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
+												data-link-name="memberdays_2023H1"><span>Preview</span></button>
+												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-track-group="mic" 
+												data-track-name="experience_next_click	"
+												data-link-area="memberdays_H1_Experience_click_P1 Next" 
+												data-link-name="memberdays_2023H1"><span>Next</span></button>
 											</div>
 										</div>
 									</div>
@@ -706,6 +746,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
+												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												data-track-group="mic" 
+												data-track-name="experience_prev_click"
+												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
+												data-link-name="memberdays_2023H1"><span>Preview</span></button>
+												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-track-group="mic" 
+												data-track-name="experience_next_click	"
+												data-link-area="memberdays_H1_Experience_click_P1 Next" 
+												data-link-name="memberdays_2023H1"><span>Next</span></button>
 											</div>
 										</div>
 									</div>
@@ -808,6 +858,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
+												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												data-track-group="mic" 
+												data-track-name="experience_prev_click"
+												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
+												data-link-name="memberdays_2023H1"><span>Preview</span></button>
+												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-track-group="mic" 
+												data-track-name="experience_next_click	"
+												data-link-area="memberdays_H1_Experience_click_P1 Next" 
+												data-link-name="memberdays_2023H1"><span>Next</span></button>
 											</div>
 										</div>
 									</div>
@@ -1128,78 +1188,16 @@
 	
 	<!-- your js -->
 	<script>
-		var timerDl = setTimeout(function() { 
-			$(document).ready(function(){
-				if($('.add-to-cart').length > 0) {
-					$('.add-to-cart').on('click', function (e) {
-						fbq('trackCustom', '2023H1GMCMemberDay AddToBasket');
-					});
-				}
-				if($('.learn-more__link').length > 0) {
-					$('.learn-more__link').on('click', function (e) {
-						fbq('trackCustom', '2023H1GMCMemberDay LearnMore');
-					});
-				}
-				if($('.product--hotdeal').find('.slick-next').length > 0) {
-					$('.product--hotdeal').find('.slick-next').on('click', function (e) {
-						console.log('memberdays_H1_Largestsavings_click_P1 Next', $(this))
-						window.dataLayer.push({
-							"event": "largest_savings_next_click",
-							"pageType": "MICROSITE",
-							"category": "Click",
-							"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
-							"label": "Content:memberdays_H1_Largestsavings_click_P1 Next"
-						});
-					});
-				}
-				if($('.product--hotdeal').find('.slick-prev').length > 0) {
-					$('.product--hotdeal').find('.slick-prev').on('click', function (e) {
-						console.log('memberdays_H1_Largestsavings_click_P1 Prev', $(this))
-						window.dataLayer.push({
-							"event": "largest_savings_prev_click",
-							"pageType": "MICROSITE",
-							"category": "Click",
-							"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
-							"label": "Content:memberdays_H1_Largestsavings_click_P1 Prev"
-						});
-					});
-				}
-
-				if($('.section__container--lifestyle').find('.tab__panel').length > 0) {
-					$('.section__container--lifestyle').find('.tab__panel').each(function (i) {
-						if($(this).find('.slick-list').length > 0) { 
-							var $slick = $(this).find('.slick-list');
-							$slick.find('.slick-next').on('click', function (e) {
-								console.log('memberdays_H1_Experience_click_P1 Next', $(this))
-
-								window.dataLayer.push({
-									"event": "experience_next_click",
-									"pageType": "MICROSITE",
-									"category": "Click",
-									"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
-									"label": "Content:memberdays_H1_Experience_click_P1 Next"
-								});
-							});
-							$slick.find('.slick-prev').on('click', function (e) {
-								console.log('memberdays_H1_Experience_click_P1 Prev', $(this))
-
-								window.dataLayer.push({
-									"event": "experience_next_click",
-									"pageType": "MICROSITE",
-									"category": "Click",
-									"action": "MICROSITE_MEMBERSWEEK2023H1 – Link Click",
-									"label": "Content:memberdays_H1_Experience_click_P1 Prev"
-								});
-							});
-						}
-					});
-				}
+		if($('.add-to-cart').length > 0) {
+			$('.add-to-cart').on('click', function (e) {
+				fbq('trackCustom', '2023H1GMCMemberDay AddToBasket');
 			});
-
-			clearTimeout(timerDl);     
-		}, 1200);
-	</script>
-	<script>
+		}
+		if($('.learn-more__link').length > 0) {
+			$('.learn-more__link').on('click', function (e) {
+				fbq('trackCustom', '2023H1GMCMemberDay LearnMore');
+			});
+		}
 		$(document).ready(function(){
 			var href = window.location.href;
 			if(href.indexOf('BuymoreSavemoreTV') != -1) {    

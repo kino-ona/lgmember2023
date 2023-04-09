@@ -60,6 +60,8 @@ $(document).ready(function () {
       slidesToShow: 5,
       focusOnSelect: false,
       swipeToSlide: true,
+      prevArrow: $(".experience .carousel-prev"),
+      nextArrow: $(".experience .carousel-next"),
       responsive: [
         {
           breakpoint: 1024,
@@ -77,6 +79,8 @@ $(document).ready(function () {
       slidesToShow: 4,
       slidesToScroll: 4,
       rows: 2,
+      prevArrow: $(".hotdeal .carousel-prev"),
+      nextArrow: $(".hotdeal .carousel-next"),
       responsive: [
         {
           breakpoint: 1024,

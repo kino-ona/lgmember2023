@@ -134,6 +134,8 @@ $(document).ready(function () {
     slidesToShow: 4,
     slidesToScroll: 4,
     rows: 2,
+    prevArrow: $(".hotdeal .carousel-prev"),
+    nextArrow: $(".hotdeal .carousel-next"),
     responsive: [
       {
         breakpoint: 1024,
@@ -146,22 +148,45 @@ $(document).ready(function () {
       },
     ],
   });
-  $(".lgmembersweek .experience .product__list").slick({
-    speed: 600,
-    infinite: false,
-    slidesToShow: 5,
-    focusOnSelect: false,
-    swipeToSlide: true,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          arrows: false,
-          slidesToShow: 2.3,
-          focusOnSelect: true,
+  // Custom carousel nav
+  $(".hotdeal .carousel-prev").click(function () {
+    e.preventDefault();
+    $(this).parent().find(".product__list").slick("slickPrev");
+  });
+  $(".hotdeal .carousel-next").click(function (e) {
+    e.preventDefault();
+    $(this).parent().find(".product__list").slick("slickNext");
+  });
+
+  $(".lgmembersweek .experience .product__list").each(function () {
+    $(this).slick({
+      speed: 600,
+      infinite: false,
+      slidesToShow: 5,
+      focusOnSelect: false,
+      swipeToSlide: true,
+      prevArrow: $(this).parent().find(".carousel-prev"),
+      nextArrow: $(this).parent().find(".carousel-next"),
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            arrows: false,
+            slidesToShow: 2.3,
+            focusOnSelect: true,
+          },
         },
-      },
-    ],
+      ],
+    });
+    // Custom carousel nav
+    $(".experience .carousel-prev").click(function () {
+      e.preventDefault();
+      $(this).parent().find(".product__list").slick("slickPrev");
+    });
+    $(".experience .carousel-next").click(function (e) {
+      e.preventDefault();
+      $(this).parent().find(".product__list").slick("slickNext");
+    });
   });
   // $('.lgmembersweek .product__showroom').slick({
   // 	speed: 800,

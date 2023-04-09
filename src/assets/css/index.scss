@@ -28,6 +28,9 @@
 	em {
 		font-style: normal;
 	}
+	.product__mask {
+		position: relative;
+	}
 
 	.visual {
 		margin-top: -52px;
@@ -968,13 +971,15 @@
 
 				&__mask {
 					position: relative;
+					max-width: 1500px;
+					margin: 0 auto;
 					padding: 160px 60px 80px;
 					border-radius: 40px;
 					background-color: #fff;
 				}
 
 				&__swiper {
-					max-width: 1364px;
+					// max-width: 1364px;
 					margin: 0 auto;
 				}
 
@@ -1061,9 +1066,16 @@
 				}
 			}
 		}
+		.product {
+			.carousel-prev {
+				left: 60px;
+			}
+			.carousel-next {
+				right: 60px;
+			}
+		}
 
 		@media (max-width: 1024px) {
-
 			.tab {
 				
 				&__list {
@@ -1159,6 +1171,12 @@
 							padding: 0 10px;
 						}
 					}
+				}
+			}
+
+			.product {
+				.carousel-prev, .carousel-next {
+					display: none;
 				}
 			}
 		}
@@ -1822,14 +1840,27 @@
 			}
 		}
 
-		.slick {
+		.carousel-nav {
+			width: 52px;
+			height: 52px;
+			border-radius: 50%;
+			background-color: rgba(0, 0, 0, .4);
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			span {
+				display: none;
+			}
+		}
+		.slick,
+		.carousel {
 
 			&-list {
 				margin: 0 82px;
 			}
 
+			&-nav,
 			&-arrow {
-				width: 52px;
+				width: 52px; 
 				height: 52px;
 				border-radius: 50%;
 				background-color: rgba(0, 0, 0, .4);
@@ -2316,10 +2347,12 @@
 		height: auto;
 		border: 1px solid transparent;
 	}
+	.carousel-nav.slick-hidden, 
 	.slick-arrow.slick-hidden {
 		display: none;
 	}
-	.slick-arrow {
+	.slick-arrow,
+	.carousel-nav {
 		position: absolute;
 		z-index: 10;
 		top: 50%;
