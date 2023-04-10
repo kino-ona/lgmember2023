@@ -19,7 +19,7 @@
 	<meta property="og:url" content="https://www.lg.com/de/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@LGUK">
+	<meta name="twitter:site" content="@LGDE">
 	<meta content="#a50034" name="theme-color">
 	<!-- // default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
@@ -109,28 +109,28 @@
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
-								<a href="#SpecialDeal"
+								<a href="#SpecialDeal" role="button" 
 								data-track-group="mic" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1_spacialdeal" 
 								data-link-name="memberdays_2023H1" 
 								class="link">NOCH MEHR SPAREN</a>
 							</li>
 							<li class="list-item">
-								<a href="#MemberExclusiveBenefits"
+								<a href="#MemberExclusiveBenefits" role="button" 
 								data-track-group="mic" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1_memberexclusivebenefits" 
 								data-link-name="memberdays_2023H1" 
 								class="link">EXKLUSIVE VORTEILE FÜR LG-MITGLIEDER</a>
 							</li>
 							<li class="list-item">
-								<a href="#NextLevelExperience"
+								<a href="#NextLevelExperience" role="button" 
 								data-track-group="mic" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1_nextlevelexperience" 
 								data-link-name="memberdays_2023H1" 
 								class="link">DEIN EXPERIENCE UPDATE</a>
 							</li>
 							<li class="list-item">
-								<a href="#BuymoreSavemore"
+								<a href="#BuymoreSavemore" role="button" 
 								data-track-group="mic" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1_buymoresavemore" 
 								data-link-name="memberdays_2023H1" 
@@ -158,7 +158,7 @@
 						</p>
 						<div class="button">
 							<div class="button__row">
-								<a href="#SpecialDeal" 
+								<a href="#SpecialDeal" role="button"  
 								data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H1_Mainbanner_click_P1_VIEW_PRODUCTS"
   							data-link-name="memberdays_2023H1"
@@ -166,7 +166,7 @@
 							</div>
 						</div>
 						<div class="visual__term">
-							<a href="https://www.lg.com/de/member-days-lg-tnc" target="_blank" 
+							<a href="https://www.lg.com/de/member-days-lg-tnc" role="button"  target="_blank" 
 								data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H1_Mainbanner_click_P1_Terms_Conditions"
 								data-link-name="memberdays_2023H1">
@@ -247,16 +247,16 @@
 										</div>
 									</template>
 									<div class="product__list"></div>
-									<button class="carousel-nav carousel-prev" aria-label="Previous"
+									<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
 									data-track-group="mic" 
 									data-track-name="largest_savings_prev_click"
 									data-link-area="memberdays_H1_Largestsavings_click_P1 Prev" 
-									data-link-name="memberdays_2023H1"><span>Preview</span></button>
-									<button class="carousel-nav carousel-next" aria-label="Next"
+									data-link-name="memberdays_2023H1"><span>Preview</span></a>
+									<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 									data-track-group="mic" 
 									data-track-name="largest_savings_next_click"
 									data-link-area="memberdays_H1_Largestsavings_click_P1 Next" 
-									data-link-name="memberdays_2023H1"><span>Next</span></button>
+									data-link-name="memberdays_2023H1"><span>Next</span></a>
 								</div>
 							</div>
 							<div class="section__footer">
@@ -299,7 +299,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/de/my-lg" target="_blank" 
+												<a href="https://www.lg.com/de/my-lg" role="button" target="_blank" 
 												data-track-name="exclusive_link_click"
 												data-link-area="memberdays_H1_Exclusive_click_P1_MY_ACCOUNT"
 												data-link-name="memberdays_2023H1"
@@ -331,7 +331,7 @@
 									</div>
 								</div>
 								<div class="section__term section__term--right">
-									<a href="https://www.lg.com/de/member-days-lg-tnc" target="_blank" 
+									<a href="https://www.lg.com/de/member-days-lg-tnc" role="button" target="_blank" 
 									data-track-name="exclusive_link_click"
 									data-link-area="memberdays_H1_Exclusive_click_P1_Terms_Conditions"
 									data-link-name="memberdays_2023H1">
@@ -353,7 +353,7 @@
 							<div class="tab">
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
-										<a href="#entertaiment" 
+										<a href="#entertaiment" role="button"  
 										data-tab-name="entertaiment" data-track-group="mic" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_entertaiment"
@@ -361,7 +361,7 @@
 										class="tab__button">ENTERTAINMENT</a>
 									</div>
 									<div class="tab__item">
-										<a href="#gaming" 
+										<a href="#gaming" role="button"  
 										data-tab-name="gaming" data-track-group="mic" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_gaming"
@@ -369,7 +369,7 @@
 										class="tab__button">GAMING</a>
 									</div>
 									<div class="tab__item">
-										<a href="#working" 
+										<a href="#working" role="button"  
 										data-tab-name="working" data-track-group="mic" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_working"
@@ -377,7 +377,7 @@
 										class="tab__button">ARBEITEN</a>
 									</div>
 									<div class="tab__item">
-										<a href="#homekeeping" 
+										<a href="#homekeeping" role="button" 
 										data-tab-name="homekeeping" data-track-group="mic" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_homekeeping"
@@ -385,7 +385,7 @@
 										class="tab__button">HAUSHALT</a>
 									</div>
 									<div class="tab__item">
-										<a href="#energysaving" 
+										<a href="#energysaving" role="button" 
 										data-tab-name="energysaving" data-track-group="mic" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_energysaving"
@@ -459,7 +459,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
 														data-track-sku=""
@@ -467,7 +467,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank"
+															<a href="#" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
 															data-track-sku=""
@@ -486,7 +486,7 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
 														data-track-sku=""
@@ -494,7 +494,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank"
+															<a href="#" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
 															data-track-sku=""
@@ -518,16 +518,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
-												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
 												data-track-group="mic" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
-												data-link-name="memberdays_2023H1"><span>Preview</span></button>
-												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-link-name="memberdays_2023H1"><span>Preview</span></a>
+												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="mic" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
-												data-link-name="memberdays_2023H1"><span>Next</span></button>
+												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
 										</div>
 									</div>
@@ -544,7 +544,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
 														data-track-sku=""
@@ -552,7 +552,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank"
+															<a href="#" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
 															data-track-sku=""
@@ -576,16 +576,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
-												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
 												data-track-group="mic" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
-												data-link-name="memberdays_2023H1"><span>Preview</span></button>
-												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-link-name="memberdays_2023H1"><span>Preview</span></a>
+												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="mic" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
-												data-link-name="memberdays_2023H1"><span>Next</span></button>
+												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
 										</div>
 									</div>
@@ -602,7 +602,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
 														data-track-sku=""
@@ -610,7 +610,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank"
+															<a href="#" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
 															data-track-sku=""
@@ -629,7 +629,7 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
 														data-track-sku=""
@@ -637,7 +637,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank"
+															<a href="#" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
 															data-track-sku=""
@@ -661,16 +661,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
-												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
 												data-track-group="mic" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
-												data-link-name="memberdays_2023H1"><span>Preview</span></button>
-												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-link-name="memberdays_2023H1"><span>Preview</span></a>
+												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="mic" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
-												data-link-name="memberdays_2023H1"><span>Next</span></button>
+												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
 										</div>
 									</div>
@@ -687,7 +687,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
 														data-track-sku=""
@@ -695,7 +695,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank"
+															<a href="#" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
 															data-track-sku=""
@@ -714,7 +714,7 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
 														data-track-sku=""
@@ -722,7 +722,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" 
+															<a href="#" target="_blank" role="button" 
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
 															data-track-sku=""
@@ -746,16 +746,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
-												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
 												data-track-group="mic" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
-												data-link-name="memberdays_2023H1"><span>Preview</span></button>
-												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-link-name="memberdays_2023H1"><span>Preview</span></a>
+												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="mic" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
-												data-link-name="memberdays_2023H1"><span>Next</span></button>
+												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
 										</div>
 									</div>
@@ -772,7 +772,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
 														data-track-sku=""
@@ -780,7 +780,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank"
+															<a href="#" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
 															data-track-sku=""
@@ -799,7 +799,7 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
 														data-track-sku=""
@@ -807,7 +807,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank"
+															<a href="#" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
 															data-track-sku=""
@@ -826,7 +826,7 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank"
+														<a href="#" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
 														data-track-sku=""
@@ -834,7 +834,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank"
+															<a href="#" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
 															data-track-sku=""
@@ -858,16 +858,16 @@
 										<div class="product product--experience">
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
-												<button class="carousel-nav carousel-prev" aria-label="Previous"
+												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
 												data-track-group="mic" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
-												data-link-name="memberdays_2023H1"><span>Preview</span></button>
-												<button class="carousel-nav carousel-next" aria-label="Next"
+												data-link-name="memberdays_2023H1"><span>Preview</span></a>
+												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="mic" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
-												data-link-name="memberdays_2023H1"><span>Next</span></button>
+												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
 										</div>
 									</div>
@@ -923,7 +923,7 @@
 							<div class="tab">
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
-										<a href="#tv" 
+										<a href="#tv" role="button" 
 										data-tab-name="tv" 
 										data-track-group="mic" 
 										data-track-opt="category" 
@@ -933,7 +933,7 @@
 										class="tab__button">TV</a>
 									</div>
 									<div class="tab__item">
-										<a href="#audio"
+										<a href="#audio" role="button" 
 										data-tab-name="audio" 
 										data-track-group="mic" 
 										data-track-opt="category" 
@@ -943,7 +943,7 @@
 										class="tab__button">AUDIO</a>
 									</div>
 									<div class="tab__item">
-										<a href="#homeappliance" 
+										<a href="#homeappliance" role="button" 
 										data-tab-name="homeappliance" 
 										data-track-group="mic" 
 										data-track-opt="category" 
@@ -953,7 +953,7 @@
 										class="tab__button">HAUSHALTSGERÄTE</a>
 									</div>
 									<div class="tab__item">
-										<a href="#computerproducts"
+										<a href="#computerproducts" role="button" 
 										data-tab-name="computerproducts" 
 										data-track-group="mic" 
 										data-track-opt="category" 
@@ -1025,7 +1025,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/de/tv','_blank')" 
+												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/tv','_blank')" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1033,7 +1033,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</button>
+												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
 											</div>
 										</div>
 									</div>
@@ -1047,7 +1047,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/de/audio','_blank')"
+												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/audio','_blank')"
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1055,7 +1055,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_AUDIO"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</button>
+												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
 											</div>
 										</div>
 									</div>
@@ -1069,7 +1069,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/de/haushaltsgeraete','_blank')" 
+												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/haushaltsgeraete','_blank')" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1077,7 +1077,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_HOMEAPPLIANCE"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</button>
+												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
 											</div>
 										</div>
 									</div>
@@ -1091,7 +1091,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<button type="button" onclick="window.open('https://www.lg.com/de/it-produkte','_blank')" 
+												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/it-produkte','_blank')" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1099,7 +1099,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTERPRODUCTS"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</button>
+												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
 											</div>
 										</div>
 									</div>
