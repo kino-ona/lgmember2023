@@ -127,6 +127,22 @@ $(document).ready(function () {
     }
   });
 
+  // visual text rolling
+  $(".lgmembersweek .visual .visual__rolling").slick({
+    speed: 600,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    vertical: true,
+    pauseOnHover: false,
+    arrows: false,
+  });
+  $(window).resize(function() {
+    $(".lgmembersweek .visual .visual__rolling").slick('refresh', 'true');
+  });
+
   // slick
   $(".lgmembersweek .hotdeal .product__list").slick({
     speed: 600,

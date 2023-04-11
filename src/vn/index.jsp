@@ -146,13 +146,16 @@
 				<div class="visual__visual">
 					<div class="visual__set">
 						<p class="visual__logo">NGÀY HỘI THÀNH VIÊN LG</p>
-						<p class="visual__title">
+						<div class="visual__title">
 							Đạt cấp độ
-							<span class="visual__rolling">
-								<span>#CHĂM</span>
-							</span>
-							SÓC NHÀ tiếp theo
-						</p>
+							<div class="visual__rolling">
+								<div>#Giải trí tiếp theo</div>
+								<div>#Chơi game tiếp theo</div>
+								<div>#Làm việc tiếp theo</div>
+								<div>#CHĂM SÓC NHÀ tiếp theo</div>
+								<div>#Tiết kiệm năng lượng tiếp theo</div>
+							</div>
+						</div>
 						<p class="visual__desc">
 							Giảm tới 15% khi mua nhiều sản phẩm và nhận Ưu đãi đặc biệt với mức giảm giá tới 00% cùng các đặc quyền cho thành viên<br>
 							Ưu đãi kết thúc vào ngày 31 tháng 5, chỉ có tại LG.com
@@ -557,6 +560,9 @@
 													</div>
 												</div>
 											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__next"></button>
+											</div>
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
@@ -614,6 +620,10 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
+												<button type="button" class="tab__next"></button>
 											</div>
 										</div>
 										<div class="product product--experience">
@@ -700,6 +710,10 @@
 													</div>
 												</div>
 											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
+												<button type="button" class="tab__next"></button>
+											</div>
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
@@ -784,6 +798,10 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
+												<button type="button" class="tab__next"></button>
 											</div>
 										</div>
 										<div class="product product--experience">
@@ -896,6 +914,9 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
 											</div>
 										</div>
 										<div class="product product--experience">

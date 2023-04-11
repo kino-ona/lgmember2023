@@ -146,13 +146,18 @@
 				<div class="visual__visual">
 					<div class="visual__set">
 						<p class="visual__logo">LG MEMBER DAYS</p>
-						<p class="visual__title">
+						<div class="visual__title">
 							Porta
-							<span class="visual__rolling">
-								<span>#il</span>
-							</span>
-							tuo Intrattenimento a un livello superiore
-						</p>
+							<div class="visual__rolling">
+								<div>il tuo #Intrattenimento</div>
+								<div>le tue #sessioni di gioco</div>
+								<div>il tuo #Smart Working</div>
+								<div>la tua #casa</div>
+								<div>la tua #efficienza energetica</div>
+							</div>
+							<br>
+							a un livello superiore
+						</div>
 						<p class="visual__desc">
 							Crea il tuo set e ottieni fino al 20% di sconto, oppure approfitta di offerte top sui prodotti selezionati<br>
 							Esclusiva Member, solo fino al 24/5
@@ -538,6 +543,9 @@
 													</div>
 												</div>
 											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__next"></button>
+											</div>
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
@@ -595,6 +603,10 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
+												<button type="button" class="tab__next"></button>
 											</div>
 										</div>
 										<div class="product product--experience">
@@ -680,6 +692,10 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
+												<button type="button" class="tab__next"></button>
 											</div>
 										</div>
 										<div class="product product--experience">
@@ -793,6 +809,10 @@
 													</div>
 												</div>
 											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
+												<button type="button" class="tab__next"></button>
+											</div>
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
@@ -877,6 +897,9 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
 											</div>
 										</div>
 										<div class="product product--experience">
