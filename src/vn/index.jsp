@@ -64,7 +64,7 @@
 	</c:import> 
 	<!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/lgmemberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->
@@ -75,24 +75,24 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Life Style Model -->
-		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07570645|MD07556836|MD07572670|MD07559729|MD05888956|MD07559974"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570645|MD07556836|MD07572670|MD07559729|MD05888956|MD07559974"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07570645"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07570645"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07570645"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07551386|MD07552314|MD07552962|MD07530013|MD07559899|MD07559969|MD07560074|MD07561321"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value=""/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="working" value=""/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07543404|MD07564104|MD07549813|MD07515556|MD07541676|MD07563802|MD07571978|MD07572074|MD07566123|MD07560602|MD06061357|MD07544319|MD07544334|MD07544294|MD07530466|MD07569325|MD07564381|MD07564393"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07544521"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570645"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07530319|MD07555673|MD06216996|MD07542145|MD07521229|MD07521230|MD07550509|MD07521166|MD07544285|MD07544333|MD07544338|MD07549398|MD07564174|MD05849142|MD07550722|MD07550735|MD07564802|MD07525606|MD07525612|MD07565035|MD07565009"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="premiercare" value="MD07570645"/>
-		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07570645"/>
-		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07570645"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07570645"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07570645"/>
+		<input type="hidden" data-model-group="hottest" data-type="premiercare" value="MD07563138|MD07569934|MD07550732|MD07550679|MD07565008|MD07565027|MD07527542|MD07549316|MD07554691|MD07553698|MD07566122"/>
+		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07551386|MD07552314|MD07551392|MD07551393|MD07552962|MD07552906|MD07551203|MD07551233|MD07551239|MD07530013|MD07559899|MD07559969|MD07507112|MD07514112|MD07507391|MD07560074|MD07561321"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07549194|MD07549825|MD07543404|MD07564104|MD07549813|MD07560894|MD07560852|MD07549791|MD07515556|MD07541676|MD07515551|MD07541678|MD07563802|MD07559573|MD07571978|MD07572074|MD07566123|MD07560602|MD06061357|MD07544319|MD07544334|MD07544294|MD07530466|MD07569325|MD07564381|MD07564393|MD07544521|MD07544522"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value=""/>
+		<input type="hidden" data-model-group="hottest" data-type="airsolutions" value=""/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -287,13 +287,37 @@
 											<div class="coupon-list__item">
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
-														<p>10 %</p>
-														<span>RABATT Coupon</span>
+														<span>Voucher</span>
+														<p>giảm giá 15%</p>
 													</div>
 													<div class="coupon-list__contents">
-														<p class="coupon-list__text">LG-Member Tage -  Bundle Coupon</p>
-														<p class="coupon-list__text coupon-list__text--secondary">Beim Kauf von zwei oder mehr LG Produkten</p>
-														<p class="coupon-list__text coupon-list__text--tertiary">*Alle auf LG.com erhältlichen Produkte außer „Hot Deals“.</p>
+														<p class="coupon-list__text">Voucher giảm giá cho đơn hàng nhiều sản phẩm tại ngày hội thành viên LG</p>
+														<p class="coupon-list__text coupon-list__text--secondary">Áp dụng khi mua từ 2 sản phẩm LG </p>
+														<p class="coupon-list__text coupon-list__text--tertiary">*Dành cho tất cả sản phẩm có trên LG.com ngoại trừ sản phẩm nằm trong chương trình “Khuyến mại đặc biệt và Đặt hàng trước</p>
+													</div>
+												</div>
+											</div>
+											<div class="coupon-list__item">
+												<div class="coupon-list__row">
+													<div class="coupon-list__coupon">
+														<span>Voucher</span>
+														<p>giảm giá 5%</p>
+													</div>
+													<div class="coupon-list__contents">
+														<p class="coupon-list__text">Quyền lợi thành viên mới</p>
+														<p class="coupon-list__text coupon-list__text--secondary">Voucher Chào Mừng cho thành viên mới</p>
+													</div>
+												</div>
+											</div>
+											<div class="coupon-list__item">
+												<div class="coupon-list__row">
+													<div class="coupon-list__coupon">
+														<span>Giá dành cho thành viên</span>
+														<p>GIẢM 2%</p>
+													</div>
+													<div class="coupon-list__contents">
+														<p class="coupon-list__text">Giá dành riêng cho thành viên</p>
+														<p class="coupon-list__text coupon-list__text--secondary">Tham gia ngay để được giảm giá khi mua hàng</p>
 													</div>
 												</div>
 											</div>
@@ -305,6 +329,25 @@
 												data-link-area="memberdays_H1_Exclusive_click_P1_MY_ACCOUNT"
 												data-link-name="memberdays_2023H1"
 												class="button__item button__item--secondary">TÀI KHOẢN CỦA TÔI</a>
+											</div>
+										</div>
+									</div>
+									<div class="coupon__premier">
+										<p class="coupon__title">Dịch vụ Premier Care</p>
+										<p class="coupon__text">Tận hưởng các đặc quyền và ưu tiên khi chọn các sản phẩm cao cấp của LG </p>
+										<div class="list">
+											<p class="list__item">Giao hàng và lắp đặt cùng thời điểm</p>
+											<p class="list__item">Sửa chữa ưu việt trong 24 giờ</p>
+											<p class="list__item">Giao hàng và lắp đặt cùng thời điểm</p>
+											<p class="list__item">Ưu đãi đặc quyền cho lần mua tiếp theo và dịch vụ ngoài bảo hành</p>
+										</div>
+										<div class="button">
+											<div class="button__row">
+												<a href="https://www.lg.com/it/my-lg" target="_blank" 
+												data-track-name="exclusive_link_click"
+												data-link-area="memberdays_H1_Exclusive_click_P1_MY_ACCOUNT"
+												data-link-name="memberdays_2023H1"
+												class="button__item button__item--secondary">TÌM HIỂU THÊM</a>
 											</div>
 										</div>
 									</div>
@@ -331,11 +374,11 @@
 									</div>
 								</div>
 								<div class="section__term section__term--right">
-									<a href="https://www.lg.com/vn/lgmemberdays/tnc/index.jsp" role="button" target="_blank" 
+									<a href="#TnC"
 									data-track-name="exclusive_link_click"
 									data-link-area="memberdays_H1_Exclusive_click_P1_Terms_Conditions"
 									data-link-name="memberdays_2023H1">
-									TÌM HIỂU THÊM
+										TÌM HIỂU THÊM
 										<i></i>
 									</a>
 								</div>
@@ -885,6 +928,7 @@
 				<div class="anchors" id="BuymoreSavemoreAudio"></div>
 				<div class="anchors" id="BuymoreSavemoreHomeAppliance"></div>
 				<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
+				<div class="anchors" id="BuymoreSavemoreAirSolutions"></div>
 				<div id="box_content4" class="section">
 					<div class="section__container section__container--hottest" data-list="hottest">
 						<div class="section__set">
@@ -936,7 +980,7 @@
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
 										<a href="#premiercare" role="button" 
-										data-tab-name="tv" 
+										data-tab-name="premiercare" 
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
@@ -950,17 +994,7 @@
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
-										data-link-area="memberdays_H1_Offer_click_P1_TV"
-										data-link-name="memberdays_2023H1"
-										class="tab__button">THIẾT BỊ NGHE NHÌN</a>
-									</div>
-									<div class="tab__item">
-										<a href="#audio" role="button" 
-										data-tab-name="audio" 
-										data-track-group="mic" 
-										data-track-opt="category" 
-										data-track-name="offer_category_click" 
-										data-link-area="memberdays_H1_Offer_click_P1_AUDIO"
+										data-link-area="memberdays_H1_Offer_click_P1_TV/AUDIO"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">THIẾT BỊ NGHE NHÌN</a>
 									</div>
@@ -977,6 +1011,16 @@
 									<div class="tab__item">
 										<a href="#computerproducts" role="button" 
 										data-tab-name="computerproducts" 
+										data-track-group="mic" 
+										data-track-opt="category" 
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_COMPUTER_PRODUCTS"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">GIẢI PHÁP KHÔNG KHÍ</a>
+									</div>
+									<div class="tab__item">
+										<a href="#airsolutions" role="button" 
+										data-tab-name="airsolutions" 
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
@@ -1047,7 +1091,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/vn/chuong-trinh-premier-care','_blank')" 
+												<a href="https://www.lg.com/vn/chuong-trinh-premier-care" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1055,7 +1099,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_PREMIERCARE"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
+												class="button__item button__item--secondary">XEM THÊM [Premier Care]</a>
 											</div>
 										</div>
 									</div>
@@ -1073,33 +1117,11 @@
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
-												data-track-val="TV"  
+												data-track-val="TV/AUDIO"  
 												data-track-name="offer_see_more_click" 
-												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV"
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV/AUDIO"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
-											</div>
-										</div>
-									</div>
-
-									<div id="audio" class="tab__panel tab__panel--audio" style="display: none;">
-										<p class="tab__noti">Klicke auf MEHR ERFAHREN, um weitere LG-Produkte zu entdecken</p>
-										<div class="product">
-											<div class="product__mask">
-												<div class="product__list"></div>
-											</div>
-										</div>
-										<div class="button">
-											<div class="button__row">
-												<a href="https://www.lg.com/vn/thiet-bi-dien-gia-dung" target="_blank" role="button" 
-												tabindex="0" 
-												data-track-group="mic" 
-												data-track-opt="category" 
-												data-track-val="AUDIO"  
-												data-track-name="offer_see_more_click" 
-												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_AUDIO"
-												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
+												class="button__item button__item--secondary">XEM THÊM [TV/AUDIO]</a>
 											</div>
 										</div>
 									</div>
@@ -1113,7 +1135,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/vn/san-pham-tin-hoc" target="_blank" role="button" 
+												<a href="https://www.lg.com/vn/thiet-bi-dien-gia-dung" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1121,7 +1143,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_HOMEAPPLIANCE"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
+												class="button__item button__item--secondary">XEM THÊM [HOME APPLIANCE]</a>
 											</div>
 										</div>
 									</div>
@@ -1135,15 +1157,37 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
+												<a href="https://www.lg.com/vn/san-pham-tin-hoc" target="_blank" role="button" 
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="COMPUTER PRODUCTS"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTER PRODUCTS"
+												data-link-name="memberdays_2023H1" 
+												class="button__item button__item--secondary">XEM THÊM [COMPUTER PRODUCTS]</a>
+											</div>
+										</div>
+									</div>
+
+									<div id="airsolutions" class="tab__panel tab__panel--airsolutions" style="display: none;">
+										<p class="tab__noti">Klicke auf MEHR ERFAHREN, um weitere LG-Produkte zu entdecken</p>
+										<div class="product">
+											<div class="product__mask">
+												<div class="product__list"></div>
+											</div>
+										</div>
+										<div class="button">
+											<div class="button__row">
 												<a href="https://www.lg.com/vn/giaiphapkhongkhi" target="_blank" role="button"  
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
-												data-track-val="COMPUTERPRODUCTS"  
+												data-track-val="AIR SOLUTIONS"  
 												data-track-name="offer_see_more_click" 
-												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTERPRODUCTS"
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_AIR SOLUTIONS"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
+												class="button__item button__item--secondary">XEM THÊM [AIR SOLUTIONS]</a>
 											</div>
 										</div>
 									</div>
@@ -1268,7 +1312,19 @@
 					clearTimeout(timer);     
 				}, 600);
 			}
-			if(href.indexOf('BuymoreSavemoreAudio') != -1) {
+			if(href.indexOf('BuymoreSavemoreAudio') != -1) { 
+				$('#box_content4 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content4 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content4 .tab__list .tab__item').eq(1).addClass('tab__item--active');    
+				var timer = setTimeout(function() {         
+					$('#box_content4 .tab__list .tab__item').eq(1).find('.tab__button').click();
+					console.log($('#box_content4 .tab__list .tab__item').eq(1).find('.tab__button').html())
+					$('#box_content4 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {
 				$('#box_content4 .tab__list .tab__panel').attr('display', 'none')
         $('#box_content4 .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content4 .tab__list .tab__item').eq(2).addClass('tab__item--active');  
@@ -1280,7 +1336,7 @@
 					clearTimeout(timer);     
 				}, 600);
 			}
-			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {
+			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {
 				$('#box_content4 .tab__list .tab__panel').attr('display', 'none')
         $('#box_content4 .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content4 .tab__list .tab__item').eq(3).addClass('tab__item--active');  
@@ -1292,7 +1348,7 @@
 					clearTimeout(timer);     
 				}, 600);
 			}
-			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {
+			if(href.indexOf('BuymoreSavemoreAirSolutions') != -1) {
 				$('#box_content4 .tab__list .tab__panel').attr('display', 'none')
         $('#box_content4 .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content4 .tab__list .tab__item').eq(4).addClass('tab__item--active');  
