@@ -145,13 +145,16 @@
 				<div class="visual__visual">
 					<div class="visual__set">
 						<p class="visual__logo">LG MEMBER DAYS</p>
-						<p class="visual__title">
+						<div class="visual__title">
 							Reach Your Next
-							<span class="visual__rolling">
-								<span>#Entertainment</span>
-							</span>
-							Level
-						</p>
+							<div class="visual__rolling">
+								<div>#Entertainment Level</div>
+								<div>#Gaming Level</div>
+								<div>#Working Level</div>
+								<div>#Home Keeping Level</div>
+								<div>#Energy Saving Level</div>
+							</div>
+						</div>
 						<p class="visual__desc">
 							Save 13% on Multi Purchase and up to 00% on Special Deals with additional member exclusive benefits<br>
 							Offer ends 24th May, Only at LG.com
