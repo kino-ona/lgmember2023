@@ -97,5 +97,20 @@
 			}
 		}
 	}
+	.product {
 
+		&__price {
+
+			div {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+
+		&__info {
+			.unit {
+				margin-left: -5px;
+			}
+		}
+	}
 }

@@ -177,6 +177,22 @@ $(document).ready(function () {
   });
   // $('.brandtabs-container .tabs-menu a:first').trigger('click');
 
+  // visual text rolling
+  $(".lgmembersweek .visual .visual__rolling").slick({
+    speed: 900,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2600,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    vertical: true,
+    pauseOnHover: false,
+    arrows: false,
+  });
+  $(window).resize(function () {
+    $(".lgmembersweek .visual .visual__rolling").slick("refresh", "true");
+  });
+
   // Deal Custom carousel nav
   $(".hotdeal .carousel-prev").click(function (e) {
     e.preventDefault();

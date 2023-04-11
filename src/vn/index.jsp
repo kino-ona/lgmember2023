@@ -76,8 +76,8 @@
 		<!-- Required input ## Model List Start -->
 		<!-- Life Style Model -->
 		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07551386|MD07552314|MD07552962|MD07530013|MD07559899|MD07559969|MD07560074|MD07561321"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value=""/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="working" value=""/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07543404"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07543404"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07543404|MD07564104|MD07549813|MD07515556|MD07541676|MD07563802|MD07571978|MD07572074|MD07566123|MD07560602|MD06061357|MD07544319|MD07544334|MD07544294|MD07530466|MD07569325|MD07564381|MD07564393"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07544521"/>
 
@@ -91,8 +91,8 @@
 		<input type="hidden" data-model-group="hottest" data-type="premiercare" value="MD07563138|MD07569934|MD07550732|MD07550679|MD07565008|MD07565027|MD07527542|MD07549316|MD07554691|MD07553698|MD07566122"/>
 		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07551386|MD07552314|MD07551392|MD07551393|MD07552962|MD07552906|MD07551203|MD07551233|MD07551239|MD07530013|MD07559899|MD07559969|MD07507112|MD07514112|MD07507391|MD07560074|MD07561321"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07549194|MD07549825|MD07543404|MD07564104|MD07549813|MD07560894|MD07560852|MD07549791|MD07515556|MD07541676|MD07515551|MD07541678|MD07563802|MD07559573|MD07571978|MD07572074|MD07566123|MD07560602|MD06061357|MD07544319|MD07544334|MD07544294|MD07530466|MD07569325|MD07564381|MD07564393|MD07544521|MD07544522"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="airsolutions" value=""/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07544522"/>
+		<input type="hidden" data-model-group="hottest" data-type="airsolutions" value="MD07544522"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->

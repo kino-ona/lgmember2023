@@ -129,18 +129,18 @@ $(document).ready(function () {
 
   // visual text rolling
   $(".lgmembersweek .visual .visual__rolling").slick({
-    speed: 600,
+    speed: 900,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2600,
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
     pauseOnHover: false,
     arrows: false,
   });
-  $(window).resize(function() {
-    $(".lgmembersweek .visual .visual__rolling").slick('refresh', 'true');
+  $(window).resize(function () {
+    $(".lgmembersweek .visual .visual__rolling").slick("refresh", "true");
   });
 
   // slick
