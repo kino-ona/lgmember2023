@@ -1183,8 +1183,8 @@
 	
 	<!-- default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
-	<!-- // default code -->
 	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
+	<!-- // default code -->
 	
 	<!-- your js -->
 	<script>
@@ -1254,6 +1254,7 @@
 	<!-- UI Script -->
 	<script src="${path}/assets/js/index.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
+	<script src="${path}/assets/js/index-add-to-cart.js"></script>
 	<!--// UI Script -->
 </body>
 </html>
