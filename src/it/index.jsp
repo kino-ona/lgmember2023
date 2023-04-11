@@ -538,6 +538,9 @@
 													</div>
 												</div>
 											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__next"></button>
+											</div>
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
@@ -595,6 +598,10 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
+												<button type="button" class="tab__next"></button>
 											</div>
 										</div>
 										<div class="product product--experience">
@@ -680,6 +687,10 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
+												<button type="button" class="tab__next"></button>
 											</div>
 										</div>
 										<div class="product product--experience">
@@ -793,6 +804,10 @@
 													</div>
 												</div>
 											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
+												<button type="button" class="tab__next"></button>
+											</div>
 										</div>
 										<div class="product product--experience">
 											<div class="product__mask">
@@ -877,6 +892,9 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab__indicator">
+												<button type="button" class="tab__prev"></button>
 											</div>
 										</div>
 										<div class="product product--experience">
