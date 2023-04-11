@@ -1025,7 +1025,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/tv','_blank')" 
+												<a href="https://www.lg.com/de/tv" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1047,7 +1047,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/audio','_blank')"
+												<a href="https://www.lg.com/de/audio" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1069,7 +1069,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/haushaltsgeraete','_blank')" 
+												<a href="https://www.lg.com/de/haushaltsgeraete" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1091,7 +1091,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/it-produkte','_blank')" 
+												<a href="https://www.lg.com/de/it-produkte" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
