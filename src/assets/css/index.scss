@@ -31,7 +31,7 @@
 
 	.visual {
 		margin-top: -52px;
-		background-color: #E10000;
+		background-color: #E00200;
 		color: #fff;
 		padding-bottom: 815px;
 
@@ -122,10 +122,11 @@
 		@media (max-width: 1024px) {
 
 			padding-bottom: 110px;
+			background-color: #E10000;
 			
 			&__visual {
 				padding: 280px 0 30px;
-				background: url('../images/m_bg_visual.png') no-repeat 50% 0;
+				background: url('../images/m_bg_visual.png') no-repeat 50% 15%;
 				background-size: 100% auto;
 
 				.button {

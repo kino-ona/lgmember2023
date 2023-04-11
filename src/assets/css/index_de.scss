@@ -2,7 +2,6 @@
 @use 'mixins';
 
 .lgmembersweek {
-
 	.benefit {
 
 		.coupon {
@@ -85,5 +84,11 @@
 				}
 			}
 		}
+	}
+	@media (max-width: 1024px) {
+		.visual__term {
+			bottom: -21px;
+		}
+
 	}
 }
