@@ -1043,7 +1043,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/tv','_blank')" 
+												<a href="https://www.lg.com/de/tv" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1065,7 +1065,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/audio','_blank')"
+												<a href="https://www.lg.com/de/audio" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1087,7 +1087,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/haushaltsgeraete','_blank')" 
+												<a href="https://www.lg.com/de/haushaltsgeraete" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1109,7 +1109,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/de/it-produkte','_blank')" 
+												<a href="https://www.lg.com/de/it-produkte" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1201,8 +1201,8 @@
 	
 	<!-- default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
-	<!-- // default code -->
 	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
+	<!-- // default code -->
 	
 	<!-- your js -->
 	<script>
@@ -1272,6 +1272,7 @@
 	<!-- UI Script -->
 	<script src="${path}/assets/js/index.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
+	<script src="${path}/assets/js/index-add-to-cart.js"></script>
 	<!--// UI Script -->
 </body>
 </html>

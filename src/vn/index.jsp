@@ -1087,7 +1087,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/vn/thiet-bi-nghe-nhin','_blank')" 
+												<a href="https://www.lg.com/vn/thiet-bi-nghe-nhin" target="_blank" role="button"  
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1109,7 +1109,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/vn/thiet-bi-dien-gia-dung','_blank')"
+												<a href="https://www.lg.com/vn/thiet-bi-dien-gia-dung" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1131,7 +1131,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/vn/san-pham-tin-hoc','_blank')" 
+												<a href="https://www.lg.com/vn/san-pham-tin-hoc" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1153,7 +1153,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" role="button" onclick="window.open('https://www.lg.com/vn/giaiphapkhongkhi','_blank')" 
+												<a href="https://www.lg.com/vn/giaiphapkhongkhi" target="_blank" role="button"  
 												tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
@@ -1245,8 +1245,8 @@
 	
 	<!-- default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
-	<!-- // default code -->
 	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
+	<!-- // default code -->
 	
 	<!-- your js -->
 	<script>
@@ -1328,6 +1328,7 @@
 	<!-- UI Script -->
 	<script src="${path}/assets/js/index.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
+	<script src="${path}/assets/js/index-add-to-cart.js"></script>
 	<!--// UI Script -->
 </body>
 </html>
