@@ -665,6 +665,33 @@
 															</a>
 														</div>
 													</div>
+													<div class="showroom__layer">
+														<a href="#" target="_blank" role="button"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+														data-track-sku=""
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
+															<span class="sr-only">detail view</span>
+														</a>
+														<div class="showroom__target">
+															<a href="#" target="_blank" role="button"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
+															data-track-sku=""
+															data-link-name="memberdays_2023H1" class="showroom__link">
+																<div class="showroom__img">
+																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																</div>
+																<div class="showroom__cont">
+																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<ul class="showroom__desc">
+																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
+																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																	</ul>
+																</div>
+															</a>
+														</div>
+													</div>
 												</div>
 											</div>
 											<div class="tab__indicator">

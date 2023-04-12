@@ -865,7 +865,9 @@
 
 				&__layer {
 					position: absolute;
-					z-index: 5;
+					padding-right: 8px;
+					padding-left: 8px;
+					// z-index: 5;
 				}
 
 				&__anchor {
@@ -899,6 +901,7 @@
 					width: 360px;
 					
 					@include mixins.transform(translateY(-50%));
+					z-index: 100;
 
 					&--opened {
 						display: block;
