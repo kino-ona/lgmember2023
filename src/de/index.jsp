@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days Promotion: Up to 17% Off Only For Members | LG Deutschland</title>
+	<title>LG Member Days: 10% Rabatt exklusiv nur für Mitglieder | LG Deutschland</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL 20th December 2022.">
+	<meta name="description" content="Werde ein LG.com Member und profitiere von exklusiven Member Days Angeboten. Das Angebot endet am 22.Mai">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/de/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Deutschland">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days Promotion: Up to 17% Off Only For Members | LG Deutschland">
-	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL 20th December 2022.">
+	<meta property="og:title" content="LG Member Days: 10% Rabatt exklusiv nur für Mitglieder | LG Deutschland">
+	<meta property="og:description" content="Werde ein LG.com Member und profitiere von exklusiven Member Days Angeboten. Das Angebot endet am 22.Mai">
 	<meta property="og:url" content="https://www.lg.com/de/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -41,10 +41,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days Promotion: Up to 17% Off Only For Members | LG Deutschland"/>
+		<meta itemprop="name" content="LG Member Days: 10% Rabatt exklusiv nur für Mitglieder | LG Deutschland"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.lg.com/de/memberdays" />
-		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL 20th December 2022." />
+		<meta itemprop="description" content="Werde ein LG.com Member und profitiere von exklusiven Member Days Angeboten. Das Angebot endet am 22.Mai" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -75,23 +75,23 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Life Style Model -->
-		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07570645|MD07556836|MD07572670|MD07559729|MD05888956|MD07559974"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570645|MD07556836|MD07572670|MD07559729|MD05888956|MD07559974"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07570645"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07570645"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07570645"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07570566|MD07570458|MD07572743|MD07570015|MD07552306|MD07570482|MD06075536|MD06189816|MD07545345"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07559275|MD07563970|"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07571707|MD07572903|MD07571342|MD07548205|MD07558252|MD07568104|MD07559819|MD07536623|MD07534660"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07538035|MD07538000|MD07533924|MD07520425|MD07537984|MD07520864|MD07559729|MD07566894|MD07571231|MD06055056|MD07546795|MD06055076|MD07561481|MD07561610|MD07561724"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07541029|MD07560729|MD07564062|MD07551604|MD07526179"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570645"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07566953|MD07522782|MD07520775|MD07520055|MD07520777|MD07526170|MD07556806|MD07537986|MD07559192|MD07559190|MD07559110|MD07561779|MD07549539|MD07566973|MD07527541|MD07568092|MD07553686|MD07545582"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07570645"/>
-		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07570645"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07570645"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07570645"/>
+		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07549875|MD07550687|MD07549894|MD07549244|MD07547434|MD07549871|MD07551683|MD07549261|MD07549596|MD07548083"/>
+		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07570015|MD07552306|MD07570482|MD07534660|MD07534021|MD07529965|MD07529952|MD07551605|MD07551967|MD07533588"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559729|MD07556836|MD06205396|MD07561481|MD07562441|MD07571231|MD07538023|MD07532590|MD05888956|MD07522395"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07571152|MD07563970|MD07559129|MD07564761|MD07568104|MD07528827|MD07548205|MD07568100|MD07568091|MD07568090"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->

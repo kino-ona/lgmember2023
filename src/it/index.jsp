@@ -93,6 +93,7 @@
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07546868"/>
 			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07546868"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07546868"/>
+			<input type="hidden" data-model-group="hottest" data-type="conditioners" value="MD07546868"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -149,9 +150,9 @@
 						<div class="visual__title">
 							Porta
 							<div class="visual__rolling">
-								<div>il tuo #Intrattenimento</div>
+								<div>il tuo #intrattenimento</div>
 								<div>le tue #sessioni di gioco</div>
-								<div>il tuo #Smart Working</div>
+								<div>il tuo #smart working</div>
 								<div>la tua #casa</div>
 								<div>la tua #efficienza energetica</div>
 							</div>
@@ -304,7 +305,7 @@
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
 														<p>Extra 5%</p>
-														<span>Sconto a carrello</span>
+														<span>Coupon</span>
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Offerta di Benvenuto</p>
@@ -320,14 +321,17 @@
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Extra sconto del 2%</p>
-														<p class="coupon-list__text coupon-list__text--secondary">Valido per utenti registrati su tutti gli acquisti</p>
+														<p class="coupon-list__text coupon-list__text--secondary">Valido per utenti registrati sugli acquisti futuri</p>
 													</div>
 												</div>
+											</div>
+											<div class="coupon-list__contents" style="margin-top: 20px;text-align:center;">
+												<p class="coupon-list__text coupon-list__text--secondary">Fino al 20% (Up to 20%)</p>
 											</div>
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/it/my-lg" role="button" target="_blank" 
+												<a href="https://www.lg.com/it/my-lg?state=it/memberdays" target="_blank" 
 												data-track-name="exclusive_link_click"
 												data-link-area="memberdays_H1_Exclusive_click_P1_MY_ACCOUNT"
 												data-link-name="memberdays_2023H1"
@@ -343,7 +347,7 @@
 										<div class="benefit-list">
 											<div class="benefit-list__item">
 												<i></i>
-												<p class="benefit-list__text">SPEDIZIONE E INSTALLAZIONE GRATUITE</p>
+												<p class="benefit-list__text">SPEDIZIONE E INSTALLAZIONE* GRATUITE</p>
 											</div>
 											<div class="benefit-list__item">
 												<i></i>
@@ -352,7 +356,7 @@
 											<div class="benefit-list__item">
 												<i></i>
 												<p class="benefit-list__text">FINANZIAMENTO TASSO ZERO*</p>
-												<p class="benefit-list__text benefit-list__text--secondary">*Su prodotti premium selezionati</p>
+												<p class="benefit-list__text benefit-list__text--secondary">*Su prodotti selezionati</p>
 											</div>
 										</div>
 									</div>
@@ -386,7 +390,7 @@
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_entertaiment"
 										data-link-name="memberdays_2023H1"
-										class="tab__button">INTRATTENIMENT</a>
+										class="tab__button">INTRATTENIMENTO</a>
 									</div>
 									<div class="tab__item">
 										<a href="#gaming" role="button"  
@@ -402,7 +406,7 @@
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_working"
 										data-link-name="memberdays_2023H1"
-										class="tab__button">SMARTWORKING</a>
+										class="tab__button">SMART WORKING</a>
 									</div>
 									<div class="tab__item">
 										<a href="#homekeeping" role="button"
@@ -418,7 +422,7 @@
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_energysaving"
 										data-link-name="memberdays_2023H1"
-										class="tab__button">RISPARMIO ENERGETICO</a>
+										class="tab__button">EFFICIENZA ENERGETICA</a>
 									</div>
 								</div>
 
@@ -439,7 +443,7 @@
 											<div class="button">
 												<div class="button__row">
 													<a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
-														<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
+														<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
 													</a>
 													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
 													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
@@ -449,28 +453,39 @@
 										<div class="product__info">
 											<p class="product__name">*userFriendlyName*</p>
 											<p class="product__sn sku">*modelName*</p>
-											<!-- <div class="product__price">
+											<div class="product__price">
 												<p class="product__cost">
-													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													<span class="number">*finalPrice*</span>
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 												</p>
 												<div>
 													<span class="product__discount">
-														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 														<span class="number">*originPrice*</span>
+														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													</span>
 													<span class="product__highlight">*discountMsg*</span>
 												</div>
-											</div> -->
-											<!-- <div class="product__members">
+											</div> 
+											<div class="product__members">
 												<span class="product__text">
 													<spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/>
 												</span>
 												<span class="product__highlight">
-													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 														<span class="number">*membershipPriceValue*</span>
+														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 												</span>
-											</div> -->
+											</div>
+											<div class="product__bottom">
+												<div class="learn-more">
+													<a role="button" href="*modelUrlPath*" class="button__item learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
+														<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
+													</a>
+												</div>
+												<div class="button">
+													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
+												</div>
+											</div>
 										</div>
 									</div>
 								</template>
@@ -478,7 +493,7 @@
 									<div id="entertaiment" class="tab__panel tab__panel--entertaiment" style="display: block;">
 										<div class="section__header">
 											<div class="section__anchor">
-												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
+												<p>LG CONSIGLIA</p>
 											</div>
 											<p class="section__title">Porta il tuo #intrattenimento a un livello superiore</p>
 											<p class="section__desc">Ottieni il massimo dal tuo intrattenimento grazie ai TV OLED e alle nostre soundbar</p>
@@ -568,8 +583,8 @@
 											<div class="section__anchor">
 												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
 											</div>
-											<p class="section__title">Porta le tue sessioni di gioco a un livello superiore</p>
-											<p class="section__desc">Cambia le regole del gioco grazie ai tempi di risposta straordinari dei Monitor UltraGear e dei nostri accessori per il gaming</p>
+											<p class="section__title">Porta le tue #sessioni di gioco a un livello superiore</p>
+											<p class="section__desc">Cambia le regole del gioco grazie ai tempi di risposta straordinari dei Monitor UltraGear</p>
 											<p class="section__desc section__desc--secondary">Crea il set più adatto a te</p>
 										</div>
 										<div class="showroom">
@@ -630,7 +645,7 @@
 											<div class="section__anchor">
 												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
 											</div>
-											<p class="section__title">Porta il tuo SmartWorking a un livello superiore</p>
+											<p class="section__title">Porta il tuo #smart working a un livello superiore</p>
 											<p class="section__desc">Crea la tua postazione per lo SmartWorking grazie a PC leggeri e performanti, monitor dai colori definiti e cuffie bluetooth immersive</p>
 											<p class="section__desc section__desc--secondary">Crea il set più adatto a te</p>
 										</div>
@@ -719,7 +734,7 @@
 											<div class="section__anchor">
 												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
 											</div>
-											<p class="section__title">Porta la tua casa a un livello superiore</p>
+											<p class="section__title">Porta la tua #casa a un livello superiore</p>
 											<p class="section__desc">Seplifica la tua vita quotidiana con i nostri elettrodomestici intelligenti e connessi</p>
 											<p class="section__desc section__desc--secondary">Crea il set più adatto a te</p>
 										</div>
@@ -835,9 +850,9 @@
 											<div class="section__anchor">
 												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
 											</div>
-											<p class="section__title">Porta la tua efficienza energetica a un livello superiore</p>
+											<p class="section__title">Porta la tua #efficienza energetica a un livello superiore</p>
 											<p class="section__desc">Risparmia energia e denaro grazie ai nostri elettrodomestici ad elevata efficienza energetica</p>
-											<p class="section__desc section__desc--secondary">Crea il set più adatto a te</p>
+											<!-- <p class="section__desc section__desc--secondary">Crea il set più adatto a te</p> -->
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
@@ -940,7 +955,7 @@
 							<p class="section__title">Crea il tuo set</p>
 							<p class="section__desc">Fino a 20% di sconto acquistando due o più prodotti</p>
 							<p class="section__desc section__desc--secondary">Escluse Offerte Top</p>
-							<p class="section__desc section__desc--secondary">Visualizza lo sconto direttamente a carrello. Cumulabile con offerta di benvenuto del 5% e extra 2% sconto.</p>
+							<p class="section__desc section__desc--secondary">Visualizza lo sconto 13% direttamente a carrello. Cumulabile con offerta di benvenuto del 5% e extra 2% sconto.</p>
 							<div class="item-set">
 								<div class="item-set__set">
 									<div class="item-set__item">
@@ -965,7 +980,7 @@
 										<em class="highlight">EXTRA 13%</em>
 										<p class="item-set__text item-set__text--highlight">Sconto a carrello su un set di prodotti</p>
 										<p class="item-set__text">Extra 5% Offerta di Benvenuto</p>
-										<p class="item-set__text">Extra 2% Per utenti registrati</p>
+										<p class="item-set__text">Extra 2% Per acquisti futuri</p>
 									</div>
 								</div>
 							</div>
@@ -1010,6 +1025,16 @@
 										data-link-area="memberdays_H1_Offer_click_P1_COMPUTER_PRODUCTS"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">INFORMATICA</a>
+									</div>
+									<div class="tab__item">
+										<a href="#conditioners" role="button" 
+										data-tab-name="conditioners" 
+										data-track-group="mic" 
+										data-track-opt="category" 
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_CONDITIONERS"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">CONDIZIONATORI</a>
 									</div>
 								</div>
 
@@ -1066,7 +1091,7 @@
 								</template>
 								<div class="tab__contents">
 									<div id="tv" class="tab__panel tab__panel--tv" style="display: block;">
-										<p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p>
+										<!-- <p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p> -->
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1082,12 +1107,12 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV"
 												data-link-name="memberdays_2023H1"
-												class="button__item button__item--secondary">MOSTRA DI PIÙ TV</a>
+												class="button__item button__item--secondary">SCOPRI DI PIÙ TV</a>
 											</div>
 										</div>
 									</div>
 									<div id="audio" class="tab__panel tab__panel--audio" style="display: none;">
-										<p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p>
+										<!-- <p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p> -->
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1103,12 +1128,12 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_AUDIO"
 												data-link-name="memberdays_2023H1"
-												class="button__item button__item--secondary">MOSTRA DI PIÙ AUDIO</a>
+												class="button__item button__item--secondary">SCOPRI DI PIÙ AUDIO</a>
 											</div>
 										</div>
 									</div>
 									<div id="homeappliance" class="tab__panel tab__panel--homeappliance" style="display: none;">
-										<p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p>
+										<!-- <p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p> -->
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1124,12 +1149,12 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_HOMEAPPLIANCE"
 												data-link-name="memberdays_2023H1"
-												class="button__item button__item--secondary">MOSTRA DI PIÙ ELETTRODOMESTICI</a>
+												class="button__item button__item--secondary">SCOPRI DI PIÙ ELETTRODOMESTICI</a>
 											</div>
 										</div>
 									</div>
 									<div id="computerproducts" class="tab__panel tab__panel--computerproducts" style="display: none;">
-										<p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p>
+										<!-- <p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p> -->
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1145,7 +1170,28 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTERPRODUCTS"
 												data-link-name="memberdays_2023H1"
-												class="button__item button__item--secondary">MOSTRA DI PIÙ INFORMATICA</a>
+												class="button__item button__item--secondary">SCOPRI DI PIÙ INFORMATICA</a>
+											</div>
+										</div>
+									</div>
+									<div id="conditioners" class="tab__panel tab__panel--conditioners" style="display: none;">
+										<!-- <p class="tab__noti">Clicca su VEDI DI PIÙ qui sotto per scoprire più prodotti LG</p> -->
+										<div class="product">
+											<div class="product__mask">
+												<div class="product__list"></div>
+											</div>
+										</div>
+										<div class="button">
+											<div class="button__row">
+												<a href="https://www.lg.com/it/condizionatori" target="_blank" role="button" 
+												tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="CONDITIONERS"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_CONDITIONERS"
+												data-link-name="memberdays_2023H1"
+												class="button__item button__item--secondary">SCOPRI DI PIÙ CONDIZIONATORI</a>
 											</div>
 										</div>
 									</div>
