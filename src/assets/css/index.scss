@@ -119,6 +119,19 @@
 			}
 		}
 
+		@media screen and (min-width: 1920px) {
+			&__visual {
+				background-position: left 50% bottom -80px;
+				background-size: cover;
+			}
+		}
+		@media screen and (min-width: 2000px) {
+			&__visual {
+				background-size: auto 100%;
+				background-position: 50% bottom;
+			}
+		}
+
 		@media (max-width: 1024px) {
 
 			padding-bottom: 110px;

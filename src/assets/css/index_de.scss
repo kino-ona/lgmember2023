@@ -134,6 +134,19 @@
 			}
 		}
 
+		.tab {
+			@media screen and (max-width: 768px) {
+				.product__price {
+					height: 50px;
+				}
+				.product__members {
+					display: flex;
+					flex-direction: column;
+					gap: 5px;
+				}
+			}
+		}
+
 		// .tab__panel--entertaiment .showroom__item {
 		// 	background-image: url(../images/de/bg_showroom_entertaiment01.png);
 		// }
