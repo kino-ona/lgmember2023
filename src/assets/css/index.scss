@@ -139,7 +139,7 @@
 			
 			&__visual {
 				padding: 280px 0 30px;
-				background: url('../images/m_bg_visual.png') no-repeat 50% 15%;
+				background: url('../images/m_bg_visual.png') no-repeat 50% 5%;
 				background-size: 100% auto;
 
 				.button {
@@ -926,7 +926,7 @@
 				}
 
 				&__target {
-					// display: none;
+					display: none;
 					position: absolute;
 					left: 52px;
 					top: 50%;

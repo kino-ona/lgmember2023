@@ -503,54 +503,56 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/it/tv/lg-oled55g26la" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_OLED55G26LA"
+														data-track-sku="OLED55G26LA"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/it/tv/lg-oled55g26la" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_OLED55G26LA"
+															data-track-sku="OLED55G26LA"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_entertaiment01_01.png" alt="LG OLED evo Gallery Edition">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">LG OLED evo Gallery Edition</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>LG OLED evo Gallery Edition con pixel auto-illuminanti e risoluzione 4K</li>
+																		<li>Tecnologia Brightness Booster Max per immagini più luminose del 30%</li>
+																		<li>Processore α9 Gen5 con AI, il nostro processore più potente con Dynamic Tone Mapping Pro</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/it/soundbar/lg-sc9s" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_SC9S"
+														data-track-sku="SC9S"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/it/soundbar/lg-sc9s" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_SC9S"
+															data-track-sku="SC9S"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_entertaiment01_02.png" alt="Soundbar SC9S">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Soundbar SC9S</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Triplo canale up-firing: il canale centrale up-firing rende le voci e i dialoghi dei film più chiari e udibili</li>
+																		<li>Perfetta per i TV LG OLED C2 e C3: la staffa inclusa permette di installarla in armonia col TV, sia se lo appendi sia se lo appoggi sul mobile</li>
+																		<li>Audio spaziale su 3 livelli: goditi un'esperienza audio più immersiva grazie alla creazione di un piano d'ascolto virtuale intermedio</li>
 																	</ul>
 																</div>
 															</a>
@@ -591,27 +593,28 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/it/monitor/lg-45gr95qe-b" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B"
+														data-track-sku="45GR95QE-B"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/it/monitor/lg-45gr95qe-b" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B"
+															data-track-sku="45GR95QE-B"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_gaming01_01.png" alt="LG UltraGear">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">LG UltraGear</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Monitor Gaming OLED 21:9 curvo con risoluzione WQHD 3440x1440</li>
+																		<li>Monitor Gaming OLED 21:9 Curvo da 45" con refresh rate 240Hz</li>
+																		<li>Incredibile tempo di risposta: solo 0.03ms GtG</li>
 																	</ul>
 																</div>
 															</a>
@@ -653,54 +656,56 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/it/computer/lg-16z90rs-gaa77d" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_16Z90RS-G.AA77D"
+														data-track-sku="16Z90RS-G.AA77D"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/it/computer/lg-16z90rs-gaa77d" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_16Z90RS-G.AA77D"
+															data-track-sku="16Z90RS-G.AA77D"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_working01_01.png" alt="LG gram Style">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">LG gram Style</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Finitura in vetro che risplende e cambia dinamicamente colore in base all'illuminazione ambientale</li>
+																		<li>Windows 11 Home (64bit) preinstallato</li>
+																		<li>Display OLED con risoluzione 3200x2000, DCI-P3 100%, HDR True Black 500 e refresh rate 120Hz</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/it/monitor/lg-28mq780-b" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_28MQ780-B"
+														data-track-sku="28MQ780-B"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/it/monitor/lg-28mq780-b" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_28MQ780-B"
+															data-track-sku="28MQ780-B"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_working01_02.png" alt="LG DualUp">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">LG DualUp</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Monitor Dual Up con stand Ergo</li>
+																		<li>Risoluzione SDQHD 2560x2880 HDR</li>
+																		<li>Pannello Nano IPS</li>
 																	</ul>
 																</div>
 															</a>
@@ -742,81 +747,84 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/it/frigoriferi/lg-gsxv90mbae" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GSXV90MBAE"
+														data-track-sku="GSXV90MBAE"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/it/frigoriferi/lg-gsxv90mbae" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GSXV90MBAE"
+															data-track-sku="GSXV90MBAE"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_homekeeping01_01.png" alt="Frigorifero Side-by-Side InstaView Door-in-Door">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Frigorifero Side-by-Side InstaView Door-in-Door</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>InstaView Door-in-Door™: guarda cosa c'è in frigo e accedi facilmente ai cibi senza aprire la porta principale, evitando dispersioni di aria fredda</li>
+																		<li>Door & Linear Cooling™: raffredda più rapidamente il frigorifero e mantiene la temperatura costante per conservare i tuoi cibi più a lungo</li>
+																		<li>Dispenser con UVnano: igienizza il beccuccio del dispenser dell'acqua ogni ora eliminando il 99,9% dei batteri con l'azione dei raggi ultravioletti</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/it/lavastoviglie/lg-df455hss" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_DF455HSS"
+														data-track-sku="DF455HSS"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button" 
+															<a href="https://www.lg.com/it/lavastoviglie/lg-df455hss" target="_blank" role="button" 
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_DF455HSS"
+															data-track-sku="DF455HSS"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_homekeeping01_02.png" alt="Lavastoviglie libera installazione">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Lavastoviglie libera installazione</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Sistema QuadWash™: i 4 bracci irroratori  per un lavaggio profondo e accurato</li>
+																		<li>Vapore TrueSteam™: rimuove fino al 99.999% dei batteri</li>
+																		<li>EasyRack™ Plus con 3 cestelli: rastrelliera personalizzabile per una massima flessibilità di carico</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button" 
+														<a href="https://www.lg.com/it/microonde/lg-MH7235GPS" target="_blank" role="button" 
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_MH7235GPS"
+														data-track-sku="MH7235GPS"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button" 
+															<a href="https://www.lg.com/it/microonde/lg-MH7235GPS" target="_blank" role="button" 
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_MH7235GPS"
+															data-track-sku="MH7235GPS"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_homekeeping01_03.png" alt="Microonde 32 litri">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Microonde 32 litri</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Tecnologia Smart Inverter: cottura più rapida e uniforme</li>
+																		<li>1200W di potenza e 32 litri di capacità</li>
+																		<li>Funzione Grill: rende i cibi più croccanti fuori e succosi dentro</li>
 																	</ul>
 																</div>
 															</a>
@@ -858,54 +866,83 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/it/asciugatrici/lg-RC90V9AV2W" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_RC90V9AV2W"
+														data-track-sku="RC90V9AV2W"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/it/asciugatrici/lg-RC90V9AV2W" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_RC90V9AV2W"
+															data-track-sku="RC90V9AV2W"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_energysaving01_01.png" alt="Asciugatrice 9kg Pompa di calore DUAL Inverter">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Asciugatrice 9kg Pompa di calore DUAL Inverter</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Massimo risparmio: la nostra asciugatrice è il 10% più efficiente rispetto a quelle tradizionali in classe A+++</li>
+																		<li>Pompa di calore DUAL Inverter: la nuova generazione di pompa di calore più efficiente che ti fa risparmiare energia e asciuga delicatamente i tuoi capi</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/it/lavatrici/lg-f6wv710sga" target="_blank" role="button"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F6WV710SGA"
+														data-track-sku="F6WV710SGA"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/it/lavatrici/lg-f6wv710sga" target="_blank" role="button"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F6WV710SGA"
+															data-track-sku="F6WV710SGA"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/it/img_showroom_energysaving01_02.png" alt="Lavatrice 10,5kg AI DD™">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Lavatrice 10,5kg AI DD™</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Risparmia più energia: la nostra lavatrice è il 10% più efficiente rispetto a quelle tradizionali in classe A</li>
+																		<li>Tecnologia AI DD™: riconosce i tessuti con 20.000 combinazioni di lavaggio e si prende cura dei tuoi capi</li>
+																		<li>TurboWash 360: 4 getti di acqua con effetto doccia 3D per un pulito profondo in soli 39 minuti</li>
+																	</ul>
+																</div>
+															</a>
+														</div>
+													</div>
+													<div class="showroom__layer">
+														<a href="https://www.lg.com/it/frigoriferi/lg-gbb92mcabp" target="_blank" role="button"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_GBB92MCABP"
+														data-track-sku="GBB92MCABP"
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
+															<span class="sr-only">detail view</span>
+														</a>
+														<div class="showroom__target">
+															<a href="https://www.lg.com/it/frigoriferi/lg-gbb92mcabp" target="_blank" role="button"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_GBB92MCABP"
+															data-track-sku="GBB92MCABP"
+															data-link-name="memberdays_2023H1" class="showroom__link">
+																<div class="showroom__img">
+																	<img src="${path}/assets/images/it/img_showroom_energysaving01_03.png" alt="Frigorifero combinato">
+																</div>
+																<div class="showroom__cont">
+																	<p class="showroom__name">Frigorifero combinato</p>
+																	<ul class="showroom__desc">
+																		<li>FRESH Converter™: porta il cassetto Zero Gradi della carne e del pesce alla stessa temperatura del frigo per conservare qualunque alimento</li>
+																		<li>FRESH Balancer™: regola l'umidità del cassetto in modo da conservare frutta o verdura in maniera ottimale</li>
+																		<li>Display Metal Touch: il display esterno è integrato alla perfezione nella porta, donando al tuo frigorifero un tocco di raffinatezza</li>
 																	</ul>
 																</div>
 															</a>
