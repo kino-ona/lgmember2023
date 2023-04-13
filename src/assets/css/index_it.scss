@@ -3,10 +3,9 @@
 
 .lgmembersweek {
 	.visual__visual {
-		background: url(../images/it/bg_visual.png) no-repeat 50% bottom;
-		background-size: cover;
 		@media screen and (min-width: 1920px) {
 			background-position: left 50% bottom -80px;
+			background-size: cover;
 		}
 		@media screen and (min-width: 2000px) {
 			background-size: auto 100%;
@@ -40,6 +39,17 @@
 					}
 				}
 			}
+			@media screen and (max-width: 768px) {
+				.product__price {
+					height: 50px;
+				}
+				.product__members {
+					display: flex;
+					flex-direction: column;
+					gap: 5px;
+				}
+			}
+			
 		}
 	}
 
