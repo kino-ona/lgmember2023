@@ -111,5 +111,33 @@
 				margin-top:10px;
 			}
 		}
+
+
+		.coupon {
+
+
+			&__benefit {
+
+				.benefit-list {
+
+					&__item {
+
+						&:nth-child(2) {
+
+							i {
+								background-image: url('../images/it/ico_coupon_benefit02.svg');
+							}
+						}
+
+						&:nth-child(3) {
+
+							i {
+								background-image: url('../images/it/ico_coupon_benefit03.svg');
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
