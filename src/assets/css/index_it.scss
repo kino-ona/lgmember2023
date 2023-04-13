@@ -8,12 +8,58 @@
 
 			&__panel {
 
+				&--working {
+
+					.showroom {
+
+						&__item {
+							background-image: url('../images/it/bg_showroom_working01.png');
+						}
+
+						&__layer {
+							
+							&:nth-child(1) {
+								left: 33.33%;
+								top: 38.46%;
+							}
+
+							&:nth-child(2) {
+								left: 71.42%;
+								top: 49.81%;
+							}
+						}
+					}
+				}
+
 				&--homekeeping {
 
 					.showroom {
 
 						&__item {
 							background-image: url('../images/it/bg_showroom_homekeeping01.png');
+						}
+
+						&__layer {
+
+							&:nth-child(2) {
+								left: 63.67%;
+								top: 55.77%;
+
+								.showroom__target {
+									left: auto;
+									right: 52px;
+								}
+							}
+
+							&:nth-child(3) {
+								left: 61.67%;
+								top: 26.73%;
+
+								.showroom__target {
+									left: auto;
+									right: 52px;
+								}
+							}
 						}
 					}
 				}
