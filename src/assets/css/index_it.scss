@@ -3,6 +3,7 @@
 
 .lgmembersweek {
 	.experience {
+		background-color: #31302C;
 
 		.tab {
 
@@ -105,7 +106,22 @@
 		}
 	}
 
+	.hotdeal {
+		&:before {
+			background-color: #31302C;
+		}
+	}
+
 	.benefit {
+		 background-color: #31302C;
+		.coupon-list__contents--last {
+			margin-top: 20px;
+			margin-bottom: -15px;
+			text-align:center;
+			.coupon-list__text--secondary {
+				font-weight: 700 !important;
+			}
+		}
 		.coupon__benefit .benefit-list__item {
 			.benefit-list__text--secondary {
 				margin-top:10px;
