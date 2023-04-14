@@ -517,6 +517,15 @@
 						&__row {
 							display: block;
 							padding: 30px 0 42px;
+
+							&:before {
+
+								left: -35px;
+							}
+
+							&:after {
+								right: -35px;
+							}
 						}
 
 						&__coupon {
