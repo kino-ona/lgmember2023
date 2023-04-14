@@ -110,28 +110,28 @@
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
 								<a href="#SpecialDeal" role="button" 
-								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1_spacialdeal" 
 								data-link-name="memberdays_2023H1" 
 								class="link">NOCH MEHR SPAREN</a>
 							</li>
 							<li class="list-item">
 								<a href="#MemberExclusiveBenefits" role="button" 
-								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1_memberexclusivebenefits" 
 								data-link-name="memberdays_2023H1" 
 								class="link">EXKLUSIVE VORTEILE FÜR LG-MITGLIEDER</a>
 							</li>
 							<li class="list-item">
 								<a href="#NextLevelExperience" role="button" 
-								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1_nextlevelexperience" 
 								data-link-name="memberdays_2023H1" 
 								class="link">DEIN EXPERIENCE UPDATE</a>
 							</li>
 							<li class="list-item">
 								<a href="#BuymoreSavemore" role="button" 
-								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1_buymoresavemore" 
 								data-link-name="memberdays_2023H1" 
 								class="link">NEXT LEVEL BUNDLE ANGEBOTE</a>
@@ -162,6 +162,7 @@
 						<div class="button">
 							<div class="button__row">
 								<a href="#SpecialDeal" role="button"  
+								data-track-group="MICROSITE"
 								data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H1_Mainbanner_click_P1_VIEW_PRODUCTS"
   							data-link-name="memberdays_2023H1"
@@ -170,6 +171,7 @@
 						</div>
 						<div class="visual__term">
 							<a href="https://www.lg.com/de/member-days-lg-tnc" role="button"  target="_blank" 
+								data-track-group="MICROSITE"
 								data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H1_Mainbanner_click_P1_Terms_Conditions"
 								data-link-name="memberdays_2023H1">
@@ -237,13 +239,13 @@
 												</div>
 												<div class="product__bottom">
 													<div class="learn-more">
-														<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="largest_savings_learn_more_click" data-track-name="largest_savings_learn_more_click" data-link-name="largest_savings_learn_more_click">
+														<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="MICROSITE" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="largest_savings_learn_more_click" data-track-name="largest_savings_learn_more_click" data-link-name="largest_savings_learn_more_click">
 															<span class="learn-more__text"><spring:message code='component-learnMore' text='MEHR ERFAHREN'/></span>
 														</a>
 													</div>
 													<div class="button">
-														<a role="button" href="#" class="button__item button__item--red atc-members-week add_to_cart" data-track-group="product" data-link-area="largest_savings_add_to_cart_click" data-track-name="largest_savings_add_to_cart_click" data-link-name="largest_savings_add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
-														<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
+														<a role="button" href="#" class="button__item button__item--red atc-members-week add_to_cart" data-track-group="MICROSITE" data-link-area="largest_savings_add_to_cart_click" data-track-name="largest_savings_add_to_cart_click" data-link-name="largest_savings_add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+														<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="MICROSITE" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 													</div>
 												</div>
 											</div>
@@ -251,12 +253,12 @@
 									</template>
 									<div class="product__list"></div>
 									<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
-									data-track-group="mic" 
+									data-track-group="MICROSITE" 
 									data-track-name="largest_savings_prev_click"
 									data-link-area="memberdays_H1_Largestsavings_click_P1 Prev" 
 									data-link-name="memberdays_2023H1"><span>Preview</span></a>
 									<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
-									data-track-group="mic" 
+									data-track-group="MICROSITE" 
 									data-track-name="largest_savings_next_click"
 									data-link-area="memberdays_H1_Largestsavings_click_P1 Next" 
 									data-link-name="memberdays_2023H1"><span>Next</span></a>
@@ -357,7 +359,7 @@
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
 										<a href="#entertaiment" role="button"  
-										data-tab-name="entertaiment" data-track-group="mic" data-track-opt="theme" 
+										data-tab-name="entertaiment" data-track-group="MICROSITE" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_entertaiment"
 										data-link-name="memberdays_2023H1"
@@ -365,7 +367,7 @@
 									</div>
 									<div class="tab__item">
 										<a href="#gaming" role="button"  
-										data-tab-name="gaming" data-track-group="mic" data-track-opt="theme" 
+										data-tab-name="gaming" data-track-group="MICROSITE" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_gaming"
 										data-link-name="memberdays_2023H1"
@@ -373,7 +375,7 @@
 									</div>
 									<div class="tab__item">
 										<a href="#working" role="button"  
-										data-tab-name="working" data-track-group="mic" data-track-opt="theme" 
+										data-tab-name="working" data-track-group="MICROSITE" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_working"
 										data-link-name="memberdays_2023H1"
@@ -381,7 +383,7 @@
 									</div>
 									<div class="tab__item">
 										<a href="#homekeeping" role="button" 
-										data-tab-name="homekeeping" data-track-group="mic" data-track-opt="theme" 
+										data-tab-name="homekeeping" data-track-group="MICROSITE" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_homekeeping"
 										data-link-name="memberdays_2023H1"
@@ -389,7 +391,7 @@
 									</div>
 									<div class="tab__item">
 										<a href="#energysaving" role="button" 
-										data-tab-name="energysaving" data-track-group="mic" data-track-opt="theme" 
+										data-tab-name="energysaving" data-track-group="MICROSITE" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_energysaving"
 										data-link-name="memberdays_2023H1"
@@ -412,11 +414,11 @@
 											-->
 											<div class="button">
 												<div class="button__row">
-													<a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
+													<a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="MICROSITE" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='mehr erfahren'/></span>
 													</a>
-													<a role="button" href="#" class="button__item atc-members-week add_to_cart" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
-													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
+													<a role="button" href="#" class="button__item atc-members-week add_to_cart" data-track-group="MICROSITE" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="MICROSITE" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 												</div>
 											</div>
 										</div>
@@ -447,13 +449,13 @@
 											</div>
 											<div class="product__bottom">
 												<div class="learn-more">
-													<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
+													<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="MICROSITE" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='mehr erfahren'/></span>
 													</a>
 												</div>
 												<div class="button">
-													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
-													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
+													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="MICROSITE" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="MICROSITE" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 												</div>
 											</div>
 										</div>
@@ -474,6 +476,7 @@
 												<div class="showroom__item">
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/tv/lg-oled65c37la" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_OLED65C37LA.AEUD"
 														data-track-sku="OLED65C37LA.AEUD"
@@ -482,6 +485,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/tv/lg-oled65c37la" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_OLED65C37LA.AEUD"
 															data-track-sku="OLED65C37LA.AEUD"
@@ -501,6 +505,7 @@
 													</div>
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/audio/lg-dsc9s" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_DSC9S.DDEULLK"
 														data-track-sku="DSC9S.DDEULLK"
@@ -509,6 +514,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/audio/lg-dsc9s" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_DSC9S.DDEULLK"
 															data-track-sku="DSC9S.DDEULLK"
@@ -536,12 +542,12 @@
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
 												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
@@ -562,6 +568,7 @@
 												<div class="showroom__item">
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/monitore/lg-45gr95qe" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B.AEU"
 														data-track-sku="45GR95QE-B.AEU"
@@ -570,6 +577,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/monitore/lg-45gr95qe" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B.AEU"
 															data-track-sku="45GR95QE-B.AEU"
@@ -598,12 +606,12 @@
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
 												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
@@ -624,6 +632,7 @@
 												<div class="showroom__item">
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/notebooks/lg-17z90r-gaa76g" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_17Z90R-G.AA76G"
 														data-track-sku="17Z90R-G.AA76G"
@@ -632,6 +641,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/notebooks/lg-17z90r-gaa76g" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_17Z90R-G.AA76G"
 															data-track-sku="17Z90R-G.AA76G"
@@ -651,6 +661,7 @@
 													</div>
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/monitore/lg-28mq780-b" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_28MQ780-B.AEU"
 														data-track-sku="28MQ780-B.AEU"
@@ -659,6 +670,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/monitore/lg-28mq780-b" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_28MQ780-B.AEU"
 															data-track-sku="28MQ780-B.AEU"
@@ -678,6 +690,7 @@
 													</div>
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/audio/lg-tone-dfp8w" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_TONE-DFP8W.CDEULLK"
 														data-track-sku="TONE-DFP8W.CDEULLK"
@@ -686,6 +699,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/audio/lg-tone-dfp8w" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_TONE-DFP8W.CDEULLK"
 															data-track-sku="TONE-DFP8W.CDEULLK"
@@ -714,12 +728,12 @@
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
 												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
@@ -740,6 +754,7 @@
 												<div class="showroom__item">
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv90bsde" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GSXV90BSDE.ABSQEUR"
 														data-track-sku="GSXV90BSDE.ABSQEUR"
@@ -748,6 +763,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv90bsde" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GSXV90BSDE.ABSQEUR"
 															data-track-sku="GSXV90BSDE.ABSQEUR"
@@ -767,6 +783,8 @@
 													</div>
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/waschmaschinen/lg-f4wv912p2" target="_blank" role="button"
+														data-track-group="MICROSITE"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_F4WV912P2.ABWQPDG"
 														data-track-sku="F4WV912P2.ABWQPDG"
@@ -775,6 +793,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/waschmaschinen/lg-f4wv912p2" target="_blank" role="button" 
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_F4WV912P2.ABWQPDG"
 															data-track-sku="F4WV912P2.ABWQPDG"
@@ -803,12 +822,12 @@
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
 												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
@@ -829,6 +848,7 @@
 												<div class="showroom__item">
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/waschmaschinen/lg-f4nv3193" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F4NV3193.ABWQWDG"
 														data-track-sku="F4NV3193.ABWQWDG"
@@ -837,6 +857,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/waschmaschinen/lg-f4nv3193" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F4NV3193.ABWQWDG"
 															data-track-sku="F4NV3193.ABWQWDG"
@@ -856,6 +877,7 @@
 													</div>
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/trockner/lg-v3r08t" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_V3R08T.BBWQKDG"
 														data-track-sku="V3R08T.BBWQKDG"
@@ -864,6 +886,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/trockner/lg-v3r08t" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_V3R08T.BBWQKDG"
 															data-track-sku="V3R08T.BBWQKDG"
@@ -883,6 +906,7 @@
 													</div>
 													<div class="showroom__layer">
 														<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gbb92mcbap" target="_blank" role="button"
+														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_GBB92MCBAP.AMCQEUR"
 														data-track-sku="GBB92MCBAP.AMCQEUR"
@@ -891,6 +915,7 @@
 														</a>
 														<div class="showroom__target">
 															<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gbb92mcbap" target="_blank" role="button"
+															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_GBB92MCBAP.AMCQEUR"
 															data-track-sku="GBB92MCBAP.AMCQEUR"
@@ -918,12 +943,12 @@
 											<div class="product__mask">
 												<div class="product__list product__swiper"></div>
 												<a href="#" role="button" class="carousel-nav carousel-prev" aria-label="Previous"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_prev_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Prev" 
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-name="experience_next_click	"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
@@ -984,7 +1009,7 @@
 									<div class="tab__item tab__item--active">
 										<a href="#tv" role="button" 
 										data-tab-name="tv" 
-										data-track-group="mic" 
+										data-track-group="MICROSITE" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
 										data-link-area="memberdays_H1_Offer_click_P1_TV"
@@ -994,7 +1019,7 @@
 									<div class="tab__item">
 										<a href="#audio" role="button" 
 										data-tab-name="audio" 
-										data-track-group="mic" 
+										data-track-group="MICROSITE" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
 										data-link-area="memberdays_H1_Offer_click_P1_AUDIO"
@@ -1004,7 +1029,7 @@
 									<div class="tab__item">
 										<a href="#homeappliance" role="button" 
 										data-tab-name="homeappliance" 
-										data-track-group="mic" 
+										data-track-group="MICROSITE" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
 										data-link-area="memberdays_H1_Offer_click_P1_HOME_APPLIANCE"
@@ -1014,7 +1039,7 @@
 									<div class="tab__item">
 										<a href="#computerproducts" role="button" 
 										data-tab-name="computerproducts" 
-										data-track-group="mic" 
+										data-track-group="MICROSITE" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
 										data-link-area="memberdays_H1_Offer_click_P1_COMPUTER_PRODUCTS"
@@ -1062,13 +1087,13 @@
 											</div>
 											<div class="product__bottom">
 												<div class="learn-more">
-													<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
+													<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="MICROSITE" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='MEHR ERFAHREN'/></span>
 													</a>
 												</div>
 												<div class="button">
-													<a role="button" href="#" class="button__item atc-members-week add_to_cart" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
-													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
+													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="MICROSITE" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="MICROSITE" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 												</div>
 											</div>
 										</div>
@@ -1086,7 +1111,7 @@
 											<div class="button__row">
 												<a href="https://www.lg.com/de/tv" target="_blank" role="button" 
 												tabindex="0" 
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-opt="category" 
 												data-track-val="TV"  
 												data-track-name="offer_see_more_click" 
@@ -1108,7 +1133,7 @@
 											<div class="button__row">
 												<a href="https://www.lg.com/de/audio" target="_blank" role="button" 
 												tabindex="0" 
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-opt="category" 
 												data-track-val="AUDIO"  
 												data-track-name="offer_see_more_click" 
@@ -1130,7 +1155,7 @@
 											<div class="button__row">
 												<a href="https://www.lg.com/de/haushaltsgeraete" target="_blank" role="button" 
 												tabindex="0" 
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-opt="category" 
 												data-track-val="HOMEAPPLIANCE"  
 												data-track-name="offer_see_more_click" 
@@ -1152,7 +1177,7 @@
 											<div class="button__row">
 												<a href="https://www.lg.com/de/it-produkte" target="_blank" role="button" 
 												tabindex="0" 
-												data-track-group="mic" 
+												data-track-group="MICROSITE" 
 												data-track-opt="category" 
 												data-track-val="COMPUTERPRODUCTS"  
 												data-track-name="offer_see_more_click" 
