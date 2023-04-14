@@ -497,7 +497,6 @@
 											</div>
 											<p class="section__title">Porta il tuo #intrattenimento a un livello superiore</p>
 											<p class="section__desc">Ottieni il massimo dal tuo intrattenimento grazie ai TV OLED e alle nostre soundbar</p>
-											<p class="section__desc section__desc--secondary">Crea il set più adatto a te</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
@@ -524,7 +523,7 @@
 																	<ul class="showroom__desc">
 																		<li>LG OLED evo Gallery Edition con pixel auto-illuminanti e risoluzione 4K</li>
 																		<li>Tecnologia Brightness Booster Max per immagini più luminose del 30%</li>
-																		<li>Processore α9 Gen5 con AI, il nostro processore più potente con Dynamic Tone Mapping Pro</li>
+																		<li>Processore α9 Gen5 con AI, il nostro processore più potente</li>
 																	</ul>
 																</div>
 															</a>
@@ -550,9 +549,9 @@
 																<div class="showroom__cont">
 																	<p class="showroom__name">Soundbar SC9S</p>
 																	<ul class="showroom__desc">
-																		<li>Triplo canale up-firing: il canale centrale up-firing rende le voci e i dialoghi dei film più chiari e udibili</li>
+																		<li>Triplo canale up-firing: rende le voci e i dialoghi dei film più chiari e udibili</li>
 																		<li>Perfetta per i TV LG OLED C2 e C3: la staffa inclusa permette di installarla in armonia col TV, sia se lo appendi sia se lo appoggi sul mobile</li>
-																		<li>Audio spaziale su 3 livelli: goditi un'esperienza audio più immersiva grazie alla creazione di un piano d'ascolto virtuale intermedio</li>
+																		<li>Audio spaziale su 3 livelli: goditi un'esperienza audio più immersiva</li>
 																	</ul>
 																</div>
 															</a>
@@ -587,7 +586,6 @@
 											</div>
 											<p class="section__title">Porta le tue #sessioni di gioco a un livello superiore</p>
 											<p class="section__desc">Cambia le regole del gioco grazie ai tempi di risposta straordinari dei Monitor UltraGear</p>
-											<p class="section__desc section__desc--secondary">Crea il set più adatto a te</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
@@ -650,7 +648,6 @@
 											</div>
 											<p class="section__title">Porta il tuo #smart working a un livello superiore</p>
 											<p class="section__desc">Crea la tua postazione per lo SmartWorking grazie a PC leggeri e performanti, monitor dai colori definiti e cuffie bluetooth immersive</p>
-											<p class="section__desc section__desc--secondary">Crea il set più adatto a te</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
@@ -741,7 +738,6 @@
 											</div>
 											<p class="section__title">Porta la tua #casa a un livello superiore</p>
 											<p class="section__desc">Seplifica la tua vita quotidiana con i nostri elettrodomestici intelligenti e connessi</p>
-											<p class="section__desc section__desc--secondary">Crea il set più adatto a te</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
@@ -766,9 +762,9 @@
 																<div class="showroom__cont">
 																	<p class="showroom__name">Frigorifero Side-by-Side InstaView Door-in-Door</p>
 																	<ul class="showroom__desc">
-																		<li>InstaView Door-in-Door™: guarda cosa c'è in frigo e accedi facilmente ai cibi senza aprire la porta principale, evitando dispersioni di aria fredda</li>
-																		<li>Door & Linear Cooling™: raffredda più rapidamente il frigorifero e mantiene la temperatura costante per conservare i tuoi cibi più a lungo</li>
-																		<li>Dispenser con UVnano: igienizza il beccuccio del dispenser dell'acqua ogni ora eliminando il 99,9% dei batteri con l'azione dei raggi ultravioletti</li>
+																		<li>InstaView Door-in-Door™: guarda cosa c'è in frigo e accedi facilmente ai cibi</li>
+																		<li>Door & Linear Cooling™: raffredda più rapidamente e mantiene la temperatura costante</li>
+																		<li>Dispenser con UVnano: igienizza il beccuccio del dispenser dell'acqua ogni ora eliminando il 99,9% dei batteri</li>
 																	</ul>
 																</div>
 															</a>
@@ -860,7 +856,6 @@
 											</div>
 											<p class="section__title">Porta la tua #efficienza energetica a un livello superiore</p>
 											<p class="section__desc">Risparmia energia e denaro grazie ai nostri elettrodomestici ad elevata efficienza energetica</p>
-											<!-- <p class="section__desc section__desc--secondary">Crea il set più adatto a te</p> -->
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
@@ -885,8 +880,9 @@
 																<div class="showroom__cont">
 																	<p class="showroom__name">Asciugatrice 9kg Pompa di calore DUAL Inverter</p>
 																	<ul class="showroom__desc">
-																		<li>Massimo risparmio: la nostra asciugatrice è il 10% più efficiente rispetto a quelle tradizionali in classe A+++</li>
-																		<li>Pompa di calore DUAL Inverter: la nuova generazione di pompa di calore più efficiente che ti fa risparmiare energia e asciuga delicatamente i tuoi capi</li>
+																		<li>Massimo risparmio: 10% più efficiente rispetto a quelle tradizionali in classe A+++</li>
+																		<li>Pompa di calore DUAL Inverter: più efficiente che ti fa risparmiare energia e asciuga delicatamente i tuoi capi</li>
+																		<li>Tecnologia Eco Hybrid: doppia modalità "Eco" e "Turbo" per scegliere se risparmiare energia o se asciugare in meno tempo i tuoi capi</li>
 																	</ul>
 																</div>
 															</a>
@@ -914,7 +910,7 @@
 																	<ul class="showroom__desc">
 																		<li>Risparmia più energia: la nostra lavatrice è il 10% più efficiente rispetto a quelle tradizionali in classe A</li>
 																		<li>Tecnologia AI DD™: riconosce i tessuti con 20.000 combinazioni di lavaggio e si prende cura dei tuoi capi</li>
-																		<li>TurboWash 360: 4 getti di acqua con effetto doccia 3D per un pulito profondo in soli 39 minuti</li>
+																		<li>TurboWash 360: 4 getti di acqua per un pulito profondo in soli 39 minuti</li>
 																	</ul>
 																</div>
 															</a>
@@ -940,9 +936,9 @@
 																<div class="showroom__cont">
 																	<p class="showroom__name">Frigorifero combinato</p>
 																	<ul class="showroom__desc">
-																		<li>FRESH Converter™: porta il cassetto Zero Gradi della carne e del pesce alla stessa temperatura del frigo per conservare qualunque alimento</li>
+																		<li>FRESH Converter™: porta il cassetto Zero Gradi alla stessa temperatura del frigo per conservare qualunque alimento</li>
 																		<li>FRESH Balancer™: regola l'umidità del cassetto in modo da conservare frutta o verdura in maniera ottimale</li>
-																		<li>Display Metal Touch: il display esterno è integrato alla perfezione nella porta, donando al tuo frigorifero un tocco di raffinatezza</li>
+																		<li>Display Metal Touch: display integrato alla perfezione nella porta dona al tuo frigorifero un tocco di raffinatezza</li>
 																	</ul>
 																</div>
 															</a>
