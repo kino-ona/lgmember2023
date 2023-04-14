@@ -20,13 +20,19 @@
 						&__layer {
 							
 							&:nth-child(1) {
-								left: 33.33%;
-								top: 38.46%;
+								left: 34.67%;
+								top: 50.77%;
 							}
 
 							&:nth-child(2) {
-								left: 71.42%;
-								top: 49.81%;
+								left: 63.33%;
+								top: 63.46%;
+
+								.showroom__target {
+									left: 52px;
+									top: 50%;
+									@include mixins.transform(translate(0, -50%));
+								}
 							}
 						}
 					}
@@ -119,7 +125,9 @@
 			margin-bottom: -15px;
 			text-align:center;
 			.coupon-list__text--secondary {
+				color: #FD312E;
 				font-weight: 700 !important;
+				font-size: 30px !important;
 			}
 		}
 		.coupon__benefit .benefit-list__item {
@@ -131,6 +139,39 @@
 
 		.coupon {
 
+			&__coupon {
+				
+				.coupon-list {
+
+					&__item {
+						
+						&:after {
+							content: '';
+							display: block;
+							position: absolute;
+							left: 50%;
+							bottom: -12px;
+							width: 24px;
+							height: 24px;
+							margin-left: -12px;
+							background-color: #000;
+							background-image: url('../images/ico_plus.svg');
+							background-repeat: no-repeat;
+							background-position: 50% 50%;
+							background-size: 10px 10px;
+							border-radius: 50%;
+						}
+					}
+					
+					&__row {
+						
+						&:before,
+						&:after {
+							background-color: #31302C;
+						}
+					}
+				}
+			}
 
 			&__benefit {
 
