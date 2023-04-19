@@ -93,6 +93,23 @@
 			}
 			
 		}
+
+		@media (max-width: 1024px) {
+			
+			.tab {
+
+				&__list {
+					top: 246px;
+				}
+
+				.section {
+
+					&__header {
+						height: 216px;
+					}
+				}
+			}
+		}
 	}
 
 	.product {

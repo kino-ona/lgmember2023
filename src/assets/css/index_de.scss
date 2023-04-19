@@ -107,6 +107,18 @@
 
 		.tab {
 			@media screen and (max-width: 768px) {
+
+				&__list {
+					top: 326px;
+				}
+
+				.section {
+
+					&__header {
+						height: 296px;
+					}
+				}
+
 				.product__price {
 					height: 50px;
 				}

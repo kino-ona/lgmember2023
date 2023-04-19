@@ -1162,7 +1162,7 @@
 					overflow-x: auto;
 					left: -20px;
 					right: -20px;
-					top: 254px;
+					top: 262px;
 					white-space: nowrap;
 					@include mixins.transform(translateX(0));
 				}
@@ -1188,6 +1188,13 @@
 					&:before {
 						left: -15px;
 						right: -15px;
+					}
+				}
+
+				.section {
+
+					&__header {
+						height: 232px;
 					}
 				}
 

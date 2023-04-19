@@ -161,6 +161,26 @@
 			}
 		}
 	}
+
+	.experience {
+
+		@media (max-width: 1024px) {
+
+			.tab {
+
+				&__list {
+					top: 282px;
+				}
+
+				.section {
+
+					&__header {
+						height: 252px;
+					}
+				}
+			}
+		}
+	}
 }
 
 .lgmembersweek-terms * {
