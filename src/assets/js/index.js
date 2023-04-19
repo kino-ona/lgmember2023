@@ -304,10 +304,10 @@ $(document).ready(function () {
       var menuWidth = $tabhmenu.width();
 
       var myScrollPos =
-        tabOffset + tabWidth / 2 + menuScrollLeft - menuWidth / 2;
+        tabOffset + tabWidth / 2 + menuScrollLeft - menuWidth / 4;
       $tabhmenu.stop().animate(
         {
-          scrollLeft: myScrollPos - menuWidth / 2.7,
+          scrollLeft: myScrollPos - menuWidth / 4,
         },
         300
       );

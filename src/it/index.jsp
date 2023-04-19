@@ -499,7 +499,7 @@
 											<div class="section__anchor">
 												<p>LG CONSIGLIA</p>
 											</div>
-											<p class="section__title">Porta il tuo #intrattenimento a un livello superiore</p>
+											<p class="section__title">Il tuo #intrattenimento a un livello superiore</p>
 											<p class="section__desc">Ottieni il massimo dal tuo intrattenimento grazie ai TV OLED e alle nostre soundbar</p>
 										</div>
 										<div class="showroom">
@@ -581,7 +581,7 @@
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="MICROSITE" 
-												data-track-name="experience_next_click	"
+												data-track-name="experience_next_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
@@ -592,7 +592,7 @@
 											<div class="section__anchor">
 												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
 											</div>
-											<p class="section__title">Porta le tue #sessioni di gioco a un livello superiore</p>
+											<p class="section__title">Le tue #sessioni di gioco a un livello superiore</p>
 											<p class="section__desc">Cambia le regole del gioco grazie ai tempi di risposta straordinari dei Monitor UltraGear</p>
 										</div>
 										<div class="showroom">
@@ -645,7 +645,7 @@
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="MICROSITE" 
-												data-track-name="experience_next_click	"
+												data-track-name="experience_next_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
@@ -656,7 +656,7 @@
 											<div class="section__anchor">
 												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
 											</div>
-											<p class="section__title">Porta il tuo #smart working a un livello superiore</p>
+											<p class="section__title">Il tuo #smart working a un livello superiore</p>
 											<p class="section__desc">Crea la tua postazione per lo SmartWorking grazie a PC leggeri e performanti, monitor dai colori definiti e cuffie bluetooth immersive</p>
 										</div>
 										<div class="showroom">
@@ -739,7 +739,7 @@
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="MICROSITE" 
-												data-track-name="experience_next_click	"
+												data-track-name="experience_next_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
@@ -750,7 +750,7 @@
 											<div class="section__anchor">
 												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
 											</div>
-											<p class="section__title">Porta la tua #casa a un livello superiore</p>
+											<p class="section__title">La tua #casa a un livello superiore</p>
 											<p class="section__desc">Seplifica la tua vita quotidiana con i nostri elettrodomestici intelligenti e connessi</p>
 										</div>
 										<div class="showroom">
@@ -863,7 +863,7 @@
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="MICROSITE" 
-												data-track-name="experience_next_click	"
+												data-track-name="experience_next_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
@@ -874,7 +874,7 @@
 											<div class="section__anchor">
 												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
 											</div>
-											<p class="section__title">Porta la tua #efficienza energetica a un livello superiore</p>
+											<p class="section__title">La tua #efficienza energetica a un livello superiore</p>
 											<p class="section__desc">Risparmia energia e denaro grazie ai nostri elettrodomestici ad elevata efficienza energetica</p>
 										</div>
 										<div class="showroom">
@@ -986,7 +986,7 @@
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="MICROSITE" 
-												data-track-name="experience_next_click	"
+												data-track-name="experience_next_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
