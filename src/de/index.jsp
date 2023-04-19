@@ -151,8 +151,8 @@
 								<div>#Entertainment Level</div>
 								<div>#Gaming Level</div>
 								<div>#Arbeits set up Level</div>
-								<div>#Haushalt Ausstattung Level</div>
-								<div>#Energie sparen Level</div>
+								<div>Level deiner #Haushaltstausstattung</div>
+								<div>Level #Energiesparen</div>
 							</div>
 						</div>
 						<p class="visual__desc">
@@ -282,8 +282,7 @@
 								<p>EXKLUSIVE VORTEILE FÜR LG-MEMBER</p>
 							</div>
 							<p class="section__title">
-								Mở ra đặc quyền mới cùng ưu đãi<br>
-								cho tất cả các dòng sản phẩm LG
+								Next Level Vorteile:<br>Sichere dir weitere Vorteile und Rabatte auf alle LG Produkte
 							</p>
 							<div class="coupon">
 								<div class="coupon__row">
