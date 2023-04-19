@@ -1254,8 +1254,8 @@
 					}
 
 					&__img {
-						width: 100px;
-						height: 100px;
+						width: 120px;
+						height: 120px;
 
 						.button {
 							display: none !important;
@@ -1291,9 +1291,10 @@
 			}
 
 			.product {
-				// .carousel-prev, .carousel-next {
-				// 	display: none;
-				// }
+				.carousel-prev, .carousel-next {
+					width: 40px;
+					height: 40px;
+				}
 
 				.carousel-prev {
 					left: 20px;

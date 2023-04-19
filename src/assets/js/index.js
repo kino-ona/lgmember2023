@@ -276,11 +276,19 @@ $(document).ready(function () {
     var target =
       "#" + $(this).closest(".tab__panel").next(".tab__panel").attr("id");
     $(`a[href="${target}"]`).trigger("click");
+
+    setTimeout(function () {
+      tabMenuSet();
+    }, 300);
   });
   $(".lgmembersweek .tab__indicator .tab__prev").on("click", function () {
     var target =
       "#" + $(this).closest(".tab__panel").prev(".tab__panel").attr("id");
     $(`a[href="${target}"]`).trigger("click");
+
+    setTimeout(function () {
+      tabMenuSet();
+    }, 300);
   });
   // $('.brandtabs-container .tabs-menu a:first').trigger('click');
 
@@ -306,4 +314,27 @@ $(document).ready(function () {
     });
   };
   tabMenuClick();
+
+  var $tabhmenu2 = $(".experience .tab__list");
+  var tabMenuSet = function () {
+    $(".experience .tab__list a").each(function () {
+      if ($(this).parents(".tab__item").hasClass("tab__item--active")) {
+        var $element = $(this);
+
+        var tabOffset = $element.offset().left;
+        var tabWidth = $element.outerWidth(true);
+        var menuScrollLeft = $tabhmenu2.scrollLeft();
+        var menuWidth = $tabhmenu2.width();
+
+        var myScrollPos =
+          tabOffset + tabWidth / 2 + menuScrollLeft - menuWidth / 4;
+        $tabhmenu2.stop().animate(
+          {
+            scrollLeft: myScrollPos - menuWidth / 4,
+          },
+          300
+        );
+      }
+    });
+  };
 });

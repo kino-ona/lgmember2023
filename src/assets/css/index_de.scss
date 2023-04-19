@@ -4,7 +4,7 @@
 .lgmembersweek {
 	.visual__visual {
 		@media screen and (min-width: 1024px){
-			height: 100vh;
+			background-position: center top 50px;
 		}
 	}
 	@media screen and (max-width: 1024px){
@@ -136,6 +136,10 @@
 
 					&__header {
 						height: 296px;
+					}
+					&__desc--secondary {
+						max-width: 60%;
+						margin: 0 auto;
 					}
 				}
 

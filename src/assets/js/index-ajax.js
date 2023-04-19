@@ -67,7 +67,7 @@ $(document).ready(function () {
           breakpoint: 1024,
           settings: {
             arrows: false,
-            slidesToShow: 2.3,
+            slidesToShow: 2,
             focusOnSelect: true,
           },
         },
