@@ -171,6 +171,12 @@
 						}
 					}
 				}
+
+				.coupon-list__item:nth-child(3) {
+					&:after {
+						background-image: url('../images/ico_equal.svg');
+					}
+				}
 			}
 
 			&__benefit {

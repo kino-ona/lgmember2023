@@ -132,7 +132,7 @@ $(document).ready(function () {
     speed: 900,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 2600,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,

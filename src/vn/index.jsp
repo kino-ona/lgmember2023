@@ -349,10 +349,10 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/it/my-lg" target="_blank" role="button"
+												<a href="https://www.lg.com/vn/chuong-trinh-premier-care" target="_blank" role="button"
 												data-track-group="MICROSITE"
-												data-track-name="exclusive_link_click"
-												data-link-area="memberdays_H1_Exclusive_click_P1_MY_ACCOUNT"
+												data-track-name="exclusive_learn_more_click"
+												data-link-area="memberdays_H1_Exclusive_click_P1_Learn More"
 												data-link-name="memberdays_2023H1"
 												class="button__item button__item--secondary">TÌM HIỂU THÊM</a>
 											</div>
@@ -1061,7 +1061,7 @@
 										data-track-group="MICROSITE" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
-										data-link-area="memberdays_H1_Offer_click_P1_HOME_APPLIANCE"
+										data-link-area="memberdays_H1_Offer_click_P1_HOME APPLIANCE"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">SẢN PHẨM TIN HỌC</a>
 									</div>
@@ -1071,7 +1071,7 @@
 										data-track-group="MICROSITE" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
-										data-link-area="memberdays_H1_Offer_click_P1_COMPUTER_PRODUCTS"
+										data-link-area="memberdays_H1_Offer_click_P1_COMPUTER PRODUCTS"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">GIẢI PHÁP KHÔNG KHÍ</a>
 									</div>
@@ -1081,7 +1081,7 @@
 										data-track-group="MICROSITE" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
-										data-link-area="memberdays_H1_Offer_click_P1_COMPUTER_PRODUCTS"
+										data-link-area="memberdays_H1_Offer_click_P1_AIR SOLUTIONS"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">GIẢI PHÁP KHÔNG KHÍ</a>
 									</div>
