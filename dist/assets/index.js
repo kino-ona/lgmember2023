@@ -169,11 +169,17 @@ $(document).ready(function () {
     var target =
       "#" + $(this).closest(".tab__panel").next(".tab__panel").attr("id");
     $(`a[href="${target}"]`).trigger("click");
+    setTimeout(function () {
+      tabMenuSet();
+    }, 300);
   });
   $(".lgmembersweek .tab__indicator .tab__prev").on("click", function () {
     var target =
       "#" + $(this).closest(".tab__panel").prev(".tab__panel").attr("id");
     $(`a[href="${target}"]`).trigger("click");
+    setTimeout(function () {
+      tabMenuSet();
+    }, 300);
   });
   // $('.brandtabs-container .tabs-menu a:first').trigger('click');
 
@@ -182,7 +188,7 @@ $(document).ready(function () {
     speed: 900,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 2600,
+    autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
@@ -212,4 +218,50 @@ $(document).ready(function () {
     e.preventDefault();
     $(this).parent().find(".product__list").slick("slickNext");
   });
+
+  var $tabhmenu = $(".offer .tab__list");
+  var tabMenuClick = function () {
+    $(".offer .tab__list a").on("click", function (e) {
+      e.preventDefault();
+      var $element = $(this);
+
+      var tabOffset = $element.offset().left;
+      var tabWidth = $element.outerWidth(true);
+      var menuScrollLeft = $tabhmenu.scrollLeft();
+      var menuWidth = $tabhmenu.width();
+
+      var myScrollPos =
+        tabOffset + tabWidth / 2 + menuScrollLeft - menuWidth / 4;
+      $tabhmenu.stop().animate(
+        {
+          scrollLeft: myScrollPos - menuWidth / 4,
+        },
+        300
+      );
+    });
+  };
+  tabMenuClick();
+
+  var $tabhmenu2 = $(".experience .tab__list");
+  var tabMenuSet = function () {
+    $(".experience .tab__list a").each(function () {
+      if ($(this).parents(".tab__item").hasClass("tab__item--active")) {
+        var $element = $(this);
+
+        var tabOffset = $element.offset().left;
+        var tabWidth = $element.outerWidth(true);
+        var menuScrollLeft = $tabhmenu2.scrollLeft();
+        var menuWidth = $tabhmenu2.width();
+
+        var myScrollPos =
+          tabOffset + tabWidth / 2 + menuScrollLeft - menuWidth / 4;
+        $tabhmenu2.stop().animate(
+          {
+            scrollLeft: myScrollPos - menuWidth / 4,
+          },
+          300
+        );
+      }
+    });
+  };
 });
