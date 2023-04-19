@@ -144,11 +144,11 @@
 		@media (max-width: 1024px) {
 
 			padding-bottom: 110px;
-			background-color: #E10000;
+			// background-color: #E00200;
 			
 			&__visual {
-				padding: 280px 0 30px;
-				background: url('../images/m_bg_visual.png') no-repeat 50% 5%;
+				padding: 76px 0 16px;
+				background: url('../images/m_bg_visual.png') no-repeat 50% 100%;
 				background-size: 100% auto;
 
 				.button {
@@ -192,9 +192,10 @@
 			}
 
 			&__term {
-				position: absolute;
-				right: 20px;
-				bottom: 0;
+				// position: absolute;
+				// right: 20px;
+				// bottom: 0;
+				margin-top: 214px;
 
 				a {
 					font-size: 14px;
@@ -1222,6 +1223,17 @@
 					&__anchor {
 						display: none;
 					}
+
+					.tab__indicator {
+
+						.tab__prev {
+							left: 15px;
+						}
+
+						.tab__next {
+							right: 15px;
+						}
+					}
 				}
 
 				.product {
@@ -1235,7 +1247,10 @@
 					}
 
 					&__item {
-						margin: 0 10px;
+						// margin: 0 10px;
+						margin: 0 5px;
+						padding: 30px 15px 20px;
+						border: 1px solid #DDDDDD;
 					}
 
 					&__img {
@@ -1267,16 +1282,25 @@
 					.slick {
 						
 						&-list {
-							margin: 0 -20px;
-							padding: 0 10px;
+							margin: 0 -5px;
+							// margin: 0 -20px;
+							// padding: 0 10px;
 						}
 					}
 				}
 			}
 
 			.product {
-				.carousel-prev, .carousel-next {
-					display: none;
+				// .carousel-prev, .carousel-next {
+				// 	display: none;
+				// }
+
+				.carousel-prev {
+					left: 20px;
+				}
+	
+				.carousel-next {
+					right: 20px;
 				}
 			}
 		}
@@ -2108,6 +2132,7 @@
 				&-arrow {
 					width: 40px;
 					height: 40px;
+					margin-top: -20px;
 				}
 			}
 		}
