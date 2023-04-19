@@ -283,4 +283,27 @@ $(document).ready(function () {
     $(`a[href="${target}"]`).trigger("click");
   });
   // $('.brandtabs-container .tabs-menu a:first').trigger('click');
+
+  var $tabhmenu = $(".offer .tab__list");
+  var tabMenuClick = function () {
+    $(".offer .tab__list a").on("click", function (e) {
+      e.preventDefault();
+      var $element = $(this);
+
+      var tabOffset = $element.offset().left;
+      var tabWidth = $element.outerWidth(true);
+      var menuScrollLeft = $tabhmenu.scrollLeft();
+      var menuWidth = $tabhmenu.width();
+
+      var myScrollPos =
+        tabOffset + tabWidth / 2 + menuScrollLeft - menuWidth / 2;
+      $tabhmenu.stop().animate(
+        {
+          scrollLeft: myScrollPos - menuWidth / 2.7,
+        },
+        300
+      );
+    });
+  };
+  tabMenuClick();
 });
