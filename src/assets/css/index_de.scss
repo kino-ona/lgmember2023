@@ -2,6 +2,11 @@
 @use 'mixins';
 
 .lgmembersweek {
+	// .visual__visual {
+		// @media screen and (min-width: 1024px){
+		// 	background-position: 50% 65%;
+		// }
+	// }
 	.visual__visual {
 		@media screen and (min-width: 1024px){
 			background-position: center top 50px;
@@ -18,6 +23,21 @@
 		}
 		.visual__title {
 			font-size: 20px;
+		}
+	}
+
+
+	.visual {
+
+		&__visual {
+			background-image: url('../images/de/bg_visual.png');
+		}
+
+		@media (max-width: 1024px) {
+
+			&__visual {
+				background-image: url('../images/de/m_bg_visual.png');
+			}
 		}
 	}
 

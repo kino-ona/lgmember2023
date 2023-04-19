@@ -162,6 +162,20 @@
 		}
 	}
 
+	.visual {
+
+		&__visual {
+			background-image: url('../images/vn/bg_visual.png');
+		}
+
+		@media (max-width: 1024px) {
+
+			&__visual {
+				background-image: url('../images/vn/m_bg_visual.png');
+			}
+		}
+	}
+
 	.experience {
 
 		@media (max-width: 1024px) {
