@@ -156,7 +156,7 @@
 							</div>
 						</div>
 						<p class="visual__desc">
-							Spare 10% bei Bundle käufen mit zusätzlichen exklusiven Vorteilen für LG-Member<br>
+							Spare 10% bei Bundle Käufen mit zusätzlichen exklusiven Vorteilen für LG-Member<br>
 							Nur auf LG.com. Das Angebot endet am 22. Mai 2023
 						</p>
 						<div class="button">
@@ -192,7 +192,8 @@
 								<p>NOCH MEHR SPAREN</p>
 							</div>
 							<p class="section__title">NEXT LEVEL HOT DEALS</p>
-							<p class="section__desc">Nur für LG-Mitglieder: Spare bis zu 30% auf ausgewählte Produkte</p>
+							<p class="section__desc">Spare bis zu 40% auf ausgewählte Produkte</p>
+							<p class="section__desc section__desc--secondary">*Der Rabatt gilt auf die unverbindliche Preisepfehlung</p>
 							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
 									<template class="contents-template">
@@ -295,7 +296,7 @@
 														<span>RABATT Coupon</span>
 													</div>
 													<div class="coupon-list__contents">
-														<p class="coupon-list__text">LG-Member Tage -  Bundle Coupon</p>
+														<p class="coupon-list__text">LG Member Days Bundle Coupon</p>
 														<p class="coupon-list__text coupon-list__text--secondary">Beim Kauf von zwei oder mehr LG Produkten</p>
 														<p class="coupon-list__text coupon-list__text--tertiary">*Alle auf LG.com erhältlichen Produkte außer „Hot Deals“.</p>
 													</div>
@@ -745,7 +746,7 @@
 											<div class="section__anchor">
 												<p>DEIN EXPERIENCE UPDATE</p>
 											</div>
-											<p class="section__title">Erreiche das nächste #HAUSHALT Level</p>
+											<p class="section__title">Erreiche das nächste Level deiner #Haushaltstausstattung</p>
 											<p class="section__desc">Smart Living, lang anhaltende Frische, optimale Kleiderpflege mit Waschmaschine, Trockner, Staubsauger und Kühlschrank</p>
 											<p class="section__desc section__desc--secondary">Wähle die Produkte für dein Angebot zum Bundle Kauf aus</p>
 										</div>
@@ -839,7 +840,7 @@
 											<div class="section__anchor">
 												<p>DEIN EXPERIENCE UPDATE</p>
 											</div>
-											<p class="section__title">Erreiche das nächste #ENERGIESPAREN Level</p>
+											<p class="section__title">Erreiche das nächste Level #Energiesparen</p>
 											<p class="section__desc">Nutze energieeffiziente LG-Produkte auch, um einen Beitrag zum Schutz unseres Planeten beizutragen </p>
 											<p class="section__desc section__desc--secondary">Wähle die Produkte für dein Angebot zum Bundle Kauf aus</p>
 										</div>
@@ -984,7 +985,7 @@
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Product 1</p>
+										<p class="item-set__text">Produkte 1</p>
 									</div>
 									<div class="item-set__unit item-set__unit--plus">
 										<span></span>
@@ -993,7 +994,7 @@
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Product 2</p>
+										<p class="item-set__text">Produkte 2</p>
 									</div>
 									<div class="item-set__unit item-set__unit--equal">
 										<span></span>
