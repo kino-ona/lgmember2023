@@ -37,7 +37,8 @@
 
 		&__visual {
 			padding: 172px 0 40px;
-			background: url('../images/bg_visual.png') no-repeat 50% 85%;
+			background: url('../images/bg_visual.png') no-repeat;
+			background-position: 50% 85%;
 			background-size: cover;
 
 			.button {
@@ -116,6 +117,19 @@
 					margin-left: 10px;
 					@include mixins.iconAngle($direction: 'right', $width: 8px, $height: 16px, $thick: 2px, $color: #fff, $display: block, $position: relative);
 				}
+			}
+		}
+
+		@media screen and (max-height: 1000px) {
+			&__logo {
+				font-size: 30px;
+			}
+			&__title {
+				font-size: 60px;
+    		line-height: 70px;
+			}
+			&__desc {
+				font-size: 16px;
 			}
 		}
 
