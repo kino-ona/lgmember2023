@@ -1,0 +1,372 @@
+@charset 'UTF-8';
+@use 'mixins';
+
+.lgmembersweek {
+
+	.visual {
+		padding-bottom: 0;
+
+		&__visual {
+			padding-bottom: 55px;
+			background-image: url('../images/au/bg_visual.png');
+		}
+	}
+
+	.benefit {
+
+		.coupon {
+
+			&__coupon {
+
+				.text {
+					margin-top: 36px;
+					color: #000;
+					font-weight: 700;
+					font-size: 24px;
+					text-align: center;
+				}
+
+				.button {
+					margin-top: 30px;
+				}
+			}
+
+			.coupon-list {
+
+				&__row {
+					display: block;
+					text-align: center;
+				}
+
+				&__product {
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
+					margin: 0 -60px;
+
+					.coupon-list__col {
+						position: relative;
+						
+						&:not(:first-child) {
+
+							&:before {
+								content: '';
+								display: block;
+								position: absolute;
+								left: 0;
+								top: 0;
+								width: 1px;
+								height: 100%;
+								background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 2px, rgba(255, 255, 255, 0) 0);
+								background-position: bottom;
+								background-size: 1px 8px;
+								background-repeat: repeat-y;
+							}
+						}
+					}
+
+					.coupon-list__ico {
+						display: flex;
+						justify-content: center;
+						column-gap: 10px;
+						margin-bottom: 46px;
+
+						> div {
+							display: flex;
+							flex-direction: column;
+							align-items: center;
+							row-gap: 14px;
+
+							&:nth-of-type(1) {
+
+								i {
+	
+									&:before {
+										width: 36px;
+										height: 46px;
+										background-image: url('../images/ico_set01.svg');
+									}
+								}
+							}
+	
+							&:nth-of-type(2) {
+	
+								i {
+	
+									&:before {
+										width: 60px;
+										height: 40px;
+										background-image: url('../images/ico_set02.svg');
+									}
+								}
+							}
+	
+							i {
+								position: relative;
+								width: 86px;
+								height: 86px;
+								border-radius: 50%;
+								background-color: #F6F3EC;
+	
+								&:before {
+									content: '';
+									display: block;
+									position: absolute;
+									left: 50%;
+									top: 50%;
+									background-position: 50% 50%;
+									background-size: cover;
+									@include mixins.translate(-50%, -50%);
+								}
+							}
+							
+							p {
+								font-weight: 700;
+								font-size: 14px;
+							}
+						}
+
+						> span {
+							width: 20px;
+							height: 20px;
+							margin-top: 33px;
+							border-radius: 50%;
+							background-color: #000;
+							background-image: url('../images/ico_plus.svg');
+							background-repeat: no-repeat;
+							background-position: 50% 50%;
+							background-size: 10px 10px;
+						}
+					}
+				}
+
+				&__coupon {
+					color: #FD312E;
+				}
+			}
+		}
+	}
+
+	.experience {
+
+		.tab {
+
+			&__panel {
+
+				&--homecare {
+
+					.showroom {
+
+						&__item {
+							background-image: url('../images/au/bg_showroom_homecare01.png');
+						}
+
+						&__layer {
+
+							&:nth-child(1) {
+								left: 11.67%;
+								top: 46.15%;
+							}
+
+							&:nth-child(2) {
+								left: 83.33%;
+								top: 19.23%;
+
+								.showroom__target {
+									left: auto;
+									right: 52px;
+								}
+							}
+
+							&:nth-child(3) {
+								left: 92.5%;
+								top: 46.15%;
+
+								.showroom__target {
+									left: auto;
+									right: 52px;
+								}
+							}
+						}
+					}
+				}
+
+				&--entertaiment {
+
+					.showroom {
+	
+						&__item {
+							background-image: url('../images/au/bg_showroom_entertaiment01.png');
+						}
+
+						&__layer {
+
+							&:nth-child(1) {
+								left: 39.17%;
+								top: 15.19%;
+							}
+
+							&:nth-child(2) {
+								left: 70.17%;
+								top: 65.38%;
+							}
+						}
+					}
+				}
+
+				&--working {
+
+					.showroom {
+	
+						&__item {
+							background-image: url('../images/au/bg_showroom_working01.png');
+						}
+
+						&__layer {
+
+							&:nth-child(2) {
+								left: 70%;
+								top: 51.92%;
+
+								.showroom__target {
+									left: 50%;
+									top: auto;
+									bottom: 52px;
+									@include mixins.transform(translate(-50%, 0));
+								}
+							}
+
+							&:nth-child(3) {
+
+								.showroom__target {
+									left: 50%;
+									top: auto;
+									bottom: 52px;
+									@include mixins.transform(translate(-50%, 0));
+								}
+							}
+						}
+					}
+				}
+
+				&--livingspace {
+
+					.showroom {
+	
+						&__item {
+							background-image: url('../images/au/bg_showroom_livingspace01.png');
+						}
+
+						&__layer {
+
+							&:nth-child(1) {
+								left: 22.5%;
+								top: 19.23%;
+							}
+
+							&:nth-child(2) {
+								left: 74.5%;
+								top: 19.23%;
+
+								.showroom__target {
+									left: auto;
+									right: 52px;
+								}
+							}
+
+							&:nth-child(3) {
+								left: 40.83%;
+								top: 51.92%;
+
+								.showroom__target {
+									left: 50%;
+									top: 52px;
+									@include mixins.transform(translate(-50%, 0));
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.offer {
+
+		.item-set {
+			&__set {
+				justify-content: center;
+			}
+
+			&__item {
+				flex: 0 1 360px;
+
+				.item-set {
+
+					&__group {
+						display: flex;
+						column-gap: 10px;
+						justify-content: center;
+						margin-bottom: 32px;
+
+						> span {
+							width: 20px;
+							height: 20px;
+							margin-top: 33px;
+							border-radius: 50%;
+							background-color: #000;
+							background-image: url('../images/ico_plus.svg');
+							background-repeat: no-repeat;
+							background-position: 50% 50%;
+							background-size: 10px 10px;
+						}
+					}
+
+					&__ico {
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						width: 86px;
+						height: 86px;
+						border-radius: 50%;
+						background-color: #F6F3EC;
+						margin: 0 auto 14px;
+
+						&:nth-child(1) {
+							
+							i {
+								width: 36px;
+								height: 46px;
+								background-image: url('../images/ico_set01.svg');
+							}
+						}
+
+						&:nth-child(2) {
+							
+							i {
+								width: 60px;
+								height: 40px;
+								background-image: url('../images/ico_set02.svg');
+							}
+						}
+					}
+
+					&__text {
+						font-size: 14px;
+					}
+
+					&__title {
+						color: #FD312E;
+						font-weight: 700;
+						font-size: 52px;
+						letter-spacing: -1.04px;
+
+						&--secondary {
+							font-size: 16px;
+							letter-spacing: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
