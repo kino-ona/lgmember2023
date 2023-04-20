@@ -497,7 +497,7 @@
 																	<p class="showroom__name">65’’ LG 4K OLED evo TV C3</p>
 																	<ul class="showroom__desc">
 																		<li>4K OLED evo TV mit Brightness Booster</li>
-																		<li>Beste HDR-Unterstützung mit Dolby Vision™</li>
+																		<li>Beste Bild und Ton durcch Dolby Vision™</li>
 																	</ul>
 																</div>
 															</a>
@@ -681,7 +681,7 @@
 																<div class="showroom__cont">
 																	<p class="showroom__name">27,6 Zoll Ergo DualUp Monitor mit Nano-IPS und SDQHD-Auflösung</p>
 																	<ul class="showroom__desc">
-																		<li>70,1 cm (27,6”) IPS-Monitor</li>
+																		<li>70,1 cm (27,6") IPS-Monitor</li>
 																		<li>Das spezielle 16:18-Format</li>
 																	</ul>
 																</div>
@@ -847,20 +847,20 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/waschmaschinen/lg-f4nv3193" target="_blank" role="button"
+														<a href="https://www.lg.com/de/trockner/lg-v3r08t" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F4NV3193.ABWQWDG"
-														data-track-sku="F4NV3193.ABWQWDG"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_V3R08T.BBWQKDG"
+														data-track-sku="V3R08T.BBWQKDG"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/waschmaschinen/lg-f4nv3193" target="_blank" role="button"
+															<a href="https://www.lg.com/de/trockner/lg-v3r08t" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F4NV3193.ABWQWDG"
-															data-track-sku="F4NV3193.ABWQWDG"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_V3R08T.BBWQKDG"
+															data-track-sku="V3R08T.BBWQKDG"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/de/img_showroom_energysaving01_01.png" alt="Trockner mit Dual Inverter Wärmepumpentechnologie">
@@ -876,20 +876,20 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/trockner/lg-v3r08t" target="_blank" role="button"
+														<a href="https://www.lg.com/de/waschmaschinen/lg-f4nv3193" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_V3R08T.BBWQKDG"
-														data-track-sku="V3R08T.BBWQKDG"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F4NV3193.ABWQWDG"
+														data-track-sku="F4NV3193.ABWQWDG"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/trockner/lg-v3r08t" target="_blank" role="button"
+															<a href="https://www.lg.com/de/waschmaschinen/lg-f4nv3193" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_V3R08T.BBWQKDG"
-															data-track-sku="V3R08T.BBWQKDG"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F4NV3193.ABWQWDG"
+															data-track-sku="F4NV3193.ABWQWDG"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
 																	<img src="${path}/assets/images/de/img_showroom_energysaving01_02.png" alt="Waschmaschine mit 9 kg Kapazität">

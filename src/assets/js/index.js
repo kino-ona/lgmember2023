@@ -262,6 +262,8 @@ $(document).ready(function () {
       $($(this).attr("href"))
         .find(".product .product__list")
         .slick("refresh", false);
+
+      tabMenuSet();
     }
 
     $(this).closest(".tab").find(".tab__item").removeClass("tab__item--active");

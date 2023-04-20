@@ -155,14 +155,14 @@ $(document).ready(function () {
       $($(this).attr("href"))
         .find(".product .product__list")
         .slick("refresh", false);
+
+      tabMenuSet();
     }
 
     $(this).closest(".tab").find(".tab__item").removeClass("tab__item--active");
     $(this).parent(".tab__item").addClass("tab__item--active");
     $(this).closest(".tab").find(".tab__panel").hide();
     $($(this).attr("href")).show();
-    // $('.brand_product-tabstage').find('.tabproduct_items:nth-child(n+17)').hide();
-    // $('.brandtabs-container').find('.btn_seemore').show();
   });
 
   $(".lgmembersweek .tab__indicator .tab__next").on("click", function () {

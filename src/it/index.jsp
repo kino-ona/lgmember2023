@@ -433,10 +433,10 @@
 								<template class="contents-template">
 									<div class="product__item">
 										<div class="product__img">
-											<div class="product__flags">
+											<!-- <div class="product__flags">
 												<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
 												<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
-											</div>
+											</div> -->
 											<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 
 											<!-- 
