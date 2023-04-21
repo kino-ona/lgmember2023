@@ -521,58 +521,60 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/vn/tivi/lg-oled65c2psa" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_ OLED65C2PSA.ATV"
+														data-track-sku="OLED65C2PSA.ATV"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/vn/tivi/lg-oled65c2psa" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_ OLED65C2PSA.ATV"
+															data-track-sku="OLED65C2PSA.ATV "
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/vn/img_showroom_entertaiment01_01.png" alt="LG OLED evo 4K 65inch | OLED65C2">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">LG OLED evo 4K 65inch | OLED65C2</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>LG OLED evo, SELF-LIT OLED 4K</li>
+																		<li>Tăng cường độ sáng cho hình ảnh sáng hơn tới 20%</li>
+																		<li>Bộ xử lý AI α9 Thế hệ 5, Dynamic Tone Mapping Pro</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/vn/sound-bar/lg-sc9s" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_SC9S.DVNMLLK"
+														data-track-sku="SC9S.DVNMLLK"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/vn/sound-bar/lg-sc9s" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_SC9S.DVNMLLK"
+															data-track-sku="SC9S.DVNMLLK"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/vn/img_showroom_entertaiment01_02.png" alt="Loa thanh LG SC9S">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Loa thanh LG SC9S</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Giá Đỡ WOW cho LG OLED C</li>
+																		<li>Tính năng WOW Orchestra cho chất lượng Âm Thanh Hài Hòa Hoàn Hảo</li>
+																		<li>Điều Khiển Dễ Dàng với WOW Interface</li>
 																	</ul>
 																</div>
 															</a>
@@ -605,37 +607,38 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Tận hưởng trải nghiệm #Giải trí mới</p>
-											<p class="section__desc">Đưa trải nghiệm giải trí lên môt đẳng cấp mới cùng LG OLED TV và Loa thanh</p>
+											<p class="section__title">Tận hưởng trải nghiệm #Chơi game</p>
+											<p class="section__desc">Thay đổi cuộc chơi nhờ hiệu suất và tốc độ đáng kinh ngạc đến từ Màn hình UltraGear và thiết bị chơi game</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-45gr95qe-b" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B.ATV"
+														data-track-sku="45GR95QE-B.ATV"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-45gr95qe-b" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B.ATV"
+															data-track-sku="45GR95QE-B.ATV"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/vn/img_showroom_gaming01_01.png" alt="Màn hình cong chơi game WQHD UltraGear™ OLED 45’’">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Màn hình cong chơi game WQHD UltraGear™ OLED 45’’</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>OLED với Tốc độ làm mới 240Hz</li>
+																		<li>Thời gian phản hồi 0,03ms (GtG)</li>
+																		<li>Tỷ lệ tương phản 1,5M:1</li>
 																	</ul>
 																</div>
 															</a>
@@ -669,66 +672,68 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Tận hưởng trải nghiệm #Giải trí mới</p>
-											<p class="section__desc">Đưa trải nghiệm giải trí lên môt đẳng cấp mới cùng LG OLED TV và Loa thanh</p>
+											<p class="section__title">Tận hưởng trải nghiệm #Làm việc</p>
+											<p class="section__desc">Nâng cao hiệu quả làm với laptop gọn nhẹ, màn hình rộng và tai nghe không dây</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/vn/laptops/lg-16zd90r-gax55a5" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_16ZD90R-G.AX55A5"
+														data-track-sku="16ZD90R-G.AX55A5"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/vn/laptops/lg-16zd90r-gax55a5" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_16ZD90R-G.AX55A5"
+															data-track-sku="16ZD90R-G.AX55A5"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/vn/img_showroom_working01_01.png" alt="Laptop LG gram 16’’">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Laptop LG gram 16’’</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>16” 16:10 WQXGA (2560 x 1600) IPS Display</li>
+																		<li>Không hệ điều hành</li>
+																		<li>Nền tảng Intel Evo được hỗ trợ bởi Bộ xử lý Intel® Core™ Thế hệ 13</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27mp500-b" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_27MP500-B.ATV"
+														data-track-sku="27MP500-B.ATV"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27mp500-b" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_27MP500-B.ATV"
+															data-track-sku="27MP500-B.ATV"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/vn/img_showroom_working01_02.png" alt="Màn hình máy tính LGIPS 27’’ Full HD 75Hz AMD FreeSync™ thiết kế 3 cạnh không viền">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Màn hình máy tính LGIPS 27’’ Full HD 75Hz AMD FreeSync™ thiết kế 3 cạnh không viền</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Màn hình sống động hiển thị ánh sáng xanh thấp</li>
+																		<li>AMD FreeSync™</li>
+																		<li>Chế độ đọc sách</li>
 																	</ul>
 																</div>
 															</a>
@@ -762,66 +767,98 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Tận hưởng trải nghiệm #Giải trí mới</p>
-											<p class="section__desc">Đưa trải nghiệm giải trí lên môt đẳng cấp mới cùng LG OLED TV và Loa thanh</p>
+											<p class="section__title">Tận hưởng trải nghiệm #Chăm sóc nhà</p>
+											<p class="section__desc">Một cuộc sống thông minh, Công nghệ giữ độ tươi ngon cho thực phẩm, Giải pháp chăm sóc quần áo vượt trội với các dòng sản phẩm của LG như máy giặt, máy sấy, máy hút bụi và tủ lạnh</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/vn/tu-lanh/lg-gr-x22mb" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GR-X22MB.AMCPEVN"
+														data-track-sku="GR-X22MB.AMCPEVN"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/vn/tu-lanh/lg-gr-x22mb" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GR-X22MB.AMCPEVN"
+															data-track-sku="GR-X22MB.AMCPEVN"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/vn/img_showroom_homekeeping01_01.png" alt="Tủ lạnh French Door 496L">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Tủ lạnh French Door 496L</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Ngăn lấy nước ngoài</li>
+																		<li>Nhanh và tiện lợi với hộc chứa nước không cần ống dẫn</li>
+																		<li>Máy nén Linear Inverter tiết kiệm điện & giảm tiếng ồn</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_AS10GDWH0.ABAE"
+														data-track-sku="AS10GDWH0.ABAE"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button" 
+															<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank" role="button" 
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_AS10GDWH0.ABAE"
+															data-track-sku="AS10GDWH0.ABAE"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/vn/img_showroom_homekeeping01_02.png" alt="Máy lọc không khí LG PuriCare 2 tầng (Safeplus)">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Máy lọc không khí LG PuriCare 2 tầng (Safeplus)</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Lọc khí 360°</li>
+																		<li>Bộ đẩy Clean Booster</li>
+																		<li>Hệ thống lọc 6 bước</li>
+																	</ul>
+																</div>
+															</a>
+														</div>
+													</div>
+													<div class="showroom__layer">
+														<a href="https://www.lg.com/vn/dieu-hoa/lg-v10api1" target="_blank" role="button"
+														data-track-group="MICROSITE"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_V10API1.ATWGEVH"
+														data-track-sku="V10API1.ATWGEVH"
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
+															<span class="sr-only">detail view</span>
+														</a>
+														<div class="showroom__target">
+															<a href="https://www.lg.com/vn/dieu-hoa/lg-v10api1" target="_blank" role="button" 
+															data-track-group="MICROSITE"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_V10API1.ATWGEVH"
+															data-track-sku="V10API1.ATWGEVH"
+															data-link-name="memberdays_2023H1" class="showroom__link">
+																<div class="showroom__img">
+																	<img src="${path}/assets/images/vn/img_showroom_homekeeping01_03.png" alt="Máy sấy LG DUAL Inverter Heat Pump™ 10,5kg (xám)">
+																</div>
+																<div class="showroom__cont">
+																	<p class="showroom__name">Máy sấy LG DUAL Inverter Heat Pump™ 10,5kg (xám)</p>
+																	<ul class="showroom__desc">
+																		<li>Dual Inverter Heat Pump™</li>
+																		<li>Eco Hybrid™</li>
+																		<li>Bình ngưng tự động làm sạch</li>
 																	</ul>
 																</div>
 															</a>
@@ -855,95 +892,68 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Tận hưởng trải nghiệm #Giải trí mới</p>
-											<p class="section__desc">Đưa trải nghiệm giải trí lên môt đẳng cấp mới cùng LG OLED TV và Loa thanh</p>
+											<p class="section__title">Tận hưởng trải nghiệm #Tiết kiệm năng lượng</p>
+											<p class="section__desc">Đi đầu trong nỗ lực bảo vệ hành tinh thông qua các sản phẩm tiết kiệm năng lượng của LG</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/vn/tu-lanh/lg-gr-d257wb" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_GR-D257WB.AWBPEVN"
+														data-track-sku="GR-D257WB.AWBPEVN"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/vn/tu-lanh/lg-gr-d257wb" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_GR-D257WB.AWBPEVN"
+															data-track-sku="GR-D257WB.AWBPEVN"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/vn/img_showroom_energysaving01_01.png" alt="Tủ lạnh Side by Side lấy nước ngoài">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Tủ lạnh Side by Side lấy nước ngoài</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>LINEARCooling™</li>
+																		<li>DoorCooling+™</li>
+																		<li>UltraSleek Door</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as60ghwg0" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_AS60GHWG0.ABAE"
+														data-track-sku="AS60GHWG0.ABAE"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as60ghwg0" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_AS60GHWG0.ABAE"
+															data-track-sku="AS60GHWG0.ABAE"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/vn/img_showroom_energysaving01_02.png" alt="Máy lọc không khí LG Puricare 360 Hit">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
+																	<p class="showroom__name">Máy lọc không khí LG Puricare 360 Hit</p>
 																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
-																	</ul>
-																</div>
-															</a>
-														</div>
-													</div>
-													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
-														data-track-group="MICROSITE"
-														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-														data-track-sku=""
-														data-link-name="memberdays_2023H1" class="showroom__anchor">
-															<span class="sr-only">detail view</span>
-														</a>
-														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
-															data-track-group="MICROSITE"
-															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_"
-															data-track-sku=""
-															data-link-name="memberdays_2023H1" class="showroom__link">
-																<div class="showroom__img">
-																	<img src="${path}/assets/images/img_showroom_entertaiment01_01.png" alt="LG OLED evo Edition G2 83’’">
-																</div>
-																<div class="showroom__cont">
-																	<p class="showroom__name">LG OLED evo Edition G2 83’’</p>
-																	<ul class="showroom__desc">
-																		<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest</li>
-																		<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																		<li>Thanh lọc không khí 360˚</li>
+																		<li>Hệ thống lọc đa màng</li>
+																		<li>Thiết kế nhỏ gọn</li>
 																	</ul>
 																</div>
 															</a>

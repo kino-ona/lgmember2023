@@ -141,6 +141,9 @@
 			margin-top: 20px;
 			margin-bottom: -15px;
 			text-align:center;
+			@media screen and (max-width: 1024px) {
+				margin-bottom: 0;
+			}
 			.coupon-list__text--secondary {
 				color: #FD312E;
 				font-weight: 700 !important;
@@ -181,6 +184,9 @@
 					}
 					
 					&__row {
+						@media screen and (max-width: 1024px) {
+							text-align: center;
+						}
 						
 						&:before,
 						&:after {
