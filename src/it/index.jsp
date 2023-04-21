@@ -76,14 +76,14 @@
 
 			<!-- Required input ## Model List Start -->
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07547412|MD07547135|MD07569939|MD07568141|MD07560062"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07546791|MD07547135|MD07569939|MD07568141|MD07560062"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07532987|MD07568226|MD07568250|MD07546805|MD07564074"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07555423|MD07555790|MD07571411|MD07554813|MD07561317|MD07570903|MD07560062"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07560077|MD07560054|MD05775808|MD07551400|MD07539127"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521601|MD07563943|MD06175496|MD07560054"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07560077|MD07559882|MD05775808|MD07551400|MD07539127|MD07546205|MD07546235"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521105|MD07541995|MD06175496|MD07546168|MD07546195"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546868|MD07546781|MD07551260|MD07547235|MD07551327|MD07569939|MD07555550|MD07559233|MD07540676|MD07521601|MD07527380|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05775808|MD07562475|MD07554813|MD07555423"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546868|MD07570421|MD07551260|MD07547235|MD07551327|MD07569939|MD07555691|MD07559233|MD07536632|MD07544234|MD07521601|MD07527380|MD07544189|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05989117|MD07562475|MD07554813|MD07570979|MD07559748|MD07568250|MD07568226|MD07555423|MD07551400|MD07551561|MD07565813|MD07565715|MD07565720|MD07565724|MD07565726"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
@@ -93,7 +93,7 @@
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07546868"/>
 			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07546868"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07546868"/>
-			<input type="hidden" data-model-group="hottest" data-type="conditioners" value="MD07546868"/>
+			<input type="hidden" data-model-group="hottest" data-type="conditioners" value="MD07551400|MD07551561|MD07510745|MD07510797|MD07510956|MD07511235|MD07511273|MD07520880|MD07562585|MD07563722|MD07563734|MD07563862|MD07563888|MD07565816|MD07565811|MD07565963|MD07565783|MD07565809|MD07567171|MD07567170|MD07567169|MD07567167|MD07567165"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -111,7 +111,7 @@
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
-								<a href="#SpecialDeal" role="button" 
+								<a href="#OfferteTop" role="button" 
 								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1 NEXT LEVEL LARGEST SAVINGS" 
 								data-link-name="memberdays_2023H1" 
@@ -122,14 +122,14 @@
 								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1 EXCLUSIVE BENEFITS FOR LG MEMBERS" 
 								data-link-name="memberdays_2023H1" 
-								class="link">OFFERTE DEDICATE AI MEMBER</a>
+								class="link">VANTAGGI DEI MEMBER</a>
 							</li>
 							<li class="list-item">
 								<a href="#NextLevelExperience" role="button" 
 								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1 NEXT LEVEL EXPERIENCE" 
 								data-link-name="memberdays_2023H1" 
-								class="link">ESPERIENZA DI LIVELLO SUPERIORE</a>
+								class="link">LG CONSIGLIA</a>
 							</li>
 							<li class="list-item">
 								<a href="#BuymoreSavemore" role="button" 
@@ -165,7 +165,7 @@
 						</p>
 						<div class="button">
 							<div class="button__row">
-								<a href="#SpecialDeal" role="button"  
+								<a href="#OfferteTop" role="button"  
 								data-track-group="MICROSITE"
 								data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H1_Mainbanner_click_P1_VIEW_PRODUCTS"
@@ -188,7 +188,7 @@
 			</div>
 
 			<div class="hotdeal">
-				<div class="anchors" id="SpecialDeal"></div>
+				<div class="anchors" id="OfferteTop"></div>
 				<div id="box_content1" class="section">
 					<div class="section__container section__container--hotdeal" data-list="hotDeal">
 						<div class="section__set">
@@ -500,7 +500,7 @@
 												<p>LG CONSIGLIA</p>
 											</div>
 											<p class="section__title">Il tuo #intrattenimento a un livello superiore</p>
-											<p class="section__desc">Ottieni il massimo dal tuo intrattenimento grazie ai TV OLED e alle nostre soundbar</p>
+											<p class="section__desc">Ottieni il massimo dal tuo intrattenimento grazie ai nostri TV e ai nostri prodotti audio</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
@@ -593,7 +593,7 @@
 												<p>ESPERIENZA DI LIVELLO SUPERIORE</p>
 											</div>
 											<p class="section__title">Le tue #sessioni di gioco a un livello superiore</p>
-											<p class="section__desc">Cambia le regole del gioco grazie ai tempi di risposta straordinari dei Monitor UltraGear</p>
+											<p class="section__desc">Cambia le regole del gioco grazie ai tempi di risposta straordinari dei nostri monitor e tv</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
@@ -1000,7 +1000,7 @@
 			</div>
 
 			<div class="offer">
-				<div class="anchors" id="BuymoreSavemore"></div>
+				<div class="anchors" id="Set"></div>
 				<div class="anchors" id="BuymoreSavemoreTV"></div>
 				<div class="anchors" id="BuymoreSavemoreAudio"></div>
 				<div class="anchors" id="BuymoreSavemoreHomeAppliance"></div>
@@ -1022,7 +1022,7 @@
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Product 1</p>
+										<p class="item-set__text">Prodotto 1</p>
 									</div>
 									<div class="item-set__unit item-set__unit--plus">
 										<span></span>
@@ -1031,7 +1031,7 @@
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Product 2</p>
+										<p class="item-set__text">Prodotto 2+</p>
 									</div>
 									<div class="item-set__unit item-set__unit--equal">
 										<span></span>
