@@ -190,8 +190,13 @@
 		// 	background-image: url(../images/de/bg_showroom_energysaving01.png);
 		// }
 	}
+
+	.visual__term {
+		margin-top: 50vh;
+	}
 	@media (max-width: 1024px) {
 		.visual__term {
+			margin-top: 28vh;
 			bottom: -21px;
 		}
 

@@ -193,7 +193,7 @@
 							</div>
 							<p class="section__title">NEXT LEVEL HOT DEALS</p>
 							<p class="section__desc">Spare bis zu 40% auf ausgewählte Produkte</p>
-							<p class="section__desc section__desc--secondary">*Der Rabatt gilt auf die unverbindliche Preisepfehlung</p>
+							<p class="section__desc section__desc--secondary">*Der Rabatt gilt auf die unverbindliche Preisempfehlung</p>
 							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
 									<template class="contents-template">
