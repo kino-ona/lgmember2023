@@ -132,7 +132,7 @@
 								class="link">LG CONSIGLIA</a>
 							</li>
 							<li class="list-item">
-								<a href="#BuymoreSavemore" role="button" 
+								<a href="#Set" role="button" 
 								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1 NEXT LEVEL MULTI PURCHASE OFFER" 
 								data-link-name="memberdays_2023H1" 
@@ -1016,6 +1016,7 @@
 							<p class="section__desc">Fino a 20% di sconto acquistando due o più prodotti</p>
 							<p class="section__desc section__desc--secondary">Escluse Offerte Top</p>
 							<p class="section__desc section__desc--secondary">Visualizza lo sconto 13% direttamente a carrello. Cumulabile con offerta di benvenuto del 5% e extra 2% sconto.</p>
+							<p class="section__desc section__desc--smaller">Esempio:</p>
 							<div class="item-set">
 								<div class="item-set__set">
 									<div class="item-set__item">
