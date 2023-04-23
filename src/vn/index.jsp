@@ -89,7 +89,7 @@
 
 		<!-- Hottest Gift Model -->
 		<input type="hidden" data-model-group="hottest" data-type="premiercare" value="MD07563138|MD07569934|MD07548889|MD07541681|MD07550732|MD07550679|MD07564802|MD07565008|MD07565027|MD07522329|MD07527542|MD07549398|MD07527476|MD07554691|MD07555673|MD07555673|MD07530319"/>
-		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07550732|MD07550679|MD07564802|MD07550715|MD07550710|MD07550660|MD07551331|MD07551385|MD07551386|MD07552314|MD07551392|MD07551393|MD07551203|MD07551233|MD07551239|MD07530013|MD07559899|MD07559969|MD07571351|MD07530005|MD07507103|MD07560074|MD07561321"/>
+		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07550732|MD07550679|MD07564802|MD07550715|MD07550710|MD07550660|MD07551385|MD07551386|MD07552314|MD07551392|MD07551393|MD07551203|MD07551233|MD07551239|MD07530013|MD07571351|MD07530005|MD07507103|MD07560074|MD07561321"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07563138|MD07569934|MD07548889|MD07541681|MD07527542|MD07549398|MD07527476|MD07564174|MD07564104|MD07549813|MD07549560|MD07515556|MD07541676|MD07572226|MD07571978|MD07572074|MD07521166|MD07560602|MD06061357"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07507428|MD07527350|MD07553471|MD07553537|MD07557214|MD07553545|MD07518481|MD07510661"/>
 		<input type="hidden" data-model-group="hottest" data-type="airsolutions" value="MD07565008|MD07565027|MD07522329|MD07554691|MD07555673|MD07530319|MD07530466|MD07569325|MD07564381|MD07564393"/>
@@ -149,15 +149,15 @@
 						<div class="visual__title">
 							Đạt cấp độ
 							<div class="visual__rolling">
-								<div>#Giải trí tiếp theo</div>
-								<div>#Chơi game tiếp theo</div>
-								<div>#Làm việc tiếp theo</div>
-								<div>#CHĂM SÓC NHÀ tiếp theo</div>
-								<div>#Tiết kiệm năng lượng tiếp theo</div>
+								<div>#giải trí tiếp theo</div>
+								<div>#chơi game tiếp theo</div>
+								<div>#làm việc tiếp theo</div>
+								<div>#chăm sóc nhà tiếp theo</div>
+								<div>#tiết kiệm năng lượng tiếp theo</div>
 							</div>
 						</div>
 						<p class="visual__desc">
-							Giảm tới 15% khi mua nhiều sản phẩm và nhận Ưu đãi đặc biệt với mức giảm giá tới 00% cùng các đặc quyền cho thành viên<br>
+							Giảm tới 15% khi mua nhiều sản phẩm cho tất cả sản phẩm LG và nhận Ưu đãi đặc biệt với mức giảm giá tới 48% cùng các đặc quyền cho thành viên.<br>
 							Ưu đãi kết thúc vào ngày 31 tháng 5, chỉ có tại LG.com
 						</p>
 						<div class="button">
@@ -193,7 +193,7 @@
 								<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 							</div>
 							<p class="section__title">Ưu đãi thêm đặc biệt khi nâng hạng thành viên</p>
-							<p class="section__desc">GIẢM GIÁ tới 30% đối với một số sản phẩm - ưu đãi chỉ dành cho Thành viên LG</p>
+							<p class="section__desc">GIẢM GIÁ tới 30% đối với một số sản phẩm</p>
 							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
 									<template class="contents-template">
@@ -266,7 +266,7 @@
 								</div>
 							</div>
 							<div class="section__footer">
-								<p>*Rabattgutscheine nicht anwendbar auf Hot Deals Produkte.</p>
+								<p>*Voucher không áp dụng với các sản phẩm trong chương trình Khuyến mại đặc biệt</p>
 							</div>
 						</div>
 					</div>
@@ -279,7 +279,7 @@
 					<div class="section__container">
 						<div class="section__set">
 							<div class="section__anchor">
-								<p>EXKLUSIVE VORTEILE FÜR LG-MEMBER</p>
+								<p>ƯU ĐÃI CHỈ DÀNH CHO THÀNH VIÊN LG</p>
 							</div>
 							<p class="section__title">
 								Mở ra đặc quyền mới cùng ưu đãi<br>
@@ -293,7 +293,7 @@
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
 														<span>Voucher</span>
-														<p>giảm giá 15%</p>
+														<p>GIẢM giá 15%</p>
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Voucher giảm giá cho đơn hàng nhiều sản phẩm tại ngày hội thành viên LG</p>
@@ -306,7 +306,7 @@
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
 														<span>Voucher</span>
-														<p>giảm giá 5%</p>
+														<p>GIẢM giá 5%</p>
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Quyền lợi thành viên mới</p>
@@ -349,7 +349,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/vn/chuong-trinh-premier-care" target="_blank" role="button"
+												<a href="https://www.lg.com/vn/chuong-trinh-cham-soc-khach-hang" target="_blank" role="button"
 												data-track-group="MICROSITE"
 												data-track-name="exclusive_learn_more_click"
 												data-link-area="memberdays_H1_Exclusive_click_P1_Learn More"
@@ -386,7 +386,7 @@
 									data-track-name="exclusive_link_click"
 									data-link-area="memberdays_H1_Exclusive_click_P1_Terms_Conditions"
 									data-link-name="memberdays_2023H1">
-										TÌM HIỂU THÊM
+									Điều khoản và điều kiện
 										<i></i>
 									</a>
 								</div>
@@ -513,7 +513,7 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Tận hưởng trải nghiệm #Giải trí mới</p>
+											<p class="section__title">Tận hưởng trải nghiệm #giả trí tiếp theo</p>
 											<p class="section__desc">Đưa trải nghiệm giải trí lên môt đẳng cấp mới cùng LG OLED TV và Loa thanh</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
@@ -607,7 +607,7 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Tận hưởng trải nghiệm #Chơi game</p>
+											<p class="section__title">Tận hưởng trải nghiệm #chơi game tiếp theo</p>
 											<p class="section__desc">Thay đổi cuộc chơi nhờ hiệu suất và tốc độ đáng kinh ngạc đến từ Màn hình UltraGear và thiết bị chơi game</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
@@ -672,7 +672,7 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Tận hưởng trải nghiệm #Làm việc</p>
+											<p class="section__title">Tận hưởng trải nghiệm #làm việc tiếp theo</p>
 											<p class="section__desc">Nâng cao hiệu quả làm với laptop gọn nhẹ, màn hình rộng và tai nghe không dây</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
@@ -767,7 +767,7 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Tận hưởng trải nghiệm #Chăm sóc nhà</p>
+											<p class="section__title">Tận hưởng trải nghiệm #chăm sóc nhà tiếp theo</p>
 											<p class="section__desc">Một cuộc sống thông minh, Công nghệ giữ độ tươi ngon cho thực phẩm, Giải pháp chăm sóc quần áo vượt trội với các dòng sản phẩm của LG như máy giặt, máy sấy, máy hút bụi và tủ lạnh</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
@@ -892,7 +892,7 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Tận hưởng trải nghiệm #Tiết kiệm năng lượng</p>
+											<p class="section__title">Tận hưởng trải nghiệm #tiết kiệm năng lượng tiếp theo</p>
 											<p class="section__desc">Đi đầu trong nỗ lực bảo vệ hành tinh thông qua các sản phẩm tiết kiệm năng lượng của LG</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
@@ -1012,7 +1012,7 @@
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Product 1</p>
+										<p class="item-set__text">Sản phẩm 1</p>
 									</div>
 									<div class="item-set__unit item-set__unit--plus">
 										<span></span>
@@ -1021,7 +1021,7 @@
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Product 2</p>
+										<p class="item-set__text">Sản phẩm 2</p>
 									</div>
 									<div class="item-set__unit item-set__unit--equal">
 										<span></span>
@@ -1038,7 +1038,6 @@
 										</p>
 										<p class="item-set__text">
 											Ưu đãi giảm 2% cho thành viên
-											<span class="item-set__span">(only applies to newly joined members)</span>
 										</p>
 									</div>
 								</div>
@@ -1073,7 +1072,7 @@
 										data-track-name="offer_category_click" 
 										data-link-area="memberdays_H1_Offer_click_P1_HOME APPLIANCE"
 										data-link-name="memberdays_2023H1"
-										class="tab__button">SẢN PHẨM TIN HỌC</a>
+										class="tab__button">THIẾT BỊ ĐIỆN GIA DỤNG</a>
 									</div>
 									<div class="tab__item">
 										<a href="#computerproducts" role="button" 
@@ -1083,7 +1082,7 @@
 										data-track-name="offer_category_click" 
 										data-link-area="memberdays_H1_Offer_click_P1_COMPUTER PRODUCTS"
 										data-link-name="memberdays_2023H1"
-										class="tab__button">GIẢI PHÁP KHÔNG KHÍ</a>
+										class="tab__button">SẢN PHẨM TIN HỌC</a>
 									</div>
 									<div class="tab__item">
 										<a href="#airsolutions" role="button" 
@@ -1166,7 +1165,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_PREMIERCARE"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM [Premier Care]</a>
+												class="button__item button__item--secondary">XEM THÊM Premier Care</a>
 											</div>
 										</div>
 									</div>
@@ -1188,13 +1187,13 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV/AUDIO"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM [TV/AUDIO]</a>
+												class="button__item button__item--secondary">XEM THÊM TV/AUDIO</a>
 											</div>
 										</div>
 									</div>
 
 									<div id="homeappliance" class="tab__panel tab__panel--homeappliance" style="display: none;">
-										<p class="tab__noti">Klicke auf TÌM HIỂU THÊM, um weitere LG-Produkte zu entdecken</p>
+										<p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p>
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1210,13 +1209,13 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_HOMEAPPLIANCE"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM [HOME APPLIANCE]</a>
+												class="button__item button__item--secondary">XEM THÊM HOME APPLIANCE</a>
 											</div>
 										</div>
 									</div>
 
 									<div id="computerproducts" class="tab__panel tab__panel--computerproducts" style="display: none;">
-										<p class="tab__noti">Klicke auf TÌM HIỂU THÊM, um weitere LG-Produkte zu entdecken</p>
+										<p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p>
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1232,13 +1231,13 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTER PRODUCTS"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM [COMPUTER PRODUCTS]</a>
+												class="button__item button__item--secondary">XEM THÊM COMPUTER PRODUCTS</a>
 											</div>
 										</div>
 									</div>
 
 									<div id="airsolutions" class="tab__panel tab__panel--airsolutions" style="display: none;">
-										<p class="tab__noti">Klicke auf TÌM HIỂU THÊM, um weitere LG-Produkte zu entdecken</p>
+										<p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p>
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>

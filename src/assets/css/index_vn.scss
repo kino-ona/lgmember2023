@@ -263,6 +263,9 @@
 					}
 				}
 			}
+			&__button {
+				text-transform:none;
+			}
 		}
 
 		@media (max-width: 1024px) {

@@ -138,6 +138,7 @@ $(document).ready(function () {
     vertical: true,
     pauseOnHover: false,
     arrows: false,
+    // variableWidth: true,
   });
   $(window).resize(function () {
     $(".lgmembersweek .visual .visual__rolling").slick("refresh", "true");
