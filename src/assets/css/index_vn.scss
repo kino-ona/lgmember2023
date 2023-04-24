@@ -2,6 +2,27 @@
 @use 'mixins';
 
 .lgmembersweek {
+
+	.visual {
+
+		&__rolling {
+
+			.slick {
+
+				&-track {
+					align-items: flex-start;
+					transition: width 900ms ease, transform 900ms ease !important;
+				}
+
+				&-slide {
+					white-space: nowrap;
+					width: max-content !important;
+					display: inline-block !important;
+				}
+			}
+		}
+	}
+
 	.benefit {
 
 		.coupon {
@@ -34,7 +55,7 @@
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				padding: 45px 30px 50px;
+				padding: 50px 50px 40px;
 				border-radius: 40px;
 				background-color: #F6F3EB;
 				color: #000;
@@ -44,40 +65,75 @@
 					
 					&__text {
 						max-width: 452px;
-						margin-top: 16px;
+						margin-top: 10px;
 						font-size: 20px;
 						line-height: 24px;
 					}
 				}
 
 				.list {
-					max-width: 400px;
-					margin-top: 50px;
+					margin-top: 38px;
 
 					&__item {
-						font-weight: 700;
-						font-size: 22px;
-						line-height: 24px;
+						display: flex;
+						align-items: center;
+						column-gap: 24px;
+						position: relative;
+						padding: 18px 0;
 
 						&:not(:last-child) {
-							position: relative;
-							margin-bottom: 50px;
-							
-							&:before {
-								content: '';
-								display: block;
-								position: absolute;
-								left: 50%;
-								bottom: -30px;
-								width: 12px;
-								height: 12px;
-								margin-left: -6px;
-								background-color: rgba(0, 0, 0, .2);
-								mask-image: url('../images/ico_plus.svg');
-								mask-repeat: no-repeat;
-								mask-position: 50% 50%;
-								mask-size: cover;
+
+							p {
+
+								&:before {
+									content: '';
+									display: block;
+									position: absolute;
+									left: 136px;
+									right: 0;
+									bottom: 0;
+									height: 1px;
+									background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 2px, rgba(255, 255, 255, 0) 0);
+									background-position: bottom;
+									background-size: 6px 1px;
+									background-repeat: repeat-x;
+								}
 							}
+						}
+
+						&:first-child {
+							padding-top: 0;
+						}
+
+						&:last-child {
+							padding-bottom: 0;
+						}
+
+						.round {
+							flex: none;
+							display: flex;
+							align-items: center;
+							column-gap: 6px;
+							height: 42px;
+							padding: 0 16px;
+							border: 1px solid #1A1A1A;
+							border-radius: 21px;
+							background-color: #fff;
+							font-weight: 700;
+							font-size: 16px;
+
+							.number {
+								color: #FD312E;
+								font-size: 24px;
+							}
+						}
+
+						p {
+							flex: 1;
+							font-weight: 700;
+							font-size: 18px;
+							line-height: 24px;
+							text-align: left;
 						}
 					}
 				}
@@ -92,6 +148,8 @@
 					
 					&__item {
 						max-width: 320px;
+						height: 64px;
+						font-size: 18px;
 					}
 				}
 			}
@@ -119,20 +177,46 @@
 						margin-top: 30px;
 
 						&__item {
-							font-size: 18px;
+							display: block;
 
 							&:not(:last-child) {
-								margin-bottom: 40px;
 
-								&:before {
-									bottom: -25px;
+								p {
+
+									&:before {
+										left: 0;
+									}
 								}
+							}
+
+							.round {
+								display: inline-flex;
+								column-gap: 2px;
+								height: 30px;
+								padding: 0 10px;
+								font-size: 15px;
+
+								.number {
+									font-size: 18px;
+								}
+							}
+
+							p {
+								margin-top: 10px;
+								text-align: center;
+
+								
 							}
 						}
 					}
 
 					.button {
 						margin-top: 30px;
+
+						&__item {
+							height: 52px;
+							font-size: 16px;
+						}
 					}
 				}
 			}
