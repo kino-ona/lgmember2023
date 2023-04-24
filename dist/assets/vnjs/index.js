@@ -186,7 +186,7 @@ $(document).ready(function () {
   // visual text rolling
   $(".lgmembersweek .visual .visual__rolling").slick({
     speed: 900,
-    infinite: true,
+    infinite: false,
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 1,
@@ -196,6 +196,16 @@ $(document).ready(function () {
     arrows: false,
     // variableWidth: true,
   });
+
+  $(".lgmembersweek .visual .visual__rolling").on(
+    "beforeChange",
+    (event, slick, currentSlide, nextSlide) => {
+      var itemWidth = $(slick.$slides[nextSlide]).width();
+
+      $(slick.$slideTrack).attr("style", `width: ${itemWidth}px`);
+    }
+  );
+
   $(window).resize(function () {
     $(".lgmembersweek .visual .visual__rolling").slick("refresh", "true");
   });
