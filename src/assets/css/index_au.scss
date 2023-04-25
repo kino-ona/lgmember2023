@@ -10,6 +10,14 @@
 			padding-bottom: 55px;
 			background-image: url('../images/au/bg_visual.png');
 		}
+
+		@media (max-width: 1024px) {
+			
+			&__visual {
+				padding-bottom: 30px;
+				background-image: url('../images/au/m_bg_visual.png');
+			}
+		}
 	}
 
 	.benefit {
@@ -141,6 +149,104 @@
 
 				&__coupon {
 					color: #FD312E;
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+			
+			.coupon {
+
+				&__coupon {
+
+					.text {
+						margin-top: 30px;
+						font-size: 18px;
+					}
+				}
+
+				.coupon-list {
+
+					&__product {
+						display: block;
+						margin: 0;
+
+						.coupon-list__col {
+
+							&:first-child {
+
+								&:before,
+								&:after {
+									content: '';
+									display: block;
+									position: absolute;
+									width: 30px;
+									height: 30px;
+									bottom: -45px;
+									border-radius: 50%;
+									background-color: #000;
+								}
+
+								&:before {
+									left: -35px;
+								}
+
+								&:after {
+									right: -35px;
+								}
+							}
+							
+							&:not(:first-child) {
+								margin-top: 30px;
+								padding-top: 30px;
+
+								&:before {
+									left: -20px;
+									right: -20px;
+									width: auto;
+									height: 1px;
+									background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 2px, rgba(255, 255, 255, 0) 0);
+									background-size: 8px 1px;
+									background-repeat: repeat-x;
+								}
+							}
+						}
+
+						.coupon-list__ico {
+							margin-bottom: 16px;
+
+							> div {
+								row-gap: 6px;
+
+								&:nth-of-type(1) {
+
+									i {
+
+										&:before {
+											width: 34px;
+											height: 42px;
+										}
+									}
+								}
+
+								&:nth-of-type(2) {
+
+									i {
+
+										&:before {
+											width: 56px;
+											height: 36px;
+										}
+									}
+								}
+
+								i {
+									width: 80px;
+									height: 80px;
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -288,6 +394,23 @@
 				}
 			}
 		}
+
+		@media (max-width: 1024px) {
+
+			.tab {
+
+				&__list {
+					top: 302px;
+				}
+
+				.section {
+
+					&__header {
+						height: 272px;
+					}
+				}
+			}
+		}
 	}
 
 	.offer {
@@ -307,6 +430,33 @@
 						column-gap: 10px;
 						justify-content: center;
 						margin-bottom: 32px;
+
+						.item-set__col {
+
+							&:nth-of-type(1) {
+
+								.item-set__ico {
+
+									i {
+										width: 36px;
+										height: 46px;
+										background-image: url('../images/ico_set01.svg');
+									}
+								}
+							}
+	
+							&:nth-of-type(2) {
+
+								.item-set__ico {
+
+									i {
+										width: 60px;
+										height: 40px;
+										background-image: url('../images/ico_set02.svg');
+									}
+								}
+							}
+						}
 
 						> span {
 							width: 20px;
@@ -330,24 +480,6 @@
 						border-radius: 50%;
 						background-color: #F6F3EC;
 						margin: 0 auto 14px;
-
-						&:nth-child(1) {
-							
-							i {
-								width: 36px;
-								height: 46px;
-								background-image: url('../images/ico_set01.svg');
-							}
-						}
-
-						&:nth-child(2) {
-							
-							i {
-								width: 60px;
-								height: 40px;
-								background-image: url('../images/ico_set02.svg');
-							}
-						}
 					}
 
 					&__text {
@@ -363,6 +495,41 @@
 						&--secondary {
 							font-size: 16px;
 							letter-spacing: 0;
+						}
+					}
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+			
+			.item-set {
+
+				&__item {
+					height: auto !important;
+					padding: 20px 0 !important;
+
+					.item-set {
+
+						&__group {
+							margin-bottom: 16px;
+						}
+
+						&__ico {
+							width: 80px;
+							height: 80px;
+
+							&:not(:last-child) {
+								margin-bottom: 6px;
+							}
+						}
+
+						&__title {
+							font-size: 32px;
+
+							&--secondary {
+								font-size: 16px;
+							}
 						}
 					}
 				}
