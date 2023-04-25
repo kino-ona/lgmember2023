@@ -82,7 +82,7 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07522329|MD07522313|MD07541676|MD07569325|MD07549560"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07549062|MD06216996|MD07515551|MD07541678|MD07521229|MD07521230|MD07550509|MD07566122|MD07566123|MD07544285|MD07544333|MD07544338|MD07549194|MD07549316|MD07550722|MD07550735|MD07550672|MD07527366|MD07518447|MD07527328|MD07506953|MD07572778|MD07572934|MD07565035|MD07565009|MD07563138|MD07571008|MD07571006|MD07573679|MD07571002|MD07571009|MD07571003|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726|MD07574014|MD07574073|MD07574161|MD07574214|MD07574264|MD07573198|MD07573198|MD07574162|MD07574265"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07550722|MD07550735|MD07550672|MD07565035|MD07565009|MD07550509|MD07566122|MD07566123|MD07549062|MD07521229|MD07521230|MD07544285|MD07544333|MD07544338|MD06216996|MD07541678|MD07515551|MD07527366|MD07518447|MD07527328|MD07506953|MD07572778|MD07572934|MD07549194|MD07549316|MD07574214|MD07574264|MD07574265|MD07574014|MD07574161|MD07574162|MD07574073|MD07573198|MD07573198|MD07563138|MD07571008|MD07571006|MD07571002|MD07571009|MD07571003|MD07573679|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726|"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
@@ -194,7 +194,7 @@
 								<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 							</div>
 							<p class="section__title">Ưu đãi thêm đặc biệt khi nâng hạng thành viên</p>
-							<p class="section__desc">GIẢM GIÁ tới 30% đối với một số sản phẩm</p>
+							<p class="section__desc">GIẢM GIÁ tới 48% đối với một số sản phẩm</p>
 							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
 									<template class="contents-template">
@@ -294,7 +294,7 @@
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
 														<span>Voucher</span>
-														<p>GIẢM giá 15%</p>
+														<p>Giảm giá 15%</p>
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Voucher giảm giá cho đơn hàng nhiều sản phẩm tại ngày hội thành viên LG</p>
@@ -307,7 +307,7 @@
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
 														<span>Voucher</span>
-														<p>GIẢM giá 5%</p>
+														<p>Giảm giá 5%</p>
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Quyền lợi thành viên mới</p>
@@ -319,7 +319,7 @@
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
 														<span>Giá dành cho thành viên</span>
-														<p>GIẢM 2%</p>
+														<p>Giảm 2%</p>
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Giá dành riêng cho thành viên</p>
@@ -1265,7 +1265,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_AIR SOLUTIONS"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM [AIR SOLUTIONS]</a>
+												class="button__item button__item--secondary">XEM THÊM AIR SOLUTIONS</a>
 											</div>
 										</div>
 									</div>
