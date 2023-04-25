@@ -1,0 +1,150 @@
+@charset 'UTF-8';
+@use 'mixins';
+
+.lgmembersweek {
+
+	.experience {
+		
+		.tab {
+
+			&__panel {
+
+				&--gaming {
+
+					.showroom {
+
+						&__item {
+
+							background-image: url('../images/fr/bg_showroom_gaming01.png');
+						}
+					}
+				}
+
+				&--working {
+
+					.showroom {
+
+						&__item {
+
+							background-image: url('../images/fr/bg_showroom_working01.png');
+						}
+
+						&__layer {
+
+							&:nth-child(1) {
+								left: 30%;
+								top: 53.85%;
+							}
+
+							&:nth-child(2) {
+								left: 76.67%;
+								top: 56.73%;
+							}
+						}
+					}
+				}
+
+				&--homekeeping {
+
+					.showroom {
+
+						&__item {
+
+							background-image: url('../images/fr/bg_showroom_homekeeping01.png');
+						}
+
+						&__layer {
+
+							&:nth-child(1) {
+								left: 74.5%;
+								top: 19.23%;
+							}
+
+							&:nth-child(2) {
+								left: 31.67%;
+								top: 48.08%;
+
+								.showroom__target {
+									left: 50%;
+									top: auto;
+									bottom: 52px;
+									@include mixins.transform(translate(-50%, 0));
+								}
+							}
+						}
+					}
+				}
+
+				&--energysaving {
+
+					.showroom {
+
+						&__item {
+
+							background-image: url('../images/fr/bg_showroom_energysaving01.png');
+						}
+
+						&__layer {
+
+							&:nth-child(1) {
+								left: 56.67%;
+								top: 17.31%;
+							}
+
+							&:nth-child(2) {
+								left: 66.67%;
+								top: 53.85%;
+
+								.showroom__target {
+									left: 50%;
+									top: auto;
+									bottom: 52px;
+									@include mixins.transform(translate(-50%, 0));
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.offer {
+
+		.item-set {
+
+			&__item {
+
+				&:nth-child(5) {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					flex-direction: column-reverse;
+					row-gap: 10px;
+
+				}
+
+				.highlight {
+					font-size: 80px;
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+			
+			.item-set {
+
+				&__item {
+
+					&:nth-child(5) {
+						row-gap: 5px;
+
+						.highlight {
+							font-size: 40px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
