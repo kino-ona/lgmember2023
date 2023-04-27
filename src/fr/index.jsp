@@ -75,24 +75,23 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Life Style Model -->
-		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07550715|MD07550710|MD07550660|MD07551331|MD07551385|MD07530013|MD07559969|MD07530005|MD07507103|MD07571351"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570257|MD07569477|MD07529949|MD07565854|MD07563896"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07572497|MD07572785|MD07572633|MD07524754|MD07524665"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07527542|MD07549813|MD07572226|MD07572074|MD07521166|MD07560602|MD07530319|MD07554691|MD07565008|MD07565027"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07522329|MD07522313|MD07541676|MD07569325|MD07549560"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07572186|MD07572201|MD07572229|MD07563973|MD07567911|MD07560431|MD07553857"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570744|MD07568248|MD07568668|MD07560635|MD07571517|MD07570652|MD07563351|MD07572196|MD07573052"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07553573|MD07556249|MD07568950|MD07556654|MD07560453|MD07560453"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07556521|MD07559273|MD07566965|MD07544575|MD07553395|MD07560564|MD07529709|MD07537808|MD05769328|MD07558526"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07530726|MD07530699|MD07545166|MD07560592|MD07532888"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07550722|MD07550735|MD07550672|MD07565035|MD07565009|MD07550509|MD07566122|MD07566123|MD07549062|MD07521229|MD07521230|MD07544285|MD07544333|MD07544338|MD06216996|MD07541678|MD07515551|MD07527366|MD07518447|MD07527328|MD07506953|MD07572778|MD07572934|MD07549194|MD07549316|MD07574214|MD07574264|MD07574265|MD07574014|MD07574161|MD07574162|MD07574073|MD07573198|MD07573198|MD07563138|MD07571008|MD07571006|MD07571002|MD07571009|MD07571003|MD07573679|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726|"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07553753|MD07563708|MD07563320|MD07538512|MD07565661|MD07560595|MD07570655|MD07569389|MD07566965|MD07554867|MD07559263"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="premiercare" value="MD07563138|MD07569934|MD07548889|MD07541681|MD07550732|MD07550679|MD07564802|MD07565008|MD07565027|MD07522329|MD07527542|MD07549398|MD07527476|MD07554691|MD07555673|MD07555673|MD07530319"/>
-		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07550732|MD07550679|MD07564802|MD07550715|MD07550710|MD07550660|MD07551385|MD07551386|MD07552314|MD07551392|MD07551393|MD07551203|MD07551233|MD07551239|MD07530013|MD07571351|MD07530005|MD07507103|MD07560074|MD07561321"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07563138|MD07569934|MD07548889|MD07541681|MD07527542|MD07549398|MD07527476|MD07564174|MD07564104|MD07549813|MD07549560|MD07515556|MD07541676|MD07572226|MD07571978|MD07572074|MD07521166|MD07560602|MD06061357"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07507428|MD07527350|MD07553471|MD07553537|MD07557214|MD07553545|MD07518481|MD07510661"/>
-		<input type="hidden" data-model-group="hottest" data-type="airsolutions" value="MD07565008|MD07565027|MD07522329|MD07554691|MD07555673|MD07530319|MD07530466|MD07569325|MD07564381|MD07564393"/>
+		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07572246|MD07572229|MD07572201|MD07572186|MD07572233|MD07573053|MD07573052|MD07573049|MD07573052|MD07572196|MD07561897|MD07561874|MD07561927|MD07563351|MD07559637|MD07546653|MD07546651"/>
+		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07560453|MD07560453|MD07560431|MD07563973|MD07567911|MD07570652|MD07509126|MD07509107|MD07564941|MD07553681|MD07553678|MD07571592|MD07571517|MD07553857"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556521|MD07559273|MD07566965|MD07537337|MD07525538|MD07520378|MD07506342|MD07544575|MD07553395|MD07560592|MD07532605|MD07532888|MD07535876|MD07537808|MD07559481|MD07529709|MD05769328|MD05769327|MD07558526|MD07558482"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07565648|MD07568248|MD07568802|MD07568668|MD07534417|MD07568843|MD07569063|MD07568939|MD07570974|MD07568654|MD07570744|MD07560635|MD07568950|MD07553573|MD07556654|MD06201616|MD06211097"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -149,16 +148,16 @@
 						<div class="visual__title">
 							Accédez à encore plus
 							<div class="visual__rolling">
-								<div>#de Divertissement</div>
-								<div>#de Gaming</div>
-								<div>#de Productivité</div>
-								<div>#de Entretien</div>
-								<div>#de Économies</div>
+								<div>de #divertissement</div>
+								<div>de #gaming</div>
+								<div>de #productivité</div>
+								<div>d’#entretien</div>
+								<div>d’#économies</div>
 							</div>
 						</div>
 						<p class="visual__desc">
-							Économisez 15 % sur les achats multiples et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres.<br>
-							L’offre se termine le 31 mai, uniquement sur LG.com
+							Économisez 15 % sur les achats multiples et jusqu’à 40 % sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>
+							L’offre valable jusqu’au 31 mai, uniquement sur LG.com
 						</p>
 						<div class="button">
 							<div class="button__row">

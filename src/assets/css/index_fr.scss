@@ -147,4 +147,20 @@
 			}
 		}
 	}
+
+	.visual {
+		&__visual {
+			position: relative;
+		}
+		&__term {
+			position: absolute;
+			margin-top: 0;
+			bottom: 5%;
+			@media (max-width: 1024px) {
+				position: relative;
+				margin-top: 28vh;
+			}
+		}
+	}
+
 }
