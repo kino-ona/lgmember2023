@@ -1013,7 +1013,7 @@
 								<p>PIÙ ACQUISTI, PIÙ RISPARMI</p>
 							</div>
 							<p class="section__title">Crea il tuo set</p>
-							<p class="section__desc">Fino a 20% di sconto acquistando due o più prodotti</p>
+							<p class="section__desc">Fino al 20% di sconto acquistando 2 o più prodotti</p>
 							<p class="section__desc section__desc--secondary">Escluse Offerte Top</p>
 							<p class="section__desc section__desc--secondary">Visualizza lo sconto 13% direttamente a carrello. Cumulabile con offerta di benvenuto del 5% e extra 2% sconto.</p>
 							<p class="section__desc section__desc--smaller">Esempio:</p>

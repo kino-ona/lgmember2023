@@ -64,7 +64,7 @@
 	</c:import> 
 	<!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/lgmemberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->
@@ -82,7 +82,7 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07530726|MD07530699|MD07545166|MD07560592|MD07532888"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07553753|MD07563708|MD07563320|MD07538512|MD07565661|MD07560595|MD07570655|MD07569389|MD07566965|MD07554867|MD07559263"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07554867|MD07559263|MD07570655|MD07560595|MD07553753|MD07538512|MD07569389|MD07566965|MD07563708|MD07563320|MD07565661"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
@@ -151,12 +151,12 @@
 								<div>de #divertissement</div>
 								<div>de #gaming</div>
 								<div>de #productivité</div>
-								<div>d’#entretien</div>
-								<div>d’#économies</div>
+								<div>d’#soin de la maison </div>
+								<div>d’#économie d’énergie</div>
 							</div>
 						</div>
 						<p class="visual__desc">
-							Économisez 15 % sur les achats multiples et jusqu’à 40 % sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>
+							Économisez 15 % sur les achats multiples et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>
 							L’offre valable jusqu’au 31 mai, uniquement sur LG.com
 						</p>
 						<div class="button">
@@ -192,7 +192,7 @@
 								<p>ENCORE PLUS D’ÉCONOMIES</p>
 							</div>
 							<p class="section__title">Nos Offres Spéciales</p>
-							<p class="section__desc">Économisez jusqu’à 40% sur une sélection de produits</p>
+							<p class="section__desc">Économisez jusqu’à 40% sur une sélection de produits exclusifs aux membres LG.</p>
 							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
 									<template class="contents-template">
@@ -311,10 +311,29 @@
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
 														<p>
-															10<br>
+															5
 															<span>
 																%<br>
-																OFF
+																DE RÉDUCTION
+															</span>
+														</p>
+														<span>Coupon</span>
+													</div>
+													<div class="coupon-list__contents">
+														<p class="coupon-list__text">Réduction exclusive LG MEMBER DAYS*</p>
+														<p class="coupon-list__text coupon-list__text--secondary">-5 % sur tous les produits</p>
+														<p class="coupon-list__text coupon-list__text--tertiary">*Tous les produits disponibles sur LG.com à l’exception des ‘Offres Spéciales’</p>
+													</div>
+												</div>
+											</div>
+											<div class="coupon-list__item">
+												<div class="coupon-list__row">
+													<div class="coupon-list__coupon">
+														<p>
+															10
+															<span>
+																%<br>
+																DE RÉDUCTION
 															</span>
 														</p>
 														<span>Coupon</span>
@@ -323,18 +342,6 @@
 														<p class="coupon-list__text">Avantages pour les nouveaux membres</p>
 														<p class="coupon-list__text coupon-list__text--secondary">Réduction exclusive pour votre premier achat</p>
 														<p class="coupon-list__text coupon-list__text--tertiary">*Les coupons ne sont pas cumulables</p>
-													</div>
-												</div>
-											</div>
-											<div class="coupon-list__item">
-												<div class="coupon-list__row">
-													<div class="coupon-list__coupon">
-														<p>2% OFF</p>
-														<span>Member’s Price</span>
-													</div>
-													<div class="coupon-list__contents">
-														<p class="coupon-list__text">Member Exclusive Price</p>
-														<p class="coupon-list__text coupon-list__text--secondary">Join now and get discounts on your purchases</p>
 													</div>
 												</div>
 											</div>
@@ -359,24 +366,23 @@
 										<div class="benefit-list">
 											<div class="benefit-list__item">
 												<i></i>
-												<p class="benefit-list__text">LIVRAISON GRATUITS</p>
+												<p class="benefit-list__text">LIVRAISON ET RETOUR GRATUITS</p>
 												<p class="benefit-list__text benefit-list__text--secondary">Livraison gratuite et rapide jusqu’à votre porte</p>
 											</div>
 											<div class="benefit-list__item">
 												<i></i>
-												<p class="benefit-list__text">ACHETEZ MAINTENANT, PAYEZ PLUS TARD</p>
-												<p class="benefit-list__text benefit-list__text--secondary">CB en 3x 4x sans frais, ou bien d’un financement en 10x</p>
+												<p class="benefit-list__text">INSTALLATION ET REPRISE GRATUITES</p>
 											</div>
 											<div class="benefit-list__item">
 												<i></i>
-												<p class="benefit-list__text">2 ANS DE GARANTIE</p>
-												<p class="benefit-list__text benefit-list__text--secondary">Produits de 2 ans</p>
+												<p class="benefit-list__text">PAIEMENT EN PLUSIEURS FOIS PAR CARTE DE CRÉDIT SANS FRAIS*</p>
+												<p class="benefit-list__text benefit-list__text--secondary">*Sur certains produits haut de gamme</p>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="section__term section__term--right">
-									<a href="#TnC" role="button"
+									<a href="#" role="button"
 									data-track-group="MICROSITE"
 									data-track-name="exclusive_link_click"
 									data-link-area="memberdays_H1_Exclusive_click_P1_Terms_Conditions"
@@ -516,7 +522,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/vn/tivi/lg-oled65c2psa" target="_blank" role="button"
+														<a href="https://www.lg.com/fr/televiseurs/lg-oled55g36la-oled-evo-g3-tv-4k" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_ OLED65C2PSA.ATV"
@@ -525,7 +531,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/vn/tivi/lg-oled65c2psa" target="_blank" role="button"
+															<a href="https://www.lg.com/fr/televiseurs/lg-oled55g36la-oled-evo-g3-tv-4k" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_ OLED65C2PSA.ATV"
@@ -546,7 +552,7 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/vn/sound-bar/lg-sc9s" target="_blank" role="button"
+														<a href="https://www.lg.com/fr/barres-de-son/lg-s95qr-barre-de-son" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_SC9S.DVNMLLK"
@@ -555,7 +561,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/vn/sound-bar/lg-sc9s" target="_blank" role="button"
+															<a href="https://www.lg.com/fr/barres-de-son/lg-s95qr-barre-de-son" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_SC9S.DVNMLLK"
@@ -610,7 +616,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-45gr95qe-b" target="_blank" role="button"
+														<a href="https://www.lg.com/fr/televiseurs/lg-42lx3q6la-oled-tv-flex-4k" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B.ATV"
@@ -619,7 +625,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-45gr95qe-b" target="_blank" role="button"
+															<a href="https://www.lg.com/fr/televiseurs/lg-42lx3q6la-oled-tv-flex-4k" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B.ATV"
@@ -675,7 +681,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/vn/laptops/lg-16zd90r-gax55a5" target="_blank" role="button"
+														<a href="https://www.lg.com/fr/pc-portables/lg-16mq70-moniteur-gramview" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_16ZD90R-G.AX55A5"
@@ -684,7 +690,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/vn/laptops/lg-16zd90r-gax55a5" target="_blank" role="button"
+															<a href="https://www.lg.com/fr/pc-portables/lg-16mq70-moniteur-gramview" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_16ZD90R-G.AX55A5"
@@ -705,7 +711,7 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27mp500-b" target="_blank" role="button"
+														<a href="https://www.lg.com/fr/moniteurs/lg-38wn95cp-w-moniteur-ultrawide" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_27MP500-B.ATV"
@@ -714,7 +720,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27mp500-b" target="_blank" role="button"
+															<a href="https://www.lg.com/fr/moniteurs/lg-38wn95cp-w-moniteur-ultrawide" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_27MP500-B.ATV"
@@ -770,7 +776,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/vn/tu-lanh/lg-gr-x22mb" target="_blank" role="button"
+														<a href="https://www.lg.com/fr/refrigerateurs/lg-gmx844bs6f-refrigerateur-multi-portes-insta-view" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GR-X22MB.AMCPEVN"
@@ -779,7 +785,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/vn/tu-lanh/lg-gr-x22mb" target="_blank" role="button"
+															<a href="https://www.lg.com/fr/refrigerateurs/lg-gmx844bs6f-refrigerateur-multi-portes-insta-view" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GR-X22MB.AMCPEVN"
@@ -800,7 +806,7 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank" role="button"
+														<a href="https://www.lg.com/fr/lavage/lg-f24v30whs-lave-linge-standards" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_AS10GDWH0.ABAE"
@@ -809,7 +815,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank" role="button" 
+															<a href="https://www.lg.com/fr/lavage/lg-f24v30whs-lave-linge-standards" target="_blank" role="button" 
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_AS10GDWH0.ABAE"
@@ -865,7 +871,7 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/vn/tu-lanh/lg-gr-d257wb" target="_blank" role="button"
+														<a href="https://www.lg.com/fr/refrigerateurs/lg-gbb92mcabp-refrigerateur-combine" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_GR-D257WB.AWBPEVN"
@@ -874,7 +880,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/vn/tu-lanh/lg-gr-d257wb" target="_blank" role="button"
+															<a href="https://www.lg.com/fr/refrigerateurs/lg-gbb92mcabp-refrigerateur-combine" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_GR-D257WB.AWBPEVN"
@@ -895,7 +901,7 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as60ghwg0" target="_blank" role="button"
+														<a href="https://www.lg.com/fr/lavage/lg-lswd100e-lavante-sechante" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
 														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_AS60GHWG0.ABAE"
@@ -904,7 +910,7 @@
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as60ghwg0" target="_blank" role="button"
+															<a href="https://www.lg.com/fr/lavage/lg-lswd100e-lavante-sechante" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
 															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_AS60GHWG0.ABAE"
@@ -966,16 +972,16 @@
 								<p>ENCORE PLUS D’OFFRES</p>
 							</div>
 							<p class="section__title">Achat Multiples, Avantages Multiples</p>
-							<p class="section__desc">Bénéficiez d’une remise de 15 % sur TOUS les produits LG lorsque vous achetez deux produits ou plus</p>
+							<p class="section__desc">Bénéficiez d’une remise de 15% sur TOUS les produits LG lorsque vous achetez deux produits ou plus</p>
 							<p class="section__desc section__desc--secondary">Les produits en ‘Offres Spéciales’ et ‘Précommandes’ sont exclus de l’offre d’achat multiple.</p>
-							<p class="section__desc section__desc--secondary">Consultez votre panier d’achat pour vérifier votre réduction finale. N’oubliez pas d’appliquer le coupon d’achat multiple de 15 % dans <em>Mon Panier.</em></p>
+							<p class="section__desc section__desc--secondary">Consultez votre panier d’achat pour vérifier votre réduction finale. N’oubliez pas d’appliquer le coupon d’achat multiple de 15% dans <em>Mon Panier.</em></p>
 							<div class="item-set">
 								<div class="item-set__set">
 									<div class="item-set__item">
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Product 1</p>
+										<p class="item-set__text">Produit 1</p>
 									</div>
 									<div class="item-set__unit item-set__unit--plus">
 										<span></span>
@@ -984,7 +990,7 @@
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Product 2</p>
+										<p class="item-set__text">Produit 2</p>
 									</div>
 									<div class="item-set__unit item-set__unit--equal">
 										<span></span>
@@ -998,22 +1004,22 @@
 							<div class="tab">
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
-										<a href="#premiercare" role="button" 
-										data-tab-name="premiercare" 
-										data-track-group="MICROSITE" 
-										data-track-opt="category" 
-										data-track-name="offer_category_click" 
-										data-link-area="memberdays_H1_Offer_click_P1_PREMIER CARE"
-										data-link-name="memberdays_2023H1"
-										class="tab__button">PRODUITS TV</a>
-									</div>
-									<div class="tab__item ">
 										<a href="#tv" role="button" 
 										data-tab-name="tv" 
 										data-track-group="MICROSITE" 
 										data-track-opt="category" 
 										data-track-name="offer_category_click" 
-										data-link-area="memberdays_H1_Offer_click_P1_TV/AUDIO"
+										data-link-area="memberdays_H1_Offer_click_P1_TV"
+										data-link-name="memberdays_2023H1"
+										class="tab__button">TV</a>
+									</div>
+									<div class="tab__item ">
+										<a href="#audio" role="button" 
+										data-tab-name="audio" 
+										data-track-group="MICROSITE" 
+										data-track-opt="category" 
+										data-track-name="offer_category_click" 
+										data-link-area="memberdays_H1_Offer_click_P1_AUDIO"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">AUDIO</a>
 									</div>
@@ -1100,15 +1106,37 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/vn/thiet-bi-nghe-nhin" target="_blank" role="button"  
+												<a href="https://www.lg.com/fr/tv" target="_blank" role="button"  
 												tabindex="0" 
 												data-track-group="MICROSITE" 
 												data-track-opt="category" 
-												data-track-val="TV/AUDIO"  
+												data-track-val="TV"  
 												data-track-name="offer_see_more_click" 
-												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV/AUDIO"
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">VOIR PLUS TV</button>
+												class="button__item button__item--secondary">VOIR PLUS</a>
+											</div>
+										</div>
+									</div>
+
+									<div id="audio" class="tab__panel tab__panel--audio" style="display: none;">
+										<p class="tab__noti">Cliquez sur le bouton VOIR PLUS ci-dessous pour découvrir plus de produits LG</p>
+										<div class="product">
+											<div class="product__mask">
+												<div class="product__list"></div>
+											</div>
+										</div>
+										<div class="button">
+											<div class="button__row">
+												<a href="https://www.lg.com/fr/audio-video" target="_blank" role="button"  
+												tabindex="0" 
+												data-track-group="MICROSITE" 
+												data-track-opt="category" 
+												data-track-val="TV"  
+												data-track-name="offer_see_more_click" 
+												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV"
+												data-link-name="memberdays_2023H1" 
+												class="button__item button__item--secondary">VOIR PLUS</a>
 											</div>
 										</div>
 									</div>
@@ -1122,7 +1150,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/vn/thiet-bi-dien-gia-dung" target="_blank" role="button" 
+												<a href="https://www.lg.com/fr/electromenager" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="MICROSITE" 
 												data-track-opt="category" 
@@ -1130,7 +1158,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_HOMEAPPLIANCE"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">VOIR PLUS HOME APPLIANCE</a>
+												class="button__item button__item--secondary">VOIR PLUS</a>
 											</div>
 										</div>
 									</div>
@@ -1144,7 +1172,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/vn/san-pham-tin-hoc" target="_blank" role="button" 
+												<a href="https://www.lg.com/fr/produits-informatiques" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="MICROSITE" 
 												data-track-opt="category" 
@@ -1152,12 +1180,10 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTER PRODUCTS"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">VOIR PLUS COMPUTER PRODUCTS</a>
+												class="button__item button__item--secondary">VOIR PLUS</a>
 											</div>
 										</div>
 									</div>
-
-									
 
 								</div>
 							</div>
