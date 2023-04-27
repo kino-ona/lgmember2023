@@ -3,6 +3,27 @@
 
 .lgmembersweek {
 
+	.benefit {
+		
+		.coupon {
+
+			&__coupon {
+
+				.coupon-list {
+
+					&__coupon {
+
+						p {
+							display: flex;
+							align-items: center;
+							column-gap: 2px;
+						}
+					}
+				}
+			}
+		}
+	}
+
 	.experience {
 		
 		.tab {
