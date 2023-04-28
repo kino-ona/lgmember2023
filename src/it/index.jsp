@@ -76,24 +76,24 @@
 
 			<!-- Required input ## Model List Start -->
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07546791|MD07547135|MD07569939|MD07568141|MD07560062"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07532987|MD07568226|MD07568250|MD07546805|MD07564074"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07555423|MD07555790|MD07571411|MD07554813|MD07561317|MD07570903|MD07560062"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07560077|MD07559882|MD05775808|MD07551400|MD07539127|MD07546205|MD07546235"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521105|MD07541995|MD06175496|MD07546168|MD07546195"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07546791|MD07572626| MD07569939 |MD07570425|MD07560003|MD07555691|MD07569633"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570370|MD07568226| MD07568250 |MD07570855|MD07564074"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07560062|MD07571513| MD07571411 | MD07554813 |MD07569915|MD07570353"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07554897|MD07559882| MD05775808 | MD07539127 |MD07546205|MD07535713"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521105|MD07541995| MD06175496 |MD07547531|MD07546168"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546868|MD07570421|MD07551260|MD07547235|MD07551327|MD07569939|MD07555691|MD07559233|MD07536632|MD07544234|MD07521601|MD07527380|MD07544189|MD07541998|MD07544259|MD07536714|MD07559903|MD07560077|MD05989117|MD07562475|MD07554813|MD07570979|MD07559748|MD07568250|MD07568226|MD07555423|MD07551400|MD07551561|MD07565813|MD07565715|MD07565720|MD07565724|MD07565726"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570421|MD07570425|MD07547419|MD07547436|MD07564164|MD07564173|MD07544234| MD07527380 |MD07536632|MD07555797|MD07555761|MD07544843|MD07544189|MD07568140|MD07533713|MD05989117|MD07568250|MD07568226| MD07554813 |MD07559748|MD07570979|MD07565726|MD07565724|MD07565813|MD07565715|MD07565720|MD07551561|MD07551400"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 			<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07546868"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07546868"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07546868"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07546868"/>
-			<input type="hidden" data-model-group="hottest" data-type="conditioners" value="MD07551400|MD07551561|MD07510745|MD07510797|MD07510956|MD07511235|MD07511273|MD07520880|MD07562585|MD07563722|MD07563734|MD07563862|MD07563888|MD07565816|MD07565811|MD07565963|MD07565783|MD07565809|MD07567171|MD07567170|MD07567169|MD07567167|MD07567165"/>
+			<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07570423|MD07562457|MD07546791|MD07562523|MD07572218|MD07570422|MD07570370|MD07547142|MD07547235|MD07549343|MD07551398|MD07565782|"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07555667|MD07569939|MD07555550|MD07555691|MD07567594|MD07560062|MD07559233|MD07569633"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07539127|MD07540676|MD07536701|MD07555791|MD07518345|MD07518427|MD07540923|MD07522585|MD07529177|MD06175496|MD07560054|MD07533733|MD07528566|MD07528454|MD05774448|MD05775808|"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07561313|MD07572386|MD07572298|MD07572299|MD07571760|MD07571462|MD07571513|MD07571411"/>
+			<input type="hidden" data-model-group="hottest" data-type="conditioners" value="MD07546168|MD07546195|MD07510956|MD07511235|MD07546205|MD07546235|MD07503632|MD07503641|MD07565816|MD07565811|MD07565783|MD07567171|MD07567170|MD07567167|MD07562585|MD07563722"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -237,10 +237,10 @@
 														<span class="number">*membershipPriceValue*</span>
 														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													</span>
-													<div class="product__alert">
+													<!-- <div class="product__alert">
 														<span>!</span>
 														*reStockAlertText*
-													</div>
+													</div> -->
 												</div>
 												<div class="product__bottom">
 													<div class="learn-more">

@@ -232,10 +232,10 @@
 														<span class="number">*membershipPriceValue*</span>
 														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													</span>
-													<div class="product__alert">
+													<!-- <div class="product__alert">
 														<span>!</span>
 														*reStockAlertText*
-													</div>
+													</div> -->
 												</div>
 												<div class="product__bottom">
 													<div class="learn-more">

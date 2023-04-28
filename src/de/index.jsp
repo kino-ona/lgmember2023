@@ -82,7 +82,7 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07541029|MD07560729|MD07564062|MD07551604|MD07526179"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07566953|MD07522782|MD07520775|MD07520055|MD07520777|MD07526170|MD07556806|MD07537986|MD07559192|MD07559190|MD07559110|MD07561779|MD07549539|MD07573447|MD07573450|MD07576203|MD07576209|MD07576211|MD07576069|MD07576081|MD07576077|MD07576076|MD07576071|MD07576097|MD07576095|MD07576094|MD07566973|MD07527541|MD07568092|MD07553686|MD07571358|MD07545582"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07566953|MD07522782|MD07520775|MD07520055|MD07520777|MD07526170|MD07556806|MD07537986|MD07559192|MD07559190|MD07559110|MD07561779|MD07573447|MD07573450|MD07576203|MD07576209|MD07576211|MD07576069|MD07576081|MD07576077|MD07576076|MD07576071|MD07576097|MD07576095|MD07576094|MD07566973|MD07527541|MD07568092|MD07553686|MD07571358|MD07545582"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
@@ -233,10 +233,10 @@
 														<span class="number">*membershipPriceValue*</span>
 														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													</span>
-													<div class="product__alert">
+													<!-- <div class="product__alert">
 														<span>!</span>
 														*reStockAlertText*
-													</div>
+													</div> -->
 												</div>
 												<div class="product__bottom">
 													<div class="learn-more">
