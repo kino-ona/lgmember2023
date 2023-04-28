@@ -5,7 +5,7 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG memberdays: Giảm giá tới 22% cùng nhiều ưu đãi hấp dẫn! | LG Việt Nam</title>
+	<title>LG MEMBER DAYS: Giảm giá tới 22% cùng nhiều ưu đãi hấp dẫn! | LG Việt Nam</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="Chương trình ưu đãi dành riêng cho thành viên LG đã bắt đầu. Deal độc quyền cùng nhiều ưu đãi hấp dẫn khác đến hết 31/5. Nhanh tay mua ngay tại LG.com!">
 	<meta name="robots" content="NOODP, NOYDIR">
@@ -41,7 +41,7 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG memberdays: Giảm giá tới 22% cùng nhiều ưu đãi hấp dẫn! | LG Việt Nam"/>
+		<meta itemprop="name" content="LG MEMBER DAYS: Giảm giá tới 22% cùng nhiều ưu đãi hấp dẫn! | LG Việt Nam"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.www.lg.com/vn/lgmemberdays" />
 		<meta itemprop="description" content="Chương trình ưu đãi dành riêng cho thành viên LG đã bắt đầu. Deal độc quyền cùng nhiều ưu đãi hấp dẫn khác đến hết 31/5. Nhanh tay mua ngay tại LG.com!" />
@@ -149,11 +149,11 @@
 						<div class="visual__title">
 							Nâng tầm 
 							<div class="visual__rolling">
-								<div>giải trí mới</div>
-								<div>chơi game mới</div>
-								<div>làm việc</div>
-								<div>chăm sóc nhà cửa</div>
-								<div>tiết kiệm năng lượng</div>
+								<div>#giải trí mới</div>
+								<div>#chơi game mới</div>
+								<div>#làm việc</div>
+								<div>#chăm sóc nhà cửa</div>
+								<div>#tiết kiệm năng lượng</div>
 							</div>
 							cùng LG
 						</div>
@@ -1015,7 +1015,7 @@
 								<p>THĂNG HẠNG ƯU ĐÃI KHI MUA HÀNG NHIỀU SẢN PHẨM</p>
 							</div>
 							<p class="section__title">Mua càng nhiều, ưu đãi càng lớn</p>
-							<p class="section__desc">Nhận ưu đãi 22% cho TẤT CẢ sản phẩm LG khi mua từ 2 sản phẩm trở lên</p>
+							<p class="section__desc">Nhận thêm ưu đãi 22% cho TẤT CẢ sản phẩm LG khi mua từ 2 sản phẩm trở lên</p>
 							<p class="section__desc section__desc--secondary">Không áp dụng cho các sản phẩm thuộc chương trình Khuyến mại đặc biệt</p>
 							<p class="section__desc section__desc--secondary">Truy cập Giỏ hàng của tôi để xem giá sau khi giảm. Đừng quên áp dụng Voucher giảm giá 15% cho đơn hàng nhiều sản phẩm và Voucher giảm giá 5% cho thành viên mới tại <em>Giỏ hàng của tôi</em></p>
 							<div class="item-set">

@@ -5,7 +5,7 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>G MEMBER DAYS*: remise de 15% exclusive aux membres LG | LG France</title>
+	<title>LG MEMBER DAYS*: remise de 15% exclusive aux membres LG | LG France</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 31 mai.">
 	<meta name="robots" content="NOODP, NOYDIR">

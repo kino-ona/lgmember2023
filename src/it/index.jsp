@@ -1267,6 +1267,16 @@
 		<!-- // Content End  -->
 	</div>
 	<div id="TnC"></div>
+	<div class="container-fluid">
+		<div class="footer-box">
+			<div class="footer-component">
+				<div class="footer-caution">
+					Iniziativa promozionale valida dal 3/5 al 24/5/2023 per utenti registrati sui prodotti disponibili presenti all'interno della pagina https://www.lg.com/it/memberdays. Ulteriore sconto a carrello del 13% acquistando 2 o più prodotti disponibili sul sito <a href="https://www.lg.com/it" target="_blank">https://www.lg.com/it</a> una spesa minima: 1.000€ (sono esclusi i prodotti contrassegnati dal tag "OFFERTA TOP" e gli utenti Vip Program).
+					<div>&nbsp;</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- top button -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/top.jsp" />
 	<!-- // top button -->
