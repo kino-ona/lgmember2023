@@ -76,13 +76,13 @@
 		<!-- Required input ## Model List Start -->
 		<!-- Life Style Model -->
 		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07570566|MD07570458|MD07572743|MD07570015|MD07552306|MD07570482|MD06075536|MD06189816|MD07545345"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07559275|MD07563970|"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07559275|MD07563970|MD07575081"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07571707|MD07572903|MD07571342|MD07548205|MD07558252|MD07568104|MD07559819|MD07536623|MD07534660"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07538035|MD07538000|MD07533924|MD07520425|MD07537984|MD07520864|MD07559729|MD07566894|MD07571231|MD06055056|MD07546795|MD06055076|MD07561481|MD07561610|MD07561724"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07541029|MD07560729|MD07564062|MD07551604|MD07526179"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07566953|MD07522782|MD07520775|MD07520055|MD07520777|MD07526170|MD07556806|MD07537986|MD07559192|MD07559190|MD07559110|MD07561779|MD07549539|MD07566973|MD07527541|MD07568092|MD07553686|MD07545582"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07566953|MD07522782|MD07520775|MD07520055|MD07520777|MD07526170|MD07556806|MD07537986|MD07559192|MD07559190|MD07559110|MD07561779|MD07549539|MD07573447|MD07573450|MD07576203|MD07576209|MD07576211|MD07576069|MD07576081|MD07576077|MD07576076|MD07576071|MD07576097|MD07576095|MD07576094|MD07566973|MD07527541|MD07568092|MD07553686|MD07571358|MD07545582"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->

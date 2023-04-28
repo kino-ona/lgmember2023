@@ -82,7 +82,7 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07522329|MD07522313|MD07541676|MD07569325|MD07549560"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07550722|MD07550735|MD07550672|MD07565035|MD07565009|MD07550509|MD07566122|MD07566123|MD07549062|MD07521229|MD07521230|MD07544285|MD07544333|MD07544338|MD06216996|MD07541678|MD07515551|MD07527366|MD07518447|MD07527328|MD07506953|MD07572778|MD07572934|MD07549194|MD07549316|MD07574214|MD07574264|MD07574265|MD07574014|MD07574161|MD07574162|MD07574073|MD07573198|MD07573198|MD07563138|MD07571008|MD07571006|MD07571002|MD07571009|MD07571003|MD07573679|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726|"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07550722|MD07550735|MD07550672|MD07565035|MD07565009|MD07550509|MD07566122|MD07566123|MD07549062|MD07521229|MD07521230|MD07544285|MD07544333|MD07544338|MD06216996|MD07541678|MD07515551|MD07527366|MD07518447|MD07527328|MD07506953|MD07572778|MD07572934|MD07549194|MD07549316|MD07574214|MD07574264|MD07574265|MD07574014|MD07574161|MD07574162|MD07574073|MD07573198|MD07573198|MD07563138|MD07571008|MD07571006|MD07571002|MD07571009|MD07571003|MD07573679|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
@@ -147,18 +147,18 @@
 					<div class="visual__set">
 						<p class="visual__logo">NGÀY HỘI THÀNH VIÊN LG</p>
 						<div class="visual__title">
-							Đạt cấp độ
+							Nâng tầm 
 							<div class="visual__rolling">
-								<div>#giải trí</div>
-								<div>#chơi game</div>
-								<div>#làm việc</div>
-								<div>#chăm sóc</div>
-								<div>#tiết kiệm</div>
+								<div>giải trí mới</div>
+								<div>chơi game mới</div>
+								<div>làm việc</div>
+								<div>chăm sóc nhà cửa</div>
+								<div>tiết kiệm năng lượng</div>
 							</div>
-							tiếp theo
+							cùng LG
 						</div>
 						<p class="visual__desc">
-							Giảm tới 15% khi mua nhiều sản phẩm cho tất cả sản phẩm LG và nhận Ưu đãi đặc biệt với mức giảm giá tới 48% cùng các đặc quyền cho thành viên.<br>
+							Giảm tới 22% khi mua nhiều sản phẩm cho tất cả sản phẩm LG và nhận Ưu đãi đặc biệt với mức giảm giá tới 48% cùng các đặc quyền cho thành viên.<br>
 							Ưu đãi kết thúc vào ngày 31 tháng 5, chỉ có tại LG.com
 						</p>
 						<div class="button">
@@ -193,7 +193,7 @@
 							<div class="section__anchor">
 								<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 							</div>
-							<p class="section__title">Ưu đãi thêm đặc biệt khi nâng hạng thành viên</p>
+							<p class="section__title">Ưu đãi đặc biệt để nâng tầm cuộc sống của bạn</p>
 							<p class="section__desc">GIẢM GIÁ tới 48% đối với một số sản phẩm</p>
 							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
@@ -1015,7 +1015,7 @@
 								<p>THĂNG HẠNG ƯU ĐÃI KHI MUA HÀNG NHIỀU SẢN PHẨM</p>
 							</div>
 							<p class="section__title">Mua càng nhiều, ưu đãi càng lớn</p>
-							<p class="section__desc">Nhận ưu đãi 15% cho TẤT CẢ sản phẩm LG khi mua từ 2 sản phẩm trở lên</p>
+							<p class="section__desc">Nhận ưu đãi 22% cho TẤT CẢ sản phẩm LG khi mua từ 2 sản phẩm trở lên</p>
 							<p class="section__desc section__desc--secondary">Không áp dụng cho các sản phẩm thuộc chương trình Khuyến mại đặc biệt</p>
 							<p class="section__desc section__desc--secondary">Truy cập Giỏ hàng của tôi để xem giá sau khi giảm. Đừng quên áp dụng Voucher giảm giá 15% cho đơn hàng nhiều sản phẩm và Voucher giảm giá 5% cho thành viên mới tại <em>Giỏ hàng của tôi</em></p>
 							<div class="item-set">
@@ -1177,7 +1177,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_PREMIERCARE"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM Premier Care</a>
+												class="button__item button__item--secondary">XEM THÊM PREMIRE CARE</a>
 											</div>
 										</div>
 									</div>
@@ -1199,7 +1199,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_TV/AUDIO"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM TV/AUDIO</a>
+												class="button__item button__item--secondary">XEM THÊM THIẾT BỊ NGHE NHÌN</a>
 											</div>
 										</div>
 									</div>
@@ -1221,7 +1221,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_HOMEAPPLIANCE"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM HOME APPLIANCE</a>
+												class="button__item button__item--secondary">XEM THÊM THIẾT BỊ ĐIỆN GIA DỤNG</a>
 											</div>
 										</div>
 									</div>
@@ -1243,7 +1243,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTER PRODUCTS"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM COMPUTER PRODUCTS</a>
+												class="button__item button__item--secondary">XEM THÊM SẢN PHẨM TIN HỌC</a>
 											</div>
 										</div>
 									</div>
@@ -1265,7 +1265,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_AIR SOLUTIONS"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">XEM THÊM AIR SOLUTIONS</a>
+												class="button__item button__item--secondary">XEM THÊM GIẢI PHÁP KHÔNG KHÍ</a>
 											</div>
 										</div>
 									</div>

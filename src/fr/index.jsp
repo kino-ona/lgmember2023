@@ -5,9 +5,9 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>TV, Audio, Vidéo, Électroménager, Informatique, Climatisation | LG France</title>
+	<title>G MEMBER DAYS*: remise de 15% exclusive aux membres LG | LG France</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="LG Electronics vous propose son expertise en téléviseurs OLED, QNED, produits audio, électroménager, moniteurs et bien plus.">
+	<meta name="description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 31 mai.">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.www.lg.com/fr/memberdays">
 	<meta property="fb:app_id" content="">
@@ -15,7 +15,7 @@
 	<meta property="og:site_name" content="LG France">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="TV, Audio, Vidéo, Électroménager, Informatique, Climatisatio | LG France">
-	<meta property="og:description" content="LG Electronics vous propose son expertise en téléviseurs OLED, QNED, produits audio, électroménager, moniteurs et bien plus.">
+	<meta property="og:description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 31 mai.">
 	<meta property="og:url" content="https://www.www.lg.com/fr/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -44,7 +44,7 @@
 		<meta itemprop="name" content="TV, Audio, Vidéo, Électroménager, Informatique, Climatisatio | LG France"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.www.lg.com/fr/memberdays" />
-		<meta itemprop="description" content="LG Electronics vous propose son expertise en téléviseurs OLED, QNED, produits audio, électroménager, moniteurs et bien plus." />
+		<meta itemprop="description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 31 mai." />
 		<meta itemprop="keywords" content="" />
 	</div>
 	

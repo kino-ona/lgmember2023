@@ -21,6 +21,21 @@
 				}
 			}
 		}
+		&__visual {
+			position: relative;
+			@media (min-width: 1024px) {
+				height: 100vh;
+			}
+		}
+		&__term {
+			position: absolute;
+			margin-top: 0;
+			bottom: 5%;
+			@media (max-width: 1024px) {
+				position: relative;
+				margin-top: 28vh;
+			}
+		}
 	}
 
 	.benefit {
