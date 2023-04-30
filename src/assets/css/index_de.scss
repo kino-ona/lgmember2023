@@ -219,21 +219,12 @@
 				}
 			}
 		}
-
-		// .tab__panel--entertaiment .showroom__item {
-		// 	background-image: url(../images/de/bg_showroom_entertaiment01.png);
-		// }
-		// .tab__panel--gaming .showroom__item {
-		// 	background-image: url(../images/de/bg_showroom_gaming01.png);
-		// }
-		// .tab__panel--homekeeping .showroom__item {
-		// 	background-image: url(../images/de/bg_showroom_homekeeping01.png);
-		// }
-		// .tab__panel--working .showroom__item {
-		// 	background-image: url(../images/de/bg_showroom_working01.png);
-		// }
-		// .tab__panel--energysaving .showroom__item {
-		// 	background-image: url(../images/de/bg_showroom_energysaving01.png);
-		// }
+	}
+	.product {
+		&__flag {
+			font-size: 10px;
+			padding: 0 5px;
+			height: 18px;
+		}
 	}
 }

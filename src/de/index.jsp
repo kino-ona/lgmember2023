@@ -175,7 +175,7 @@
 								data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H1_Mainbanner_click_P1_Terms_Conditions"
 								data-link-name="memberdays_2023H1">
-								Allgemeine Geschäftsbedingungen
+								Teilnahmebedingungen
 								<i></i>
 							</a>
 						</div>
@@ -340,7 +340,7 @@
 									data-track-name="exclusive_link_click"
 									data-link-area="memberdays_H1_Exclusive_click_P1_Terms_Conditions"
 									data-link-name="memberdays_2023H1">
-										Allgemeine Geschäftsbedingungen
+										Teilnahmebedingungen
 										<i></i>
 									</a>
 								</div>
@@ -984,7 +984,7 @@
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Produkte 1</p>
+										<p class="item-set__text">Produkt 1</p>
 									</div>
 									<div class="item-set__unit item-set__unit--plus">
 										<span></span>
@@ -993,7 +993,7 @@
 										<div class="item-set__ico">
 											<i></i>
 										</div>
-										<p class="item-set__text">Produkte 2</p>
+										<p class="item-set__text">Produkt 2</p>
 									</div>
 									<div class="item-set__unit item-set__unit--equal">
 										<span></span>
@@ -1101,7 +1101,7 @@
 								</template>
 								<div class="tab__contents">
 									<div id="tv" class="tab__panel tab__panel--tv" style="display: block;">
-										<p class="tab__noti">Klicke auf MEHR ERFAHREN, um weitere LG-Produkte zu entdecken</p>
+										<p class="tab__noti">Klicke auf "Mehr Produkte entdecken", um weitere LG Modelle einsehen zu können.</p>
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1123,7 +1123,7 @@
 									</div>
 
 									<div id="audio" class="tab__panel tab__panel--audio" style="display: none;">
-										<p class="tab__noti">Klicke auf MEHR ERFAHREN, um weitere LG-Produkte zu entdecken</p>
+										<p class="tab__noti">Klicke auf "Mehr Produkte entdecken", um weitere LG Modelle einsehen zu können.</p>
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1145,7 +1145,7 @@
 									</div>
 
 									<div id="homeappliance" class="tab__panel tab__panel--homeappliance" style="display: none;">
-										<p class="tab__noti">Klicke auf MEHR ERFAHREN, um weitere LG-Produkte zu entdecken</p>
+										<p class="tab__noti">Klicke auf "Mehr Produkte entdecken", um weitere LG Modelle einsehen zu können.</p>
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1167,7 +1167,7 @@
 									</div>
 
 									<div id="computerproducts" class="tab__panel tab__panel--computerproducts" style="display: none;">
-										<p class="tab__noti">Klicke auf MEHR ERFAHREN, um weitere LG-Produkte zu entdecken</p>
+										<p class="tab__noti">Klicke auf "Mehr Produkte entdecken", um weitere LG Modelle einsehen zu können.</p>
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1196,6 +1196,17 @@
 			</div>
 		</div>
 		<!-- // Content End  -->
+	</div>
+
+	<div class="container-fluid">
+		<div class="footer-box">
+			<div class="footer-component">
+				<div class="footer-caution">
+					*Das Angebot ist gültig vom 02.05.2023 - 22.05.2023 exklusiv auf LG.com, nur solange der Vorrat reicht und nicht kombinierbar mit anderen Aktionen oder Rabattcoupons (wie z.B. Cashback, Kauf auf Mitarbeiterplattformen, VIP Accounts etc.). LG behält sich in Ausnahmefällen vor, das Angebot frühzeitig zu beenden oder abzuändern. Weitere Informationen entnehmen Sie bitte unseren Teilnahmebedingungen.
+					<div>&nbsp;</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- top button -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/top.jsp" />
