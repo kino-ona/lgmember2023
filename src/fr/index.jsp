@@ -151,12 +151,12 @@
 								<div>de #divertissement</div>
 								<div>de #gaming</div>
 								<div>de #productivité</div>
-								<div>d’#soin de la maison </div>
+								<div>de #soin de la maison </div>
 								<div>d’#économie d’énergie</div>
 							</div>
 						</div>
 						<p class="visual__desc">
-							Économisez 15 % sur les achats multiples et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>
+							Économisez 15% sur les achats multiples sur TOUS les produits et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>
 							L’offre valable jusqu’au 31 mai, uniquement sur LG.com
 						</p>
 						<div class="button">
@@ -303,7 +303,7 @@
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Coupon d’achat multiple pour les MEMBER DAYS*</p>
 														<p class="coupon-list__text coupon-list__text--secondary">Lorsque vous achetez deux produits LG ou plus</p>
-														<p class="coupon-list__text coupon-list__text--tertiary">*Tous les produits disponibles sur LG.com à l’exception des ‘Offres Spéciales’ et ‘Précommandes’</p>
+														<p class="coupon-list__text coupon-list__text--tertiary">*Tous les produits disponibles sur LG.com à l’exception des ‘Offres spéciales’</p>
 													</div>
 												</div>
 											</div>
@@ -321,7 +321,7 @@
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Réduction exclusive LG MEMBER DAYS*</p>
-														<p class="coupon-list__text coupon-list__text--secondary">-5 % sur tous les produits</p>
+														<p class="coupon-list__text coupon-list__text--secondary">-5% sur tous les produits</p>
 														<p class="coupon-list__text coupon-list__text--tertiary">*Tous les produits disponibles sur LG.com à l’exception des ‘Offres Spéciales’</p>
 													</div>
 												</div>
@@ -996,6 +996,7 @@
 										<span></span>
 									</div>
 									<div class="item-set__item">
+										<p class="item-set__text item-set__text--highlight">de remise en plus</p>
 										<em class="highlight">15%</em>
 										<p class="item-set__text item-set__text--highlight">Coupon d’achat multiple</p>
 									</div>

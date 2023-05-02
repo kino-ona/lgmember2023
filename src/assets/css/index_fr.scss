@@ -168,6 +168,16 @@
 				.highlight {
 					font-size: 80px;
 				}
+				.item-set__text {
+					&:not(:last-child) {
+						margin-bottom: 0;
+						font-size: 18px;
+
+						&:before {
+							display: none;
+						}
+					}
+				}
 			}
 		}
 
