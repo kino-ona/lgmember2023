@@ -11,7 +11,7 @@
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/au/memberdays">
 	<meta property="fb:app_id" content="">
-	<meta property="og:locale" content="en_GB">
+	<meta property="og:locale" content="AU">
 	<meta property="og:site_name" content="LG Australia">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Consumer Electronics, Home &amp; Kitchen Appliances | LG Australia">
@@ -49,7 +49,7 @@
 		<meta itemprop="keywords" content="" />
 	</div>
 	
-	<c:set var='bizType' value='${$bizType }' />
+	<c:set var='bizType' value='${$bizType}' />
 	<c:set var='siteType' value='MKT' />
 	<!-- component (navigation) -->
 	<c:import url="/${localeCd}/gnb">
