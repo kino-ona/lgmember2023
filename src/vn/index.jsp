@@ -82,7 +82,7 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07522329|MD07522313|MD07541676|MD07569325|MD07549560"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07550722|MD07550735|MD07550672|MD07565035|MD07565009|MD07550509|MD07566122|MD07566123|MD07549062|MD07521229|MD07521230|MD07544285|MD07544333|MD07544338|MD06216996|MD07541678|MD07515551|MD07527366|MD07518447|MD07527328|MD07506953|MD07572778|MD07572934|MD07549194|MD07549316|MD07574214|MD07574264|MD07574265|MD07574014|MD07574161|MD07574162|MD07574073|MD07573198|MD07573198|MD07563138|MD07571008|MD07571006|MD07571002|MD07571009|MD07571003|MD07573679|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07550722|MD07550735|MD07550672|MD07565035|MD07565009|MD07550509|MD07566122|MD07566123|MD07549062|MD07521229|MD07521230|MD07544285|MD07544333|MD07544338|MD06216996|MD07541678|MD07515551|MD07527366|MD07518447|MD07527328|MD07506953|MD07572778|MD07572934|MD07549194|MD07549316|MD07574214|MD07574264|MD07574265|MD07574014|MD07574161|MD07574162|MD07574073|MD07574016MD07573198|MD07574016|MD07563138|MD07571008|MD07571006|MD07571002|MD07571009|MD07571003|MD07573679|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
@@ -247,7 +247,7 @@
 													</div>
 													<div class="button">
 														<a role="button" href="#" class="button__item button__item--red atc-members-week add-to-cart" data-track-group="product" data-link-area="largest_savings_add_to_cart_click" data-track-name="largest_savings_add_to_cart_click" data-link-name="largest_savings_add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='THÊM VÀO GIỎ HÀNG'/></a>
-														<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a>
+														<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a>
 													</div>
 												</div>
 											</div>
@@ -297,9 +297,9 @@
 														<p>Giảm giá 15%</p>
 													</div>
 													<div class="coupon-list__contents">
-														<p class="coupon-list__text">Voucher giảm giá cho đơn hàng nhiều sản phẩm tại ngày hội thành viên LG</p>
+														<p class="coupon-list__text">Voucher giảm giá cho đơn hàng nhiều sản phẩm</p>
 														<p class="coupon-list__text coupon-list__text--secondary">Áp dụng khi mua từ 2 sản phẩm LG </p>
-														<p class="coupon-list__text coupon-list__text--tertiary">*Dành cho tất cả sản phẩm có trên LG.com ngoại trừ sản phẩm nằm trong chương trình “Khuyến mại đặc biệt và Đặt hàng trước</p>
+														<p class="coupon-list__text coupon-list__text--tertiary">*Dành cho tất cả sản phẩm có trên LG.com ngoại trừ sản phẩm nằm trong chương trình Khuyến mại đặc biệt và Đặt hàng trước</p>
 													</div>
 												</div>
 											</div>
@@ -319,7 +319,7 @@
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
 														<span>Giá dành cho thành viên</span>
-														<p>Giảm 2%</p>
+														<p>Giảm giá 2%</p>
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Giá dành riêng cho thành viên</p>
@@ -344,19 +344,19 @@
 										<p class="coupon__text">Tận hưởng các đặc quyền và ưu tiên khi chọn các sản phẩm cao cấp của LG </p>
 										<ul class="list">
 											<li class="list__item">
-												<span class="round">Lợi ích <span class="number">1</span></span>
+												<span class="round">Quyền lợi <span class="number">1</span></span>
 												<p>Giao hàng và lắp đặt cùng thời điểm</p>
 											</li>
 											<li class="list__item">
-												<span class="round">Lợi ích <span class="number">2</span></span>
+												<span class="round">Quyền lợi <span class="number">2</span></span>
 												<p>Sửa chữa ưu việt trong 24 giờ</p>
 											</li>
 											<li class="list__item">
-												<span class="round">Lợi ích <span class="number">3</span></span>
+												<span class="round">Quyền lợi <span class="number">3</span></span>
 												<p>01 năm chăm sóc định kỳ</p>
 											</li>
 											<li class="list__item">
-												<span class="round">Lợi ích <span class="number">4</span></span>
+												<span class="round">Quyền lợi<span class="number">4</span></span>
 												<p>Ưu đãi đặc quyền cho lần mua tiếp theo và dịch vụ ngoài bảo hành</p>
 											</li>
 										</ul>
@@ -380,14 +380,13 @@
 											</div>
 											<div class="benefit-list__item">
 												<i></i>
-												<p class="benefit-list__text">Miễn phí lắp đặt và thải bỏ</p>
+												<p class="benefit-list__text">Miễn phí công lắp đặt</p>
 											</div>
 											<div class="benefit-list__item">
 												<i></i>
 												<p class="benefit-list__text">
-													0% lãi suất khi trả góp bằng<br>thẻ tín dụng*
+													Trả góp 0% lãi suất lên đến 12 tháng
 												</p>
-												<p class="benefit-list__text benefit-list__text--secondary">*Áp dụng cho một số sản phẩm cao cấp</p>
 											</div>
 										</div>
 									</div>
@@ -476,7 +475,7 @@
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='TÌM HIỂU THÊM'/></span>
 													</a>
 													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="experience_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='THÊM VÀO GIỎ HÀNG'/></a>
-													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a>
 												</div>
 											</div>
 										</div>
@@ -513,7 +512,7 @@
 												</div>
 												<div class="button">
 													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='THÊM VÀO GIỎ HÀNG'/></a>
-													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a>
 												</div>
 											</div>
 										</div>
@@ -1153,7 +1152,7 @@
 												</div>
 												<div class="button">
 													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='THÊM VÀO GIỎ HÀNG'/></a>
-													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a>
+													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a>
 												</div>
 											</div>
 										</div>

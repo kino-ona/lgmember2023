@@ -164,11 +164,31 @@
 				margin-left: -5px;
 			}
 		}
+
+		&__flags {
+			@media (max-width: 1280px) {
+				flex-direction: column;
+				align-items: flex-start;
+	
+				.product__flag {
+					align-items: flex-start;
+					padding: 0 4px;
+					line-height: 15px;
+				}
+			}
+		}
 	}
 
 	.hotdeal {
 		&:before {
 			background-color: #31302C;
+		}
+
+		.product {
+			&__flags {
+				flex-direction: column;
+				align-items: flex-start;
+			}
 		}
 	}
 

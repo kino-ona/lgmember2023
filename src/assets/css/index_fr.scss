@@ -9,6 +9,18 @@
 				min-height: 140px;
 			}
 		}
+		&__flags {
+			@media (max-width: 1280px) {
+				flex-direction: column;
+				align-items: flex-start;
+	
+				.product__flag {
+					align-items: flex-start;
+					padding: 0 4px;
+					line-height: 15px;
+				}
+			}
+		}
 	}
 
 	.benefit {

@@ -4,6 +4,14 @@
 .lgmembersweek {
 
 	.visual {
+		&__logo {
+			margin-bottom: 5px;
+			font-size: 35px;
+		}
+		&__desc:not(:first-child) {
+			max-width:38%;
+			line-height: 28px;
+		}
 
 		&__rolling {
 
@@ -275,11 +283,27 @@
 				margin-left: -5px;
 			}
 		}
+
+		&__flags {
+			@media (max-width: 1280px) {
+				flex-direction: column;
+				align-items: flex-start;
+	
+				.product__flag {
+					align-items: flex-start;
+					padding: 0 4px;
+					line-height: 15px;
+				}
+			}
+		}
 	}
 	.section {
 		&__anchor {
 			p {
 				padding: 5px 5px;
+				@media screen and (max-width: 1024px) {
+					font-size: 13px;
+				}
 			}
 		}
 	}
