@@ -82,13 +82,13 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07541029|MD07560729|MD07564062|MD07551604|MD07526179"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07566953|MD07522782|MD07520775|MD07520055|MD07520777|MD07526170|MD07556806|MD07537986|MD07559192|MD07559190|MD07559110|MD07561779|MD07573447|MD07573450|MD07576203|MD07576209|MD07576211|MD07576081|MD07576077|MD07576076|MD07576071|MD07576097|MD07576095|MD07576094|MD07566973|MD07527541|MD07568092|MD07553686|MD07571358|MD07545582"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07566953|MD07522782|MD07520775|MD07520055|MD07520777|MD07526170|MD07556806|MD07537986|MD07559192|MD07559110|MD07576203|MD07576209|MD07576211|MD07576081|MD07576077|MD07576076|MD07576071|MD07576097|MD07576095|MD07576094|MD07566973|MD07527541|MD07568092|MD07553686|MD07571358|MD07545582|MD07561294|MD07576109|MD07576110|MD07576111|MD07576112|MD07576113|MD07576068|MD07576083|MD07576064|MD07576101|MD07576105|MD07576103|MD07576106|MD07576107"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07549875|MD07550687|MD07549894|MD07549244|MD07547434|MD07549871|MD07551683|MD07549261|MD07549596|MD07548083"/>
+		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07550687|MD07549244|MD07549871|MD07551683|MD07549261|MD07548083"/>
 		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07570015|MD07552306|MD07570482|MD07534660|MD07534021|MD07529965|MD07529952|MD07551605|MD07551967|MD07533588"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559729|MD07556836|MD06205396|MD07561481|MD07562441|MD07571231|MD07538023|MD07532590|MD05888956|MD07522395"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07571152|MD07563970|MD07559129|MD07564761|MD07568104|MD07528827|MD07548205|MD07568100|MD07568091|MD07568090"/>
@@ -1202,7 +1202,8 @@
 		<div class="footer-box">
 			<div class="footer-component">
 				<div class="footer-caution">
-					*Das Angebot ist gültig vom 02.05.2023 - 22.05.2023 exklusiv auf LG.com, nur solange der Vorrat reicht und nicht kombinierbar mit anderen Aktionen oder Rabattcoupons (wie z.B. Cashback, Kauf auf Mitarbeiterplattformen, VIP Accounts etc.). LG behält sich in Ausnahmefällen vor, das Angebot frühzeitig zu beenden oder abzuändern. Weitere Informationen entnehmen Sie bitte unseren Teilnahmebedingungen.
+					*Das Angebot ist gültig vom 02.05.2023 - 22.05.2023 exklusiv auf LG.com, nur solange der Vorrat reicht und nicht mit allen anderen Aktionen oder Rabattcoupons kombinierbar
+					(wie z.B. Kauf auf Mitarbeiterplattformen, VIP Accounts etc.). LG behält sich in Ausnahmefällen vor, das Angebot frühzeitig zu beenden oder abzuändern. Weitere Informationen entnehmen Sie bitte unseren Teilnahmebedingungen.
 					<div>&nbsp;</div>
 				</div>
 			</div>
