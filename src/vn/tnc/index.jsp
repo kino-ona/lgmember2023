@@ -5,81 +5,34 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>Ưu đãi Ngày Hội Thành Viên: Giảm tới 17% cho thành viên LG | LG Việt Nam</title>
+	<title>LG MEMBER DAYS: Giảm giá tới 22% cùng nhiều ưu đãi hấp dẫn! | LG Việt Nam</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022.">
+	<meta name="description" content="Chương trình ưu đãi dành riêng cho thành viên LG đã bắt đầu. Deal độc quyền cùng nhiều ưu đãi hấp dẫn khác đến hết 31/5. Nhanh tay mua ngay tại LG.com!">
 	<meta name="robots" content="NOODP, NOYDIR">
-	<link rel="canonical" href="https://www.lg.com/vn/lgmemberdays">
+	<link rel="canonical" href="https://www.www.lg.com/vn/lgmemberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
-	<meta property="og:site_name" content="LG Electronics Việt Nam">
+	<meta property="og:site_name" content="LG Việt Nam">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Ưu đãi Ngày Hội Thành Viên: Giảm tới 17% cho thành viên LG | LG Việt Nam">
-	<meta property="og:description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022.">
-	<meta property="og:url" content="https://www.lg.com/vn/lgmemberdays">
+	<meta property="og:title" content="LG memberdays: Giảm giá tới 22% cùng nhiều ưu đãi hấp dẫn! | LG Việt Nam">
+	<meta property="og:description" content="Chương trình ưu đãi dành riêng cho thành viên LG đã bắt đầu. Deal độc quyền cùng nhiều ưu đãi hấp dẫn khác đến hết 31/5. Nhanh tay mua ngay tại LG.com!">
+	<meta property="og:url" content="https://www.www.lg.com/vn/lgmemberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@LGVN">
-	<script type="application/ld+json">
-	{
-	"@context": "https://schema.org",
-	"@type": "Corporation",
-	"name": "LG Việt Nam",
-	"alternateName": "LG Electronics",
-	"url": "https://www.lg.com/vn",
-	"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
-		"sameAs": [
-	"https://www.facebook.com/lge.vietnam ",
-	"https://www.youtube.com/user/LgCinema3DVietnam?feature=g-all-u ",
-	"https://www.instagram.com/lgvietnam",
-	"viber://pa/info?uri=customercareservice"
-	]}
-	</script>
-	<script type="application/ld+json">
-	{
-	"@context": "https://schema.org",
-	"@type": "WebSite",
-	"name": "LG Việt Nam",
-	"url": "https://www.lg.com/vn",
-		"potentialAction": {
-	"@type": "SearchAction",
-	"target": "https://www.lg.com/vn/search/search-all?search={search_term_string}",
-	"query-input": "required name=search_term_string"}
-	}
-	</script>
 	<meta content="#a50034" name="theme-color">
-
+	<!-- // default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69014947-27"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'UA-69014947-27');
-	</script>
-
-	<!-- Facebook Pixel Code -->
-	<script>
-		!function(f,b,e,v,n,t,s)
-		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-		n.queue=[];t=b.createElement(e);t.async=!0;
-		t.src=v;s=b.getElementsByTagName(e)[0];
-		s.parentNode.insertBefore(t,s)}(window, document,'script',
-		'https://connect.facebook.net/en_US/fbevents.js');
-		fbq('init', '493623621658054');
-		fbq('track', 'PageView');
-		fbq('trackCustom', '2022H2GMCMemberDay View');
-	</script>
-	<noscript>
-		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
-	</noscript>
-	<!-- End Facebook Pixel Code -->
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KBTJPM');</script>
+	<!-- End Google Tag Manager -->
 </head>
 
 <body>
@@ -88,10 +41,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="Ưu đãi Ngày Hội Thành Viên: Giảm tới 17% cho thành viên LG | LG Việt Nam"/>
+		<meta itemprop="name" content="LG MEMBER DAYS: Giảm giá tới 22% cùng nhiều ưu đãi hấp dẫn! | LG Việt Nam"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
-		<meta itemprop="url" content="https://www.lg.com/vn/lgmemberdays" />
-		<meta itemprop="description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022." />
+		<meta itemprop="url" content="https://www.www.lg.com/vn/lgmemberdays" />
+		<meta itemprop="description" content="Chương trình ưu đãi dành riêng cho thành viên LG đã bắt đầu. Deal độc quyền cùng nhiều ưu đãi hấp dẫn khác đến hết 31/5. Nhanh tay mua ngay tại LG.com!" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -124,132 +77,228 @@
       <div class="lgmembersweek lgmembersweek-terms">
         <div class="lgmembersweek-terms__wrap">
           <h3>
-						CHƯƠNG TRÌNH LG MEMBER DAYS –<br>NGÔI SAO MAY MẮN
+						Thể lệ chương trình LG Member Days
           </h3>
           <dl class="info">
-            <dt>Thời gian:</dt>
-            <dd>Từ 28/11 – 18/12/2022</dd>
+            <dt>Thời gian áp dụng:</dt>
+            <dd>08.05 đến 31.05.23</dd>
           </dl>
-          <dl class="info">
-            <dt>Đối tượng áp dụng:</dt>
-            <dd>Khách hàng là thành viên của LG Online Brand Shop (https://www.lg.com/vn).</dd>
+					<dl class="info">
+						<dt>Nơi áp dụng:</dt>
+						<dd><a href="http://www.lg.com/vn" target="_blank">www.lg.com/vn</a> (gọi tắt OBS LG)</dd>
+					</dl>
+					<dl class="info">
+            <dt>Đối tượng:</dt>
+            <dd>Khách hàng là thành viên mua hàng tại trang web chính hãng OBS trong thời gian diễn ra chương trình.</dd>
           </dl>
-          <p class="sub-title">Thể lệ chương trình:</p>
+					<dl class="info">
+            <dt>Địa bàn:</dt>
+            <dd>Áp dụng toàn quốc</dd>
+          </dl>
+          <p class="sub-title">Cơ cấu của chương trình:</p>
           <ul class="list">
-            <li>
-              <span class="bar"></span>
-              Khách hàng khi tham quan mua sắm trên cửa hàng trực tuyến LG sẽ có cơ hội nhận được các quà
-tặng khi lật mở các Ngôi sao may mắn được hiển thị ngẫu nhiên trên giao diện trang web
-            </li>
-            <li>
-              <span class="bar"></span>
-              Mỗi Khách hàng sẽ được lật mở 01 ngôi sao trong suốt thời gian diễn ra Chương trình.
-            </li>
-            <li>
-              <span class="bar"></span>
-              Quà tặng áp dụng trong Chương trình:
-            </li>
+						<li>
+							1. Ưu đãi giảm giá lên đến 22% đối với khách hàng mua từ hai mặt hàng trở lên trong thời gian 08.05 đến 31.05.23. Cụ thể :
+							<ul class="list">
+								<li>
+									<span class="bar"></span>
+									Giảm thêm 15% (hình thức voucher) đối với khách hàng mua hai sản phẩm LG trở lên.
+								</li>
+								<li>
+									<span class="bar"></span>
+									Đối với khách hàng là thành viên mới được áp dụng thêm: Welcome coupon 5% và ưu đãi dành riêng cho thành viên LG là 2%. Tổng giảm giá không quá 22% và không được vượt quá 50% trên đơn hàng.
+								</li>
+								<li>
+									<span class="bar"></span>
+									Được áp dụng cho tất cả các sản phẩm của LG trên OBS và không giới hạn số lượng mua hàng.
+								</li>
+							</ul>
+						</li>
+						<li>
+							2. Hotdeal: 08.05 đến 31.05.2023
+							<ul class="list">
+								<li>
+									<span class="bar"></span>
+									Là chương trình giảm giá trực tiếp trên giá niêm yết một số sản phẩm như sau :
+									<table>
+										<thead>
+											<tr>
+												<th>Thứ tự</th>
+												<th>Mô tả</th>
+												<th>Tên và Mã sản phẩm</th>
+												<th>Giảm giá</th>
+											</tr>
+											<tbody>
+												<tr>
+													<td>1</td>
+													<td>Máy lọc không khí LG Puricare Pro</td>
+													 <td style="text-align:center;">AS40GWWJ1.ABAE</td>
+													 <td>45%</td>
+												</tr>
+												<tr>
+													<td>2</td>
+													<td>Tủ chăm sóc quần áo thông minh 5 móc Styler - Màu xanh lá cây</td>
+													 <td style="text-align:center;">S5GOC.ALGPEVN</td>
+													 <td>30%</td>
+												</tr>
+												<tr>
+													<td>3</td>
+													<td>Tủ chăm sóc quần áo thông minh 5 móc Styler - Màu be</td>
+													 <td style="text-align:center;">S5BOC.ALBPEVN</td>
+													 <td>30%</td>
+												</tr>
+												<tr>
+													<td>4</td>
+													<td>Tủ chăm sóc quần áo thông minh 3 móc Styler - Màu than ánh kim</td>
+													 <td>S3CW.ALCPEVN</td>
+													 <td>35%</td>
+												</tr>
+												<tr>
+													<td>5</td>
+													<td>Máy sấy LG DUAL Inverter Heat Pump™ 9kg (đen)</td>
+													 <td>DVHP09B.ABLPEVN</td>
+													 <td>35%</td>
+												</tr>
+												<tr>
+													<td>6</td>
+													<td>Máy sấy LG DUAL Inverter Heat Pump™ 9kg (trắng)</td>
+													 <td>DVHP09W.ABWPEVN</td>
+													 <td>35%</td>
+												</tr>
+												<tr>
+													<td>7</td>
+													<td>Máy giặt LG sấy lồng ngang 9kg (xám)</td>
+													<td>FV1409G4V.ASSPEVN</td>
+													<td>32%</td>
+												</tr>
+												<tr>
+													<td>8</td>
+													<td>Máy giặt LG lồng ngang 11kg (Xám)</td>
+													<td>FV1411S4P.APTPEVN</td>
+													<td>35%</td>
+												</tr>
+												<tr>
+													<td>9</td>
+													<td>Máy giặt LG lồng ngang 9kg (Trắng)</td>
+													<td>FM1209N6W.ABWPEVN</td>
+													<td>42%</td>
+												</tr>
+												<tr>
+													<td>10</td>
+													<td>Máy giặt LG lồng đứng 16kg Đen</td>
+													<td>TV2519DV7B.ABMPEVN</td>
+													<td>15%</td>
+												</tr>
+												<tr>
+													<td>11</td>
+													<td>Máy hút bụi LG</td>
+													<td>A9T-ULTRA.ECBPLVN</td>
+													<td>25%</td>
+												</tr>
+												<tr>
+													<td>12</td>
+													<td>Máy hút bụi LG</td>
+													<td>A9K-ULTRA.BBBPLVN</td>
+													<td>25%</td>
+												</tr>
+												<tr>
+													<td>13</td>
+													<td>Máy hút bụi LG</td>
+													<td>A9N-MAX.BIGPLVN</td>
+													<td>25%</td>
+												</tr>
+												<tr>
+													<td>14</td>
+													<td>Tủ lạnh LG</td>
+													<td>GR-X257MC.AMCPEVN</td>
+													<td>27%</td>
+												</tr>
+												<tr>
+													<td>15</td>
+													<td>Tủ lạnh LG</td>
+													<td>GR-X257JS.ABSPEVN</td>
+													<td>30%</td>
+												</tr>
+												<tr>
+													<td>16</td>
+													<td>Máy lạnh 1.0 HP LG</td>
+													<td>V10ENO.ETWGEVH</td>
+													<td>35%</td>
+												</tr>
+												<tr>
+													<td>17</td>
+													<td>Máy lạnh 1.5 HP LG</td>
+													<td>V13ENO.ETWGEVH</td>
+													<td>35%</td>
+												</tr>
+												<tr>
+													<td>18</td>
+													<td>Ti vi OLED 65 inch </td>
+													<td>OLED65A2PSA.ATV</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>19</td>
+													<td>Ti vi Nanocell 55 inch </td>
+													<td>OLED55A2PSA.ATV</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>20</td>
+													<td>Ti vi OLED 48 inch </td>
+													<td>OLED48A2PSA.ATV</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>21</td>
+													<td>Màn hình máy tính LG</td>
+													<td>27GN800-B.ATV</td>
+													<td>20%</td>
+												</tr>
+												<tr>
+													<td>22</td>
+													<td>Màn hình máy tính LG</td>
+													<td>27UP600-W.ATV</td>
+													<td>25%</td>
+												</tr>
+												<tr>
+													<td>23</td>
+													<td>Màn hình máy tính LG</td>
+													<td>24QP550-B.ATV</td>
+													<td>30%</td>
+												</tr>
+												<tr>
+													<td>24</td>
+													<td>Màn hình máy tính LG</td>
+													<td>29WN600-W.ATV</td>
+													<td>30%</td>
+												</tr>
+												<tr>
+													<td>25</td>
+													<td>Máy tính LG Gram</td>
+													<td>14ZD90R-G.AX51A5</td>
+													<td>21%</td>
+												</tr>
+												<tr>
+													<td>26</td>
+													<td>Máy tính LG Gram</td>
+													<td>14Z90RS-G.AH54A5</td>
+													<td>10%</td>
+												</tr>
+											</tbody>
+										</thead>
+									</table>
+								</li>
+								<li>
+									<span class="bar"></span>
+									Khách hàng là thành viên của LG sẽ được áp dụng giảm thêm 2% và không vượt quá 50% giá niêm yết của sản phẩm.
+									<p>Những qui định khác liên quan đến mua hàng, giao hàng, lắp đặt… trên OBS được áp dụng ở https://www.lg.com/vn/chinhsachmuahangvadoitra.</p>
+									<p>Đối với các sản phẩm nằm trong danh mục Vip Care và Premier Care, Khách hàng sẽ được trải nghiệm đặc quyền nâng tầm dịch vụ chăm sóc khách hàng. Chi tiết đặc quyền dịch vụ vui lòng tham khảo ở https://www.lg.com/vn/chuong-trinh-cham-soc-khach-hang</p>
+								</li>
+							</ul>
+						</li>
           </ul>
-          <table>
-            <thead>
-              <tr>
-                <th>STT</th>
-                <th>Quà tặng</th>
-                <th>Đơn giá<br>(VND, +VAT)</th>
-                <th>Số lượng</th>
-              </tr>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>
-                    Tivi LG OLED42C2PSA.ATV<br>
-                    (link https://www.lg.com/vn/tivi/lg-oled42c2psa)
-                   </td>
-                   <td style="text-align:center;">36.900.000</td>
-                   <td>01</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>
-                    Máy lọc không khí LG AS65GDWH0.ABAE<br>
-                    (link https://www.lg.com/vn/may-loc-khong-khi/lg-as65gdwh0)
-                   </td>
-                   <td style="text-align:center;">25.500.000</td>
-                   <td>01</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>
-                    Màn hình máy tính LG 27BQ70QC-S.ATV<br>
-                    (link https://www.lg.com/vn/man-hinh-may-tinh/lg-27bq70qc-s)
-                   </td>
-                   <td style="text-align:center;">10.490.000</td>
-                   <td>01</td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>
-                    Voucher giảm giá 15% (áp dụng tất cả các sản phẩm trên cửa
-hàng trực tuyến LG)
-                   </td>
-                   <td></td>
-                   <td>59</td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>
-                    Voucher giảm giá 10% (áp dụng cho tất cả các sản phẩm trên cửa
-hàng trực tuyến LG)
-                   </td>
-                   <td></td>
-                   <td>100</td>
-                </tr>
-                <tr>
-                  <td>6</td>
-                  <td>
-                    Voucher giảm giá 5% (áp dụng cho tất cả các sản phẩm trên cửa
-hàng trực tuyến LG)
-                   </td>
-                   <td></td>
-                   <td>300</td>
-                </tr>
-              </tbody>
-            </thead>
-          </table>
-          <p class="sub-title">Phương thức trao quà:</p>
-          <ul class="list2">
-            <li>
-              <span class="dot"></span>
-              Đối với quà tặng là voucher: Mã voucher sẽ được gửi đến email của Khách hàng trong vòng
-24 giờ kể từ khi Khách hàng trúng thưởng.
-            </li>
-            <li>
-              <span class="dot"></span>
-              Đối với quà tặng là sản phẩm LG: Kết quả sẽ được công bố chính thức trên fanpage của LG
-Việt Nam vào tuần cuối của tháng 12/2022. Quà tặng sẽ được giao miễn <br>phí cho Khách hàng
-theo địa chỉ Khách hàng cung cấp (không bao gồm chi phí lắp đặt) chậm nhất là ngày
-08/01/2023. <br>Chính sách giao nhận chung công bố trên trang web cũng sẽ được áp dụng trong
-trường hợp này.
-            </li>
-          </ul>
-          <p class="sub-title">Lưu ý:</p>
-          <ul class="list2">
-            <li>
-              <span class="dot"></span>
-              Trường hợp hết quà tặng là sản phẩm LG, LG Việt Nam có thể thay thế bằng sản phẩm khác
-cùng loại có giá trị tương đương hoặc cao hơn.
-            </li>
-            <li>
-              <span class="dot"></span>
-              Chương trình “LG Member Days - Ngôi Sao May Mắn” không áp dụng cho tài khoản nhân<br>
-viên LG, nhân viên đối tác LG và khách hàng tham gia chương trình ưu đãi dành cho chủ thẻ.
-            </li>
-            <li>
-              <span class="dot"></span>
-              Trong mọi trường hợp, quyết định cuối cùng về các vấn đề liên quan đến Chương trình sẽ
-thuộc về LG Việt Nam.
-            </li>
-          </ul>
+					<p>Xin trân trọng cảm ơn khách hàng!</p>
         </div>
       </div>
     </div>
@@ -287,7 +336,7 @@ thuộc về LG Việt Nam.
 		_dl = 
 		{
 			"page_name" : {
-				"super_category" : "memberdays2022H2",
+				"super_category" : "memberdays2023H1",
 				"bu" : "",
 				"gmc_bu" : "",
 				"sub_category_list" : "",
@@ -306,7 +355,7 @@ thuộc về LG Việt Nam.
 			"isLogin" : "",
 			"country_code" : "${country}",
 			"language_code" : "${language}",
-			"page_category_l1" : "${country}:memberdays2022H2",
+			"page_category_l1" : "${country}:memberdays2023H1",
 			"page_category_l2" : "",
 			"page_category_l3" : "",
 			"page_category_l4" : "",

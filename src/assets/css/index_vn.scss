@@ -504,7 +504,11 @@
 
 @media(max-width: 1024px) {
 	.lgmembersweek-terms .list li {
-			margin:10px 0
+			margin:10px 0;
+			padding-left: 15px;
+			li {
+				padding-left: 0;
+			}
 	}
 }
 
@@ -520,7 +524,11 @@
 
 .lgmembersweek-terms .info {
 	display: block;
-	margin: 25px 0
+	margin: 25px 0;
+
+	@media(max-width: 1024px) {
+		margin: 10px 0;
+	}
 }
 
 .lgmembersweek-terms .info dt,.lgmembersweek-terms .info dd {
@@ -545,7 +553,11 @@
 .lgmembersweek-terms table td {
 	padding: 15px;
 	border-top: 1px solid #000;
-	border-left: 1px solid #000
+	border-left: 1px solid #000;
+	@media(max-width: 1024px) {
+		font-size: 14px;
+		line-height: 15px;
+	}
 }
 
 .lgmembersweek-terms table td:last-child {

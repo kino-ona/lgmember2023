@@ -76,14 +76,15 @@
 
 			<!-- Required input ## Model List Start -->
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07546791|MD07572626| MD07569939 |MD07570425|MD07560003|MD07555691|MD07569633"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570370|MD07568226| MD07568250 |MD07570855|MD07564074"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07560062|MD07571513| MD07571411 | MD07554813 |MD07569915|MD07570353"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07554897|MD07559882| MD05775808 | MD07539127 |MD07546205|MD07535713"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521105|MD07541995| MD06175496 |MD07547531|MD07546168"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07546791|MD07572626|MD07569939|MD07570425|MD07560003|MD07555691|MD07569633"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570370|MD07568250|MD07570855|MD07564074"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07560062|MD07571513|MD07571411|MD07569915|MD07570353"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07554897|MD07559882|MD05775808|MD07539127|MD07546205|MD07535713"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521105|MD07541995|MD06175496|MD07547531|MD07546168"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570421|MD07570425|MD07547419|MD07547436|MD07564164|MD07564173|MD07544234| MD07527380 |MD07536632|MD07555797|MD07555761|MD07544843|MD07544189|MD07568140|MD07533713|MD05989117|MD07568250|MD07568226| MD07554813 |MD07559748|MD07570979|MD07565726|MD07565724|MD07565813|MD07565715|MD07565720|MD07551561|MD07551400"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570421|MD07570425|MD07547419|MD07547436|MD07564164|MD07564173|MD07544234|MD07536632|MD07555797|MD07544189|MD07568140|MD07533713|MD05989117|MD07568250|MD07570979|MD07565726|MD07565724|MD07565813|MD07565715|MD07565720|MD07551561|MD07551400"/>
+			<!-- <input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570421|MD07570425|MD07547419|MD07547436|MD07564164|MD07564173|MD07544234|MD07527380|MD07536632|MD07555797|MD07555761|MD07544843|MD07544189|MD07568140|MD07533713|MD05989117|MD07568250|MD07568226|MD07554813|MD07559748|MD07570979|MD07565726|MD07565724|MD07565813|MD07565715|MD07565720|MD07551561|MD07551400"/> -->
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
