@@ -8,7 +8,7 @@
 	<title>Consumer Electronics, Home &amp; Kitchen Appliances | LG Australia</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="Explore the latest consumer electronics with LG's range of TVs, home appliances &amp; computer products. Find out how LG is making life good. Learn more today.">
-	<meta name="robots" content="NOODP, NOYDIR">
+	<meta name="robots" content="noindex">
 	<link rel="canonical" href="https://www.lg.com/au/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="AU">
