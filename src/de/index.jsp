@@ -82,11 +82,8 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07541029|MD07560729|MD07564062|MD07551604|MD07526179"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07566953|MD07522782|MD07520775|MD07520055|MD07520777|MD07526170|MD07556806|MD07537986|MD07559192|MD07559110|MD07576203|MD07576209|MD07576211|MD07576081|MD07576077|MD07576076|MD07576071|MD07576097|MD07576095|MD07576094|MD07566973|MD07527541|MD07568092|MD07553686|MD07571358|MD07545582"/>
-		<!-- MD07561294|MD07576109|MD07576110|MD07576111|MD07576112|MD07576113|MD07576068|MD07576083|MD07576064|MD07576101|MD07576105|MD07576103|MD07576106|MD07576107 -->
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07576095|MD07566953|MD07566973|MD07537986|MD07576111|MD07559110|MD07522782|MD07571358|MD07545582|MD07527541|MD07568092|MD07576209|MD07556806|MD07559192|MD07576097|MD07576203|MD07553686|MD07576109|MD07576112|MD07576068|MD07520775|MD07576110|MD07576083|MD07576113|MD07520055|MD07576101|MD07561294|MD07520777|MD07576094|MD07576064|MD07526170|MD07576105|MD07576221|MD07576211|MD07576081|MD07576103|MD07576077|MD07576106|MD07576076|MD07576107|MD07576071" />
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 		<!-- Hottest Gift Model -->
 		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07550687|MD07549244|MD07549871|MD07551683|MD07549261|MD07548083"/>
@@ -208,7 +205,7 @@
 												<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 											</div>
 											<!-- 
-												// common.js add-to-cart dataLayer 공통 로직 진입을 위해
+												// common.js dataLayer 공통 로직 진입을 위해
 												// .products-info / .js-compare 클래스 추가
 												// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
 											-->
@@ -246,7 +243,7 @@
 														</a>
 													</div>
 													<div class="button">
-														<a role="button" href="#" class="button__item button__item--red atc-members-week add_to_cart" data-track-group="product" data-link-area="largest_savings_add_to_cart_click" data-track-name="largest_savings_add_to_cart_click" data-link-name="largest_savings_add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+														<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-link-area="largest_savings_add_to_cart_click" data-track-name="largest_savings_add_to_cart_click" data-link-name="largest_savings_add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
 														<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 													</div>
 												</div>
@@ -409,7 +406,7 @@
 											<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 
 											<!-- 
-												// common.js add-to-cart dataLayer 공통 로직 진입을 위해
+												// common.js dataLayer 공통 로직 진입을 위해
 												// .products-info / .js-compare 클래스 추가
 												// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
 											-->
@@ -418,7 +415,7 @@
 													<a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="experience_learn_more_click" data-link-name="learn_more">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='mehr erfahren'/></span>
 													</a>
-													<a role="button" href="#" class="button__item atc-members-week add_to_cart" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="experience_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="experience_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
 													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 												</div>
 											</div>
@@ -455,7 +452,7 @@
 													</a>
 												</div>
 												<div class="button">
-													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
 													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 												</div>
 											</div>
@@ -1093,7 +1090,7 @@
 													</a>
 												</div>
 												<div class="button">
-													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
 													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 												</div>
 											</div>
@@ -1285,11 +1282,6 @@
 	
 	<!-- your js -->
 	<script>
-		if($('.add-to-cart').length > 0) {
-			$('.add-to-cart').on('click', function (e) {
-				fbq('trackCustom', '2023H1GMCMemberDay AddToBasket');
-			});
-		}
 		if($('.learn-more__link').length > 0) {
 			$('.learn-more__link').on('click', function (e) {
 				fbq('trackCustom', '2023H1GMCMemberDay LearnMore');

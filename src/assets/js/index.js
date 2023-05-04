@@ -148,15 +148,17 @@ $(document).ready(function () {
   $(".lgmembersweek .hotdeal .product__list").slick({
     speed: 600,
     infinite: false,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    // slidesToShow: 4,
     rows: 2,
+    slidesPerRow: 4,
+    slidesToScroll: 4,
     prevArrow: $(".hotdeal .carousel-prev"),
     nextArrow: $(".hotdeal .carousel-next"),
     responsive: [
       {
         breakpoint: 1024,
         settings: {
+          slidesPerRow: 1,
           slidesToShow: 1,
           slidesToScroll: 1,
           rows: 1,

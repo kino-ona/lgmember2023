@@ -76,25 +76,22 @@
 
 			<!-- Required input ## Model List Start -->
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07546791|MD07572626|MD07569939|MD07570425|MD07560003|MD07555691|MD07569633"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07546791|MD07572631|MD07569939|MD07570425|MD07560003|MD07555691|MD07569633"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570370|MD07568250|MD07570855|MD07564074"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07560062|MD07571513|MD07571411|MD07569915|MD07570353"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07554897|MD07559882|MD05775808|MD07539127|MD07546205|MD07535713"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521105|MD07541995|MD06175496|MD07547531|MD07546168"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07521105|MD07563943|MD06175496|MD07547531|MD07546168"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570421|MD07570425|MD07547419|MD07547436|MD07564164|MD07564173|MD07544234|MD07536632|MD07555797|MD07544189|MD07568140|MD07533713|MD05989117|MD07568250|MD07570979|MD07565726|MD07565724|MD07565813|MD07565715|MD07565720|MD07551561|MD07551400"/>
-			<!-- <input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570421|MD07570425|MD07547419|MD07547436|MD07564164|MD07564173|MD07544234|MD07527380|MD07536632|MD07555797|MD07555761|MD07544843|MD07544189|MD07568140|MD07533713|MD05989117|MD07568250|MD07568226|MD07554813|MD07559748|MD07570979|MD07565726|MD07565724|MD07565813|MD07565715|MD07565720|MD07551561|MD07551400"/> -->
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570952|MD07576230|MD07576232|MD07570952|MD07550723|MD07548340|MD07530617|MD07569938|MD07559233|MD07544234|MD07536701|MD07536632|MD07555797|MD07544189|MD07522585|MD07529177|MD07568140|MD07533713|MD07560077|MD05989117|MD07568250|MD07573308|MD07565726|MD07565724|MD07565813|MD07565715|MD07565720|MD07551561|MD07551400"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07570423|MD07562457|MD07546791|MD07562523|MD07572218|MD07570422|MD07570370|MD07547142|MD07547235|MD07549343|MD07551398|MD07565782|"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07555667|MD07569939|MD07555550|MD07555691|MD07567594|MD07560062|MD07559233|MD07569633"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07539127|MD07540676|MD07536701|MD07555791|MD07518345|MD07518427|MD07540923|MD07522585|MD07529177|MD06175496|MD07560054|MD07533733|MD07528566|MD07528454|MD05774448|MD05775808|"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07555667|MD07569939|MD07555550|MD07555691|MD07567594|MD07560062|MD07536043|MD07569633"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07539127|MD07540676|MD07555997|MD07555791|MD07518345|MD07518427|MD07540923|MD07542083|MD07521819|MD06175496|MD07560054|MD07533733|MD07528566|MD07528454|MD05774448|MD05775808|"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07561313|MD07572386|MD07572298|MD07572299|MD07571760|MD07571462|MD07571513|MD07571411"/>
-			<input type="hidden" data-model-group="hottest" data-type="conditioners" value="MD07546168|MD07546195|MD07510956|MD07511235|MD07546205|MD07546235|MD07503632|MD07503641|MD07565816|MD07565811|MD07565783|MD07567171|MD07567170|MD07567167|MD07562585|MD07563722"/>
+			<input type="hidden" data-model-group="hottest" data-type="conditioners" value="MD07546168|MD07546195|MD07510956|MD07511235|MD07546205|MD07546235|MD07503632|MD07503641|MD07565816|MD07565811|MD07565783|MD07567171|MD07567170|MD07567167|MD07563722"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -212,7 +209,7 @@
 												<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 											</div>
 											<!-- 
-												// common.js add-to-cart dataLayer 공통 로직 진입을 위해
+												// common.js dataLayer 공통 로직 진입을 위해
 												// .products-info / .js-compare 클래스 추가
 												// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
 											-->
@@ -250,7 +247,7 @@
 														</a>
 													</div>
 													<div class="button">
-														<a role="button" href="#" class="button__item button__item--red atc-members-week add-to-cart" data-track-group="product" data-link-area="largest_savings_add_to_cart_click" data-track-name="largest_savings_add_to_cart_click" data-link-name="largest_savings_add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+														<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-link-area="largest_savings_add_to_cart_click" data-track-name="largest_savings_add_to_cart_click" data-link-name="largest_savings_add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
 														<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
 													</div>
 												</div>
@@ -450,7 +447,7 @@
 													<a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="experience_learn_more_click" data-link-name="learn_more">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
 													</a>
-													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
 													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
 												</div>
 											</div>
@@ -487,7 +484,7 @@
 													</a>
 												</div>
 												<div class="button">
-													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
 													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="experience_move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
 												</div>
 											</div>
@@ -912,28 +909,28 @@
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/it/lavatrici/lg-f6wv710sga" target="_blank" role="button"
+														<a href="https://www.lg.com/it/lavatrici/lg-f6wv709sga" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F6WV710SGA"
-														data-track-sku="F6WV710SGA"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F6WV709SGA"
+														data-track-sku="F6WV709SGA"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/it/lavatrici/lg-f6wv710sga" target="_blank" role="button"
+															<a href="https://www.lg.com/it/lavatrici/lg-f6wv709sga" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F6WV710SGA"
-															data-track-sku="F6WV710SGA"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENERGY_SAVING_F6WV709SGA"
+															data-track-sku="F6WV709SGA"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/it/img_showroom_energysaving01_02.png" alt="Lavatrice 10,5kg AI DD™">
+																	<img src="${path}/assets/images/it/img_showroom_energysaving01_02.png" alt="Lavatrice 9kg AI DD™">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">Lavatrice 10,5kg AI DD™</p>
+																	<p class="showroom__name">Lavatrice 9kg AI DD™</p>
 																	<ul class="showroom__desc">
-																		<li>Risparmia più energia: la nostra lavatrice è il 10% più efficiente rispetto a quelle tradizionali in classe A</li>
+																		<li>Risparmia più energia: la nostra lavatrice è il 10%* più efficiente rispetto a quelle tradizionali in classe A</li>
 																		<li>Tecnologia AI DD™: riconosce i tessuti con 20.000 combinazioni di lavaggio e si prende cura dei tuoi capi</li>
 																		<li>TurboWash 360: 4 getti di acqua per un pulito profondo in soli 39 minuti</li>
 																	</ul>
@@ -1144,7 +1141,7 @@
 													</a>
 												</div>
 												<div class="button">
-													<a role="button" href="#" class="button__item atc-members-week add-to-cart" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
 													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
 												</div>
 											</div>
@@ -1353,11 +1350,6 @@
 	
 	<!-- your js -->
 	<script>
-		if($('.add-to-cart').length > 0) {
-			$('.add-to-cart').on('click', function (e) {
-				fbq('trackCustom', '2023H1GMCMemberDay AddToBasket');
-			});
-		}
 		if($('.learn-more__link').length > 0) {
 			$('.learn-more__link').on('click', function (e) {
 				fbq('trackCustom', '2023H1GMCMemberDay LearnMore');
