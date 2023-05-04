@@ -132,19 +132,19 @@
 												<tr>
 													<td>1</td>
 													<td>Máy lọc không khí LG Puricare Pro</td>
-													 <td style="text-align:center;">AS40GWWJ1.ABAE</td>
+													 <td>AS40GWWJ1.ABAE</td>
 													 <td>45%</td>
 												</tr>
 												<tr>
 													<td>2</td>
 													<td>Tủ chăm sóc quần áo thông minh 5 móc Styler - Màu xanh lá cây</td>
-													 <td style="text-align:center;">S5GOC.ALGPEVN</td>
+													 <td>S5GOC.ALGPEVN</td>
 													 <td>30%</td>
 												</tr>
 												<tr>
 													<td>3</td>
 													<td>Tủ chăm sóc quần áo thông minh 5 móc Styler - Màu be</td>
-													 <td style="text-align:center;">S5BOC.ALBPEVN</td>
+													 <td>S5BOC.ALBPEVN</td>
 													 <td>30%</td>
 												</tr>
 												<tr>
