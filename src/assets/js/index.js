@@ -148,10 +148,10 @@ $(document).ready(function () {
   $(".lgmembersweek .hotdeal .product__list").slick({
     speed: 600,
     infinite: false,
-    // slidesToShow: 4,
+    slidesToShow: 1,
     rows: 2,
     slidesPerRow: 4,
-    slidesToScroll: 4,
+    // slidesToScroll: 2,
     prevArrow: $(".hotdeal .carousel-prev"),
     nextArrow: $(".hotdeal .carousel-next"),
     responsive: [
