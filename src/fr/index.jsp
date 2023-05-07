@@ -170,7 +170,7 @@
 							</div>
 						</div>
 						<div class="visual__term">
-							<a href="#" role="button" target="_blank" 
+							<a href="${path}/assets/ModalitésLGMemberDaysvdef.pdf" role="button" target="_blank" 
 							data-track-group="MICROSITE"
 								data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H1_Mainbanner_click_P1_Terms_Conditions"
@@ -382,7 +382,7 @@
 									</div>
 								</div>
 								<div class="section__term section__term--right">
-									<a href="#" role="button"
+									<a href="${path}/assets/ModalitésLGMemberDaysvdef.pdf" role="button" target="_blank"
 									data-track-group="MICROSITE"
 									data-track-name="exclusive_link_click"
 									data-link-area="memberdays_H1_Exclusive_click_P1_Terms_Conditions"

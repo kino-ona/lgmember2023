@@ -21,6 +21,23 @@
 				}
 			}
 		}
+
+
+		&__price {
+			margin-bottom: 5px;
+			div {
+				display: flex;
+				flex-direction: column;
+				.product__discount {
+					margin-bottom: 3px;
+				}
+			}
+		}
+		&__cost {
+			.unit {
+				margin-left: -3px;
+			}
+		}
 	}
 
 	.benefit {
