@@ -7,10 +7,18 @@
 		&__logo {
 			margin-bottom: 5px;
 			font-size: 35px;
+
+			@media screen and (max-width:1024px) {
+				font-size: 18px;
+			}
 		}
 		&__desc:not(:first-child) {
 			max-width:38%;
 			line-height: 28px;
+			@media screen and (max-width:1024px) {
+				max-width:100%;
+				line-height: 20px;
+			}
 		}
 
 		&__rolling {
@@ -510,11 +518,11 @@
 
 @media(max-width: 1024px) {
 	.lgmembersweek-terms .list li {
-			margin:10px 0;
-			padding-left: 15px;
-			li {
-				padding-left: 0;
-			}
+		margin:10px 0;
+		padding-left: 5px;
+		li {
+			padding-left: 0;
+		}
 	}
 }
 
@@ -549,7 +557,10 @@
 .lgmembersweek-terms table th {
 	padding: 15px;
 	background-color: #fff;
-	text-align: center
+	text-align: center;
+	@media(max-width: 1024px) {
+		padding: 5px;
+	}
 }
 
 .lgmembersweek-terms table th+th {
@@ -561,8 +572,15 @@
 	border-top: 1px solid #000;
 	border-left: 1px solid #000;
 	@media(max-width: 1024px) {
+		padding: 5px;
 		font-size: 14px;
 		line-height: 15px;
+	}
+}
+.lgmembersweek-terms table td:nth-child(2) {
+	width: 60%;
+	@media(max-width: 1024px) {
+		width: 50%;
 	}
 }
 

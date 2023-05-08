@@ -110,12 +110,29 @@
 								</li>
 								<li>
 									<span class="bar"></span>
-									Được áp dụng cho tất cả các sản phẩm của LG trên OBS và không giới hạn số lượng mua hàng.
+									Được áp dụng cho tất cả các sản phẩm của LG trên OBS và không giới hạn số lượng mua hàng. Không áp dụng cho giỏ hàng có các sản phẩm thuộc chương trình Khuyến mại đặc biệt (Hotdeal).
 								</li>
 							</ul>
 						</li>
 						<li>
-							2. Hotdeal: 08.05 đến 31.05.2023
+							2. Ưu đãi giảm giá lên đến 17% trong thời gian 08.05 đến 31.05.23. Cụ thể :
+							<ul class="list">
+								<li>
+									<span class="bar"></span>
+									Giảm thêm 10% (hình thức voucher) đối với khách hàng chỉ mua một sản phẩm LG.
+								</li>
+								<li>
+									<span class="bar"></span>
+									Đối với khách hàng là thành viên mới được áp dụng thêm: Welcome coupon 5% và ưu đãi dành riêng cho thành viên LG là 2%. Tổng giảm giá không quá 17% và không được vượt quá 50% trên đơn hàng.
+								</li>
+								<li>
+									<span class="bar"></span>
+									Được áp dụng cho tất cả các sản phẩm của LG trên OBS và không giới hạn số lượng muahàng. Không áp dụng cho giỏ hàng có các sản phẩm thuộc chương trình Khuyến mại đặc biệt (Hotdeal).
+								</li>
+							</ul>
+						</li>
+						<li>
+							3. Hotdeal: 08.05 đến 31.05.2023
 							<ul class="list">
 								<li>
 									<span class="bar"></span>
@@ -132,26 +149,26 @@
 												<tr>
 													<td>1</td>
 													<td>Máy lọc không khí LG Puricare Pro</td>
-													 <td>AS40GWWJ1.ABAE</td>
-													 <td>45%</td>
+													<td>AS40GWWJ1.ABAE</td>
+													<td>45%</td>
 												</tr>
 												<tr>
 													<td>2</td>
 													<td>Tủ chăm sóc quần áo thông minh 5 móc Styler - Màu xanh lá cây</td>
-													 <td>S5GOC.ALGPEVN</td>
-													 <td>30%</td>
+													<td>S5GOC.ALGPEVN</td>
+													<td>30%</td>
 												</tr>
 												<tr>
 													<td>3</td>
 													<td>Tủ chăm sóc quần áo thông minh 5 móc Styler - Màu be</td>
-													 <td>S5BOC.ALBPEVN</td>
-													 <td>30%</td>
+													<td>S5BOC.ALBPEVN</td>
+													<td>30%</td>
 												</tr>
 												<tr>
 													<td>4</td>
 													<td>Tủ chăm sóc quần áo thông minh 3 móc Styler - Màu than ánh kim</td>
-													 <td>S3CW.ALCPEVN</td>
-													 <td>35%</td>
+													<td>S3CW.ALCPEVN</td>
+													<td>35%</td>
 												</tr>
 												<tr>
 													<td>5</td>
@@ -285,6 +302,150 @@
 													<td>14Z90RS-G.AH54A5</td>
 													<td>10%</td>
 												</tr>
+												<tr>
+													<td>27</td>
+													<td>LG OLED 4K 65inch | OLED65A2 và Loa thanh LG SP9A</td>
+													<td>OLED65A2.SP9A</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>28</td>
+													<td>LG OLED 4K 55inch | OLED55A2 và Loa thanh LG SP9A</td>
+													<td>OLED55A2.SP9A</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>29</td>
+													<td>LG OLED 4K 48inch | OLED48A2 và Loa thanh LG SH7Q</td>
+													<td>OLED48A2.SH7Q</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>30</td>
+													<td>LG OLED evo 4K 65inch | OLED65C2 và Loa thanh LG SP9A</td>
+													<td>OLED65C2.SP9A</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>31</td>
+													<td>LG OLED evo 4K 55inch | OLED55C2 và Loa thanh LG SP9A</td>
+													<td>OLED55C2.SP9A</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>32</td>
+													<td>LG OLED evo 4K 48inch | OLED48C2 và Loa thanh LG SH7Q</td>
+													<td>OLED48C2.SH7Q</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>33</td>
+													<td>LG OLED evo 4K 65inch | OLED65C2 và Loa thanh LG SC9S</td>
+													<td>OLED65C2.SC9S</td>
+													<td>42%</td>
+												</tr>
+												<tr>
+													<td>34</td>
+													<td>LG OLED evo G2 65inch và Loa thanh LG SP9A</td>
+													<td>OLED65G2.SP9A</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>35</td>
+													<td>LG OLED evo G2 55inch và Loa thanh LG SP9A</td>
+													<td>OLED55G2.SP9A</td>
+													<td>48%</td>
+												</tr>
+												<tr>
+													<td>36</td>
+													<td>Tháp giặt sấy LG WashTower™ WT2116SHEG và Tủ chăm sóc quần áo LG Styler - Màu xanh lá cây S5GOC</td>
+													<td>WT2116S5G.ABGPEVN</td>
+													<td>25%</td>
+												</tr>
+												<tr>
+													<td>37</td>
+													<td>Tháp giặt sấy LG WashTower™ WT21A9TS5B, Máy hút bụi cầm tay LG CordZero A9T-ULTRA và Tủ chăm sóc quần áo LG Styler - Màu be S5BOC</td>
+													<td>WT21A9TS5B.APBPEVN</td>
+													<td>23%</td>
+												</tr>
+												<tr>
+													<td>38</td>
+													<td>Tháp giặt sấy LG WashTower™ WT2116S5M và Tủ chăm sóc quần áo LG Styler - Màu gương kính S5MB</td>
+													<td>WT2116S5M.ABGPEVN</td>
+													<td>25%</td>
+												</tr>
+												<tr>
+													<td>39</td>
+													<td>Tháp giặt sấy LG WashTower™ WT2116S5B và Tủ chăm sóc quần áo LG Styler - Màu be S5BOC</td>
+													<td>WT2116S5B.ABGPEVN</td>
+													<td>25%</td>
+												</tr>
+												<tr>
+													<td>40</td>
+													<td>Tháp giặt sấy compact WT1410NHB và Tủ chăm sóc quần áo LG Styler - Màu gương kính S5MB</td>
+													<td>WT1410S5M.APBPEVN</td>
+													<td>29%</td>
+												</tr>
+												<tr>
+													<td>41</td>
+													<td>Tháp giặt sấy LG WashTower™ WT2116SHEG, Máy hút bụi cầm tay LG CordZero A9T-ULTRA và Tủ chăm sóc quần áo LG Styler - Màu xanh lá cây S5GOC</td>
+													<td>WT21A9TS5G.APBPEVN</td>
+													<td>23%</td>
+												</tr>
+												<tr>
+													<td>42</td>
+													<td>LG AI DD™ Máy giặt lồng ngang 12kg Đen FV1412S3BA, Máy sấy LG DUAL Inverter Heat Pump™ 10,5kg (đen) DVHP50B và Tủ chăm sóc quần áo thông minh - LG styler - Màu gương kính S5MB</td>
+													<td>WD1250BS5M.ABLPEVN</td>
+													<td>28%</td>
+												</tr>
+												<tr>
+													<td>43</td>
+													<td>LG AI DD™ Máy giặt lồng ngang 12kg Đen FV1412S3BA, Máy sấy LG DUAL Inverter Heat Pump™ 10,5kg (đen) DVHP50B và Tủ chăm sóc quần áo thông minh - LG styler - Màu xanh lá cây S5GOC</td>
+													<td>WD1250BS5G.ABLPEVN</td>
+													<td>27%</td>
+												</tr>
+												<tr>
+													<td>44</td>
+													<td>LG AI DD™ Máy giặt lồng ngang 12kg Đen FV1412S3BA, Máy sấy LG DUAL Inverter Heat Pump™ 10,5kg (đen) DVHP50B và Tủ chăm sóc quần áo thông minh - LG styler - Màu be S5BOC</td>
+													<td>WD1250BS5B.ABLPEVN</td>
+													<td>27%</td>
+												</tr>
+												<tr>
+													<td>45</td>
+													<td>LG AI DD™ Máy giặt lồng ngang 12kg Xám FV1412S3PA, Máy sấy LG DUAL Inverter Heat Pump™ 10,5kg (đen) DVHP50B và Tủ chăm sóc quần áo thông minh - LG styler - Màu xanh lá cây S5GOC</td>
+													<td>WD1250PS5G.APTPEVN</td>
+													<td>26%</td>
+												</tr>
+												<tr>
+													<td>46</td>
+													<td>LG AI DD™ Máy giặt lồng ngang 12kg Xám FV1412S3PA, Máy sấy LG DUAL Inverter Heat Pump™ 10,5kg (đen) DVHP50B và Tủ chăm sóc quần áo thông minh - LG styler - Màu be S5BOC</td>
+													<td>WD1250PS5B.APTPEVN</td>
+													<td>26%</td>
+												</tr>
+												<tr>
+													<td>47</td>
+													<td>LG AI DD™ Máy giặt lồng ngang 12kg Xám FV1412S3PA, Máy sấy LG DUAL Inverter Heat Pump™ 10,5kg (đen) DVHP50B và Tủ chăm sóc quần áo thông minh - LG styler – Màu gương kính S5MB</td>
+													<td>WD1250PS5M.APTPEVN</td>
+													<td>27%</td>
+												</tr>
+												<tr>
+													<td>48</td>
+													<td>LG AI DD™ Máy giặt lồng ngang 13kg Trắng FV1413S4W, Máy sấy LG DUAL Inverter Heat Pump™ 9kg (trắng) DVHP09W và Tủ chăm sóc quần áo thông minh - LG styler - Màu xanh lá cây S5GOC</td>
+													<td>WD1309WS5G.ABWPEVN</td>
+													<td>24%</td>
+												</tr>
+												<tr>
+													<td>49</td>
+													<td>LG AI DD™ Máy giặt lồng ngang 13kg Trắng FV1413S4W, Máy sấy LG DUAL Inverter Heat Pump™ 9kg (trắng) DVHP09W và Tủ chăm sóc quần áo thông minh - LG styler - Màu be S5BOC</td>
+													<td>WD1309WS5B.ABWPEVN</td>
+													<td>24%</td>
+												</tr>
+												<tr>
+													<td>50</td>
+													<td>LG AI DD™ Máy giặt lồng ngang 13kg Trắng FV1413S4W, Máy sấy LG DUAL Inverter Heat Pump™ 9kg (trắng) DVHP09W và Tủ chăm sóc quần áo thông minh - LG styler – Màu gương kính S5MB</td>
+													<td>WD1309WS5M.ABWPEVN</td>
+													<td>27%</td>
+												</tr>
 											</tbody>
 										</thead>
 									</table>
@@ -292,6 +453,7 @@
 								<li>
 									<span class="bar"></span>
 									Khách hàng là thành viên của LG sẽ được áp dụng giảm thêm 2% và không vượt quá 50% giá niêm yết của sản phẩm.
+									<p>Đối với chính sách giao hàng và lắp đặt các sản phẩm Máy Lạnh, Khách hàng tham khảo ở https://www.lg.com/vn/lap-dat-tai-gia-uu-dai-toi-nha</p>
 									<p>Những qui định khác liên quan đến mua hàng, giao hàng, lắp đặt… trên OBS được áp dụng ở https://www.lg.com/vn/chinhsachmuahangvadoitra.</p>
 									<p>Đối với các sản phẩm nằm trong danh mục Vip Care và Premier Care, Khách hàng sẽ được trải nghiệm đặc quyền nâng tầm dịch vụ chăm sóc khách hàng. Chi tiết đặc quyền dịch vụ vui lòng tham khảo ở https://www.lg.com/vn/chuong-trinh-cham-soc-khach-hang</p>
 								</li>

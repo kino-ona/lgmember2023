@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>Consumer Electronics, Home &amp; Kitchen Appliances | LG Australia</title>
+	<title>LG Member Days: Up To 15% Off Only For Members | LG Australia</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Explore the latest consumer electronics with LG's range of TVs, home appliances &amp; computer products. Find out how LG is making life good. Learn more today.">
+	<meta name="description" content="Unlock next level savings and experience with additional Member-exclusive benefits. Hurry, offer ends on 31st May!">
 	<meta name="robots" content="noindex">
 	<link rel="canonical" href="https://www.lg.com/au/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="AU">
 	<meta property="og:site_name" content="LG Australia">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Consumer Electronics, Home &amp; Kitchen Appliances | LG Australia">
-	<meta property="og:description" content="Explore the latest consumer electronics with LG's range of TVs, home appliances &amp; computer products. Find out how LG is making life good. Learn more today.">
+	<meta property="og:title" content="LG Member Days: Up To 15% Off Only For Members | LG Australia">
+	<meta property="og:description" content="Unlock next level savings and experience with additional Member-exclusive benefits. Hurry, offer ends on 31st May!">
 	<meta property="og:url" content="https://www.lg.com/au/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -42,10 +42,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="Consumer Electronics, Home &amp; Kitchen Appliances | LG Australia"/>
+		<meta itemprop="name" content="LG Member Days: Up To 15% Off Only For Members | LG Australia"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.lg.com/au/memberdays" />
-		<meta itemprop="description" content="Explore the latest consumer electronics with LG's range of TVs, home appliances &amp; computer products. Find out how LG is making life good. Learn more today." />
+		<meta itemprop="description" content="Unlock next level savings and experience with additional Member-exclusive benefits. Hurry, offer ends on 31st May!" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -76,24 +76,25 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Life Style Model -->
-		<input type="hidden" data-model-group="lifeStyle" data-type="homecare" value=""/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value=""/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="working" value=""/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="livingspace" value=""/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="homecare" value="MD06164256|MD07534829|MD07542785|MD07535988|MD07515397|MD07536333|MD06061297|MD06061416|MD07561212"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07570940|MD07570927|MD07570913|MD07570951|MD07571080|MD07571128|MD07551061|MD07548169|MD07555760|MD07538827|MD07570812"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07554631|MD07569727|MD07559894|MD07504296|MD07520224|MD07569289|MD07569288	"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="livingspace" value="MD07552645|MD07539687|MD07552663|MD07539503|MD07530439|MD07530444|MD06240800|MD06241076|MD07555928|MD07548452|MD07541490|MD07541490"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tv" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="av" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="refrigerator" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="washingmachine" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="dishwasher" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="vacuumcleaner" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="cookingappliance" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value=""/>
+		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07570957|MD07570940|MD07570927|MD07570902|MD07570913|MD07570947|MD07570951|MD07570955|MD07570959|MD07570970|MD07571080|MD07571128|MD07571130|MD07561942"/>
+		<input type="hidden" data-model-group="hottest" data-type="av" value="MD07550779|MD07570812|MD07550326|MD07550462|MD07569326|MD07569289|MD07569288|MD07534379"/>
+		<input type="hidden" data-model-group="hottest" data-type="refrigerator" value="MD07552645|MD07506508|MD07506571|MD07506514|MD07508260|MD07508473|MD07539503|MD07540841|MD06116258|MD06071037|MD07555368|MD07555614"/>
+		<input type="hidden" data-model-group="hottest" data-type="washingmachine" value="MD06212017|MD06168477|MD07530439|MD07530444|MD07548507|MD06165976|MD07518955|MD06240800|MD07511956"/>
+		<input type="hidden" data-model-group="hottest" data-type="dryer" value="MD07504275|MD07504481|MD06241076|MD07548452"/>
+		<input type="hidden" data-model-group="hottest" data-type="dishwasher" value="MD07544981|MD06233961|MD05889096|MD06061297|MD06061416|MD07561212|MD06032796|MD05888916"/>
+		<input type="hidden" data-model-group="hottest" data-type="vacuumcleaner" value="MD07536333|MD07535988|MD07535981|MD07535931|MD07515397|MD07515397|MD07542785|MD07573775|MD07535988"/>
+		<input type="hidden" data-model-group="hottest" data-type="cookingappliance" value="MD07504245|MD05769256|MD06147456|MD05863780|MD06114037|MD05925096|MD05769247|MD05769254|MD07541490|MD07541490"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554631|MD07569727|MD07520224|MD07539055|MD07538738|MD07538843|MD07539695|MD07539068|MD07563160|MD07512666|MD07551061|MD07548169"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -150,7 +151,7 @@
 							</div>
 						</div>
 						<p class="visual__desc">
-							Save 10% on ALL LG products (excluding accessories)* when you buy one product<br>
+							Save 10% on Any LG products (excluding accessories)* when you buy one product<br>
 							and 15% when you buy two or more products with member exclusive benefits<br>
 							Offer ends 31st May, Only at LG.com
 						</p>
@@ -186,7 +187,7 @@
 							<div class="section__anchor">
 								<p>EXCLUSIVE BENEFITS FOR LG MEMBERS</p>
 							</div>
-							<p class="section__title">Unlock Next Level Benefits and Discounts on All LG Products</p>
+							<p class="section__title">Unlock Next Level Benefits and Discounts on Any LG Products</p>
 							<p class="section__desc">(excluding accessories)*</p>
 							<div class="coupon">
 								<div class="coupon__row">
@@ -280,12 +281,13 @@
 								<div class="tab__list">
 									<div class="tab__item tab__item--active">
 										<a href="#homecare" role="button"  
-										data-tab-name="entertaiment" data-track-group="MICROSITE" data-track-opt="theme" 
+										data-tab-name="homecare" data-track-group="MICROSITE" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_HOME CARE"
 										data-link-name="memberdays_2023H1"
 										class="tab__button">HOME CARE</a>
 									</div>
+									<div class="tab__item">
 										<a href="#entertaiment" role="button"  
 										data-tab-name="entertaiment" data-track-group="MICROSITE" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
@@ -303,7 +305,7 @@
 									</div>
 									<div class="tab__item">
 										<a href="#livingspace" role="button" 
-										data-tab-name="homekeeping" data-track-group="MICROSITE" data-track-opt="theme" 
+										data-tab-name="livingspace" data-track-group="MICROSITE" data-track-opt="theme" 
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_LIVING SPACE"
 										data-link-name="memberdays_2023H1"
@@ -339,13 +341,13 @@
 											<p class="product__sn sku">*modelName*</p>
 											<div class="product__price">
 												<p class="product__cost">
-													<span class="number">*finalPrice*</span>
 													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*finalPrice*</span>
 												</p>
 												<div>
 													<span class="product__discount">
-														<span class="number">*originPrice*</span>
 														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+														<span class="number">*originPrice*</span>
 													</span>
 													<span class="product__highlight">*discountMsg*</span>
 												</div>
@@ -355,8 +357,8 @@
 													<spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/>
 												</span>
 												<span class="product__highlight">
-														<span class="number">*membershipPriceValue*</span>
-														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*membershipPriceValue*</span>
 												</span>
 											</div>
 											<div class="product__bottom">
@@ -377,7 +379,7 @@
 									<div id="homecare" class="tab__panel tab__panel--homecare" style="display: block;">
 										<div class="section__header">
 											<div class="section__anchor">
-												<p>DEIN EXPERIENCE UPDATE</p>
+												<p>NEXT LEVEL EXPERIENCE</p>
 											</div>
 											<p class="section__title">Reach Your Next #Home Care Level</p>
 											<p class="section__desc">
@@ -390,29 +392,87 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/monitore/lg-45gr95qe" target="_blank" role="button"
+														<a href="https://www.lg.com/au/dishwashers/lg-XD3A25MB" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B.AEU"
-														data-track-sku="45GR95QE-B.AEU"
+														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_XD3A25MB.ABMREAP"
+														data-track-sku="XD3A25MB.ABMREAP"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/monitore/lg-45gr95qe" target="_blank" role="button"
+															<a href="https://www.lg.com/au/dishwashers/lg-XD3A25MB" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_45GR95QE-B.AEU"
-															data-track-sku="45GR95QE-B.AEU"
+															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_XD3A25MB.ABMREAP"
+															data-track-sku="XD3A25MB.ABMREAP"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/de/img_showroom_gaming01_01.png" alt="45 Zoll UltraGear™ Curved OLED-Monitor">
+																	<img src="${path}/assets/images/au/img_showroom_homecare01_01.png" alt="15 Place QuadWash® Dishwasher with Auto Open Door in Matte Black Finish with TrueSteam™">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">45 Zoll UltraGear™ Curved OLED-Monitor</p>
+																	<p class="showroom__name">15 Place QuadWash® Dishwasher with Auto Open Door in Matte Black Finish with TrueSteam™</p>
 																	<ul class="showroom__desc">
-																		<li>45 Zoll Gaming-Monitor mit OLED-Display</li>
-																		<li>Curved-Design (800R) für maximale Immersion</li>
+																		<li>Turn the heat up on germs, bacteria and grime</li>
+																		<li>Clean from multiple angles</li>
+																	</ul>
+																</div>
+															</a>
+														</div>
+													</div>
+													<div class="showroom__layer">
+														<a href="https://www.lg.com/au/clothes-styler/lg-S3BF" target="_blank" role="button"
+														data-track-group="MICROSITE"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_S3BF.ALBREAP"
+														data-track-sku="S3BF.ALBREAP"
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
+															<span class="sr-only">detail view</span>
+														</a>
+														<div class="showroom__target">
+															<a href="https://www.lg.com/au/clothes-styler/lg-S3BF" target="_blank" role="button"
+															data-track-group="MICROSITE"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_S3BF.ALBREAP"
+															data-track-sku="S3BF.ALBREAP"
+															data-link-name="memberdays_2023H1" class="showroom__link">
+																<div class="showroom__img">
+																	<img src="${path}/assets/images/au/img_showroom_homecare01_02.png" alt="Styler Steam Clothing Care System® - 3 Garment">
+																</div>
+																<div class="showroom__cont">
+																	<p class="showroom__name">Styler Steam Clothing Care System® - 3 Garment</p>
+																	<ul class="showroom__desc">
+																		<li>Refresh, Deodorise, Reduce Wrinkles and Exposure to Allergens</li>
+																		<li>Vanquish Odours</li>
+																	</ul>
+																</div>
+															</a>
+														</div>
+													</div>
+													<div class="showroom__layer">
+														<a href="https://www.lg.com/au/vacuum-cleaners/lg-a9t-auto" target="_blank" role="button"
+														data-track-group="MICROSITE"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_A9T-AUTO.ECBRLAP"
+														data-track-sku="A9T-AUTO.ECBRLAP"
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
+															<span class="sr-only">detail view</span>
+														</a>
+														<div class="showroom__target">
+															<a href="https://www.lg.com/au/vacuum-cleaners/lg-a9t-auto" target="_blank" role="button"
+															data-track-group="MICROSITE"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_A9T-AUTO.ECBRLAP"
+															data-track-sku="A9T-AUTO.ECBRLAP"
+															data-link-name="memberdays_2023H1" class="showroom__link">
+																<div class="showroom__img">
+																	<img src="${path}/assets/images/au/img_showroom_homecare01_03.png" alt="LG CordZero® A9T Handstick Vacuum with All-In-One Tower™">
+																</div>
+																<div class="showroom__cont">
+																	<p class="showroom__name">LG CordZero® A9T Handstick Vacuum with All-In-One Tower™</p>
+																	<ul class="showroom__desc">
+																		<li>All-In-One Vacuum Solution</li>
+																		<li>Auto Empty Dust Bin</li>
 																	</ul>
 																</div>
 															</a>
@@ -435,7 +495,7 @@
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="MICROSITE" 
-												data-track-name="experience_next_click	"
+												data-track-name="experience_next_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
@@ -454,58 +514,58 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/tv/lg-oled65c37la" target="_blank" role="button"
+														<a href="#" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_OLED65C37LA.AEUD"
-														data-track-sku="OLED65C37LA.AEUD"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+														data-track-sku=""
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/tv/lg-oled65c37la" target="_blank" role="button"
+															<a href="#" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_OLED65C37LA.AEUD"
-															data-track-sku="OLED65C37LA.AEUD"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
+															data-track-sku=""
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/de/img_showroom_entertaiment01_01.png" alt="65’’ LG 4K OLED evo TV C3">
+																	<img src="${path}/assets/images/au/img_showroom_entertaiment01_01.png" alt="">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">65’’ LG 4K OLED evo TV C3</p>
+																	<p class="showroom__name"></p>
 																	<ul class="showroom__desc">
-																		<li>4K OLED evo TV mit Brightness Booster</li>
-																		<li>Beste Bild und Ton durcch Dolby Vision™</li>
+																		<li></li>
+																		<li></li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/audio/lg-dsc9s" target="_blank" role="button"
+														<a href="https://www.lg.com/au/sound-bars/lg-sc9s" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_DSC9S.DDEULLK"
-														data-track-sku="DSC9S.DDEULLK"
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_SC9S.DAUSLLK"
+														data-track-sku="SC9S.DAUSLLK"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/audio/lg-dsc9s" target="_blank" role="button"
+															<a href="https://www.lg.com/au/sound-bars/lg-sc9s" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_DSC9S.DDEULLK"
-															data-track-sku="DSC9S.DDEULLK"
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_SC9S.DAUSLLK"
+															data-track-sku="SC9S.DAUSLLK"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/de/img_showroom_entertaiment01_02.png" alt="3.1.3 Dolby Atmos® Soundbar mit 400 Watt">
+																	<img src="${path}/assets/images/au/img_showroom_entertaiment01_02.png" alt="LG Sound Bar SC9S">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">3.1.3 Dolby Atmos® Soundbar mit 400 Watt</p>
+																	<p class="showroom__name">LG Sound Bar SC9S</p>
 																	<ul class="showroom__desc">
-																		<li>Exklusive Halterung für den LG OLED evo C3 und C2</li>
-																		<li>Drei Upfiring-Kanäle in Soundbar</li>
+																		<li>Total Power 400W & 3.1.3 Channels</li>
+																		<li>Triple Up-firing Channels with Dolby Atmos®</li>
 																	</ul>
 																</div>
 															</a>
@@ -527,7 +587,7 @@
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="MICROSITE" 
-												data-track-name="experience_next_click	"
+												data-track-name="experience_next_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
@@ -546,87 +606,87 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/notebooks/lg-17z90r-gaa76g" target="_blank" role="button"
+														<a href="https://www.lg.com/au/laptops/lg-16z90r-g.aa75a" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_17Z90R-G.AA76G"
-														data-track-sku="17Z90R-G.AA76G"
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_16Z90R-G.AA75A"
+														data-track-sku="16Z90R-G.AA75A"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/notebooks/lg-17z90r-gaa76g" target="_blank" role="button"
+															<a href="https://www.lg.com/au/laptops/lg-16z90r-g.aa75a" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_17Z90R-G.AA76G"
-															data-track-sku="17Z90R-G.AA76G"
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_16Z90R-G.AA75A"
+															data-track-sku="16Z90R-G.AA75A"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/de/img_showroom_working01_01.png" alt="17’’ Notebook mit Windows 11 Home">
+																	<img src="${path}/assets/images/au/img_showroom_working01_01.png" alt="LG gram 16’’ Ultra">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">17’’ Notebook mit Windows 11 Home</p>
+																	<p class="showroom__name">LG gram 16’’ Ultra</p>
 																	<ul class="showroom__desc">
-																		<li>Windows 11 Home vorinstalliert</li>
-																		<li>Intel® Core™ i7 Prozessor</li>
+																		<li>16” 16:10 WQXGA (2560 x 1600) IPS Display</li>
+																		<li>Windows 11 Home</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/monitore/lg-28mq780-b" target="_blank" role="button"
+														<a href="https://www.lg.com/au/it-monitors/lg-32un880-b" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_28MQ780-B.AEU"
-														data-track-sku="28MQ780-B.AEU"
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_32UN880-B.AAU"
+														data-track-sku="32UN880-B.AAU"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/monitore/lg-28mq780-b" target="_blank" role="button"
+															<a href="https://www.lg.com/au/it-monitors/lg-32un880-b" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_28MQ780-B.AEU"
-															data-track-sku="28MQ780-B.AEU"
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_32UN880-B.AAU"
+															data-track-sku="32UN880-B.AAU"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/de/img_showroom_working01_02.png" alt="27,6 Zoll Ergo DualUp Monitor mit Nano-IPS und SDQHD-Auflösung">
+																	<img src="${path}/assets/images/au/img_showroom_working01_02.png" alt="32” UltraFine Ergo Monitor with UHD 4K IPS Display">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">27,6 Zoll Ergo DualUp Monitor mit Nano-IPS und SDQHD-Auflösung</p>
+																	<p class="showroom__name">32” UltraFine Ergo Monitor with UHD 4K IPS Display</p>
 																	<ul class="showroom__desc">
-																		<li>70,1 cm (27,6") IPS-Monitor</li>
-																		<li>Das spezielle 16:18-Format</li>
+																		<li>31.5” UHD 4K IPS Display</li>
+																		<li>Ergo stand to achieve ideal screen position</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/audio/lg-tone-dfp8w" target="_blank" role="button"
+														<a href="https://www.lg.com/au/headphones/lg-tone-ut90q-white" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_TONE-DFP8W.CDEULLK"
-														data-track-sku="TONE-DFP8W.CDEULLK"
+														data-link-area="memberdays_H1_Mouse_over_P1_WORKING_TONE-UT90Q.CAUSLWH"
+														data-track-sku="TONE-UT90Q.CAUSLWH"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/audio/lg-tone-dfp8w" target="_blank" role="button"
+															<a href="https://www.lg.com/au/headphones/lg-tone-ut90q-white" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_TONE-DFP8W.CDEULLK"
-															data-track-sku="TONE-DFP8W.CDEULLK"
+															data-link-area="memberdays_H1_Mouse_over_P1_WORKING_TONE-UT90Q.CAUSLWH"
+															data-track-sku="TONE-UT90Q.CAUSLWH"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/de/img_showroom_working01_03.png" alt="LG OLED evo Edition G2 83’’">
+																	<img src="${path}/assets/images/au/img_showroom_working01_03.png" alt="LG TONE Free T90 Dolby Atmos Wireless Earbuds">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">LG TONE Free DFP8W</p>
+																	<p class="showroom__name">LG TONE Free T90 Dolby Atmos Wireless Earbuds</p>
 																	<ul class="showroom__desc">
-																		<li>Verbesserte Active Noise Cancellation</li>
-																		<li>Hygienisch und vertrauenswürdig dank Uvnano</li>
+																		<li>World’s First Dolby Atmos Earbuds</li>
+																		<li>Reduces vibrations to deliver clear sound</li>
 																	</ul>
 																</div>
 															</a>
@@ -649,7 +709,7 @@
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="MICROSITE" 
-												data-track-name="experience_next_click	"
+												data-track-name="experience_next_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
@@ -668,59 +728,89 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv90bsde" target="_blank" role="button"
+														<a href="https://www.lg.com/au/fridges/lg-gf-v910mblc" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GSXV90BSDE.ABSQEUR"
-														data-track-sku="GSXV90BSDE.ABSQEUR"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GF-V910MBLC.AMCRGAP"
+														data-track-sku="GF-V910MBLC.AMCRGAP"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv90bsde" target="_blank" role="button"
+															<a href="https://www.lg.com/au/fridges/lg-gf-v910mblc" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GSXV90BSDE.ABSQEUR"
-															data-track-sku="GSXV90BSDE.ABSQEUR"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GF-V910MBLC.AMCRGAP"
+															data-track-sku="GF-V910MBLC.AMCRGAP"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/de/img_showroom_homekeeping01_01.png" alt="Side-by-Side mit InstaView Door-in-Door®">
+																	<img src="${path}/assets/images/au/img_showroom_livingspace01_01.png" alt="847L French Door Fridge in Matte Black Finish">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">Side-by-Side mit InstaView Door-in-Door®</p>
+																	<p class="showroom__name">847L French Door Fridge in Matte Black Finish</p>
 																	<ul class="showroom__desc">
-																		<li>InstaView Door-in-Door®</li>
-																		<li>Door-in-Door®</li>
+																		<li>Knock twice to see inside with InstaView Door-in-Door®</li>
+																		<li>Entertain like a baller with the Craft Ice Maker</li>
 																	</ul>
 																</div>
 															</a>
 														</div>
 													</div>
 													<div class="showroom__layer">
-														<a href="https://www.lg.com/de/waschmaschinen/lg-f4wv912p2" target="_blank" role="button"
+														<a href="https://www.lg.com/au/washing-machines/lg-wwt-1710b" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_F4WV912P2.ABWQPDG"
-														data-track-sku="F4WV912P2.ABWQPDG"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_WWT-1710B.ABLREAP"
+														data-track-sku="WWT-1710B.ABLREAP"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="https://www.lg.com/de/waschmaschinen/lg-f4wv912p2" target="_blank" role="button" 
+															<a href="https://www.lg.com/au/washing-machines/lg-wwt-1710b" target="_blank" role="button" 
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_F4WV912P2.ABWQPDG"
-															data-track-sku="F4WV912P2.ABWQPDG"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_WWT-1710B.ABLREAP"
+															data-track-sku="WWT-1710B.ABLREAP"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/de/img_showroom_homekeeping01_02.png" alt="Waschmaschine mit AI DD®">
+																	<img src="${path}/assets/images/au/img_showroom_livingspace01_02.png" alt="17kg WashTower™ All-In-One Stacked Washer Dryer">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name">Waschmaschine mit AI DD®</p>
+																	<p class="showroom__name">17kg WashTower™ All-In-One Stacked Washer Dryer</p>
 																	<ul class="showroom__desc">
-																		<li>Tiefenreinigung mit Dampf</li>
-																		<li>TurboWash® 360°</li>
+																		<li>All-In-One Stackable Washer Dryer Solution</li>
+																		<li>Large Capacity 17kg Washer and 10kg Dryer</li>
+																	</ul>
+																</div>
+															</a>
+														</div>
+													</div>
+													<div class="showroom__layer">
+														<a href="https://www.lg.com/au/microwave-ovens/lg-ms4296ombb" target="_blank" role="button"
+														data-track-group="MICROSITE"
+														data-track-group="MICROSITE"
+														data-track-name="experience_mouse_over"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_MS4296OMBB.BBM7LAP"
+														data-track-sku="MS4296OMBB.BBM7LAP"
+														data-link-name="memberdays_2023H1" class="showroom__anchor">
+															<span class="sr-only">detail view</span>
+														</a>
+														<div class="showroom__target">
+															<a href="https://www.lg.com/au/microwave-ovens/lg-ms4296ombb" target="_blank" role="button" 
+															data-track-group="MICROSITE"
+															data-track-name="experience_mouse_over"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_MS4296OMBB.BBM7LAP"
+															data-track-sku="MS4296OMBB.BBM7LAP"
+															data-link-name="memberdays_2023H1" class="showroom__link">
+																<div class="showroom__img">
+																	<img src="${path}/assets/images/au/img_showroom_livingspace01_03.png" alt="NeoChef, 42L Smart Inverter Microwave Oven">
+																</div>
+																<div class="showroom__cont">
+																	<p class="showroom__name">NeoChef, 42L Smart Inverter Microwave Oven</p>
+																	<ul class="showroom__desc">
+																		<li>Easy Touch Controls and Tempered Glass Door</li>
+																		<li>Included accessory Steam Bowl Kit</li>
 																	</ul>
 																</div>
 															</a>
@@ -743,7 +833,7 @@
 												data-link-name="memberdays_2023H1"><span>Preview</span></a>
 												<a href="#" role="button" class="carousel-nav carousel-next" aria-label="Next"
 												data-track-group="MICROSITE" 
-												data-track-name="experience_next_click	"
+												data-track-name="experience_next_click"
 												data-link-area="memberdays_H1_Experience_click_P1 Next" 
 												data-link-name="memberdays_2023H1"><span>Next</span></a>
 											</div>
@@ -777,7 +867,7 @@
 								Elevate your lifestyle with Member Exclusive Benefits.<br>
 								Shop Now
 							</p>
-							<p class="section__desc">Get 10% Discount on ALL LG products (excludes accessories) when you buy one product and 15% Discount when you buy two or more products</p>
+							<p class="section__desc">Get 10% Discount on Any LG products (excludes accessories) when you buy one product and 15% Discount when you buy two or more products</p>
 							<p class="section__desc section__desc--secondary">Offer ends 31<sup>st</sup> May, Only at LG.com</p>
 							<p class="section__desc section__desc--secondary">Remember to apply your Exclusive Coupon at checkout to see your final discounted amount.</p>
 							<div class="item-set">
@@ -923,14 +1013,14 @@
 											<p class="product__sn sku">*modelName*</p>
 											<div class="product__price">
 												<p class="product__cost">
-													<span class="number">*finalPrice*</span>
 													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*finalPrice*</span>
 												</p>
 												<div>
 													<span class="product__discount">
 														<span class="product__discount">
-															<span class="number">*originPrice*</span>
 															<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+															<span class="number">*originPrice*</span>
 														</span>
 													</span>
 													<span class="product__highlight">*discountMsg*</span>
@@ -939,8 +1029,8 @@
 											<div class="product__members">
 												<span class="product__text"><spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/></span>
 												<span class="product__highlight">
-													<span class="number">*membershipPriceValue*</span>
 													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*membershipPriceValue*</span>
 												</span>
 												<div class="product__alert d-none">
 													*reStockAlertText*
@@ -1167,6 +1257,9 @@
 			</div>
 		</div>
 		<!-- // Content End  -->
+	</div>
+	<div id="hotdeal" class="hotdeal" data-list="hotDeal">
+		<div class="product__list"></div>
 	</div>
 
 	<div class="container-fluid">

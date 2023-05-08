@@ -76,22 +76,22 @@
 		<!-- Required input ## Model List Start -->
 		<!-- Life Style Model -->
 		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07572186|MD07572201|MD07572229|MD07563973|MD07567911|MD07560431|MD07553857"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07570744|MD07568248|MD07568668|MD07560635|MD07571517|MD07570652|MD07563351|MD07572196|MD07573052"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07553573|MD07556249|MD07568950|MD07556654|MD07560453|MD07560453"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07568668|MD07568248|MD07560635|MD07570744|MD07571517|MD07570652|MD07563351|MD07572196|MD07573142"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07568950|MD07556654|MD07556249|MD07553573|MD07560453|MD07560456"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07556521|MD07559273|MD07544575|MD07553395|MD07560564|MD07529709|MD07537808|MD05769328|MD07558526"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07530726|MD07530699|MD07545166|MD07560592|MD07532888"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07554867|MD07559263|MD07570655|MD07560595|MD07553753|MD07538512|MD07569389|MD07566965|MD07563708|MD07563320|MD07565661"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07576946|MD07576942|MD07554867|MD07559263|MD07570655|MD07560595|MD07553753|MD07538512|MD07569389|MD07566965|MD07563708|MD07563320|MD07565661"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07572246|MD07572229|MD07572201|MD07572186|MD07572233|MD07573053|MD07573052|MD07573049|MD07573052|MD07572196|MD07561897|MD07561874|MD07561927|MD07563351|MD07559637|MD07546653|MD07546651"/>
-		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07560453|MD07560453|MD07560431|MD07563973|MD07567911|MD07570652|MD07509126|MD07509107|MD07564941|MD07553681|MD07553678|MD07571592|MD07571517|MD07553857"/>
+		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07572246|MD07572229|MD07572201|MD07572186|MD07572233|MD07573053|MD07573052|MD07573049|MD07573142|MD07572196|MD07561897|MD07561874|MD07561927|MD07563351|MD07559637|MD07546653|MD07546651"/>
+		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07560453|MD07560456|MD07560431|MD07563973|MD07567911|MD07570652|MD07509126|MD07509107|MD07564941|MD07553681|MD07553678|MD07571592|MD07571517|MD07553857"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556521|MD07559273|MD07537337|MD07525538|MD07520378|MD07506342|MD07544575|MD07553395|MD07560592|MD07532605|MD07532888|MD07535876|MD07537808|MD07559481|MD07529709|MD05769328|MD05769327|MD07558526|MD07558482"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07565648|MD07568248|MD07568802|MD07568668|MD07534417|MD07568843|MD07569063|MD07568939|MD07570974|MD07568654|MD07570744|MD07560635|MD07568950|MD07553573|MD07556654|MD06201616|MD06211097"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07568668|MD07568248|MD07569063|MD07568939|MD07556654|MD07576466|MD07565648|MD07568802|MD07534417|MD07568843|MD07570974|MD07568654|MD07570744|MD07560635|MD07568950|MD06201616|MD06211097"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -156,8 +156,7 @@
 							</div>
 						</div>
 						<p class="visual__desc">
-							Économisez 15% sur les achats multiples sur TOUS les produits et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>
-							L’offre valable jusqu’au 31 mai, uniquement sur LG.com
+							Économisez 15% sur les achats multiples sur TOUS les produits et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>L’offre valable jusqu’au 31 mai, uniquement sur LG.com<br><br>*LG MEMBER DAYS = Les journées membres LG
 						</p>
 						<div class="button">
 							<div class="button__row">
@@ -410,7 +409,7 @@
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_entertaiment"
 										data-link-name="memberdays_2023H1"
-										class="tab__button">Divertissement</a>
+										class="tab__button">DIVERTISSEMENT</a>
 									</div>
 									<div class="tab__item">
 										<a href="#gaming" role="button"  
@@ -418,7 +417,7 @@
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_gaming"
 										data-link-name="memberdays_2023H1"
-										class="tab__button">Gaming</a>
+										class="tab__button">GAMING</a>
 									</div>
 									<div class="tab__item">
 										<a href="#working" role="button"  
@@ -426,7 +425,7 @@
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_working"
 										data-link-name="memberdays_2023H1"
-										class="tab__button">TRAVAIL</a>
+										class="tab__button">PRODUCTIVITÉ</a>
 									</div>
 									<div class="tab__item">
 										<a href="#homekeeping" role="button" 
@@ -434,7 +433,7 @@
 										data-track-val="home" data-track-name="experience_category_click"
 										data-link-area="memberdays_H1_Experience_click_P1_homekeeping"
 										data-link-name="memberdays_2023H1"
-										class="tab__button">ENTRETIEN DE LA MAISON</a>
+										class="tab__button">SOIN DE LA MAISON</a>
 									</div>
 									<div class="tab__item">
 										<a href="#energysaving" role="button" 
@@ -514,7 +513,7 @@
 											<div class="section__anchor">
 												<p>ENCORE PLUS D’EXPÉRIENCES</p>
 											</div>
-											<p class="section__title">Accédez à encore plus de #Divertissement</p>
+											<p class="section__title">Accédez à encore plus de #divertissement</p>
 											<p class="section__desc">Accédez à un nouveau niveau de divertissement grâce aux téléviseurs OLED et aux barres de son.</p>
 											<p class="section__desc section__desc--secondary">Sélectionnez les produits de votre thématique préférée pour votre offre d’achat multiple</p>
 										</div>
@@ -608,7 +607,7 @@
 											<div class="section__anchor">
 												<p>ENCORE PLUS D’EXPÉRIENCES</p>
 											</div>
-											<p class="section__title">Accédez à encore plus de #Gaming</p>
+											<p class="section__title">Accédez à encore plus de #gaming</p>
 											<p class="section__desc">Devenez le maître du jeu grâce aux performances et à la vitesse époustouflantes des produits gaming UltraGear</p>
 											<p class="section__desc section__desc--secondary">Sélectionnez les produits de votre thématique préférée pour votre offre d’achat multiple</p>
 										</div>
@@ -673,7 +672,7 @@
 											<div class="section__anchor">
 												<p>ENCORE PLUS D’EXPÉRIENCES</p>
 											</div>
-											<p class="section__title">Accédez à encore plus de #Productivité</p>
+											<p class="section__title">Accédez à encore plus de #productivité</p>
 											<p class="section__desc">Améliorez votre efficacité professionnelle avec un ordinateur portable léger, un moniteur à grand écran et des écouteurs sans fil</p>
 											<p class="section__desc section__desc--secondary">Sélectionnez les produits de votre thématique préférée pour votre offre d’achat multiple</p>
 										</div>
@@ -768,7 +767,7 @@
 											<div class="section__anchor">
 												<p>ENCORE PLUS D’EXPÉRIENCES</p>
 											</div>
-											<p class="section__title">Accédez à encore plus de #Entretien</p>
+											<p class="section__title">Accédez à encore plus de #soin de la maison</p>
 											<p class="section__desc">Mode de vie intelligent, fraîcheur prolongée, entretien parfait des vêtements grâce aux lave-linge, sèche-linge, aspirateurs et réfrigérateurs</p>
 											<p class="section__desc section__desc--secondary">Sélectionnez les produits de votre thématique préférée pour votre offre d’achat multiple</p>
 										</div>
@@ -863,7 +862,7 @@
 											<div class="section__anchor">
 												<p>ENCORE PLUS D’EXPÉRIENCES</p>
 											</div>
-											<p class="section__title">Accédez à encore plus de #Économies</p>
+											<p class="section__title">Accédez à encore plus d’#économie d’énergie</p>
 											<p class="section__desc">Engagez-vous pour la sauvegarde de notre planète avec les produits LG à faible consommation d’énergie</p>
 											<p class="section__desc section__desc--secondary">Sélectionnez les produits de votre thématique préférée pour votre offre d’achat multiple</p>
 										</div>
