@@ -82,7 +82,7 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07522329|MD07522313|MD07541676|MD07569325|MD07549560"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07550722|MD07550735|MD07550672|MD07565035|MD07565009|MD07550509|MD07566122|MD07566123|MD07549062|MD07521229|MD07521230|MD07544285|MD07544333|MD07544338|MD06216996|MD07541678|MD07515551|MD07572961|MD07527366|MD07518447|MD07527328|MD07506953|MD07572972|MD07572934|MD07549194|MD07549316|MD07574214|MD07574264|MD07574265|MD07574014|MD07574161|MD07574162|MD07574073|MD07573198|MD07574016|MD07571010|MD07571008|MD07571006|MD07571002|MD07571009|MD07571003|MD07573679|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726|MD07573727|MD07573747|MD07573751"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07550672|MD07518447|MD07572972|MD07549316|MD07549062|MD07550509|MD07565009|MD07521229|MD07550722|MD07527366|MD07506953|MD07527328|MD06216996|MD07521230|MD07550735|MD07565035|MD07572934|MD07549194|MD07566123|MD07544285|MD07566122|MD07515551|MD07541678|MD07544333|MD07544338|MD07572961|MD07571009|MD07571010|MD07571002|MD07571006|MD07571003|MD07571008|MD07573679|MD07574014|MD07574073|MD07574161|MD07574214|MD07574264|MD07573198|MD07574016|MD07574162|MD07574265|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726|MD07573727|MD07573747|MD07573751"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 
 		<!-- Hottest Gift Model -->
@@ -409,6 +409,11 @@
 
 			<div class="experience">
 				<div class="anchors" id="NextLevelExperience"></div>
+				<div class="anchors" id="NextLevelExperienceEntertainment"></div>
+				<div class="anchors" id="NextLevelExperienceGaming"></div>
+				<div class="anchors" id="NextLevelExperienceWorking"></div>
+				<div class="anchors" id="NextLevelExperienceHomeKeeping"></div>
+				<div class="anchors" id="NextLevelExperienceEnergySaving"></div>
 				<div id="box_content3" class="section">
 					<div class="section__container section__container--lifestyle" data-list="lifeStyle">
 						<div class="section__set">
@@ -1372,6 +1377,68 @@
 		}
 		$(document).ready(function(){
 			var href = window.location.href;
+			if(href.indexOf('NextLevelExperienceEntertainment') != -1) {    
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(0).addClass('tab__item--active');    
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('NextLevelExperienceGaming') != -1) {    
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(1).addClass('tab__item--active');    
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('NextLevelExperienceWorking') != -1) {    
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(2).addClass('tab__item--active');    
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('NextLevelExperienceHomeKeeping') != -1) {    
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(3).addClass('tab__item--active');    
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('NextLevelExperienceEnergySaving') != -1) {    
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(4).addClass('tab__item--active');    
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(4).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(4).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(4).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+
+			// 
 			if(href.indexOf('BuymoreSavemorePremierCare') != -1) {    
 				$('#box_content4 .tab__list .tab__panel').attr('display', 'none')
         $('#box_content4 .tab__list .tab__item').removeClass('tab__item--active');

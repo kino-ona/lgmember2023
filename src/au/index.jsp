@@ -33,7 +33,6 @@
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-GKQX');</script>
 	<!-- End Google Tag Manager -->
-	
 </head>
 
 <body>
@@ -151,7 +150,7 @@
 							</div>
 						</div>
 						<p class="visual__desc">
-							Save 10% on Any LG products (excluding accessories)* when you buy one product<br>
+							Save 10% on LG products (excluding accessories and WashTower WWT-1209)* when you buy one product<br>
 							and 15% when you buy two or more products with member exclusive benefits<br>
 							Offer ends 31st May, Only at LG.com
 						</p>
@@ -166,7 +165,7 @@
 							</div>
 						</div>
 						<div class="visual__term">
-							<a href="https://www.lg.com/au/memberdays-lg-tnc" role="button"  target="_blank" 
+							<a href="#tnc" role="button"
 								data-track-group="MICROSITE"
 								data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H1_Mainbanner_click_P1_Terms_Conditions"
@@ -187,8 +186,8 @@
 							<div class="section__anchor">
 								<p>EXCLUSIVE BENEFITS FOR LG MEMBERS</p>
 							</div>
-							<p class="section__title">Unlock Next Level Benefits and Discounts on Any LG Products</p>
-							<p class="section__desc">(excluding accessories)*</p>
+							<p class="section__title">Unlock Next Level Benefits and Discounts on LG products</p>
+							<p class="section__desc">(excluding accessories and WashTower WWT-1209)</p>
 							<div class="coupon">
 								<div class="coupon__row">
 									<div class="coupon__coupon">
@@ -258,7 +257,7 @@
 									</div>
 								</div>
 								<div class="section__term section__term--right">
-									<a href="https://www.lg.com/au/memberdays-lg-tnc" role="button" target="_blank" 
+									<a href="#tnc" role="button"
 									data-track-name="exclusive_link_click"
 									data-link-area="memberdays_H1_Exclusive_click_P1_Terms_Conditions"
 									data-link-name="memberdays_2023H1">
@@ -328,11 +327,11 @@
 											-->
 											<div class="button">
 												<div class="button__row">
-													<a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="experience_learn_more_click" data-link-name="learn_more">
+													<!-- <a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="experience_learn_more_click" data-link-name="learn_more">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='mehr erfahren'/></span>
-													</a>
-													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="experience_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
-													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
+													</a> -->
+													<a role="button" href="*modelUrlPath*" target="_blank" class="button__item atc-members-weeks" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="experience_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+													<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-weeks d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 												</div>
 											</div>
 										</div>
@@ -514,29 +513,29 @@
 											<div class="showroom__list">
 												<div class="showroom__item">
 													<div class="showroom__layer">
-														<a href="#" target="_blank" role="button"
+														<a href="https://www.lg.com/au/tvs-soundbars/lg-oled83c3psa" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-														data-track-sku=""
+														data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_OLED83C3PSA.AAU"
+														data-track-sku="OLED83C3PSA.AAU"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
 														</a>
 														<div class="showroom__target">
-															<a href="#" target="_blank" role="button"
+															<a href="https://www.lg.com/au/tvs-soundbars/lg-oled83c3psa" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_"
-															data-track-sku=""
+															data-link-area="memberdays_H1_Mouse_over_P1_ENTERTAINMENT_OLED83C3PSA.AAU"
+															data-track-sku="OLED83C3PSA.AAU"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
-																	<img src="${path}/assets/images/au/img_showroom_entertaiment01_01.png" alt="">
+																	<img src="${path}/assets/images/au/img_showroom_entertaiment01_01.png" alt="LG C3 83 inch OLED evo TV">
 																</div>
 																<div class="showroom__cont">
-																	<p class="showroom__name"></p>
+																	<p class="showroom__name">LG C3 83 inch OLED evo TV</p>
 																	<ul class="showroom__desc">
-																		<li></li>
-																		<li></li>
+																		<li>Advanced picture and functionality with α9 AI Processor 4K Gen6</li>
+																		<li>Brightness Booster powering a brighter, better LG OLED TV</li>
 																	</ul>
 																</div>
 															</a>
@@ -867,7 +866,7 @@
 								Elevate your lifestyle with Member Exclusive Benefits.<br>
 								Shop Now
 							</p>
-							<p class="section__desc">Get 10% Discount on Any LG products (excludes accessories) when you buy one product and 15% Discount when you buy two or more products</p>
+							<p class="section__desc">Get 10% Discount on LG products (excluding accessories and WashTower WWT-1209) when you buy one product and 15% Discount when you buy two or more products</p>
 							<p class="section__desc section__desc--secondary">Offer ends 31<sup>st</sup> May, Only at LG.com</p>
 							<p class="section__desc section__desc--secondary">Remember to apply your Exclusive Coupon at checkout to see your final discounted amount.</p>
 							<div class="item-set">
@@ -1038,13 +1037,13 @@
 											</div>
 											<div class="product__bottom">
 												<div class="learn-more">
-													<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
+													<!-- <a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='MEHR ERFAHREN'/></span>
-													</a>
+													</a> -->
 												</div>
 												<div class="button">
-													<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
-													<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
+													<a role="button" href="*modelUrlPath*" target="_blank" class="button__item atc-members-weeks" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='IN DEN EINKAUFSWAGEN'/></a>
+													<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-weeks d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='INFO WENN VERFÜGBAR'/></a>
 												</div>
 											</div>
 										</div>
@@ -1261,12 +1260,12 @@
 	<div id="hotdeal" class="hotdeal" data-list="hotDeal">
 		<div class="product__list"></div>
 	</div>
-
+	<div class="tnc"></div>
 	<div class="container-fluid">
 		<div class="footer-box">
 			<div class="footer-component">
 				<div class="footer-caution">
-					*Das Angebot ist gültig vom 02.05.2023 - 22.05.2023 exklusiv auf LG.com, nur solange der Vorrat reicht und nicht kombinierbar mit anderen Aktionen oder Rabattcoupons (wie z.B. Cashback, Kauf auf Mitarbeiterplattformen, VIP Accounts etc.). LG behält sich in Ausnahmefällen vor, das Angebot frühzeitig zu beenden oder abzuändern. Weitere Informationen entnehmen Sie bitte unseren Teilnahmebedingungen.
+					*LG Member Days Benefit: 10% discount applied to a single product in a single transaction (excluding accessories and WashTower [WWT-1209]). 15% discount applied to two or more products in a single transaction (excluding accessories and WashTower [WWT-1209]). Offer applies to eligible purchases made on the LG.com.au Online Store only. Offer available to MyLG members only. Promotion period begins 00:01am (AEST) on Wednesday 17 May 2023 and ends 11:59pm (AEST) on Wednesday 31 May 2023. Exclusive Coupons issued to MyLG members via email. Coupon code must be applied to cart to redeem offer. Products subject to stock availability and cannot be used in conjunction with any other offer. The promoter excludes all liability arising from the promotion, except for liability which cannot be excluded by law. Terms subject to change and may be modified or cancelled at any time without notice. LG employees, agencies and VIP Partners are not eligible to participate in this promotion and are not eligible for any offers relating to this promotion.
 					<div>&nbsp;</div>
 				</div>
 			</div>

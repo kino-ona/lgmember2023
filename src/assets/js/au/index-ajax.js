@@ -480,15 +480,15 @@ $(document).ready(function () {
         // sold out product btn
         if (p.reStockAlertFlag == "Y") {
           $template
-            .find(".atc-members-week")
+            .find(".atc-members-weeks")
             .addClass("d-none")
             .end()
-            .find(".restock-members-week")
-            .attr("data-url", p.reStockAlertUrl)
+            .find(".restock-members-weeks")
+            // .attr("data-url", p.reStockAlertUrl)
             .removeClass("d-none")
-            .end()
-            .find(".product__noti")
-            .removeClass("d-none");
+            .end();
+          // .find(".product__noti")
+          // .removeClass("d-none");
         }
 
         $template.find(".button a").each(function () {
@@ -512,7 +512,7 @@ $(document).ready(function () {
       if (option == "category" && event == "selectProductCategory")
         value = $this.text();
       if (event == "buy_now_click")
-        $this = $this.closest(".product__info").find(".atc-members-week");
+        $this = $this.closest(".product__info").find(".atc-members-weeks");
 
       switch (tmp) {
         case "mic":
