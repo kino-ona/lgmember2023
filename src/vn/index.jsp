@@ -104,7 +104,7 @@
 							<i class="arrow_ico"></i>
 						</button>
 						<div id="select_list-item" class="select_list-item">
-							<span class="link">VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</span>
+							<span class="link">VƯƠN TẦM ĐẲNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</span>
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
@@ -112,7 +112,7 @@
 								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1 NEXT LEVEL LARGEST SAVINGS" 
 								data-link-name="memberdays_2023H1" 
-								class="link">VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</a>
+								class="link">VƯƠN TẦM ĐẲNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</a>
 							</li>
 							<li class="list-item">
 								<a href="#MemberExclusiveBenefits" role="button" 
@@ -147,8 +147,8 @@
 						<div class="visual__title">
 							Nâng tầm 
 							<div class="visual__rolling">
-								<div>#giải trí mới</div>
-								<div>#chơi game mới</div>
+								<div>#giải trí</div>
+								<div>#chơi game</div>
 								<div>#làm việc</div>
 								<div>#chăm sóc nhà cửa</div>
 								<div>#tiết kiệm năng lượng</div>
@@ -156,7 +156,7 @@
 							cùng LG
 						</div>
 						<p class="visual__desc">
-							Giảm tới 22% khi mua từ 2 sản phẩm trở lên cho tất cả sản phẩm LG. Giảm tới 48% cho các sản phẩm thuộc chương trình Khuyến mại đặc biệt (Hot deal) cùng các đặc quyền dành riêng cho thành viên.<br>Ưu đãi kết thúc vào 31.05.2023. Chỉ có tại LG.com/vn
+							Giảm thêm 22% khi mua từ 2 sản phẩm trở lên cùng các đặc quyền dành riêng cho thành viên.<br>Ưu đãi đến hết 31.05.2023. Chỉ có tại LG.com/vn
 						</p>
 						<div class="button">
 							<div class="button__row">
@@ -188,10 +188,10 @@
 					<div class="section__container section__container--hotdeal" data-list="hotDeal">
 						<div class="section__set">
 							<div class="section__anchor">
-								<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
+								<p>VƯƠN TẦM ĐẲNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 							</div>
-							<p class="section__title">Ưu đãi đặc biệt để nâng tầm cuộc sống của bạn</p>
-							<p class="section__desc">GIẢM GIÁ tới 48% đối với một số sản phẩm</p>
+							<p class="section__title">Khuyến mại đặc biệt (Hot Deal)</p>
+							<p class="section__desc">GIẢM GIÁ đến 48% các sản phẩm dưới đây</p>
 							<div id="hotdeal" class="product product--hotdeal">
 								<div class="product__mask">
 									<template class="contents-template">
@@ -267,7 +267,7 @@
 								</div>
 							</div>
 							<div class="section__footer">
-								<p>*Voucher không áp dụng với các sản phẩm trong chương trình Khuyến mại đặc biệt</p>
+								<p>*Voucher không áp dụng cho giỏ hàng có các sản phẩm thuộc chương trình Khuyến mại đặc biệt</p>
 							</div>
 						</div>
 					</div>
@@ -537,7 +537,7 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Nâng tầm #giải trí mới cùng LG</p>
+											<p class="section__title">Nâng tầm #giải trí cùng LG</p>
 											<p class="section__desc">Đưa trải nghiệm giải trí lên môt đẳng cấp mới cùng LG OLED TV và Loa thanh</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
@@ -631,7 +631,7 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Nâng tầm #chơi game mới cùng LG</p>
+											<p class="section__title">Nâng tầm #chơi game cùng LG</p>
 											<p class="section__desc">Thay đổi cuộc chơi nhờ hiệu suất và tốc độ đáng kinh ngạc đến từ Màn hình UltraGear và thiết bị chơi game</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
@@ -697,7 +697,7 @@
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
 											<p class="section__title">Nâng tầm #làm việc cùng LG</p>
-											<p class="section__desc">Nâng cao hiệu quả làm với laptop gọn nhẹ, màn hình rộng và tai nghe không dây</p>
+											<p class="section__desc">Nâng cao hiệu quả làm việc với Laptop gọn nhẹ, màn hình rộng và sắc nét</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
 										<div class="showroom">
@@ -916,7 +916,7 @@
 											<div class="section__anchor">
 												<p>VƯƠN TẦM ĐẮNG CẤP NHẬN ƯU ĐÃI SIÊU HỜI</p>
 											</div>
-											<p class="section__title">Nâng tầm tiết #kiệm năng lượng cùng LG</p>
+											<p class="section__title">Nâng tầm #tiết kiệm năng lượng cùng LG</p>
 											<p class="section__desc">Đi đầu trong nỗ lực bảo vệ hành tinh thông qua các sản phẩm tiết kiệm năng lượng của LG</p>
 											<p class="section__desc section__desc--secondary">Chọn ngay các sản phẩm phù hợp theo từng nhóm nhu cầu</p>
 										</div>
@@ -1029,7 +1029,7 @@
 							<p class="section__title">Mua càng nhiều, ưu đãi càng lớn</p>
 							<p class="section__desc">Nhận thêm ưu đãi 22% cho TẤT CẢ sản phẩm LG khi mua từ 2 sản phẩm trở lên</p>
 							<p class="section__desc section__desc--secondary">Không áp dụng cho giỏ hàng có các sản phẩm thuộc chương trình Khuyến mại đặc biệt (Hot Deal)</p>
-							<p class="section__desc section__desc--secondary">Truy cập <em>Giỏ hàng của tôi</em> để xem giá ưu đãi cuối cùng. Đừng quên áp dụng voucher giảm giá 15% và voucher 5% cho thành viên mới</p>
+							<p class="section__desc section__desc--secondary">Truy cập <em>Giỏ hàng của tôi</em> để xem giá ưu đãi cuối cùng.</p>
 							<div class="item-set">
 								<div class="item-set__set">
 									<div class="item-set__item">
@@ -1177,7 +1177,7 @@
 								</template>
 								<div class="tab__contents">
 									<div id="premiercare" class="tab__panel tab__panel--premiercare" style="display: block;">
-										<p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p>
+										<!-- <p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p> //-->
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1199,7 +1199,7 @@
 									</div>
 
 									<div id="tv" class="tab__panel tab__panel--tv" style="display: none;">
-										<p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p>
+										<!-- <p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p> //-->
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1221,7 +1221,7 @@
 									</div>
 
 									<div id="homeappliance" class="tab__panel tab__panel--homeappliance" style="display: none;">
-										<p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p>
+										<!-- <p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p> //-->
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1243,7 +1243,7 @@
 									</div>
 
 									<div id="computerproducts" class="tab__panel tab__panel--computerproducts" style="display: none;">
-										<p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p>
+										<!-- <p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p> //-->
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>
@@ -1265,7 +1265,7 @@
 									</div>
 
 									<div id="airsolutions" class="tab__panel tab__panel--airsolutions" style="display: none;">
-										<p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p>
+										<!-- <p class="tab__noti">Nhấn XEM THÊM để khám phá các sản phẩm LG</p> //-->
 										<div class="product">
 											<div class="product__mask">
 												<div class="product__list"></div>

@@ -460,11 +460,24 @@
 		.slick {
 
 			&-list {
-				margin: 0 15px;
+				margin: 0;
 			}
 
 			&-slide {
 				margin: 0 5px;
+			}
+		}
+
+		.product {
+			&__price {
+				flex-direction: column;
+				align-items: flex-start;
+			}
+			&__item {
+				padding: 30px 15px 20px;
+			}
+			&__cost {
+				font-size: 20px;
 			}
 		}
 	}

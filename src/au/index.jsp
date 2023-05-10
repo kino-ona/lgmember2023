@@ -9,14 +9,14 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="Unlock next level savings and experience with additional Member-exclusive benefits. Hurry, offer ends on 31st May!">
 	<meta name="robots" content="noindex">
-	<link rel="canonical" href="https://www.lg.com/au/memberdays">
+	<link rel="canonical" href="https://www.lg.com/au/membership">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="AU">
 	<meta property="og:site_name" content="LG Australia">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LG Member Days: Up To 15% Off Only For Members | LG Australia">
 	<meta property="og:description" content="Unlock next level savings and experience with additional Member-exclusive benefits. Hurry, offer ends on 31st May!">
-	<meta property="og:url" content="https://www.lg.com/au/memberdays">
+	<meta property="og:url" content="https://www.lg.com/au/membership">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@LGAU">
@@ -43,7 +43,7 @@
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
 		<meta itemprop="name" content="LG Member Days: Up To 15% Off Only For Members | LG Australia"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
-		<meta itemprop="url" content="https://www.lg.com/au/memberdays" />
+		<meta itemprop="url" content="https://www.lg.com/au/membership" />
 		<meta itemprop="description" content="Unlock next level savings and experience with additional Member-exclusive benefits. Hurry, offer ends on 31st May!" />
 		<meta itemprop="keywords" content="" />
 	</div>
@@ -164,16 +164,7 @@
 								class="button__item">VIEW PRODUCTS</a>
 							</div>
 						</div>
-						<div class="visual__term">
-							<a href="#tnc" role="button"
-								data-track-group="MICROSITE"
-								data-track-name="memberdays_mainbanner_click"
-								data-link-area="memberdays_H1_Mainbanner_click_P1_Terms_Conditions"
-								data-link-name="memberdays_2023H1">
-								Terms &amp; Conditions
-								<i></i>
-							</a>
-						</div>
+						<div class="visual__term"></div>
 					</div>
 				</div>
 			</div>
@@ -255,15 +246,6 @@
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="section__term section__term--right">
-									<a href="#tnc" role="button"
-									data-track-name="exclusive_link_click"
-									data-link-area="memberdays_H1_Exclusive_click_P1_Terms_Conditions"
-									data-link-name="memberdays_2023H1">
-									Terms &amp; Conditions
-										<i></i>
-									</a>
 								</div>
 							</div>
 						</div>
@@ -1260,7 +1242,7 @@
 	<div id="hotdeal" class="hotdeal" data-list="hotDeal">
 		<div class="product__list"></div>
 	</div>
-	<div class="tnc"></div>
+
 	<div class="container-fluid">
 		<div class="footer-box">
 			<div class="footer-component">
