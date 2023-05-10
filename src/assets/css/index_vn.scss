@@ -367,6 +367,15 @@
 
 				&--homekeeping {
 
+					.section {
+
+						&__desc {
+							max-width: 900px;
+							margin-left: auto;
+							margin-right: auto;
+						}
+					}
+
 					.showroom {
 
 						&__item {
@@ -442,6 +451,20 @@
 						height: 252px;
 					}
 				}
+			}
+		}
+	}
+
+	.hotdeal {
+		
+		.slick {
+
+			&-list {
+				margin: 0 15px;
+			}
+
+			&-slide {
+				margin: 0 5px;
 			}
 		}
 	}
