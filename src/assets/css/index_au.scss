@@ -431,6 +431,10 @@
 				left: 0;
     		top: -20px;
 			}
+			@media (max-width: 1024px) {
+				left: 10px;
+    		top: 10px;
+			}
 		}
 		&__flag {
 			min-height: 20px;
@@ -443,6 +447,15 @@
 				padding: 0 4px;
 				line-height: 13px;
 			}
+		}
+		&--experience {
+			&__flags {
+				@media (max-width: 1024px) {
+					left: -18px;
+    			top: -20px;
+				}
+			}
+
 		}
 	}
 

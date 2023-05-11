@@ -227,9 +227,9 @@
 												<p class="product__name">77’’ OLED C2 - OLED evo 4K Smart TV - OLED77C26LD</p>
 												<p class="product__sn">OLED77C26LD</p>
 												<div class="product__price">
-													<p class="product__cost">£849.98</p>
+													<p class="product__cost"><span class="number">123</span></p>
 													<div>
-														<span class="product__discount">£1,049.98</span>
+														<span class="product__discount"><span class="number">123</span></span>
 														<span class="product__highlight">19% Off</span>
 													</div>
 												</div>
@@ -2456,6 +2456,20 @@
 	<script src="../assets/js/index.js"></script>
 	<script src="../assets/js/index-ajax.js"></script>
 	<!--// UI Script -->
+
+	<script>
+		if($(".product__price").length > 0) {
+			$(".product__price").each(function () {
+				var final = $(this).find('.product__cost');
+				var origin = $(this).find('.product__discount');
+
+				if(final.find('.number').text() === origin.find('.number').text()) {
+					$(this).find('.product__discount .number').hide();
+					$(this).find('.product__discount .unit').hide();
+				}
+			});
+		}
+	</script>
 
 </body>
 

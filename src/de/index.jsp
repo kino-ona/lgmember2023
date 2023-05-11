@@ -86,10 +86,10 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07550687|MD07549244|MD07549871|MD07551683|MD07549261|MD07548083"/>
+		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07550687|MD07549244|MD07551683|MD07549261|MD07548083"/>
 		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07570015|MD07552306|MD07570482|MD07534660|MD07534021|MD07529952|MD07551605|MD07551967|MD07533588"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559729|MD07556836|MD06205396|MD07561481|MD07562441|MD07571231|MD07538023|MD07532590|MD05888956|MD07522395"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07571152|MD07563970|MD07559129|MD07564761|MD07568104|MD07528827|MD07548205|MD07568100|MD07568091|MD07568090"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556836|MD06205396|MD07561481|MD07562441|MD07538023|MD07532590|MD05888956"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07571152|MD07563970|MD07559129|MD07564761|MD07568104|MD07528827|MD07548205|MD07568100"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->

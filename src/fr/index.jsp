@@ -7,7 +7,7 @@
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 	<title>LG MEMBER DAYS*: remise de 15% exclusive aux membres LG | LG France</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 31 mai.">
+	<meta name="description" content="Accédez à encore plus d’offres et de réductions grâce aux avantages réservés aux membres LG. Offre valable jusqu’au 31 mai.">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.www.lg.com/fr/memberdays">
 	<meta property="fb:app_id" content="">
@@ -15,7 +15,7 @@
 	<meta property="og:site_name" content="LG France">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="TV, Audio, Vidéo, Électroménager, Informatique, Climatisatio | LG France">
-	<meta property="og:description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 31 mai.">
+	<meta property="og:description" content="Accédez à encore plus d’offres et de réductions grâce aux avantages réservés aux membres LG. Offre valable jusqu’au 31 mai.">
 	<meta property="og:url" content="https://www.www.lg.com/fr/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -44,7 +44,7 @@
 		<meta itemprop="name" content="TV, Audio, Vidéo, Électroménager, Informatique, Climatisatio | LG France"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.www.lg.com/fr/memberdays" />
-		<meta itemprop="description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 31 mai." />
+		<meta itemprop="description" content="Accédez à encore plus d’offres et de réductions grâce aux avantages réservés aux membres LG. Offre valable jusqu’au 31 mai." />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -77,8 +77,8 @@
 		<!-- Life Style Model -->
 		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07572186|MD07572201|MD07572229|MD07563973|MD07567911|MD07560431|MD07553857"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value="MD07568668|MD07568248|MD07560635|MD07570744|MD07571517|MD07570652|MD07563351|MD07572196|MD07573142"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07568950|MD07556654|MD07556249|MD07553573|MD07560453|MD07560456"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07556521|MD07559273|MD07544575|MD07553395|MD07560564|MD07529709|MD07537808|MD05769328|MD07558526"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07568950|MD07553573|MD07560453|MD07560456"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value="MD07556521|MD07559273|MD07544575|MD07553395|MD07560564|MD07537808|MD05769328|MD07558526"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07530726|MD07530699|MD07545166|MD07560592|MD07532888"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
@@ -89,9 +89,9 @@
 
 		<!-- Hottest Gift Model -->
 		<input type="hidden" data-model-group="hottest" data-type="tv" value="MD07572246|MD07572229|MD07572201|MD07572186|MD07572233|MD07573053|MD07573052|MD07573049|MD07573142|MD07572196|MD07561897|MD07561874|MD07561927|MD07563351|MD07559637|MD07546653|MD07546651"/>
-		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07560453|MD07560456|MD07560431|MD07563973|MD07567911|MD07570652|MD07509126|MD07509107|MD07564941|MD07553681|MD07553678|MD07571592|MD07571517|MD07553857"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556521|MD07559273|MD07537337|MD07525538|MD07520378|MD07506342|MD07544575|MD07553395|MD07560592|MD07532605|MD07532888|MD07535876|MD07537808|MD07559481|MD07529709|MD05769328|MD05769327|MD07558526|MD07558482"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07568668|MD07568248|MD07569063|MD07568939|MD07556654|MD07576466|MD07565648|MD07568802|MD07534417|MD07568843|MD07570974|MD07568654|MD07570744|MD07560635|MD07568950|MD06201616|MD06211097"/>
+		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07560453|MD07560456|MD07560431|MD07563973|MD07567911|MD07570652|MD07509126|MD07509107|MD07553681|MD07553678|MD07571592|MD07571517|MD07553857"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556521|MD07559273|MD07537337|MD07525538|MD07520378|MD07506342|MD07544575|MD07553395|MD07560592|MD07532605|MD07532888|MD07535876|MD07537808|MD07559481|MD05769328|MD05769327|MD07558526|MD07558482"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07568668|MD07568248|MD07569063|MD07568939|MD07576466|MD07565648|MD07568802|MD07534417|MD07568843|MD07570974|MD07568654|MD07570744|MD07560635|MD07568950|MD06201616|MD06211097"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -144,7 +144,7 @@
 			<div class="visual">
 				<div class="visual__visual">
 					<div class="visual__set">
-						<p class="visual__logo">LG MEMEBER DAYS*</p>
+						<p class="visual__logo">LG MEMBER DAYS*</p>
 						<div class="visual__title">
 							Accédez à encore plus
 							<div class="visual__rolling">
@@ -156,7 +156,7 @@
 							</div>
 						</div>
 						<p class="visual__desc">
-							Économisez 15% sur les achats multiples sur TOUS les produits et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>L’offre valable jusqu’au 31 mai, uniquement sur LG.com<br><br>*LG MEMBER DAYS = Les journées membres LG
+							Économisez 15% sur les achats multiples sur TOUS les produits et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>Offre valable jusqu’au 31 mai, uniquement sur LG.com<br><br>*LG MEMBER DAYS = Les journées membres LG
 						</p>
 						<div class="button">
 							<div class="button__row">
@@ -970,7 +970,7 @@
 							<div class="section__anchor">
 								<p>ENCORE PLUS D’OFFRES</p>
 							</div>
-							<p class="section__title">Achat Multiples, Avantages Multiples</p>
+							<p class="section__title">Achats Multiples, Avantages Multiples</p>
 							<p class="section__desc">Bénéficiez d’une remise de 15% sur TOUS les produits LG lorsque vous achetez deux produits ou plus</p>
 							<p class="section__desc section__desc--secondary">Les produits en ‘Offres Spéciales’ et ‘Précommandes’ sont exclus de l’offre d’achat multiple.</p>
 							<p class="section__desc section__desc--secondary">Consultez votre panier d’achat pour vérifier votre réduction finale. N’oubliez pas d’appliquer le coupon d’achat multiple de 15% dans <em>Mon Panier.</em></p>

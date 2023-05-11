@@ -15,9 +15,11 @@
 				align-items: flex-start;
 	
 				.product__flag {
+					height: auto;
 					align-items: flex-start;
-					padding: 0 4px;
-					line-height: 15px;
+					padding: 0 8px;
+    			line-height: 14px;
+					text-align: left;
 				}
 			}
 		}
@@ -36,6 +38,14 @@
 		&__cost {
 			.unit {
 				margin-left: -3px;
+			}
+		}
+		&--experience {
+			.product__flags {
+				@media (max-width: 1024px) {
+					left: 0;
+					top: 0;
+				}
 			}
 		}
 	}
