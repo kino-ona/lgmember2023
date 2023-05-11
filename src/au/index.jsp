@@ -376,7 +376,7 @@
 														<a href="https://www.lg.com/au/dishwashers/lg-XD3A25MB" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_XD3A25MB.ABMREAP"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOMECARE_XD3A25MB.ABMREAP"
 														data-track-sku="XD3A25MB.ABMREAP"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
@@ -385,7 +385,7 @@
 															<a href="https://www.lg.com/au/dishwashers/lg-XD3A25MB" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_XD3A25MB.ABMREAP"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOMECARE_XD3A25MB.ABMREAP"
 															data-track-sku="XD3A25MB.ABMREAP"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
@@ -405,7 +405,7 @@
 														<a href="https://www.lg.com/au/clothes-styler/lg-S3BF" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_S3BF.ALBREAP"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOMECARE_S3BF.ALBREAP"
 														data-track-sku="S3BF.ALBREAP"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
@@ -414,7 +414,7 @@
 															<a href="https://www.lg.com/au/clothes-styler/lg-S3BF" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_S3BF.ALBREAP"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOMECARE_S3BF.ALBREAP"
 															data-track-sku="S3BF.ALBREAP"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
@@ -434,7 +434,7 @@
 														<a href="https://www.lg.com/au/vacuum-cleaners/lg-a9t-auto" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_GAMING_A9T-AUTO.ECBRLAP"
+														data-link-area="memberdays_H1_Mouse_over_P1_HOMECARE_A9T-AUTO.ECBRLAP"
 														data-track-sku="A9T-AUTO.ECBRLAP"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
@@ -443,7 +443,7 @@
 															<a href="https://www.lg.com/au/vacuum-cleaners/lg-a9t-auto" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_GAMING_A9T-AUTO.ECBRLAP"
+															data-link-area="memberdays_H1_Mouse_over_P1_HOMECARE_A9T-AUTO.ECBRLAP"
 															data-track-sku="A9T-AUTO.ECBRLAP"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
@@ -712,7 +712,7 @@
 														<a href="https://www.lg.com/au/fridges/lg-gf-v910mblc" target="_blank" role="button"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GF-V910MBLC.AMCRGAP"
+														data-link-area="memberdays_H1_Mouse_over_P1_LIVING SPACE_GF-V910MBLC.AMCRGAP"
 														data-track-sku="GF-V910MBLC.AMCRGAP"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
@@ -721,7 +721,7 @@
 															<a href="https://www.lg.com/au/fridges/lg-gf-v910mblc" target="_blank" role="button"
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_GF-V910MBLC.AMCRGAP"
+															data-link-area="memberdays_H1_Mouse_over_P1_LIVING SPACE_GF-V910MBLC.AMCRGAP"
 															data-track-sku="GF-V910MBLC.AMCRGAP"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
@@ -742,7 +742,7 @@
 														data-track-group="MICROSITE"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_WWT-1710B.ABLREAP"
+														data-link-area="memberdays_H1_Mouse_over_P1_LIVING SPACE_WWT-1710B.ABLREAP"
 														data-track-sku="WWT-1710B.ABLREAP"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
@@ -751,7 +751,7 @@
 															<a href="https://www.lg.com/au/washing-machines/lg-wwt-1710b" target="_blank" role="button" 
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_WWT-1710B.ABLREAP"
+															data-link-area="memberdays_H1_Mouse_over_P1_LIVING SPACE_WWT-1710B.ABLREAP"
 															data-track-sku="WWT-1710B.ABLREAP"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
@@ -772,7 +772,7 @@
 														data-track-group="MICROSITE"
 														data-track-group="MICROSITE"
 														data-track-name="experience_mouse_over"
-														data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_MS4296OMBB.BBM7LAP"
+														data-link-area="memberdays_H1_Mouse_over_P1_LIVING SPACE_MS4296OMBB.BBM7LAP"
 														data-track-sku="MS4296OMBB.BBM7LAP"
 														data-link-name="memberdays_2023H1" class="showroom__anchor">
 															<span class="sr-only">detail view</span>
@@ -781,7 +781,7 @@
 															<a href="https://www.lg.com/au/microwave-ovens/lg-ms4296ombb" target="_blank" role="button" 
 															data-track-group="MICROSITE"
 															data-track-name="experience_mouse_over"
-															data-link-area="memberdays_H1_Mouse_over_P1_HOME_KEEPING_MS4296OMBB.BBM7LAP"
+															data-link-area="memberdays_H1_Mouse_over_P1_LIVING SPACE_MS4296OMBB.BBM7LAP"
 															data-track-sku="MS4296OMBB.BBM7LAP"
 															data-link-name="memberdays_2023H1" class="showroom__link">
 																<div class="showroom__img">
