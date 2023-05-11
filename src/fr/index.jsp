@@ -156,7 +156,7 @@
 							</div>
 						</div>
 						<p class="visual__desc">
-							Économisez 15% sur les achats multiples sur TOUS les produits et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>Offre valable jusqu’au 31 mai, uniquement sur LG.com<br><br>*LG MEMBER DAYS = Les journées membres LG
+							Économisez 15% sur les achats multiples sur TOUS les produits et jusqu’à 40% sur les offres spéciales avec des avantages supplémentaires exclusifs pour les membres LG !<br>Offre valable du 11 au 31 mai 2023<br><br>*LG MEMBER DAYS = Les journées membres LG
 						</p>
 						<div class="button">
 							<div class="button__row">

@@ -129,7 +129,7 @@
 								data-track-group="MICROSITE" data-track-name="memberdays_anchor_click"
 								data-link-area="memberdays_H1_Anchor_click_P1 NEXT LEVEL MULTI PURCHASE OFFER" 
 								data-link-name="memberdays_2023H1" 
-								class="link">NEXT LEVEL RANGE OF PRODUCTS YOU MAY LIKE</a>
+								class="link">NEXT LEVEL RANGE OF PRODUCTS <span class="mb_break"></span>YOU MAY LIKE</a>
 							</li>
 						</ul>
 					</div>
@@ -178,7 +178,7 @@
 								<p>EXCLUSIVE BENEFITS FOR LG MEMBERS</p>
 							</div>
 							<p class="section__title">Unlock Next Level Benefits and Discounts on LG products</p>
-							<p class="section__desc">(excluding accessories and WashTower WWT-1209)</p>
+							<p class="section__desc">(excluding accessories and <span class="mb_break"></span>WashTower WWT-1209)</p>
 							<div class="coupon">
 								<div class="coupon__row">
 									<div class="coupon__coupon">
@@ -362,12 +362,12 @@
 											<div class="section__anchor">
 												<p>NEXT LEVEL EXPERIENCE</p>
 											</div>
-											<p class="section__title">Reach Your Next #Home Care Level</p>
+											<p class="section__title">Reach Your Next <span class="mb_break"></span>#Home Care Level</p>
 											<p class="section__desc">
 												Keep your home clean and hygienic with LG’s range of Vacuum Cleaners, Dishwashers and Styler<br>
 												Our range of Vacuum Cleaners, Dishwashers and Stylers can assist in ensuring that your home remains clean and hygienic
 											</p>
-											<p class="section__desc section__desc--secondary">Select the themed products for your multi purchase offer</p>
+											<p class="section__desc section__desc--secondary">Select the themed products for <span class="mb_break"></span>your multi purchase offer</p>
 										</div>
 										<div class="showroom">
 											<div class="showroom__list">
@@ -487,7 +487,7 @@
 											<div class="section__anchor">
 												<p>NEXT LEVEL EXPERIENCE</p>
 											</div>
-											<p class="section__title">Reach Your Next #Entertainment Level</p>
+											<p class="section__title">Reach Your Next <span class="mb_break"></span>#Entertainment Level</p>
 											<p class="section__desc">Take your entertainment experience to a whole new level with OLED TV and Soundbar.</p>
 											<p class="section__desc section__desc--secondary">Select the themed products for your multi purchase offer</p>
 										</div>
@@ -579,7 +579,7 @@
 											<div class="section__anchor">
 												<p>NEXT LEVEL EXPERIENCE</p>
 											</div>
-											<p class="section__title">Reach Your Next #Working Level</p>
+											<p class="section__title">Reach Your Next <span class="mb_break"></span>#Working Level</p>
 											<p class="section__desc">Empower your professional efficiency with a lightweight laptop, a wide-screen monitor and wireless earbuds.</p>
 											<p class="section__desc section__desc--secondary">Select the themed products for your multi purchase offer</p>
 										</div>
@@ -701,7 +701,7 @@
 											<div class="section__anchor">
 												<p>NEXT LEVEL EXPERIENCE</p>
 											</div>
-											<p class="section__title">Reach Your Next #Living Space Level</p>
+											<p class="section__title">Reach Your Next <span class="mb_break"></span>#Living Space Level</p>
 											<p class="section__desc">Elevate your way of living with intelligent home solutions including washers, dryers and vacuum cleaners. Experience greater freshness with our award-winning refrigerators.</p>
 											<p class="section__desc section__desc--secondary">Select the themed products for your multi purchase offer</p>
 										</div>
@@ -845,8 +845,7 @@
 								<p>NEXT LEVEL RANGE OF PRODUCTS YOU MAY LIKE</p>
 							</div>
 							<p class="section__title">
-								Elevate your lifestyle with Member Exclusive Benefits.<br>
-								Shop Now
+								Elevate your lifestyle with Member  Exclusive Benefits.<span class="pc_break"></span> Shop Now
 							</p>
 							<p class="section__desc">Get 10% Discount on LG products (excluding accessories and WashTower WWT-1209) when you buy one product and 15% Discount when you buy two or more products</p>
 							<p class="section__desc section__desc--secondary">Offer ends 31<sup>st</sup> May, Only at LG.com</p>
@@ -1129,7 +1128,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/au/washing-machines" target="_blank" role="button" 
+												<a href="https://www.lg.com/au/clothes-dryers" target="_blank" role="button" 
 												tabindex="0" 
 												data-track-group="MICROSITE" 
 												data-track-opt="category" 

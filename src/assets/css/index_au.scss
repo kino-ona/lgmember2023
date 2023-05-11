@@ -3,6 +3,17 @@
 
 .lgmembersweek {
 	.hotDeal {display: none !important;}
+	.mb_break {
+		display: none;
+		@media (max-width: 1024px) {
+			display: block;
+		}
+	}
+	.pc_break {
+		@media (min-width: 1024px) {
+			display: block;
+		}
+	}
 
 	.visual {
 		padding-bottom: 0;
@@ -15,7 +26,7 @@
 		@media (max-width: 1024px) {
 			
 			&__visual {
-				padding-bottom: 30px;
+				padding: 69px 30px 16px;
 				background-image: url('../images/au/m_bg_visual.png');
 			}
 		}
@@ -421,6 +432,14 @@
 				}
 			}
 		}
+
+		.section {
+			&__desc {
+				@media (max-width: 372px) {
+					font-size: 14px;
+				}
+			}
+		}
 	}
 
 	.product {
@@ -595,5 +614,17 @@
 				}
 			}
 		}
+
+		.section {
+			&__anchor {
+				p {
+					height: auto;
+					@media (max-width: 372px) {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+
 	}
 }
