@@ -299,7 +299,8 @@
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Voucher giảm giá cho đơn hàng nhiều sản phẩm</p>
 														<p class="coupon-list__text coupon-list__text--secondary">Áp dụng khi mua từ 2 sản phẩm LG </p>
-														<p class="coupon-list__text coupon-list__text--tertiary">*Dành cho tất cả sản phẩm có trên LG.com ngoại trừ sản phẩm nằm trong chương trình Khuyến mại đặc biệt và Đặt hàng trước</p>
+														<p class="coupon-list__text coupon-list__text--tertiary">*Dành cho tất cả sản phẩm có trên LG.com ngoại trừ sản phẩm nằm trong chương
+															trình Khuyến mại đặc biệt và Phụ kiện</p>
 													</div>
 												</div>
 											</div>
@@ -312,6 +313,7 @@
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Quyền lợi thành viên mới</p>
 														<p class="coupon-list__text coupon-list__text--secondary">Voucher Chào Mừng cho thành viên mới</p>
+														<p class="coupon-list__text coupon-list__text--tertiary">*Không áp dụng khi mua phụ kiện</p>
 													</div>
 												</div>
 											</div>

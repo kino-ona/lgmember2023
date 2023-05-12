@@ -106,11 +106,11 @@
 								</li>
 								<li>
 									<span class="bar"></span>
-									Đối với khách hàng là thành viên mới được áp dụng thêm: Welcome coupon 5% và ưu đãi dành riêng cho thành viên LG là 2%. Tổng giảm giá không quá 22% và không được vượt quá 50% trên đơn hàng.
+									Đối với khách hàng là thành viên mới được áp dụng thêm: Welcome coupon 5% (không dụng khi mua phụ kiện) và ưu đãi dành riêng cho thành viên LG là 2%. Tổng giảm giá không quá 22% và không được vượt quá 50% trên đơn hàng.
 								</li>
 								<li>
 									<span class="bar"></span>
-									Được áp dụng cho tất cả các sản phẩm của LG trên OBS và không giới hạn số lượng mua hàng. Không áp dụng cho giỏ hàng có các sản phẩm thuộc chương trình Khuyến mại đặc biệt (Hotdeal).
+									Được áp dụng cho tất cả các sản phẩm của LG trên OBS và không giới hạn số lượng mua hàng. Không áp dụng cho giỏ hàng có các sản phẩm thuộc chương trình Khuyến mại đặc biệt (Hotdeal), và Phụ kiện.
 								</li>
 							</ul>
 						</li>
@@ -123,11 +123,11 @@
 								</li>
 								<li>
 									<span class="bar"></span>
-									Đối với khách hàng là thành viên mới được áp dụng thêm: Welcome coupon 5% và ưu đãi dành riêng cho thành viên LG là 2%. Tổng giảm giá không quá 17% và không được vượt quá 50% trên đơn hàng.
+									Đối với khách hàng là thành viên mới được áp dụng thêm: Welcome coupon 5% (không áp dụng khi mua phụ kiện) và ưu đãi dành riêng cho thành viên LG là 2%. Tổng giảm giá không quá 17% và không được vượt quá 50% trên đơn hàng.
 								</li>
 								<li>
 									<span class="bar"></span>
-									Được áp dụng cho tất cả các sản phẩm của LG trên OBS và không giới hạn số lượng muahàng. Không áp dụng cho giỏ hàng có các sản phẩm thuộc chương trình Khuyến mại đặc biệt (Hotdeal).
+									Được áp dụng cho tất cả các sản phẩm của LG trên OBS và không giới hạn số lượng muahàng. Không áp dụng cho giỏ hàng có các sản phẩm thuộc chương trình Khuyến mại đặc biệt (Hotdeal) và Phụ kiện
 								</li>
 							</ul>
 						</li>
