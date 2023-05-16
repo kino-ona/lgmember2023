@@ -82,7 +82,7 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07530726|MD07530699|MD07545166|MD07560592|MD07532888"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07576946|MD07576942|MD07554867|MD07559263|MD07570655|MD07560595|MD07553753|MD07538512|MD07569389|MD07566965|MD07563708|MD07563320|MD07565661|MD07556678"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07576946|MD07576942|MD07554867|MD07559263|MD07570655|MD07560595|MD07553723|MD07538512|MD07569389|MD07566965|MD07563708|MD07563320|MD07565661|MD07556678"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->

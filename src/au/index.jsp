@@ -75,10 +75,10 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Life Style Model -->
-		<input type="hidden" data-model-group="lifeStyle" data-type="homecare" value="MD06164256|MD07534829|MD07542785|MD07535988|MD07515397|MD07536333|MD06061297|MD06061416|MD07561212"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07570940|MD07570927|MD07570913|MD07570951|MD07571080|MD07571128|MD07551061|MD07548169|MD07555760|MD07538827|MD07570812"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="homecare" value="MD06164256|MD07534829|MD07542785|MD07535988|MD07515397|MD07535981|MD06061297|MD06061416|MD07561212"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value="MD07577000|MD07576995|MD07570913|MD07570951|MD07571080|MD07571128|MD07551061|MD07548169|MD07538827|MD07570812"/>
 		<input type="hidden" data-model-group="lifeStyle" data-type="working" value="MD07554631|MD07569727|MD07559894|MD07504296|MD07520224|MD07569289|MD07569288	"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="livingspace" value="MD07552645|MD07539687|MD07552663|MD07539503|MD07530439|MD07530444|MD06240800|MD06241076|MD07555928|MD07548452|MD07541490|MD07541490"/>
+		<input type="hidden" data-model-group="lifeStyle" data-type="livingspace" value="MD07552645|MD07539687|MD07552663|MD07539503|MD07530439|MD07530444|MD06240800|MD06241076|MD07504275|MD07541490|MD07541490"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
@@ -89,11 +89,11 @@
 		<input type="hidden" data-model-group="hottest" data-type="av" value="MD07550779|MD07570812|MD07550326|MD07550462|MD07569326|MD07569289|MD07569288|MD07534379"/>
 		<input type="hidden" data-model-group="hottest" data-type="refrigerator" value="MD07552645|MD07506508|MD07506571|MD07506514|MD07508260|MD07508473|MD07539503|MD07540841|MD06116258|MD06071037|MD07555368|MD07555614"/>
 		<input type="hidden" data-model-group="hottest" data-type="washingmachine" value="MD06212017|MD06168477|MD07530439|MD07530444|MD07548507|MD06165976|MD07518955|MD06240800|MD07511956"/>
-		<input type="hidden" data-model-group="hottest" data-type="dryer" value="MD07504275|MD07504481|MD06241076|MD07548452"/>
+		<input type="hidden" data-model-group="hottest" data-type="dryer" value="MD07504275|MD07504481|MD06241076"/>
 		<input type="hidden" data-model-group="hottest" data-type="dishwasher" value="MD07544981|MD06233961|MD05889096|MD06061297|MD06061416|MD07561212|MD06032796|MD05888916"/>
-		<input type="hidden" data-model-group="hottest" data-type="vacuumcleaner" value="MD07536333|MD07535988|MD07535981|MD07535931|MD07515397|MD07515397|MD07542785|MD07573775|MD07535988"/>
+		<input type="hidden" data-model-group="hottest" data-type="vacuumcleaner" value="MD07535988|MD07535981|MD07535931|MD07515397|MD07515397|MD07542785|MD07573775|MD07535988"/>
 		<input type="hidden" data-model-group="hottest" data-type="cookingappliance" value="MD07504245|MD05769256|MD06147456|MD05863780|MD06114037|MD05925096|MD05769247|MD05769254|MD07541490|MD07541490"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554631|MD07569727|MD07520224|MD07539055|MD07538738|MD07538843|MD07539695|MD07539068|MD07563160|MD07512666|MD07551061|MD07548169"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554631|MD07569727|MD07520224|MD07560541|MD05933197|MD07573596|MD06173456|MD07539068|MD07563160|MD07512666|MD07551061|MD07548169"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->

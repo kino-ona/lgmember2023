@@ -476,6 +476,8 @@ $(document).ready(function () {
           $template
             .find(".product__members > span:not(.product__noti)")
             .html("");
+        if (p.discountMsg == null)
+          $template.find(".product__price .product__discount").html("");
 
         // sold out product btn
         if (p.reStockAlertFlag == "Y") {
