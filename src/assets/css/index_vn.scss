@@ -62,13 +62,6 @@
 				grid-column: 1 /3;
 
 				.coupon-list {
-				
-					&__coupon {
-	
-						p {
-							font-size: 38px;
-						}
-					}
 
 					&__item {
 
@@ -91,6 +84,64 @@
 								border-radius: 50%;
 							}
 						}
+					}
+
+					&__row {
+						grid-template-columns: 220px 400px;
+						justify-content: center;
+
+						.coupon-list__split {
+							display: grid;
+							grid-template-columns: repeat(2, 1fr);
+						}
+					}
+
+					&__row--secondary {
+						display: block;
+
+						.coupon-list__split {
+							display: grid;
+							grid-template-columns: repeat(2, 1fr);
+							column-gap: 40px;
+						}
+
+						.coupon-list__group {
+							display: grid;
+							grid-template-columns: 220px 1fr;
+							column-gap: 10px;
+							position: relative;
+
+							&:not(:first-child) {
+								
+								&:before {
+									content: "";
+									display: block;
+									position: absolute;
+									left: -20px;
+									top: 0;
+									width: 1px;
+									height: 100%;
+									background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 2px, rgba(255, 255, 255, 0) 0);
+									background-position: bottom;
+									background-size: 1px 8px;
+									background-repeat: repeat-y;
+								}
+							}
+						}
+					}
+				
+					&__coupon {
+	
+						p {
+							font-size: 38px;
+						}
+					}
+
+					&__bottom {
+						margin-top: 24px;
+						opacity: .5;
+						font-size: 16px;
+						text-align: center;
 					}
 				}
 			}
@@ -212,6 +263,54 @@
 		@media (max-width: 1024px) {
 				
 			.coupon {
+
+				&__coupon {
+
+					.coupon-list {
+
+						&__item {
+
+							&:not(:last-child) {
+
+								&:after {
+									display: none;
+								}
+							}
+						}
+
+						&__row--secondary {
+							
+							.coupon-list__split {
+								display: block;
+							}
+
+							.coupon-list__group {
+								display: block;
+
+								&:not(:first-child) {
+									margin-top: 20px;
+									padding-top: 20px;
+									
+									&:before {
+										left: 0;
+										top: 0;
+										width: 100%;
+										height: 1px;
+										background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 2px, rgba(255, 255, 255, 0) 0);
+										background-repeat: repeat-x;
+										background-size: 8px 1px;
+									}
+								}
+							}
+						}
+
+						&__bottom {
+							margin-top: 20px;
+							font-size: 12px;
+							text-align: left;
+						}
+					}
+				}
 
 				&__premier {
 					margin-top: 20px;
