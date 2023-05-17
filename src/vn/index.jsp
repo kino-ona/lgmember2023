@@ -201,7 +201,11 @@
 													<span class="product__flag">NEW</span>
 													<span class="product__flag">CASHBACK</span>
 												</div> -->
+												<a role="button" href="*modelUrlPath*" target="_blank" 
+												data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="largest_savings_learn_more_click" data-track-name="largest_savings_learn_more_click" data-link-name="largest_savings_learn_more_click"
+												>
 												<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
+												</a>
 											</div>
 											<!-- 
 												// common.js add-to-cart dataLayer 공통 로직 진입을 위해
@@ -209,7 +213,13 @@
 												// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
 											-->
 											<div class="product__info products-info">
-												<p class="product__name">*userFriendlyName*</p>
+												<p class="product__name">
+													<a role="button" href="*modelUrlPath*" target="_blank" 
+													data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="largest_savings_learn_more_click" data-track-name="largest_savings_learn_more_click" data-link-name="largest_savings_learn_more_click"
+													>
+													*userFriendlyName*
+													</a>
+												</p>
 												<p class="product__sn sku">*modelName*</p>
 												<div class="product__price">
 													<p class="product__cost">
@@ -291,17 +301,28 @@
 									<div class="coupon__coupon">
 										<div class="coupon-list">
 											<div class="coupon-list__item">
-												<div class="coupon-list__row">
-													<div class="coupon-list__coupon">
-														<span>Voucher</span>
-														<p>Giảm giá 15%</p>
+												<div class="coupon-list__row coupon-list__row--secondary">
+													<div class="coupon-list__split">
+														<div class="coupon-list__group">
+															<div class="coupon-list__coupon">
+																<span>Voucher</span>
+																<p>Giảm giá 15%</p>
+															</div>
+															<div class="coupon-list__contents">
+																<p class="coupon-list__text">Voucher giảm giá cho đơn hàng nhiều sản phẩm</p>
+															</div>
+														</div>
+														<div class="coupon-list__group">
+															<div class="coupon-list__coupon">
+																<span>Voucher</span>
+																<p>Giảm giá 10%</p>
+															</div>
+															<div class="coupon-list__contents">
+																<p class="coupon-list__text">Voucher giảm giá cho đơn hàng 01 sản phẩm</p>
+															</div>
+														</div>
 													</div>
-													<div class="coupon-list__contents">
-														<p class="coupon-list__text">Voucher giảm giá cho đơn hàng nhiều sản phẩm</p>
-														<p class="coupon-list__text coupon-list__text--secondary">Áp dụng khi mua từ 2 sản phẩm LG </p>
-														<p class="coupon-list__text coupon-list__text--tertiary">*Dành cho tất cả sản phẩm có trên LG.com ngoại trừ sản phẩm nằm trong chương
-															trình Khuyến mại đặc biệt và Phụ kiện</p>
-													</div>
+													<p class="coupon-list__bottom">*Dành cho tất cả sản phẩm có trên LG.com ngoại trừ sản phẩm nằm trong chương trình Khuyến mại đặc biệt và Phụ kiện</p>
 												</div>
 											</div>
 											<div class="coupon-list__item">
@@ -313,7 +334,6 @@
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Quyền lợi thành viên mới</p>
 														<p class="coupon-list__text coupon-list__text--secondary">Voucher Chào Mừng cho thành viên mới</p>
-														<p class="coupon-list__text coupon-list__text--tertiary">*Không áp dụng khi mua phụ kiện</p>
 													</div>
 												</div>
 											</div>
@@ -321,7 +341,7 @@
 												<div class="coupon-list__row">
 													<div class="coupon-list__coupon">
 														<span>Giá dành cho thành viên</span>
-														<p>Giảm giá 2%</p>
+														<p>Giảm 2%</p>
 													</div>
 													<div class="coupon-list__contents">
 														<p class="coupon-list__text">Giá dành riêng cho thành viên</p>

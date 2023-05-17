@@ -1233,7 +1233,7 @@
 												data-track-name="offer_see_more_click" 
 												data-link-area="memberdays_H1_Offer_click_P1_SEE_MORE_COMPUTERPRODUCTS"
 												data-link-name="memberdays_2023H1" 
-												class="button__item button__item--secondary">MEHR PRODUKTE ENTDECKEN</a>
+												class="button__item button__item--secondary">SEE MORE COMPUTER PRODUCT</a>
 											</div>
 										</div>
 									</div>
