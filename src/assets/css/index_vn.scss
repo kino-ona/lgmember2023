@@ -578,10 +578,10 @@
 			}
 			&__item {
 				padding: 30px 15px 20px;
-				// @media screen and (min-width: 1024px) {
-				// 	width: calc(25% - 20px) !important;
-				// 	margin-right: 20px;
-				// }
+				@media screen and (min-width: 1024px) {
+					width: calc(25% - 20px) !important;
+					margin-right: 20px;
+				}
 			}
 			&__cost {
 				font-size: 20px;

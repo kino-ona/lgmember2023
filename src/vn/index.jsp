@@ -82,7 +82,7 @@
 		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value="MD07522329|MD07522313|MD07541676|MD07569325|MD07549560"/>
 
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07550672|MD07518447|MD07572972|MD07549316|MD07549062|MD07550509|MD07565009|MD07521229|MD07550722|MD07527366|MD07506953|MD07527328|MD06216996|MD07521230|MD07550735|MD07565035|MD07572934|MD07549194|MD07566123|MD07544285|MD07566122|MD07515551|MD07541678|MD07544333|MD07544338|MD07572961|MD07571009|MD07571010|MD07571002|MD07571006|MD07571003|MD07571008|MD07573679|MD07574014|MD07574073|MD07574161|MD07574214|MD07574264|MD07573198|MD07574016|MD07574162|MD07574265|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726|MD07573727|MD07573747|MD07573751"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07506953|MD07572778|MD07550672|MD07518447|MD07572972|MD07549316|MD07549062|MD07550509|MD07565009|MD07521229|MD07550722|MD07527366|MD07527328|MD06216996|MD07521230|MD07550735|MD07565035|MD07572934|MD07549194|MD07566123|MD07544285|MD07566122|MD07515551|MD07541678|MD07544333|MD07544338|MD07572961|MD07571009|MD07571010|MD07571002|MD07571006|MD07571003|MD07571008|MD07573679|MD07574014|MD07574073|MD07574161|MD07574214|MD07574264|MD07573198|MD07574016|MD07574162|MD07574265|MD07573743|MD07573655|MD07573695|MD07573745|MD07573726|MD07573727|MD07573747|MD07573751"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 
 		<!-- Hottest Gift Model -->
@@ -247,17 +247,12 @@
 												</div>
 												<div class="product__bottom">
 													<div class="learn-more">
-														<!-- <a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="largest_savings_learn_more_click" data-track-name="largest_savings_learn_more_click" data-link-name="largest_savings_learn_more_click">
-															<span class="learn-more__text"><spring:message code='component-learnMore' text='Thêm Vào So Sánh'/></span>
-														</a> -->
 													</div>
 													<div class="button">
 														<a role="button" href="*modelUrlPath*" class="button__item" target="_blank" 
 														data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="largest_savings_learn_more_click" data-track-name="largest_savings_learn_more_click" data-link-name="largest_savings_learn_more_click">
 															<span class="learn-more__text"><spring:message code='component-learnMore' text='TÌM HIỂU THÊM'/></span>
 														</a>
-														<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-link-area="largest_savings_add_to_cart_click" data-track-name="largest_savings_add_to_cart_click" data-link-name="largest_savings_add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='THÊM VÀO GIỎ HÀNG'/></a> -->
-														<!-- <a role="button" href="#modelUrlPath" target="_blank"  class="button__item button__item--lightgray d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a> -->
 													</div>
 												</div>
 											</div>
@@ -489,7 +484,10 @@
 												<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
 												<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 											</div>
-											<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
+											<a role="button" href="*modelUrlPath*" target="_blank"  data-track-group="product" 
+												data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="experience_learn_more_click" data-link-name="learn_more">
+												<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
+											</a>
 
 											<!-- 
 												// common.js add-to-cart dataLayer 공통 로직 진입을 위해
@@ -498,20 +496,20 @@
 											-->
 											<div class="button">
 												<div class="button__row">
-													<!-- <a role="button" href="*modelUrlPath*" class="button__item button__item--leanmore" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="experience_learn_more_click" data-link-name="learn_more">
-														<span class="learn-more__text"><spring:message code='component-learnMore' text='TÌM HIỂU THÊM'/></span>
-													</a> -->
 													<a role="button" href="*modelUrlPath*" class="button__item" target="_blank"  data-track-group="product" 
 													data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="experience_learn_more_click" data-link-name="learn_more">
 														<span class="learn-more__text"><spring:message code='component-learnMore' text='TÌM HIỂU THÊM'/></span>
 													</a>
-													<!-- <a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="experience_add_to_cart_click" data-link-name="experience_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='THÊM VÀO GIỎ HÀNG'/></a> -->
-													<!-- <a role="button" href="#modelUrlPath" class="button__item button__item--lightgray d-none" target="_blank"  data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Thông báo khi có hàng'/></a> -->
 												</div>
 											</div>
 										</div>
 										<div class="product__info">
-											<p class="product__name">*userFriendlyName*</p>
+											<p class="product__name">
+												<a role="button" href="*modelUrlPath*" target="_blank"  data-track-group="product" 
+												data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="experience_learn_more_click" data-link-name="learn_more">
+												*userFriendlyName*
+												</a>
+											</p>
 											<p class="product__sn sku">*modelName*</p>
 											<div class="product__price">
 												<p class="product__cost">

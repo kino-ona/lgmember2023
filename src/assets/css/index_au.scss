@@ -19,6 +19,7 @@
 		padding-bottom: 0;
 
 		&__visual {
+			padding-top: 125px;
 			padding-bottom: 55px;
 			background-image: url('../images/au/bg_visual.png');
 			.button:not(:first-child) {
@@ -57,7 +58,11 @@
 					margin-top: 10px;
 				}
 			}
-
+		}
+		@media (max-width: 380px) {
+			&__visual {
+				background-position: left 50% bottom 10px;
+			}
 		}
 
 		@media (min-width: 1920px) {
