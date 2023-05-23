@@ -92,7 +92,7 @@
 		<input type="hidden" data-model-group="hottest" data-type="dryer" value="MD07504275|MD07504481|MD06241076"/>
 		<input type="hidden" data-model-group="hottest" data-type="dishwasher" value="MD07544981|MD06233961|MD05889096|MD06061297|MD06061416|MD07561212|MD06032796|MD05888916"/>
 		<input type="hidden" data-model-group="hottest" data-type="vacuumcleaner" value="MD07535988|MD07535981|MD07535931|MD07515397|MD07515397|MD07542785|MD07573775|MD07535988"/>
-		<input type="hidden" data-model-group="hottest" data-type="cookingappliance" value="MD07504245|MD05769256|MD06147456|MD05863780|MD06114037|MD05925096|MD05769247|MD05769254|MD07541490|MD07541490"/>
+		<input type="hidden" data-model-group="hottest" data-type="cookingappliance" value="MD07504245|MD05769256|MD06147456|MD05863780|MD06114037|MD05925096|MD05769254|MD07541490|MD07541490"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07569727|MD07520224|MD07560541|MD05933197|MD07573596|MD06173456|MD07539068|MD07563160|MD07512666|MD07551061|MD07548169"/>
 		<!-- Required input ## Model List End -->
 	
