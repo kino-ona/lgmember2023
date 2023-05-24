@@ -82,7 +82,8 @@
 		@media (max-width: 1024px) {
 			
 			&__visual {
-				height: 540px;
+				// height: 540px;
+				height: 90vh;
 				background: url('../images/m_bg_visual.png') no-repeat 50% 100% #000;
 				background-size: cover;
 			}
