@@ -721,7 +721,7 @@
 		}
 
 		&__sn {
-			margin-top: 4px;
+			margin-top: 8px;
 			color: #666;
 			font-size: 14px;
 		}
@@ -734,11 +734,12 @@
 			> div {
 				display: flex;
 				flex-direction: column;
+				gap: 5px;
 			}
 		}
 
 		&__cost {
-			font-weight: 700;
+			font-weight: 600;
 			font-size: 26px;
 		}
 
