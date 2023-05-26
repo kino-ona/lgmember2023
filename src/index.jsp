@@ -75,21 +75,14 @@
 		<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
 
 		<!-- Required input ## Model List Start -->
-		<!-- Life Style Model -->
-		<input type="hidden" data-model-group="lifeStyle" data-type="entertaiment" value=""/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gaming" value=""/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="working" value=""/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="homekeeping" value=""/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="energysaving" value=""/>
-
 		<!-- Hot Deal Model / thumb - alt text -->
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="all" value="MD07576230|MD07529177|MD07554813|MD07547412|MD07540676|MD07573308|MD07565720|MD07544189|MD07570953|MD07559233|MD07568226|MD07560077|MD07564074|MD07576998|MD07576232|MD07530617|MD07522585|MD07555691|MD07570952|MD07555758|MD07568250|MD07576894|MD07547531|MD07560003|MD07544234|MD07569939|MD05989117|MD07550723|MD07536701|MD07576990|MD07565724|MD07536632|MD07565726|MD07551400|MD07565813|MD07565715"/>
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07555667"/>
-		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07539127"/>
-		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07546195"/>
+		<input type="hidden" data-model-group="hottest" data-type="all" value="MD07570423"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07570423"/>
+		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07570423"/>
+		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07570423"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -100,10 +93,10 @@
 				<div class="visual__visual">
 					<div class="visual__inner">
 						<p class="visual__logo">LG Member Days</p>
-						<p class="title">
+						<h1 class="title">
 							Flash Sale<br>
 							for Members’ Best Pick
-						</p>
+						</h1>
 						<p class="desc">
 							Enjoy 20% off our top picks for LG members only.<br>
 							Offer ends 30th June, Only at LG.com
@@ -173,22 +166,12 @@
 						<div class="tab">
 							<div class="tab__list">
 								<div class="tab__item tab__item--active">
-									<a href="#all"
-									data-tab-name="all"
-									data-track-group="mic"
-									data-track-opt="category"
-									data-track-name="selectProductCategory"
-									data-link-area="memberdays_H1_Category_click_all"
-									data-link-name="memberdays_2023H2"
-									class="tab__button">ALL</a>
-								</div>
-								<div class="tab__item">
 									<a href="#he"
 									data-tab-name="he"
 									data-track-group="mic"
 									data-track-opt="category"
 									data-track-name="selectProductCategory"
-									data-link-area="memberdays_H1_Category_click_he"
+									data-link-area="memberdays_H2_Category_click_he"
 									data-link-name="memberdays_2023H2"
 									class="tab__button">HE</a>
 								</div>
@@ -198,7 +181,7 @@
 									data-track-group="mic"
 									data-track-opt="category"
 									data-track-name="selectProductCategory"
-									data-link-area="memberdays_H1_Category_click_ha"
+									data-link-area="memberdays_H2_Category_click_ha"
 									data-link-name="memberdays_2023H2"
 									class="tab__button">HA</a>
 								</div>
@@ -208,7 +191,7 @@
 									data-track-group="mic"
 									data-track-opt="category"
 									data-track-name="selectProductCategory"
-									data-link-area="memberdays_H1_Category_click_it"
+									data-link-area="memberdays_H2_Category_click_it"
 									data-link-name="memberdays_2023H2"
 									class="tab__button">IT</a>
 								</div>
@@ -266,40 +249,7 @@
 							</template>
 
 							<div class="tab__contents">
-								<div id="all" class="tab__panel tab__panel--all" style="display: block;">
-									<div class="best-item best-item_slider">
-										<div class="best-item__row">
-											<div class="best-item__item">
-												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
-											</div>
-											<div class="best-item__item">
-												<div class="best-item__img">
-													<img src="${path}/assets/images/img_item02.png" alt="">
-												</div>
-											</div>
-										</div>
-										<div class="best-item__row">
-											<div class="best-item__item">
-												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
-											</div>
-											<div class="best-item__item">
-												<div class="best-item__img">
-													<img src="${path}/assets/images/img_item02.png" alt="">
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="product">
-										<div class="product__mask">
-											<div class="product__list product-slider"></div>
-										</div>
-										<div class="paging">
-										</div>
-									</div>
-								</div>
-								<div id="he" class="tab__panel tab__panel--he" style="display: none;">
+								<div id="he" class="tab__panel tab__panel--he" style="display: block;">
 									<div class="best-item">
 										<div class="best-item__row">
 											<div class="best-item__item">
@@ -323,12 +273,12 @@
 									<div class="best-item">
 										<div class="best-item__row">
 											<div class="best-item__item">
-												<img src="${path}/assets/images/img_item01.png" alt="">
+												<img src="${path}/assets/images/img_item11.png" alt="">
 												<p class="best-item__text">InstaView Door-in-Door</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
-													<img src="${path}/assets/images/img_item02.png" alt="">
+													<img src="${path}/assets/images/img_item12.png" alt="">
 												</div>
 											</div>
 										</div>
@@ -359,7 +309,6 @@
 										</div>
 									</div>
 								</div>
-
 							</div>
 						</div>
 					</div>

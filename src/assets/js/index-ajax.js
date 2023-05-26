@@ -95,34 +95,6 @@ $(document).ready(function () {
         },
       ],
     },
-    hottestSlickOpt: {
-      speed: 10,
-      fade: true,
-      infinite: false,
-      slidesToShow: 1,
-      rows: 4,
-      slidesPerRow: 4,
-      dots: true,
-      appendDots: $(".paging"),
-      customPaging: function (slider, i) {
-        var thumb = $(slider.$slides[i]).data();
-
-        return i + 1;
-      },
-      dotsClass: "new__paging",
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 2,
-            slidesPerRow: 2,
-            rows: 1,
-            focusOnSelect: true,
-          },
-        },
-      ],
-    },
     template: null,
     init: function () {
       // $('.lgmembersdays .coupon form:not(:first-child)').css('margin-top','80px');
@@ -310,8 +282,10 @@ $(document).ready(function () {
                 );
                 $target.html(html);
 
-                let SlickOpt = listName + "SlickOpt";
-                $target.slick(lgMembersWeek[SlickOpt]);
+                // if (listName == "hottest") {
+                //   let SlickOpt = listName + "SlickOpt";
+                //   $target.slick(lgMembersWeek[SlickOpt]);
+                // }
 
                 // Identification class to enter ajax logic only when clicking the model list tab for the first time
                 // (모델리스트 탭 클릭 시, 최초 클릭 시에만 ajax 로직 진입하기 위한 식별 클래스)
