@@ -67,8 +67,9 @@
 
 		&__bottom {
 			display: flex;
-			align-items: center;
-			column-gap: 20px;
+			align-items: flex-start;
+			flex-direction: column;
+			row-gap: 20px;
 
 			.button {
 
@@ -90,6 +91,7 @@
 		}
 
 		.desc {
+			margin-bottom: 25px !important; 
 			color: #999;
 			font-weight: 300;
 		}
@@ -106,7 +108,7 @@
 			}
 
 			&__inner {
-				 padding: 40px 24px 0;
+				 padding: 30px 20px 0;
 				 justify-content: flex-start;
 			}
 

@@ -104,11 +104,11 @@
 						<div class="visual__bottom">
 							<div class="button">
 								<div class="button__row">
-									<a href="#" class="button__item">View Products</a>
+									<a href="#" role="button" class="button__item">View Products</a>
 								</div>
 							</div>
 							<div class="term">
-								<a href="#">
+								<a href="#" role="button">
 									Terms &amp; Conditions
 									<i></i>
 								</a>
