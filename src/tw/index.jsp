@@ -79,37 +79,34 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="all" value="MD07570423"/>
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07570423"/>
-		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07570423"/>
-		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07570423"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07566117|MD07567133|MD07565206|MD07566472|MD07515571|MD07515582|MD07537152|MD07520268|MD07548653|MD07563591|MD07521664"/>
+		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07546009|MD07553837|MD07553841|MD07554848|MD07557424|MD07554617|MD07554628|MD07563893|MD07563854|MD07562207"/>
+		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07572416|MD07572426|MD07569834|MD07569834|MD07569835|MD07547394|MD07560934|MD07567372|MD07562883|MD07567380"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
 		<link rel="stylesheet" href="${path}/assets/css/index.css">
-		<div class="lgmembersdays" data-locale="it" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
+		<div class="lgmembersdays" data-locale="tw" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
 				<div class="visual__visual">
 					<div class="visual__inner">
-						<p class="visual__logo">LG Member Days</p>
-						<h1 class="title">
-							Flash Sale<br>
-							for Members’ Best Pick
-						</h1>
+						<p class="visual__logo">LG 週年會員日</p>
+						<h1 class="title">會員獨享<br />熱銷精選 優惠延長</h1>
 						<p class="desc">
-							Enjoy 20% off our top picks for LG members only.<br>
-							Offer ends 30th June, Only at LG.com
+							熱銷商品全面補貨, 88折優惠延長至<br />2023/07/07。
 						</p>
 						<div class="visual__bottom">
 							<div class="button">
 								<div class="button__row">
-									<a href="#" role="button" class="button__item">View Products</a>
+									<a href="#BestPick" role="button" class="button__item"
+										>查看優惠</a
+									>
 								</div>
 							</div>
 							<div class="term">
-								<a href="#" role="button">
-									Terms &amp; Conditions
+								<a href="#">
+									*詳細活動優惠辦法請見本頁最下方。
 									<i></i>
 								</a>
 							</div>
@@ -125,21 +122,16 @@
 						<div class="benefit__container">
 							<div class="benefit__row">
 								<div class="benefit__contents">
-									<p class="title">Member Only Benefit</p>
-									<p class="desc">
-										Log-in Now and<br>
-										Apply the Coupon at Checkout
-									</p>
+									<p class="title">會員獨享</p>
+									<p class="desc">立即登入/ 註冊<br />領取優惠</p>
 								</div>
 								<div class="coupon">
 									<div class="coupon__left">
-										<p class="coupon__title">BEST SELLING PRODUCTS</p>
-										<div class="coupon__group">
-											<em>20<span>%</span></em> OFF
-										</div>
+										<p class="coupon__title">熱銷精選</p>
+										<div class="coupon__group"><em>88</em>折</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" class="button__item">MY ACCOUNT</a>
+												<a href="https://www.lg.com/tw/my-lg" target="_blank" role="button" class="button__item">前往領取</a>
 											</div>
 										</div>
 									</div>
@@ -149,7 +141,13 @@
 								</div>
 								<div class="button">
 									<div class="button__row">
-										<a href="#" class="button__item">MY ACCOUNT</a>
+										<a
+											href="https://www.lg.com/tw/my-lg"
+											target="_blank"
+											role="button"
+											class="button__item"
+											>前往領取</a
+										>
 									</div>
 								</div>
 							</div>
@@ -161,8 +159,10 @@
 					<div class="anchors" id="BestHomeAppliance"></div>
 					<div class="anchors" id="BestComputerProducts"></div>
 					<div id="box_content" class="section" data-list="hottest">
-						<p class="title title--center">Members’ Best Pick</p>
-						<p class="desc desc--center">Explore LG’s state-of-the-art appliances that will upgrade your home and lifestyle</p>
+						<p class="title title--center">Top3 熱銷榜</p>
+						<p class="desc desc--center">
+							OLED evo C2極致系列 4K AI物聯網電視
+						</p>
 						<div class="tab">
 							<div class="tab__list">
 								<div class="tab__item tab__item--active">
@@ -173,7 +173,7 @@
 									data-track-name="selectProductCategory"
 									data-link-area="memberdays_H2_Category_click_he"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">HE</a>
+									class="tab__button">電視/ 藍牙耳機</a>
 								</div>
 								<div class="tab__item">
 									<a href="#ha"
@@ -183,7 +183,7 @@
 									data-track-name="selectProductCategory"
 									data-link-area="memberdays_H2_Category_click_ha"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">HA</a>
+									class="tab__button">冰箱廚電/ 洗乾衣機/ 小型家電</a>
 								</div>
 								<div class="tab__item">
 									<a href="#it"
@@ -193,7 +193,7 @@
 									data-track-name="selectProductCategory"
 									data-link-area="memberdays_H2_Category_click_it"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">IT</a>
+									class="tab__button">筆電/ 顯示器</a>
 								</div>
 							</div>
 							<template class="contents-template">
@@ -310,6 +310,43 @@
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+
+					<div class="section">
+						<p class="title title--secondary">領取優惠</p>
+						<div class="benefit-more">
+							<div class="benefit-more__row">
+								<div class="benefit-more__item">
+									<div class="benefit-more__group">
+										<p class="benefit-more__text">
+											免費運送、免費基本安裝、<br />免費舊四機回收
+										</p>
+										<i class="benefit-more__ico"></i>
+									</div>
+								</div>
+								<div class="benefit-more__item">
+									<div class="benefit-more__group">
+										<p class="benefit-more__text">指定銀行最高24期0利率</p>
+										<i class="benefit-more__ico"></i>
+									</div>
+								</div>
+								<div class="benefit-more__item">
+									<div class="benefit-more__group">
+										<p class="benefit-more__text">
+											新會員享95折歡迎禮,
+											<br />不定期新品早鳥價、祕<br />密優惠資訊
+										</p>
+										<i class="benefit-more__ico"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="term">
+							<a href="#">
+								*詳細活動優惠辦法請見本頁最下方。
+								<i></i>
+							</a>
 						</div>
 					</div>
 				</div>
