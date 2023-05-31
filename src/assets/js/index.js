@@ -30,5 +30,29 @@ $(document).ready(function () {
           .html("LG gram 16'' 輕贏隨型 極致輕薄筆電");
       }
     }
+    if ($(".lgmembersdays").attr("data-locale") === "au") {
+      if ($(this).attr("data-tab-name") == "he") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc")
+          .html("Transform your viewing experience with LG TVs");
+      }
+      if ($(this).attr("data-tab-name") == "ha") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc")
+          .html(
+            "Upgrade your home and lifestyle with state-of-the-art appliances!"
+          );
+      }
+      if ($(this).attr("data-tab-name") == "it") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc")
+          .html(
+            "Improve productivity and accelerate your performance with LG Gram"
+          );
+      }
+    }
   });
 });
