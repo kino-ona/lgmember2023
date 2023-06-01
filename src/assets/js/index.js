@@ -8,6 +8,26 @@ $(document).ready(function () {
     $(this).closest(".tab").find(".tab__panel").hide();
     $($(this).attr("href")).show();
 
+    if ($(".lgmembersdays").attr("data-locale") === "it") {
+      if ($(this).attr("data-tab-name") == "he") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc")
+          .html("Enhance your life with our best products");
+      }
+      if ($(this).attr("data-tab-name") == "ha") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc")
+          .html("Enhance your life with our best products");
+      }
+      if ($(this).attr("data-tab-name") == "it") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc")
+          .html("Enhance your life with our best products");
+      }
+    }
     if ($(".lgmembersdays").attr("data-locale") === "tw") {
       if ($(this).attr("data-tab-name") == "he") {
         $(this)

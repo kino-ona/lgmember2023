@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+@use 'mixins';
+
+.lgmembersdays {
+
+	.visual {
+		&__visual {
+			background-image: url('../images/au/bg_visual.png');
+		}
+		@media (max-width: 1024px) {
+			
+			&__visual {
+				background: {
+					image: url('../images/au/m_bg_visual.png');
+				}
+			}
+		}
+	}
+}

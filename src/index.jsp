@@ -65,7 +65,7 @@
    </c:import>
    <!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/exclusive-promotions' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/promozioni-esclusive' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->
@@ -94,8 +94,7 @@
 					<div class="visual__inner">
 						<p class="visual__logo">LG Member Days</p>
 						<h1 class="title">
-							Flash Sale<br>
-							for Members’ Best Pick
+							Flash Sale for<br>Members’ Best Pick
 						</h1>
 						<p class="desc">
 							Enjoy 20% off our top picks for LG members only.<br>
@@ -104,7 +103,7 @@
 						<div class="visual__bottom">
 							<div class="button">
 								<div class="button__row">
-									<a href="#" role="button" class="button__item">View Products</a>
+									<a href="#BestPick" role="button" class="button__item">View Products</a>
 								</div>
 							</div>
 							<div class="term">
@@ -162,7 +161,7 @@
 					<div class="anchors" id="BestComputerProducts"></div>
 					<div id="box_content" class="section" data-list="hottest">
 						<p class="title title--center">Members’ Best Pick</p>
-						<p class="desc desc--center">Explore LG’s state-of-the-art appliances that will upgrade your home and lifestyle</p>
+						<p class="desc desc--center">Enhance your life with our best products</p>
 						<div class="tab">
 							<div class="tab__list">
 								<div class="tab__item tab__item--active">
@@ -310,6 +309,40 @@
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+
+					<div class="section">
+						<p class="title title--secondary">Even More Member Benefits</p>
+						<div class="benefit-more">
+							<div class="benefit-more__row">
+								<div class="benefit-more__item">
+									<div class="benefit-more__group">
+										<p class="benefit-more__text">Free Shipping &amp;<br>Return</p>
+										<i class="benefit-more__ico"></i>
+									</div>
+								</div>
+								<div class="benefit-more__item">
+									<div class="benefit-more__group">
+										<p class="benefit-more__text">
+											Free Installation &amp;<br>Delivery
+										</p>
+										<i class="benefit-more__ico"></i>
+									</div>
+								</div>
+								<div class="benefit-more__item">
+									<div class="benefit-more__group">
+										<p class="benefit-more__text">Interest-free Credit<br>Card Installment*</p>
+										<i class="benefit-more__ico"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="term">
+							<a href="#">
+								Terms &amp; Conditions
+								<i></i>
+							</a>
 						</div>
 					</div>
 				</div>

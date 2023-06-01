@@ -40,8 +40,13 @@
 			position: relative;
 			padding-top: 33.4%;
 			min-height: 640px;
-			background: url('../images/bg_visual.png') no-repeat 50% 50% #000;
-			background-size: cover;
+			background: {
+				image: url('../images/bg_visual.png');
+				repeat: no-repeat;
+				position: 50% 50%;
+				color: #000;
+				size: cover;
+			}
 		}
 
 		&__inner {
@@ -83,6 +88,9 @@
 			}
 			
 			.term {
+				position: absolute;
+				bottom:15px;	
+				left:0;
 
 				i {
 					@include mixins.iconAngle($direction: 'right', $width: 8px, $height: 16px, $thick: 2px, $color: #fff, $display: block, $position: relative);
@@ -92,7 +100,7 @@
 
 		.desc {
 			margin-bottom: 25px !important; 
-			color: #999;
+			color: #ffffff;
 			font-weight: 300;
 		}
 
@@ -102,8 +110,11 @@
 				// height: 540px;
 				height: 90vh;
 				min-height: auto;
-				background: url('../images/m_bg_visual.png') no-repeat 50% 100% #000;
-				background-size: cover;
+				background: {
+					image: url('../images/m_bg_visual.png');
+					position: 50% 100%;
+				}
+				background-size: 125%;
 				padding-top: 0;
 			}
 
@@ -127,6 +138,9 @@
 						font-size: 16px;
 					}
 				}
+				.term {
+					left:16px;
+				}
 			}
 
 			.title {
@@ -137,6 +151,12 @@
 					font-size: 34px;
 					line-height: 40px;
 				}
+			}
+		}
+
+		@media (max-width: 767px) {
+			&__visual {
+				background-size: calc(100% + 90px);
 			}
 		}
 	}
