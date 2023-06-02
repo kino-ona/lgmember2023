@@ -5,21 +5,21 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days: fino al 20% di sconto per utenti registrati | LG Italia</title>
+	<title>熱銷商品全面補貨, 88折優惠延長至2023/07/07。 | LG 台灣</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Approfitta subito di sconti fino al 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 24/5">
+	<meta name="description" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。">
 	<meta name="robots" content="NOODP, NOYDIR">
-	<link rel="canonical" href="https://www.lg.com/it/exclusive-promotions">
+	<link rel="canonical" href="https://www.lg.com/lg.com/tw/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
-	<meta property="og:site_name" content="LG Italia">
+	<meta property="og:site_name" content="LG 台灣">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days: fino al 20% di sconto per utenti registrati | LG Italia">
-	<meta property="og:description" content="Approfitta subito di sconti fino al 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 24/5">
-	<meta property="og:url" content="https://www.lg.com/it/exclusive-promotions">
+	<meta property="og:title" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。 | LG 台灣">
+	<meta property="og:description" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。">
+	<meta property="og:url" content="https://www.lg.com/lg.com/tw/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@LGIT">
+	<meta name="twitter:site" content="@LGTW">
 	<meta content="#a50034" name="theme-color">
 	<!-- // default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
@@ -31,7 +31,8 @@
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-TVMVHN');</script>
+	})(window,document,'script','dataLayer','GTM-W9G72C');</script>
+		
 	<!-- End Google Tag Manager -->
 	
 </head>
@@ -42,10 +43,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days: fino al 20% di sconto per utenti registrati | LG Italia"/>
+		<meta itemprop="name" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。 | LG 台灣"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
-		<meta itemprop="url" content="https://www.lg.com/it/exclusive-promotions" />
-		<meta itemprop="description" content="Approfitta subito di sconti fino al 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 24/5" />
+		<meta itemprop="url" content="https://www.lg.com/lg.com/tw/memberdays" />
+		<meta itemprop="description" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -65,7 +66,7 @@
    </c:import>
    <!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/exclusive-promotions' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->

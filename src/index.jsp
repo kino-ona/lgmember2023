@@ -31,7 +31,7 @@
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-TVMVHN');</script>
+	})(window,document,'script','dataLayer','GTM-TVMVHN');</script>		
 	<!-- End Google Tag Manager -->
 	
 </head>
@@ -79,8 +79,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="all" value="MD07570423"/>
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07570423"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07576230|MD07529177|MD07554813|MD07547412|MD07540676|MD07573308|MD07565720|MD07544189|MD07570953|MD07559233|MD07568226|MD07560077|MD07564074|MD07576998|MD07576232|MD07530617|MD07522585|MD07555691|MD07570952|MD07555758|MD07568250|MD07576894|MD07547531|MD07560003|MD07544234|MD07569939|MD05989117|MD07550723|MD07536701|MD07576990|MD07565724|MD07536632|MD07565726|MD07551400|MD07565813|MD07565715"/>
 		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07570423"/>
 		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07570423"/>
 		<!-- Required input ## Model List End -->
