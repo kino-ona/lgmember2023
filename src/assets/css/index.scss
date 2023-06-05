@@ -145,7 +145,9 @@
 					}
 				}
 				.term {
-					left:16px;
+					position: relative;
+					bottom: 0;
+					// left:16px;
 				}
 			}
 
@@ -156,6 +158,13 @@
 					margin-bottom: 16px;
 					font-size: 34px;
 					line-height: 40px;
+				}
+			}
+
+			.desc {
+				max-width: 100%;
+				span {
+					font-size: 12px;
 				}
 			}
 		}
@@ -286,7 +295,9 @@
 			padding-right: 5%;
 			span {
 				display: block;
+				margin-top: 10px;
 				font-size: 16px;
+				line-height: 1.1;
 			}
 		}
 
@@ -502,9 +513,17 @@
 		}
 
 		&--secondary {
+			position:relative;
 			padding-left: 30px;
 			font-size: 32px;
 			line-height: 1;
+			span {
+				display: block;
+				position: absolute;
+				right: 0;
+				top: 10px;
+				font-size: 16px;
+			}
 		}
 
 		@media (max-width: 1024px) {
@@ -517,6 +536,14 @@
 
 				&:not(:last-child) {
 					margin-bottom: 16px;
+				}
+				span {
+					position: relative;
+					top: 0;	
+					margin-top: 15px;	
+					margin-bottom: -5px;
+					font-size: 14px;
+					text-align: right;
 				}
 			}
 		}
@@ -662,7 +689,7 @@
 
 			&__button {
 				// display: inline-flex;
-				font-size: 14px;
+				font-size: 12px;
 				padding-left: 5px;
 				padding-right: 5px;
 				text-align: center;
@@ -1198,6 +1225,49 @@
 			li {
 				width: 8px;
 				height: 8px;
+			}
+		}
+	}
+
+	&[data-locale=fr] {
+		.coupon {
+			&__left {
+				.coupon__title {
+					margin-bottom: 0;
+					font-size: 36px;
+					line-height: 40px;
+					font-weight: 600;
+					text-align: center;
+				}
+			}
+		}
+		.benefit {
+			&__row {
+				.title {
+					line-height: 1.2;
+				}
+			}
+		}
+		@media screen and (max-width: 1024px) {
+			.coupon {
+				&__left {
+					.coupon__title {
+						font-size: 24px;
+						line-height: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+.memberdays-tnc {
+	.footer-component {
+		.footer-caution {
+			line-height: 28px;
+			span {
+				display: block;
+				padding-left: 5px;
+				line-height: 20px;
 			}
 		}
 	}

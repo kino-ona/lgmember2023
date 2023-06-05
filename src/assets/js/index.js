@@ -33,21 +33,19 @@ $(document).ready(function () {
         $(this)
           .parents("#box_content")
           .find(".desc")
-          .html("OLED evo C2極致系列 4K AI物聯網電視");
+          .html("OLED evo C2極致系列4K AI物聯網電視");
       }
       if ($(this).attr("data-tab-name") == "ha") {
         $(this)
           .parents("#box_content")
           .find(".desc")
-          .html(
-            "InstaView™敲敲看門中 門冰箱 星夜黑/734公升<br>(冷藏 485/冷凍249)"
-          );
+          .html("InstaView™敲敲看門中門冰箱 星夜黑/734公升 (冷藏485/冷凍249)");
       }
       if ($(this).attr("data-tab-name") == "it") {
         $(this)
           .parents("#box_content")
           .find(".desc")
-          .html("LG gram 16'' 輕贏隨型 極致輕薄筆電");
+          .html("LG gram 16’’ 輕贏隨型 極致輕薄筆電");
       }
     }
     if ($(".lgmembersdays").attr("data-locale") === "au") {

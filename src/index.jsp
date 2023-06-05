@@ -9,14 +9,14 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="Approfitta subito di sconti fino al 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 24/5">
 	<meta name="robots" content="NOODP, NOYDIR">
-	<link rel="canonical" href="https://www.lg.com/it/exclusive-promotions">
+	<link rel="canonical" href="https://www.lg.com/it/promozioni-esclusive">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Italia">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LG Member Days: fino al 20% di sconto per utenti registrati | LG Italia">
 	<meta property="og:description" content="Approfitta subito di sconti fino al 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 24/5">
-	<meta property="og:url" content="https://www.lg.com/it/exclusive-promotions">
+	<meta property="og:url" content="https://www.lg.com/it/promozioni-esclusive">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@LGIT">
@@ -44,7 +44,7 @@
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
 		<meta itemprop="name" content="LG Member Days: fino al 20% di sconto per utenti registrati | LG Italia"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
-		<meta itemprop="url" content="https://www.lg.com/it/exclusive-promotions" />
+		<meta itemprop="url" content="https://www.lg.com/it/promozioni-esclusive" />
 		<meta itemprop="description" content="Approfitta subito di sconti fino al 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 24/5" />
 		<meta itemprop="keywords" content="" />
 	</div>
@@ -79,7 +79,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07576230|MD07529177|MD07554813|MD07547412|MD07540676|MD07573308|MD07565720|MD07544189|MD07570953|MD07559233|MD07568226|MD07560077|MD07564074|MD07576998|MD07576232|MD07530617|MD07522585|MD07555691|MD07570952|MD07555758|MD07568250|MD07576894|MD07547531|MD07560003|MD07544234|MD07569939|MD05989117|MD07550723|MD07536701|MD07576990|MD07565724|MD07536632|MD07565726|MD07551400|MD07565813|MD07565715"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07576230"/>
 		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07570423"/>
 		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07570423"/>
 		<!-- Required input ## Model List End -->
@@ -102,11 +102,19 @@
 						<div class="visual__bottom">
 							<div class="button">
 								<div class="button__row">
-									<a href="#BestPick" role="button" class="button__item">View Products</a>
+									<a href="#BestPick" role="button" 
+									data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
+									data-link-area="memberdays_H2_Mainbanner_click_View Products" 
+									data-link-name="memberdays_2023H2" 
+									class="button__item">View Products</a>
 								</div>
 							</div>
 							<div class="term">
-								<a href="#" role="button">
+								<a href="#" role="button"
+								data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
+								data-link-area="memberdays_H2_Mainbanner_click_Terms Conditions" 
+								data-link-name="memberdays_2023H2" 
+								>
 									Terms &amp; Conditions
 									<i></i>
 								</a>
@@ -137,7 +145,12 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="#" class="button__item">MY ACCOUNT</a>
+												<a href="https://www.lg.com/it/my-lg" target="_blank" role="button" 
+												data-track-group="MICROSITE" data-track-name="Offer_link_click"
+												data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
+												data-link-name="memberdays_2023H2" 
+												class="button__item"
+												>MY ACCOUNT</a>
 											</div>
 										</div>
 									</div>
@@ -147,7 +160,11 @@
 								</div>
 								<div class="button">
 									<div class="button__row">
-										<a href="#" class="button__item">MY ACCOUNT</a>
+										<a href="https://www.lg.com/it/my-lg" target="_blank" role="button" 
+										data-track-group="MICROSITE" data-track-name="Offer_link_click"
+										data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
+										data-link-name="memberdays_2023H2" 
+										class="button__item">MY ACCOUNT</a>
 									</div>
 								</div>
 							</div>
@@ -168,8 +185,8 @@
 									data-tab-name="he"
 									data-track-group="mic"
 									data-track-opt="category"
-									data-track-name="selectProductCategory"
-									data-link-area="memberdays_H2_Category_click_he"
+									data-track-name="category_click"
+									data-link-area="memberdays_H2_category_click_HE"
 									data-link-name="memberdays_2023H2"
 									class="tab__button">HE</a>
 								</div>
@@ -178,8 +195,8 @@
 									data-tab-name="ha"
 									data-track-group="mic"
 									data-track-opt="category"
-									data-track-name="selectProductCategory"
-									data-link-area="memberdays_H2_Category_click_ha"
+									data-track-name="category_click"
+									data-link-area="memberdays_H2_Category_click_HA"
 									data-link-name="memberdays_2023H2"
 									class="tab__button">HA</a>
 								</div>
@@ -188,8 +205,8 @@
 									data-tab-name="it"
 									data-track-group="mic"
 									data-track-opt="category"
-									data-track-name="selectProductCategory"
-									data-link-area="memberdays_H2_Category_click_it"
+									data-track-name="category_click"
+									data-link-area="memberdays_H2_Category_click_IT"
 									data-link-name="memberdays_2023H2"
 									class="tab__button">IT</a>
 								</div>
@@ -252,7 +269,7 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
+												<p class="best-item__text">TV OLED evo Serie C34 55” + Soundbar</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
@@ -272,7 +289,7 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item11.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
+												<p class="best-item__text">Frigorifero Side-by-Side InstaView</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
@@ -291,12 +308,12 @@
 									<div class="best-item">
 										<div class="best-item__row">
 											<div class="best-item__item">
-												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
+												<img src="${path}/assets/images/img_item21.png" alt="">
+												<p class="best-item__text">LG gram 14’’ Ultra-lightweight</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
-													<img src="${path}/assets/images/img_item02.png" alt="">
+													<img src="${path}/assets/images/img_item22.png" alt="">
 												</div>
 											</div>
 										</div>
@@ -338,7 +355,11 @@
 							</div>
 						</div>
 						<div class="term">
-							<a href="#">
+							<a href="#" role="button" target="_blank"
+							data-track-group="MICROSITE" data-track-name="Offer_link_click"
+							data-link-area="memberdays_H2_Offer_click_Terms Conditions" 
+							data-link-name="memberdays_2023H2" 
+							>
 								Terms &amp; Conditions
 								<i></i>
 							</a>

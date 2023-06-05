@@ -33,7 +33,6 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-CWVL');</script>
 	<!-- End Google Tag Manager -->
-	
 </head>
 
 <body>
@@ -92,10 +91,10 @@
 				<div class="visual__visual">
 					<div class="visual__inner">
 						<p class="visual__logo">LG Member Days*</p>
-						<h1 class="title">Flash Sale<br>for Members’ Best Pick</h1>
+						<h1 class="title">Vente flash sur nos<br>Best-sellers</h1>
 						<p class="desc">
 							Bénéficiez d’une réduction supplémentaire de 20% sur nos best-sellers réservée aux membres LG.<br>
-							Offre valable du 15 juin au 27 juin 2023, uniquement sur LG.com<br>
+							Offre valable du 15 juin au 27 juin 2023,<br>uniquement sur LG.com<br>
 							<span>*LG MEMBER DAYS = Les journées membres LG</span>
 						</p>
 						<div class="visual__bottom">
@@ -133,12 +132,11 @@
 							<div class="benefit__row">
 								<div class="benefit__contents">
 									<p class="title">Avantages Exclusifs<br>Membres LG</p>
-									<p class="desc">Connectez-vous sur LG.com et appliquez le bon de réduction au moment de payer</p>
+									<p class="desc">Connectez-vous sur LG.com et appliquez le bon de réduction<br />au moment de payer</p>
 								</div>
 								<div class="coupon">
 									<div class="coupon__left">
-										<p class="coupon__title">Nos produits Best-sellers</p>
-										<div class="coupon__group"><em>20<span>%</span></em>OFF</div>
+										<p class="coupon__title">Nos produits<br>Best-sellers</p>
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/tw/my-lg" target="_blank" role="button" 
@@ -269,7 +267,7 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
+												<p class="best-item__text">TV LG OLED evo C2 55’’ + Soundbar</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
@@ -289,7 +287,7 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item11.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
+												<p class="best-item__text">508L Slim French Door Fridge</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
@@ -308,12 +306,12 @@
 									<div class="best-item">
 										<div class="best-item__row">
 											<div class="best-item__item">
-												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
+												<img src="${path}/assets/images/img_item21.png" alt="">
+												<p class="best-item__text">LG gram 14’’ Ultra-lightweight</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
-													<img src="${path}/assets/images/img_item02.png" alt="">
+													<img src="${path}/assets/images/img_item22.png" alt="">
 												</div>
 											</div>
 										</div>
@@ -329,28 +327,28 @@
 					</div>
 
 					<div class="section">
-						<p class="title title--secondary">Encore plus d’avantages pour les membres</p>
+						<p class="title title--secondary">Encore plus d’avantages pour les membres<span>*Sur certains produits haut de gamme</span></p>
 						<div class="benefit-more">
 							<div class="benefit-more__row">
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="benefit-more__text">
-											Livraison et retour gratuits<br>Livraison gratuite et rapide jusqu’à votre porte
+											Livraison et retour gratuits
+											<span>Livraison gratuite et rapide jusqu’à votre porte</span>
 										</p>
 										<i class="benefit-more__ico"></i>
 									</div>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-										<p class="benefit-more__text">Installation et reprise gratuites</p>
+										<p class="benefit-more__text">Installation et reprise<br>gratuites</p>
 										<i class="benefit-more__ico"></i>
 									</div>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="benefit-more__text">
-											Paiement en plusieurs fois par carte de crédit sans frais*
-											<span>*Sur certains produits haut de gamme</span>
+											Paiement en plusieurs<br>fois par carte de<br>crédit sans frais*
 										</p>
 										<i class="benefit-more__ico"></i>
 									</div>

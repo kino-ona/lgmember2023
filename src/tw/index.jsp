@@ -79,8 +79,8 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07566117|MD07567133|MD07565206|MD07566472|MD07515571|MD07515582|MD07537152|MD07520268|MD07548653|MD07563591|MD07521664"/>
-		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07546009|MD07553837|MD07553841|MD07554848|MD07557424|MD07554617|MD07554628|MD07563893|MD07563854|MD07562207"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07546009|MD07553837|MD07553841|MD07554848|MD07557424|MD07554617|MD07554628|MD07563893|MD07563854|MD07562207"/>
+		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07567133|MD07565206|MD07566472|MD07515571|MD07515582|MD07537152|MD07520268|MD07548653|MD07563591|MD07521664"/>
 		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07572416|MD07572426|MD07569834|MD07569834|MD07569835|MD07547394|MD07560934|MD07567372|MD07562883|MD07567380"/>
 		<!-- Required input ## Model List End -->
 	
@@ -109,7 +109,7 @@
 								</div>
 							</div>
 							<div class="term">
-								<a href="#" role="button" target="_blank" 
+								<a href="#TermsAndConditions" role="button" 
 								data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H2_Mainbanner_click_Terms Conditions" 
 								data-link-name="memberdays_2023H2">
@@ -173,7 +173,7 @@
 					<div id="box_content" class="section" data-list="hottest">
 						<p class="title title--center">Top3 熱銷榜</p>
 						<p class="desc desc--center">
-							OLED evo C2極致系列 4K AI物聯網電視
+							OLED evo C2極致系列4K AI物聯網電視
 						</p>
 						<div class="tab">
 							<div class="tab__list">
@@ -248,12 +248,12 @@
 										<div class="product__bottom">
 											<div class="learn-more">
 												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
-													<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
+													<span class="learn-more__text"><spring:message code='component-learnMore' text='Learn More'/></span>
 												</a>
 											</div>
 											<div class="button">
-												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
+												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='Add to Basket'/></a>
+												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 										</div>
 									</div>
@@ -265,12 +265,12 @@
 									<div class="best-item">
 										<div class="best-item__row">
 											<div class="best-item__item">
-												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
+												<img src="${path}/assets/images/tw/img_item01.png" alt="">
+												<p class="best-item__text">LG OLED evo C3 55</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
-													<img src="${path}/assets/images/img_item02.png" alt="">
+													<img src="${path}/assets/images/tw/img_item02.png" alt="">
 												</div>
 											</div>
 										</div>
@@ -285,12 +285,12 @@
 									<div class="best-item">
 										<div class="best-item__row">
 											<div class="best-item__item">
-												<img src="${path}/assets/images/img_item11.png" alt="">
+												<img src="${path}/assets/images/tw/img_item11.png" alt="">
 												<p class="best-item__text">InstaView Door-in-Door</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
-													<img src="${path}/assets/images/img_item12.png" alt="">
+													<img src="${path}/assets/images/tw/img_item12.png" alt="">
 												</div>
 											</div>
 										</div>
@@ -305,12 +305,12 @@
 									<div class="best-item">
 										<div class="best-item__row">
 											<div class="best-item__item">
-												<img src="${path}/assets/images/img_item01.png" alt="">
+												<img src="${path}/assets/images/tw/img_item21.png" alt="">
 												<p class="best-item__text">InstaView Door-in-Door</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
-													<img src="${path}/assets/images/img_item02.png" alt="">
+													<img src="${path}/assets/images/tw/img_item22.png" alt="">
 												</div>
 											</div>
 										</div>
@@ -346,8 +346,7 @@
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="benefit-more__text">
-											新會員享95折歡迎禮,
-											<br />不定期新品早鳥價、祕<br />密優惠資訊
+											新會員享95折歡迎禮,<br />不定期新品早鳥價、祕<br />密優惠資訊
 										</p>
 										<i class="benefit-more__ico"></i>
 									</div>
@@ -355,9 +354,9 @@
 							</div>
 						</div>
 						<div class="term">
-							<a href="#" role="buttom" target="_blank" 
+							<a href="#TermsAndConditions" role="buttom" 
 							data-track-group="MICROSITE" data-track-name="Offer_link_click"
-							data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
+							data-link-area="memberdays_H2_Offer_click_Terms Conditions" 
 							data-link-name="memberdays_2023H2">
 								*詳細活動優惠辦法請見本頁最下方。
 								<i></i>
@@ -372,6 +371,34 @@
 		</div>
 
 		<!-- // Content End  -->
+	</div>
+
+	<div id="TermsAndConditions" class="container-fluid memberdays-tnc">
+		<div class="footer-box">
+			<div class="footer-component">
+				<div class="footer-caution">
+					活動優惠期間: 2023/6/23(Fri)-2023/7/7(Fri)<br />
+					活動名稱: LG官方線上商城 會員熱銷精選 加碼優惠<br />
+					優惠內容:<br />
+					<span>• 全館指定商品使用會員專屬優惠碼即享88折</span>
+					<span
+						>• LINE POINTS回饋:2023/6/23-2023/7/7經由LINE購物進入LG官方線上商城,結帳後加碼贈LINE POINTS 15% (LINE POINTS 點數回饋上限為1500點)
+					</span>
+					<span>• ShopBack回饋:2023/6/23-2023/6/27、2023/7/4-2023/7/7 經由ShopBack進入LG官方線上商城,結帳後現金回饋 4%</span>
+					<br />
+					優惠注意事項: <br />
+					<span>• 適用本活動之指定商品,於本活動期間,在LG官方線上商城將直接標示本活動優惠價格。</span>
+					<span>• 本活動所指「88折」優惠已含LINE購物、ShopBack回饋之金額,優惠價格僅照官網標示為主,本活動僅可合併使用LG會員價98折,恕不得與其他優惠或活動併用。</span>
+					<span>• LG 官方線上商城之企業客戶(B2B/ B2B2C)及LG員購(B2E),恕無法參加本活動。</span>
+					<span>• 僅直接於 LG 官方線上商城購買商品並無 LINE POINTS或ShopBack現金回饋。詳細回饋時間請依LINE購物/ ShopBack規範為主。</span>
+					<span>• 本活動之贈品不得轉換、轉讓、折換現金或更換其他物品; LG保留更換贈品之權利。</span>
+					<span>• LG保留隨時修改、取消、暫停、終止或解釋本活動及其辦法之一切及最終權利<br>(包括但不限於更換活動、更換贈送內容、提前終止或延長活動時間之最終決定權等事項),相關內容如有變動將另行公告於LG台灣官網,依LG台灣官網公告內容為準。</span>
+					<br />
+					台灣樂金電器股份有限公司提醒您,如接獲可疑電話,請直撥165反詐騙諮詢中心查證;如有任何問題請洽台灣樂金電器股份有限公司消費者服務專線:0800-898-899或免付費活動專線0809-066-669。<br>(星期一至五09:00~12:00、13:30~18:00)
+					<div>&nbsp;</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	<!-- top button -->
