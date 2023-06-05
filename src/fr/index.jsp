@@ -5,21 +5,21 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>熱銷商品全面補貨, 88折優惠延長至2023/07/07。 | LG 台灣</title>
+	<title>LG MEMBER DAYS*: remise de 20% exclusive aux membres LG | LG France</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。">
+	<meta name="description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 27 juin.">
 	<meta name="robots" content="NOODP, NOYDIR">
-	<link rel="canonical" href="https://www.lg.com/tw/memberdays">
+	<link rel="canonical" href="https://www.lg.com/fr/lgmemberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
-	<meta property="og:site_name" content="LG 台灣">
+	<meta property="og:site_name" content="LG France">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。 | LG 台灣">
-	<meta property="og:description" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。">
-	<meta property="og:url" content="https://www.lg.com/tw/memberdays">
+	<meta property="og:title" content="LG MEMBER DAYS*: remise de 20% exclusive aux membres LG | LG France">
+	<meta property="og:description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 27 juin.">
+	<meta property="og:url" content="https://www.lg.com/fr/lgmemberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@LGTW">
+	<meta name="twitter:site" content="@LGFR">
 	<meta content="#a50034" name="theme-color">
 	<!-- // default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
@@ -31,7 +31,7 @@
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-W9G72C');</script>
+	})(window,document,'script','dataLayer','GTM-CWVL');</script>
 	<!-- End Google Tag Manager -->
 	
 </head>
@@ -42,10 +42,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。 | LG 台灣"/>
+		<meta itemprop="name" content="LG MEMBER DAYS*: remise de 20% exclusive aux membres LG | LG France"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
-		<meta itemprop="url" content="https://www.lg.com/tw/memberdays" />
-		<meta itemprop="description" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。" />
+		<meta itemprop="url" content="https://www.lg.com/fr/lgmemberdays" />
+		<meta itemprop="description" content="Accédez à encore plus d’offres et de meilleures réductions grâce aux avantages supplémentaires réservés aux membres LG. L’offre valable jusqu’au 27 juin." />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -65,7 +65,7 @@
    </c:import>
    <!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/lgmemberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->
@@ -86,15 +86,17 @@
 	
 		<!--  Content Start  -->
 		<link rel="stylesheet" href="${path}/assets/css/index.css">
-		<div class="lgmembersdays" data-locale="tw" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
+		<div class="lgmembersdays" data-locale="fr" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
 				<div class="visual__visual">
 					<div class="visual__inner">
-						<p class="visual__logo">LG 週年會員日</p>
-						<h1 class="title">會員獨享<br />熱銷精選 優惠延長</h1>
+						<p class="visual__logo">LG Member Days*</p>
+						<h1 class="title">Flash Sale<br>for Members’ Best Pick</h1>
 						<p class="desc">
-							熱銷商品全面補貨, 88折優惠延長至<br />2023/07/07。
+							Bénéficiez d’une réduction supplémentaire de 20% sur nos best-sellers réservée aux membres LG.<br>
+							Offre valable du 15 juin au 27 juin 2023, uniquement sur LG.com<br>
+							<span>*LG MEMBER DAYS = Les journées membres LG</span>
 						</p>
 						<div class="visual__bottom">
 							<div class="button">
@@ -104,16 +106,17 @@
 									data-link-area="memberdays_H2_Mainbanner_click_View Products" 
 									data-link-name="memberdays_2023H2" 
 									class="button__item"
-										>查看優惠</a
+										>VOIR LES PRODUITS</a
 									>
 								</div>
 							</div>
 							<div class="term">
-								<a href="#" role="button" target="_blank" 
+								<a href="#" role="button" target="_blank"
 								data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H2_Mainbanner_click_Terms Conditions" 
-								data-link-name="memberdays_2023H2">
-									*詳細活動優惠辦法請見本頁最下方。
+								data-link-name="memberdays_2023H2" 
+								>
+								Conditions générales d’utilisation
 									<i></i>
 								</a>
 							</div>
@@ -129,20 +132,20 @@
 						<div class="benefit__container">
 							<div class="benefit__row">
 								<div class="benefit__contents">
-									<p class="title">會員獨享</p>
-									<p class="desc">立即登入/ 註冊<br />領取優惠</p>
+									<p class="title">Avantages Exclusifs<br>Membres LG</p>
+									<p class="desc">Connectez-vous sur LG.com et appliquez le bon de réduction au moment de payer</p>
 								</div>
 								<div class="coupon">
 									<div class="coupon__left">
-										<p class="coupon__title">熱銷精選</p>
-										<div class="coupon__group"><em>88</em>折</div>
+										<p class="coupon__title">Nos produits Best-sellers</p>
+										<div class="coupon__group"><em>20<span>%</span></em>OFF</div>
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/tw/my-lg" target="_blank" role="button" 
 												data-track-group="MICROSITE" data-track-name="Offer_link_click"
 												data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 												data-link-name="memberdays_2023H2" 
-												class="button__item">前往領取</a>
+												class="button__item">MON COMPTE</a>
 											</div>
 										</div>
 									</div>
@@ -153,12 +156,12 @@
 								<div class="button">
 									<div class="button__row">
 										<a
-											href="#" target="_blank" role="button"
+											href="https://www.lg.com/tw/my-lg" target="_blank" role="button" 
 											data-track-group="MICROSITE" data-track-name="Offer_link_click"
 											data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 											data-link-name="memberdays_2023H2" 
 											class="button__item"
-											>前往領取</a
+											>MON COMPTE</a
 										>
 									</div>
 								</div>
@@ -171,9 +174,9 @@
 					<div class="anchors" id="BestHomeAppliance"></div>
 					<div class="anchors" id="BestComputerProducts"></div>
 					<div id="box_content" class="section" data-list="hottest">
-						<p class="title title--center">Top3 熱銷榜</p>
+						<p class="title title--center">Best-sellers des Membres</p>
 						<p class="desc desc--center">
-							OLED evo C2極致系列 4K AI物聯網電視
+							Transformez votre expérience visuelle avec les téléviseurs LG
 						</p>
 						<div class="tab">
 							<div class="tab__list">
@@ -185,7 +188,7 @@
 									data-track-name="category_click"
 									data-link-area="memberdays_H2_category_click_HE"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">電視/ 藍牙耳機</a>
+									class="tab__button">TV/Audio/Vidéo</a>
 								</div>
 								<div class="tab__item">
 									<a href="#ha"
@@ -195,7 +198,7 @@
 									data-track-name="category_click"
 									data-link-area="memberdays_H2_Category_click_HA"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">冰箱廚電/ 洗乾衣機/ 小型家電</a>
+									class="tab__button">Électroménager</a>
 								</div>
 								<div class="tab__item">
 									<a href="#it"
@@ -205,7 +208,7 @@
 									data-track-name="category_click"
 									data-link-area="memberdays_H2_Category_click_IT"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">筆電/ 顯示器</a>
+									class="tab__button">Informatique</a>
 								</div>
 							</div>
 							<template class="contents-template">
@@ -248,12 +251,12 @@
 										<div class="product__bottom">
 											<div class="learn-more">
 												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
-													<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
+													<span class="learn-more__text"><spring:message code='component-learnMore' text='En Savoir Plus'/></span>
 												</a>
 											</div>
 											<div class="button">
-												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
+												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AJOUTER AU PANIER'/></a>
+												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='RECEVOIR UNE ALERTE'/></a>
 											</div>
 										</div>
 									</div>
@@ -326,28 +329,28 @@
 					</div>
 
 					<div class="section">
-						<p class="title title--secondary">領取優惠</p>
+						<p class="title title--secondary">Encore plus d’avantages pour les membres</p>
 						<div class="benefit-more">
 							<div class="benefit-more__row">
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="benefit-more__text">
-											免費運送、免費基本安裝、<br />免費舊四機回收
+											Livraison et retour gratuits<br>Livraison gratuite et rapide jusqu’à votre porte
 										</p>
 										<i class="benefit-more__ico"></i>
 									</div>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-										<p class="benefit-more__text">指定銀行最高24期0利率</p>
+										<p class="benefit-more__text">Installation et reprise gratuites</p>
 										<i class="benefit-more__ico"></i>
 									</div>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="benefit-more__text">
-											新會員享95折歡迎禮,
-											<br />不定期新品早鳥價、祕<br />密優惠資訊
+											Paiement en plusieurs fois par carte de crédit sans frais*
+											<span>*Sur certains produits haut de gamme</span>
 										</p>
 										<i class="benefit-more__ico"></i>
 									</div>
@@ -355,11 +358,12 @@
 							</div>
 						</div>
 						<div class="term">
-							<a href="#" role="buttom" target="_blank" 
+							<a href="#" role="button" target="_blank"
 							data-track-group="MICROSITE" data-track-name="Offer_link_click"
-							data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
-							data-link-name="memberdays_2023H2">
-								*詳細活動優惠辦法請見本頁最下方。
+							data-link-area="memberdays_H2_Offer_click_Terms Conditions" 
+							data-link-name="memberdays_2023H2" 
+							>
+							Conditions générales d’utilisation
 								<i></i>
 							</a>
 						</div>

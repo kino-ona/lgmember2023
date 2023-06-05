@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>Consumer Electronics, Home &amp; Kitchen Appliances | LG Australia</title>
+	<title>LG Member Days: EOFY Flash Sale for Members’ Fan Favourites | LG Australia</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Explore the latest consumer electronics with LG's range of TVs, home appliances &amp; computer products. Find out how LG is making life good. Learn more today.">
+	<meta name="description" content="Enjoy 10% off our Fan Favourites for LG members only">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/au/lgmemberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Italia">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Consumer Electronics, Home &amp; Kitchen Appliances | LG Australia">
-	<meta property="og:description" content="Explore the latest consumer electronics with LG's range of TVs, home appliances &amp; computer products. Find out how LG is making life good. Learn more today.">
+	<meta property="og:title" content="LG Member Days: EOFY Flash Sale for Members’ Fan Favourites | LG Australia">
+	<meta property="og:description" content="Enjoy 10% off our Fan Favourites for LG members only">
 	<meta property="og:url" content="https://www.lg.com/au/lgmemberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -42,10 +42,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="Consumer Electronics, Home &amp; Kitchen Appliances | LG Australia"/>
+		<meta itemprop="name" content="LG Member Days: EOFY Flash Sale for Members’ Fan Favourites | LG Australia"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.lg.com/au/lgmemberdays" />
-		<meta itemprop="description" content="Explore the latest consumer electronics with LG's range of TVs, home appliances &amp; computer products. Find out how LG is making life good. Learn more today." />
+		<meta itemprop="description" content="Enjoy 10% off our Fan Favourites for LG members only" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -65,7 +65,7 @@
    </c:import>
    <!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/lgmemberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/eofy-memberday' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->
@@ -79,9 +79,9 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07576995"/>
-		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07576995"/>
-		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07576995"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07570927|MD07570812|MD07562639|MD07571406|MD07561942|MD06236317|MD07562786|MD07571402|MD07569289|MD07570940|MD07571410|MD07570957|MD07571408|MD07570902|MD05982596"/>
+		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07552663|MD07530439|MD07540359|MD05888916|MD07515397|MD05769256|MD07549423|MD07540845|MD07517181|MD07548507|MD06241076|MD07535981|MD05863780|MD07569297|"/>
+		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07520224|MD07551061|MD07539055|MD07538738|MD07538843|MD07570025|MD07548169|MD07539695|MD07539068"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -104,7 +104,7 @@
 						<div class="visual__bottom">
 							<div class="button">
 								<div class="button__row">
-									<a href="#BestPick" role="button" 
+									<a href="#BestTVAudioVideo" role="button" 
 									data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
 									data-link-area="memberdays_H2_Mainbanner_click_View Products" 
 									data-link-name="memberdays_2023H2" 
@@ -112,16 +112,6 @@
 										>View Products</a
 									>
 								</div>
-							</div>
-							<div class="term">
-								<a href="#" role="button" 
-								data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
-								data-link-area="memberdays_H2_Mainbanner_click_Terms Conditions" 
-								data-link-name="memberdays_2023H2" 
-								>
-									Terms & Conditions
-									<i></i>
-								</a>
 							</div>
 						</div>
 					</div>
@@ -186,8 +176,8 @@
 					</div>
 
 					<div class="anchors" id="BestPick"></div>
-					<div class="anchors" id="BestTVAudio"></div>
-					<div class="anchors" id="BestHomeAppliance"></div>
+					<div class="anchors" id="BestTVAudioVideo"></div>
+					<div class="anchors" id="BestHomeAppliances"></div>
 					<div class="anchors" id="BestComputerProducts"></div>
 					<div id="box_content" class="section" data-list="hottest">
 						<p class="title title--center">Members’ Fan Favourites</p>
@@ -368,12 +358,6 @@
 								</div>
 							</div>
 						</div>
-						<div class="term">
-							<a href="#">
-								Terms &amp; Conditions
-								<i></i>
-							</a>
-						</div>
 					</div>
 
 				</div>
@@ -469,7 +453,7 @@
 		$(document).ready(function(){
 			var href = window.location.href;
 
-			if(href.indexOf('BestTVAudio') != -1) {    
+			if(href.indexOf('BestTVAudioVideo') != -1) {    
 				$('#box_content .tab__list .tab__panel').attr('display', 'none')
         $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content .tab__list .tab__item').eq(0).addClass('tab__item--active');    
@@ -480,7 +464,7 @@
 					clearTimeout(timer);     
 				}, 600);
 			}
-			if(href.indexOf('BestHomeAppliance') != -1) {    
+			if(href.indexOf('BestHomeAppliances') != -1) {    
 				$('#box_content .tab__list .tab__panel').attr('display', 'none')
         $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content .tab__list .tab__item').eq(1).addClass('tab__item--active');    

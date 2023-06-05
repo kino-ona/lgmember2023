@@ -74,5 +74,32 @@ $(document).ready(function () {
           );
       }
     }
+
+    if ($(".lgmembersdays").attr("data-locale") === "fr") {
+      if ($(this).attr("data-tab-name") == "he") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc")
+          .html(
+            "Transformez votre expérience visuelle avec les téléviseurs LG"
+          );
+      }
+      if ($(this).attr("data-tab-name") == "ha") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc")
+          .html(
+            "Découvrez les appareils électroménagers de pointe de LG qui amélioreront votre maison et votre mode de vie."
+          );
+      }
+      if ($(this).attr("data-tab-name") == "it") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc")
+          .html(
+            "Améliorez votre productivité et accélerez votre performance avec le LG gram"
+          );
+      }
+    }
   });
 });

@@ -99,9 +99,15 @@
 		}
 
 		.desc {
+			max-width: 40%;
 			margin-bottom: 25px !important; 
 			color: #ffffff;
 			font-weight: 300;
+			span {
+				display: block;
+				margin-top: 10px;
+				font-size: 16px;
+			}
 		}
 
 		@media (max-width: 1024px) {
@@ -274,8 +280,14 @@
 		}
 
 		&__text {
+			width: calc(100% - 60px);
 			font-size: 24px;
 			line-height: 26px;
+			padding-right: 5%;
+			span {
+				display: block;
+				font-size: 16px;
+			}
 		}
 
 		&__ico {
