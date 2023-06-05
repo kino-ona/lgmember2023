@@ -136,7 +136,10 @@
 								</div>
 								<div class="coupon">
 									<div class="coupon__left">
-										<p class="coupon__title">Nos produits<br>Best-sellers</p>
+										<p class="coupon__title">Nos produits Best-sellers</p>
+										<div class="coupon__group">
+											<em>20<span>%</span></em>OFF
+										</div>
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/tw/my-lg" target="_blank" role="button" 
@@ -327,13 +330,13 @@
 					</div>
 
 					<div class="section">
-						<p class="title title--secondary">Encore plus d’avantages pour les membres<span>*Sur certains produits haut de gamme</span></p>
+						<p class="title title--secondary">Encore plus d’avantages pour les membres</p>
 						<div class="benefit-more">
 							<div class="benefit-more__row">
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="benefit-more__text">
-											Livraison et retour gratuits
+											Livraison et retour<br>gratuits
 											<span>Livraison gratuite et rapide jusqu’à votre porte</span>
 										</p>
 										<i class="benefit-more__ico"></i>
@@ -349,6 +352,7 @@
 									<div class="benefit-more__group">
 										<p class="benefit-more__text">
 											Paiement en plusieurs<br>fois par carte de<br>crédit sans frais*
+											<span>*Sur certains produits haut de gamme</span>
 										</p>
 										<i class="benefit-more__ico"></i>
 									</div>

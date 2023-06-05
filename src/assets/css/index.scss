@@ -501,8 +501,8 @@
 
 	.title {
 		font-weight: 300;
-		font-size: 60px;
-		line-height: 70px;
+		font-size: 58px;
+		line-height: 60px;
 		
 		&:not(:last-child) {
 			margin-bottom: 12px;
@@ -1230,34 +1230,47 @@
 	}
 
 	&[data-locale=fr] {
-		.coupon {
-			&__left {
-				.coupon__title {
-					margin-bottom: 0;
-					font-size: 36px;
-					line-height: 40px;
-					font-weight: 600;
-					text-align: center;
+		.visual {
+			&__bottom {
+				.term {
+					position: relative;
+					bottom: inherit;
+				}
+			}
+			@media screen and (min-width: 390px) and (max-width: 768px) {
+				&__visual {
+					height: 85vh;
 				}
 			}
 		}
-		.benefit {
-			&__row {
-				.title {
-					line-height: 1.2;
-				}
-			}
-		}
-		@media screen and (max-width: 1024px) {
-			.coupon {
-				&__left {
-					.coupon__title {
-						font-size: 24px;
-						line-height: 30px;
-					}
-				}
-			}
-		}
+		// .coupon {
+		// 	&__left {
+		// 		.coupon__title {
+		// 			margin-bottom: 0;
+		// 			font-size: 36px;
+		// 			line-height: 40px;
+		// 			font-weight: 600;
+		// 			text-align: center;
+		// 		}
+		// 	}
+		// }
+		// .benefit {
+		// 	&__row {
+		// 		.title {
+		// 			line-height: 1.2;
+		// 		}
+		// 	}
+		// }
+		// @media screen and (max-width: 1024px) {
+		// 	.coupon {
+		// 		&__left {
+		// 			.coupon__title {
+		// 				font-size: 24px;
+		// 				line-height: 30px;
+		// 			}
+		// 		}
+		// 	}
+		// }
 	}
 }
 .memberdays-tnc {
