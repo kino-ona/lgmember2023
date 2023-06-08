@@ -93,11 +93,12 @@
 					<div class="visual__inner">
 						<p class="visual__logo">LG Member Days</p>
 						<h1 class="title">
-							Flash Sale for<br>Members’ Best Pick
+							Flash Sales sui<br>nostri best seller
 						</h1>
 						<p class="desc">
-							Enjoy 20% off our top picks for LG members only.<br>
-							Offer ends 30th June, Only at LG.com
+							Solo per te, gli sconti continuano:<br>
+							extra 20% di sconto sui prodotti selezionati.<br>
+							Solo fino al 2 Luglio
 						</p>
 						<div class="visual__bottom">
 							<div class="button">
@@ -106,7 +107,7 @@
 									data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
 									data-link-area="memberdays_H2_Mainbanner_click_View Products" 
 									data-link-name="memberdays_2023H2" 
-									class="button__item">View Products</a>
+									class="button__item">Vai alle offerte</a>
 								</div>
 							</div>
 							<div class="term">
@@ -115,7 +116,7 @@
 								data-link-area="memberdays_H2_Mainbanner_click_Terms Conditions" 
 								data-link-name="memberdays_2023H2" 
 								>
-									Terms &amp; Conditions
+									Termini e Condizioni
 									<i></i>
 								</a>
 							</div>
@@ -131,18 +132,20 @@
 						<div class="benefit__container">
 							<div class="benefit__row">
 								<div class="benefit__contents">
-									<p class="title">Member Only Benefit</p>
+									<p class="title">Offerta riservata ai soli<br>utenti registrati</p>
 									<p class="desc">
-										Log-in Now and<br>
-										Apply the Coupon at Checkout
+										Accedi al tuo account, aggiungi a carrello il prodotto desiderato e inserisci il coupon ricevuto via email per ottenere lo sconto
 									</p>
 								</div>
 								<div class="coupon">
 									<div class="coupon__left">
-										<p class="coupon__title">BEST SELLING PRODUCTS</p>
+										<p class="coupon__title">Solo per utenti registrati</p>
 										<div class="coupon__group">
-											<em>20<span>%</span></em> OFF
+											<em>20<span>%</span></em>
 										</div>
+										<p class="coupon__desc">
+											EXTRA SCONTO
+										</p>
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/it/my-lg" target="_blank" role="button" 
@@ -150,7 +153,7 @@
 												data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 												data-link-name="memberdays_2023H2" 
 												class="button__item"
-												>MY ACCOUNT</a>
+												>ACCEDI E ACQUISTA</a>
 											</div>
 										</div>
 									</div>
@@ -164,7 +167,7 @@
 										data-track-group="MICROSITE" data-track-name="Offer_link_click"
 										data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 										data-link-name="memberdays_2023H2" 
-										class="button__item">MY ACCOUNT</a>
+										class="button__item">ACCEDI E ACQUISTA</a>
 									</div>
 								</div>
 							</div>
@@ -176,8 +179,11 @@
 					<div class="anchors" id="BestHomeAppliance"></div>
 					<div class="anchors" id="BestComputerProducts"></div>
 					<div id="box_content" class="section" data-list="hottest">
-						<p class="title title--center">Members’ Best Pick</p>
-						<p class="desc desc--center">Enhance your life with our best products</p>
+						<p class="title title--center">I prodotti scelti per te</p>
+						<p class="desc desc--center">
+							Ottieni il massimo dal tuo intrattenimento grazie ai nostri TV e ai nostri prodotti audio
+						</p>
+						<p class="desc desc--center desc--secondary">Approfitta subito delle offerte e inserisci a carrello il coupon per ottenere l’extra sconto del 20%</p>
 						<div class="tab">
 							<div class="tab__list">
 								<div class="tab__item tab__item--active">
@@ -188,7 +194,7 @@
 									data-track-name="category_click"
 									data-link-area="memberdays_H2_category_click_HE"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">HE</a>
+									class="tab__button">TV/AUDIO</a>
 								</div>
 								<div class="tab__item">
 									<a href="#ha"
@@ -198,7 +204,7 @@
 									data-track-name="category_click"
 									data-link-area="memberdays_H2_Category_click_HA"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">HA</a>
+									class="tab__button">ELETTRODOMESTICI</a>
 								</div>
 								<div class="tab__item">
 									<a href="#it"
@@ -208,7 +214,7 @@
 									data-track-name="category_click"
 									data-link-area="memberdays_H2_Category_click_IT"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">IT</a>
+									class="tab__button">INFORMATICA</a>
 								</div>
 							</div>
 							<template class="contents-template">
@@ -329,26 +335,26 @@
 					</div>
 
 					<div class="section">
-						<p class="title title--secondary">Even More Member Benefits</p>
+						<p class="title title--secondary">Ancora più vantaggi su LG Online Shop<span>*Su prodotti selezionati</span></p>
 						<div class="benefit-more">
 							<div class="benefit-more__row">
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-										<p class="benefit-more__text">Free Shipping &amp;<br>Return</p>
+										<p class="benefit-more__text">Spedizione e<br>installazione* gratuite</p>
 										<i class="benefit-more__ico"></i>
 									</div>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="benefit-more__text">
-											Free Installation &amp;<br>Delivery
+											Ritiro dell’usato<br>gratuito
 										</p>
 										<i class="benefit-more__ico"></i>
 									</div>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-										<p class="benefit-more__text">Interest-free Credit<br>Card Installment*</p>
+										<p class="benefit-more__text">Finanziamento tasso <br>zero*</p>
 										<i class="benefit-more__ico"></i>
 									</div>
 								</div>
@@ -360,7 +366,7 @@
 							data-link-area="memberdays_H2_Offer_click_Terms Conditions" 
 							data-link-name="memberdays_2023H2" 
 							>
-								Terms &amp; Conditions
+								Termini e Condizioni
 								<i></i>
 							</a>
 						</div>

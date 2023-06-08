@@ -76,11 +76,11 @@
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
-
+		
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07566117|MD07567133|MD07565206|MD07566472|MD07515571|MD07515582|MD07537152|MD07520268|MD07548653|MD07563591|MD07521664"/>
-		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07546009|MD07553837|MD07553841|MD07554848|MD07557424|MD07554617|MD07554628|MD07563893|MD07563854|MD07562207"/>
-		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07572416|MD07572426|MD07569834|MD07569834|MD07569835|MD07547394|MD07560934|MD07567372|MD07562883|MD07567380"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07561927|MD07563351|MD07571592|MD07560453|MD07561897|MD07561874|MD07559637|MD07571517|MD07570652|MD07563338|MD07553857|MD07553753|MD07553723|MD07545436|MD07535617|MD07534521"/>
+		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07520419|MD07559263|MD07519854|MD07563396|MD07533041|MD07554880|MD07537460|MD07559452|MD07538377|MD07506342|MD07560905|MD07560597|MD07512623|MD07546554|MD05609836"/>
+		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07573914|MD07573798|MD06211097|MD07553582"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -142,7 +142,7 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/tw/my-lg" target="_blank" role="button" 
+												<a href="https://www.lg.com/fr/my-lg" target="_blank" role="button" 
 												data-track-group="MICROSITE" data-track-name="Offer_link_click"
 												data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 												data-link-name="memberdays_2023H2" 
@@ -157,7 +157,7 @@
 								<div class="button">
 									<div class="button__row">
 										<a
-											href="https://www.lg.com/tw/my-lg" target="_blank" role="button" 
+											href="https://www.lg.com/fr/my-lg" target="_blank" role="button" 
 											data-track-group="MICROSITE" data-track-name="Offer_link_click"
 											data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 											data-link-name="memberdays_2023H2" 

@@ -212,6 +212,11 @@
 				font-size: 56px;
 			}
 
+			.coupon {
+				width: 100%;
+				max-width: 510px;
+			}
+
 			> .button {
 				display: none;
 			}
@@ -298,6 +303,7 @@
 				margin-top: 10px;
 				font-size: 16px;
 				line-height: 1.1;
+				color: #4A4946;
 			}
 		}
 
@@ -432,6 +438,7 @@
 			height: 150px;
 
 			&__left {
+				padding: 0 20px;
 				border-radius: 20px 0 0 0;
 				background: 
 					radial-gradient(circle 12px at top right, #0000 100%, #fff) top right,
@@ -528,7 +535,7 @@
 
 		@media (max-width: 1024px) {
 			font-size: 32px;
-			line-height: 1;
+			line-height: 1.2;
 
 			&--secondary {
 				padding-left: 0;
@@ -562,12 +569,25 @@
 			text-align: center;
 		}
 
+		&--secondary {
+			font-size: 16px;
+			&.desc--center {
+				margin-top: -35px;
+			}
+		}
+
 		@media (max-width: 1024px) {
 			font-size: 16px;
 			line-height: 20px;
 
 			&:not(:last-child) {
 				margin-bottom: 20px;
+			}
+			&--secondary {
+				font-size: 14px;
+				&.desc--center {
+					margin-top: -10px;
+				}
 			}
 		}
 	}
@@ -689,7 +709,7 @@
 
 			&__button {
 				// display: inline-flex;
-				font-size: 12px;
+				font-size: 11px;
 				padding-left: 5px;
 				padding-right: 5px;
 				text-align: center;
@@ -779,6 +799,10 @@
 			.product__highlight {
 				color: #FD312E;
 				font-size: 14px;
+				@media screen and (max-width: 960px) {
+					display: block;
+					margin-top: 5px;
+				}
 			}
 		}
 
@@ -946,6 +970,9 @@
 
 			&__discount {
 				font-size: 12px;
+				@media screen and (max-width: 960px) {
+					margin-top: 5px;
+				}
 			}
 
 			&__members {
@@ -1242,6 +1269,21 @@
 					height: 85vh;
 				}
 			}
+			.desc {
+				max-width: 35%;
+			}
+		}
+		.title {
+			.title--secondary {
+				margin-bottom: 20px;
+			}
+		}
+		.product {
+			&__price {
+				.unit {
+					margin-left: -10px;
+				}
+			}
 		}
 		// .coupon {
 		// 	&__left {
@@ -1271,6 +1313,25 @@
 		// 		}
 		// 	}
 		// }
+	}
+
+	&[data-locale=au] {
+		@media (max-width: 1024px) {
+			.product {
+				&__sale {
+					min-height: 40px;
+				}
+				&__discount {
+					margin-top: 6px;
+					font-size: 14px;
+    			margin-left: 3px;
+				}
+				&__members {
+					height: auto;
+				}
+			}
+		}
+
 	}
 }
 .memberdays-tnc {

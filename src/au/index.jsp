@@ -231,15 +231,13 @@
 										<p class="product__sn sku">*modelName*</p>
 										<div class="product__price">
 											<p class="product__cost">
-												<span class="number">*finalPrice*</span>
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+												<span class="number">*finalPrice*</span>
 											</p>
-											<div>
+											<div class="product__sale">
 												<span class="product__discount">
-													<span class="product__discount">
-														<span class="number">*originPrice*</span>
-														<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
-													</span>
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*originPrice*</span>
 												</span>
 												<span class="product__highlight">*discountMsg*</span>
 											</div>
@@ -247,22 +245,23 @@
 										<div class="product__members">
 											<span class="product__text"><spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/></span>
 											<span class="product__highlight">
-												<span class="number">*membershipPriceValue*</span>
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+												<span class="number">*membershipPriceValue*</span>
 											</span>
 											<div class="product__alert d-none">
 												*reStockAlertText*
 											</div>
 										</div>
 										<div class="product__bottom">
-											<div class="learn-more">
+											<!-- <div class="learn-more">
 												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="learn_more" data-link-name="learn_more_click">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												</a>
-											</div>
+											</div> -->
 											<div class="button">
-												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="add_to_cart" data-link-area="add_to_cart_click" data-link-name="add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='Add to Basket'/></a>
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request"  data-link-area="move_to_stock_request_click"  data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item atc-members-weeks" data-track-group="product" data-track-name="add_to_cart" data-link-area="add_to_cart_click" data-link-name="add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*">BUY NOW</a>
+
+												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-weeks d-none" data-track-group="product" data-track-name="move_to_stock_request"  data-link-area="move_to_stock_request_click"  data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 										</div>
 									</div>
