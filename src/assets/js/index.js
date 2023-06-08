@@ -99,5 +99,33 @@ $(document).ready(function () {
           );
       }
     }
+
+    if ($(".lgmembersdays").attr("data-locale") === "vn") {
+      if ($(this).attr("data-tab-name") == "he") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc:not(.desc--secondary)")
+          .html(
+            "Nâng tầm giải trí cùng Tivi LG"
+          );
+      }
+      if ($(this).attr("data-tab-name") == "ha") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc:not(.desc--secondary)")
+          .html(
+            "Nâng cầm chăm sóc nhà cửa cùng sản phẩm gia dụng LG"
+          );
+      }
+      if ($(this).attr("data-tab-name") == "it") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc:not(.desc--secondary)")
+          .html(
+            "Nâng tầm làm việc cùng Laptop LG Gram"
+          );
+      }
+    }
+
   });
 });
