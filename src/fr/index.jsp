@@ -80,7 +80,7 @@
 		<!-- Hottest Gift Model -->
 		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07561927|MD07563351|MD07571592|MD07560453|MD07561897|MD07561874|MD07559637|MD07571517|MD07570652|MD07563338|MD07553857|MD07553753|MD07553723|MD07545436|MD07535617|MD07534521"/>
 		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07520419|MD07559263|MD07519854|MD07563396|MD07533041|MD07554880|MD07537460|MD07559452|MD07538377|MD07506342|MD07560905|MD07560597|MD07512623|MD07546554|MD05609836"/>
-		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07573914|MD07573798|MD06211097|MD07553582"/>
+		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07574145|MD07574377|MD07573914|MD07573798|MD06211097|MD07553582"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -192,16 +192,6 @@
 									class="tab__button">TV/Audio/Vidéo</a>
 								</div>
 								<div class="tab__item">
-									<a href="#ha"
-									data-tab-name="ha"
-									data-track-group="mic"
-									data-track-opt="category"
-									data-track-name="category_click"
-									data-link-area="memberdays_H2_Category_click_HA"
-									data-link-name="memberdays_2023H2"
-									class="tab__button">Électroménager</a>
-								</div>
-								<div class="tab__item">
 									<a href="#it"
 									data-tab-name="it"
 									data-track-group="mic"
@@ -210,6 +200,16 @@
 									data-link-area="memberdays_H2_Category_click_IT"
 									data-link-name="memberdays_2023H2"
 									class="tab__button">Informatique</a>
+								</div>
+								<div class="tab__item">
+									<a href="#ha"
+									data-tab-name="ha"
+									data-track-group="mic"
+									data-track-opt="category"
+									data-track-name="category_click"
+									data-link-area="memberdays_H2_Category_click_HA"
+									data-link-name="memberdays_2023H2"
+									class="tab__button">Électroménager</a>
 								</div>
 							</div>
 							<template class="contents-template">
@@ -270,31 +270,11 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">TV LG OLED evo C2 55’’ + Soundbar</p>
+												<p class="best-item__text">TV LG OLED evo C2 55’’ + Barre de son</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
 													<img src="${path}/assets/images/img_item02.png" alt="">
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="product">
-										<div class="product__mask">
-											<div class="product__list"></div>
-										</div>
-									</div>
-								</div>
-								<div id="ha" class="tab__panel tab__panel--ha" style="display: none;">
-									<div class="best-item">
-										<div class="best-item__row">
-											<div class="best-item__item">
-												<img src="${path}/assets/images/img_item11.png" alt="">
-												<p class="best-item__text">508L Slim French Door Fridge</p>
-											</div>
-											<div class="best-item__item">
-												<div class="best-item__img">
-													<img src="${path}/assets/images/img_item12.png" alt="">
 												</div>
 											</div>
 										</div>
@@ -310,11 +290,31 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item21.png" alt="">
-												<p class="best-item__text">LG gram 14’’ Ultra-lightweight</p>
+												<p class="best-item__text">LG gram Style 16" | Poids ultra-léger</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
 													<img src="${path}/assets/images/img_item22.png" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="product">
+										<div class="product__mask">
+											<div class="product__list"></div>
+										</div>
+									</div>
+								</div>
+								<div id="ha" class="tab__panel tab__panel--ha" style="display: none;">
+									<div class="best-item">
+										<div class="best-item__row">
+											<div class="best-item__item">
+												<img src="${path}/assets/images/img_item11.png" alt="">
+												<p class="best-item__text">Réfrigérateurs Multi-portes | 641L</p>
+											</div>
+											<div class="best-item__item">
+												<div class="best-item__img">
+													<img src="${path}/assets/images/img_item12.png" alt="">
 												</div>
 											</div>
 										</div>
@@ -474,7 +474,7 @@
 					clearTimeout(timer);     
 				}, 600);
 			}
-			if(href.indexOf('BestHomeAppliance') != -1) {    
+			if(href.indexOf('BestComputerProducts') != -1) {    
 				$('#box_content .tab__list .tab__panel').attr('display', 'none')
         $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content .tab__list .tab__item').eq(1).addClass('tab__item--active');    
@@ -485,7 +485,7 @@
 					clearTimeout(timer);     
 				}, 600);
 			}
-			if(href.indexOf('BestComputerProducts') != -1) {    
+			if(href.indexOf('BestHomeAppliance') != -1) {    
 				$('#box_content .tab__list .tab__panel').attr('display', 'none')
         $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content .tab__list .tab__item').eq(2).addClass('tab__item--active');    
