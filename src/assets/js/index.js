@@ -127,5 +127,32 @@ $(document).ready(function () {
       }
     }
 
+    if ($(".lgmembersdays").attr("data-locale") === "de") {
+      if ($(this).attr("data-tab-name") == "he") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc:not(.desc--secondary)")
+          .html(
+            "Ein neues Fernseherlebnis mit ausgezeichneten LG TVs"
+          );
+      }
+      if ($(this).attr("data-tab-name") == "ha") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc:not(.desc--secondary)")
+          .html(
+            "Upgrade für dein Zuhause und Lifestyle mit LG‘s Haushaltsgeräten"
+          );
+      }
+      if ($(this).attr("data-tab-name") == "it") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc:not(.desc--secondary)")
+          .html(
+            "Erhöhe deine Produktivtät und verbessere deine Performance mit LG gram"
+          );
+      }
+    }
+
   });
 });
