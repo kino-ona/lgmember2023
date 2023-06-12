@@ -1285,34 +1285,26 @@
 				}
 			}
 		}
-		// .coupon {
-		// 	&__left {
-		// 		.coupon__title {
-		// 			margin-bottom: 0;
-		// 			font-size: 36px;
-		// 			line-height: 40px;
-		// 			font-weight: 600;
-		// 			text-align: center;
-		// 		}
-		// 	}
-		// }
-		// .benefit {
-		// 	&__row {
-		// 		.title {
-		// 			line-height: 1.2;
-		// 		}
-		// 	}
-		// }
-		// @media screen and (max-width: 1024px) {
-		// 	.coupon {
-		// 		&__left {
-		// 			.coupon__title {
-		// 				font-size: 24px;
-		// 				line-height: 30px;
-		// 			}
-		// 		}
-		// 	}
-		// }
+		.coupon {
+			&__group {
+				font-size: 32px;
+				letter-spacing:normal;
+				em {
+					letter-spacing: -4px;
+				}
+			}
+			&__left {
+				.coupon__desc {
+					font-size: 24px;
+					strong {
+						font-weight: 700;
+					}
+				}
+			}
+
+			@media screen and (max-width: 1024px) {
+			}
+		}
 	}
 
 	&[data-locale=au] {

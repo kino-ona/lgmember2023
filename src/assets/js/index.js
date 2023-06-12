@@ -19,7 +19,7 @@ $(document).ready(function () {
         $(this)
           .parents("#box_content")
           .find(".desc:not(.desc--secondary)")
-          .html("Seplifica la tua vita con i nostri elettrodomestici intelligenti ed efficienti");
+          .html("Semplifica la tua vita con i nostri elettrodomestici intelligenti ed efficienti");
       }
       if ($(this).attr("data-tab-name") == "it") {
         $(this)

@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days: fino al 20% di sconto per utenti registrati | LG Italia</title>
+	<title>LG Member Days: 20% extra sconto per utenti registrati | LG Italia</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Approfitta subito di sconti fino al 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 24/5">
+	<meta name="description" content="Approfitta subito di un extra sconto del 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 2/7">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/it/promozioni-esclusive">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Italia">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days: fino al 20% di sconto per utenti registrati | LG Italia">
-	<meta property="og:description" content="Approfitta subito di sconti fino al 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 24/5">
+	<meta property="og:title" content="LG Member Days: 20% extra sconto per utenti registrati | LG Italia">
+	<meta property="og:description" content="Approfitta subito di un extra sconto del 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 2/7">
 	<meta property="og:url" content="https://www.lg.com/it/promozioni-esclusive">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -42,10 +42,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days: fino al 20% di sconto per utenti registrati | LG Italia"/>
+		<meta itemprop="name" content="LG Member Days: 20% extra sconto per utenti registrati | LG Italia"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.lg.com/it/promozioni-esclusive" />
-		<meta itemprop="description" content="Approfitta subito di sconti fino al 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 24/5" />
+		<meta itemprop="description" content="Approfitta subito di un extra sconto del 20% e di servizi esclusivi riservati agli utenti registrati. Offerta valida solo fino al 2/7" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -87,7 +87,7 @@
 		<!--  Content Start  -->
 		<link rel="stylesheet" href="${path}/assets/css/index.css">
 		<div class="lgmembersdays" data-locale="it" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
-			<div class="anchors" id="MainBanner"></div>
+			<div class="anchors" id="I-prodotti-scelti-per-te"></div>
 			<div class="visual">
 				<div class="visual__visual">
 					<div class="visual__inner">
@@ -103,7 +103,7 @@
 						<div class="visual__bottom">
 							<div class="button">
 								<div class="button__row">
-									<a href="#BestPick" role="button" 
+									<a href="#BestSeller" role="button" 
 									data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
 									data-link-area="memberdays_H2_Mainbanner_click_View Products" 
 									data-link-name="memberdays_2023H2" 
@@ -111,7 +111,7 @@
 								</div>
 							</div>
 							<div class="term">
-								<a href="#" role="button"
+								<a href="#TerminieCondizioni" role="button"
 								data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H2_Mainbanner_click_Terms Conditions" 
 								data-link-name="memberdays_2023H2" 
@@ -148,7 +148,7 @@
 										</p>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/it/my-lg" target="_blank" role="button" 
+												<a href="https://www.lg.com/it/my-lg/login?state=/it/promozioni-esclusive" target="_blank" role="button" 
 												data-track-group="MICROSITE" data-track-name="Offer_link_click"
 												data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 												data-link-name="memberdays_2023H2" 
@@ -163,7 +163,7 @@
 								</div>
 								<div class="button">
 									<div class="button__row">
-										<a href="https://www.lg.com/it/my-lg" target="_blank" role="button" 
+										<a href="https://www.lg.com/it/my-lg/login?state=/it/promozioni-esclusive" target="_blank" role="button" 
 										data-track-group="MICROSITE" data-track-name="Offer_link_click"
 										data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 										data-link-name="memberdays_2023H2" 
@@ -174,10 +174,10 @@
 						</div>
 					</div>
 
-					<div class="anchors" id="BestPick"></div>
-					<div class="anchors" id="BestTVAudio"></div>
-					<div class="anchors" id="BestHomeAppliance"></div>
-					<div class="anchors" id="BestComputerProducts"></div>
+					<div class="anchors" id="BestSeller"></div>
+					<div class="anchors" id="TV/Audio"></div>
+					<div class="anchors" id="Elettrodomestici"></div>
+					<div class="anchors" id="Informatica"></div>
 					<div id="box_content" class="section" data-list="hottest">
 						<p class="title title--center">I prodotti scelti per te</p>
 						<p class="desc desc--center">
@@ -256,12 +256,12 @@
 										</div>
 										<div class="product__bottom">
 											<div class="learn-more">
-												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
+												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="learn_more_click" data-link-name="offer_learn_more">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='SCOPRI DI PIÙ'/></span>
 												</a>
 											</div>
 											<div class="button">
-												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
+												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-area="add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AGGIUNGI AL CARRELLO'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='Avvisami'/></a>
 											</div>
 										</div>
@@ -361,7 +361,7 @@
 							</div>
 						</div>
 						<div class="term">
-							<a href="#" role="button" target="_blank"
+							<a href="#TerminieCondizioni" role="button" target="_blank"
 							data-track-group="MICROSITE" data-track-name="Offer_link_click"
 							data-link-area="memberdays_H2_Offer_click_Terms Conditions" 
 							data-link-name="memberdays_2023H2" 
@@ -379,6 +379,17 @@
 		</div>
 
 		<!-- // Content End  -->
+	</div>
+
+
+	<div id="TerminieCondizioni" class="container-fluid memberdays-tnc">
+		<div class="footer-box">
+			<div class="footer-component">
+				<div class="footer-caution">
+					Iniziativa promozionale valida dal 19/6 al 2/7/2023 solo per utenti registrati prima del 19/6 e per l'acquisto dei prodotti esclusivamente presenti all'interno della pagina www.lg.com/it/promozioni-esclusive. Coupon del 20% non cumulabile con altri coupon. Sconto non applicabile agli utenti Vip Program.
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	<!-- top button -->
@@ -464,7 +475,7 @@
 		$(document).ready(function(){
 			var href = window.location.href;
 
-			if(href.indexOf('BestTVAudio') != -1) {    
+			if(href.indexOf('TV/Audio') != -1) {    
 				$('#box_content .tab__list .tab__panel').attr('display', 'none')
         $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content .tab__list .tab__item').eq(0).addClass('tab__item--active');    
@@ -475,7 +486,7 @@
 					clearTimeout(timer);     
 				}, 600);
 			}
-			if(href.indexOf('BestHomeAppliance') != -1) {    
+			if(href.indexOf('Elettrodomestici') != -1) {    
 				$('#box_content .tab__list .tab__panel').attr('display', 'none')
         $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content .tab__list .tab__item').eq(1).addClass('tab__item--active');    
@@ -486,7 +497,7 @@
 					clearTimeout(timer);     
 				}, 600);
 			}
-			if(href.indexOf('BestComputerProducts') != -1) {    
+			if(href.indexOf('Informatica') != -1) {    
 				$('#box_content .tab__list .tab__panel').attr('display', 'none')
         $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
         $('#box_content .tab__list .tab__item').eq(2).addClass('tab__item--active');    

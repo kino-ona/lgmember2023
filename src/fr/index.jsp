@@ -136,10 +136,13 @@
 								</div>
 								<div class="coupon">
 									<div class="coupon__left">
-										<p class="coupon__title">Nos produits Best-sellers</p>
 										<div class="coupon__group">
-											<em>20<span>%</span></em>OFF
+											<em>20<span>%</span></em
+											>DE REMISE
 										</div>
+										<p class="coupon__desc">
+											Avec le code <strong>MEMBER20</strong>
+										</p>
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/fr/my-lg" target="_blank" role="button" 
@@ -151,7 +154,7 @@
 										</div>
 									</div>
 									<div class="coupon__right">
-										<p>BENEFIT</p>
+										<p>BENEFICES</p>
 									</div>
 								</div>
 								<div class="button">
@@ -251,12 +254,12 @@
 										</div>
 										<div class="product__bottom">
 											<div class="learn-more">
-												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
+												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="learn_more_click" data-link-name="offer_learn_more">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='En Savoir Plus'/></span>
 												</a>
 											</div>
 											<div class="button">
-												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-area="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AJOUTER AU PANIER'/></a>
+												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-area="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='AJOUTER AU PANIER'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='RECEVOIR UNE ALERTE'/></a>
 											</div>
 										</div>
