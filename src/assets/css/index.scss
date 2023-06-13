@@ -1270,13 +1270,18 @@
 					bottom: inherit;
 				}
 			}
+			.desc {
+				max-width: 35%;
+			}
 			@media screen and (min-width: 390px) and (max-width: 768px) {
 				&__visual {
 					height: 85vh;
 				}
 			}
-			.desc {
-				max-width: 35%;
+			@media screen and (max-width: 1024px) {
+				.desc {
+					max-width: 100%;
+				}
 			}
 		}
 		.title {
@@ -1309,6 +1314,28 @@
 			}
 
 			@media screen and (max-width: 1024px) {
+				&__group {
+					font-size: 24px;
+					letter-spacing:normal;
+					em {
+						letter-spacing: -4px;
+					}
+				}
+				&__left {
+					.coupon__desc {
+						font-size: 16px;
+					}
+				}
+				&__right {
+					p {
+						letter-spacing: 6px;
+					}
+				}
+			}
+			@media screen and (max-width: 380px) {
+				&__group {
+					font-size: 20px;
+				}
 			}
 		}
 	}
@@ -1330,6 +1357,40 @@
 			}
 		}
 
+	}
+
+	&[data-locale=vn] {
+		.visual {
+			.desc {
+				@media screen and (max-width: 1024px) {
+					margin: 0 0 20px;
+				}
+
+			}
+		}
+		#box_content {
+			.title {
+				@media screen and (max-width: 400px) {
+					font-size: 25px;
+				}
+			}
+			.tab__list {
+				@media screen and (max-width: 1024px) {
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					gap: 6px;
+					.tab__item {
+						width: auto;
+					}
+				}
+			}
+			.desc:not(:last-child) {
+				@media screen and (max-width: 1024px) {
+					max-width: 80%;
+    			margin: 0 auto 20px;
+				}
+			}
+		}
 	}
 }
 .memberdays-tnc {

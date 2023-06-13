@@ -80,6 +80,7 @@
 
 		<!-- Hottest Gift Model -->
 		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07572158|MD07572157|MD07572745|MD07572744|MD07572741|MD07572853|MD07572852|MD07572822|MD07572197|MD07572240|MD07530013|MD07530005|MD07559899|MD07559969"/>
+		<input type="hidden" data-model-group="hottest" data-type="airsolution" value="MD07565035|MD07565009|MD07550260|MD07544671|MD07544681|MD07520996|MD07564471|MD07544683|MD07544682|MD07564333|MD07530319|MD07555673|MD07554691|MD07553698|MD07569325|MD07530466"/>
 		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07544285|MD07544333|MD07544338|MD07566123|MD07566122|MD06061396|MD07550509|MD07527542|MD07527476|MD07549194|MD07549316|MD07564131|MD07521230|MD07559324|MD07548889|MD07541676|MD06187777|MD07542146|MD07515551|MD07542553|MD07542556|MD07543388"/>
 		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07574806|MD07572778|MD07563896|MD07527366|MD07524665|MD07506953|MD07524754|MD07553545|MD07565854|MD07560604"/>
 		<!-- Required input ## Model List End -->
@@ -93,7 +94,7 @@
 					<div class="visual__inner">
 						<p class="visual__logo">Ngày hội thành viên LG</p>
 						<h1 class="title">
-							Lựa chọn tốt nhất không thể<br>bỏ lỡ dành riêng cho bạn
+							Lựa chọn tốt nhất<br>không thể bỏ lỡ<br>dành riêng cho bạn
 						</h1>
 						<p class="desc">
 							Giảm thêm 20% cho những sản phẩm bán chạy nhất(*)<br>
@@ -181,19 +182,19 @@
 					<div id="box_content" class="section" data-list="hottest">
 						<p class="title title--center">Lựa chọn sản phẩm tốt nhất dành cho thành viên</p>
 						<p class="desc desc--center">
-							Nâng tầm giải trí cùng Tivi LG
+							Nâng tầm làm việc cùng Laptop LG Gram
 						</p>
 						<div class="tab">
 							<div class="tab__list">
 								<div class="tab__item tab__item--active">
-									<a href="#he"
-									data-tab-name="he"
+									<a href="#it"
+									data-tab-name="it"
 									data-track-group="mic"
 									data-track-opt="category"
 									data-track-name="category_click"
-									data-link-area="memberdays_H2_category_click_HE"
+									data-link-area="memberdays_H2_Category_click_IT"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">THIẾT BỊ NGHE NHÌN</a>
+									class="tab__button">SẢN PHẨM TIN HỌC</a>
 								</div>
 								<div class="tab__item">
 									<a href="#ha"
@@ -206,14 +207,24 @@
 									class="tab__button">THIẾT BỊ ĐIỆN GIA DỤNG</a>
 								</div>
 								<div class="tab__item">
-									<a href="#it"
-									data-tab-name="it"
+									<a href="#airsolution"
+									data-tab-name="airsolution"
 									data-track-group="mic"
 									data-track-opt="category"
 									data-track-name="category_click"
-									data-link-area="memberdays_H2_Category_click_IT"
+									data-link-area="memberdays_H2_Category_click_AIRSOLUTION"
 									data-link-name="memberdays_2023H2"
-									class="tab__button">THIẾT BỊ ĐIỆN GIA DỤNG</a>
+									class="tab__button">GIẢI PHÁP KHÔNG KHÍ</a>
+								</div>
+								<div class="tab__item">
+									<a href="#he"
+									data-tab-name="he"
+									data-track-group="mic"
+									data-track-opt="category"
+									data-track-name="category_click"
+									data-link-area="memberdays_H2_category_click_HE"
+									data-link-name="memberdays_2023H2"
+									class="tab__button">THIẾT BỊ NGHE NHÌN</a>
 								</div>
 							</div>
 							<template class="contents-template">
@@ -269,12 +280,12 @@
 							</template>
 
 							<div class="tab__contents">
-								<div id="he" class="tab__panel tab__panel--he" style="display: block;">
+								<div id="it" class="tab__panel tab__panel--it" style="display: block;">
 									<div class="best-item">
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">Tivi LG OLED evo C3 65</p>
+												<p class="best-item__text">Nâng tầm làm việc cùng Laptop LG Gram</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
@@ -309,16 +320,36 @@
 										</div>
 									</div>
 								</div>
-								<div id="it" class="tab__panel tab__panel--it" style="display: none;">
+								<div id="airsolution" class="tab__panel tab__panel--airsolution" style="display: none;">
 									<div class="best-item">
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item21.png" alt="">
-												<p class="best-item__text">Nâng tầm làm việc cùng Laptop LG Gram</p>
+												<p class="best-item__text">LG DUALCOOL™ Điều hòa Inverter 1 chiều</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
 													<img src="${path}/assets/images/img_item22.png" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="product">
+										<div class="product__mask">
+											<div class="product__list"></div>
+										</div>
+									</div>
+								</div>
+								<div id="he" class="tab__panel tab__panel--he" style="display: none;">
+									<div class="best-item">
+										<div class="best-item__row">
+											<div class="best-item__item">
+												<img src="${path}/assets/images/img_item31.png" alt="">
+												<p class="best-item__text">Tivi LG OLED evo C3 65</p>
+											</div>
+											<div class="best-item__item">
+												<div class="best-item__img">
+													<img src="${path}/assets/images/img_item32.png" alt="">
 												</div>
 											</div>
 										</div>

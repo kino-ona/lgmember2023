@@ -110,7 +110,7 @@
 								</div>
 							</div>
 							<div class="term">
-								<a href="#" role="button" target="_blank"
+								<a href="${path}/assets/ModalitésLGMEMBERDAYS2.pdf" role="button" target="_blank"
 								data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H2_Mainbanner_click_Terms Conditions" 
 								data-link-name="memberdays_2023H2" 
@@ -182,6 +182,7 @@
 						<p class="desc desc--center">
 							Transformez votre expérience visuelle avec les téléviseurs LG
 						</p>
+						<p class="desc desc--center desc--secondary">N'oubliez pas d'utiliser votre coupon MEMBER20 lors de la validation de votre panier!</p>
 						<div class="tab">
 							<div class="tab__list">
 								<div class="tab__item tab__item--active">
@@ -363,7 +364,7 @@
 							</div>
 						</div>
 						<div class="term">
-							<a href="#" role="button" target="_blank"
+							<a href="${path}/assets/ModalitésLGMEMBERDAYS2.pdf" role="button" target="_blank"
 							data-track-group="MICROSITE" data-track-name="Offer_link_click"
 							data-link-area="memberdays_H2_Offer_click_Terms Conditions" 
 							data-link-name="memberdays_2023H2" 

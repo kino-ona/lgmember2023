@@ -125,6 +125,14 @@ $(document).ready(function () {
             "Nâng tầm làm việc cùng Laptop LG Gram"
           );
       }
+      if ($(this).attr("data-tab-name") == "airsolution") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc:not(.desc--secondary)")
+          .html(
+            "Nâng cấp độ mát cùng điều hoà LG"
+          );
+      }
     }
 
     if ($(".lgmembersdays").attr("data-locale") === "de") {
