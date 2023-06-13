@@ -164,7 +164,7 @@
 											href="https://www.lg.com/au/my-lg"
 											target="_blank" role="button" 
 											data-track-group="MICROSITE" data-track-name="Offer_link_click"
-											data-link-area="memberdays_H2_Offer_click_Terms Conditions" 
+											data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 											data-link-name="memberdays_2023H2" 
 											class="button__item"
 											>My Account</a
@@ -259,9 +259,9 @@
 												</a>
 											</div> -->
 											<div class="button">
-												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item atc-members-weeks" data-track-group="product" data-track-name="add_to_cart" data-link-area="add_to_cart_click" data-link-name="add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*">BUY NOW</a>
+												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item atc-members-weeks" data-track-group="product" data-track-name="add_to_cart_click" data-link-area="add_to_cart_click" data-link-name="add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*">BUY NOW</a>
 
-												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-weeks d-none" data-track-group="product" data-track-name="move_to_stock_request"  data-link-area="move_to_stock_request_click"  data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-weeks d-none" data-track-group="product" data-track-name="move_to_stock_request_click"  data-link-area="move_to_stock_request_click"  data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 										</div>
 									</div>
