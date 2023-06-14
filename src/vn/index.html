@@ -172,7 +172,7 @@
   <body>
     <div class="iw_viewport-wrapper">
       <!-- header -->
-      @@include('./inc/header.inc',{ "webroot":"." })
+      @@include('../inc/header.inc',{ "webroot":"." })
       <!--// header -->
 
       <!-- Tracking Event Setting -->
@@ -298,7 +298,8 @@
       <!-- Required input ## Model List End -->
 
       <!-- 여기서부터 컨텐츠 시작 -->
-      <link rel="stylesheet" href="./assets/css/index.css" />
+      <link rel="stylesheet" href="../assets/css/index.css" />
+      <link rel="stylesheet" href="../assets/css/index_vn.css" />
       <div
         class="lgmembersdays"
         data-locale="uk"
@@ -344,23 +345,47 @@
 											Accedi al tuo account, aggiungi a carrello il prodotto desiderato e inserisci il coupon ricevuto via email per ottenere lo sconto
                     </p>
                   </div>
-                  <div class="coupon">
-                    <div class="coupon__left">
-                      <p class="coupon__title">Solo per utenti registrati</p>
-                      <div class="coupon__group">
-                        <em>20<span>%</span></em>
-                      </div>
-                      <p class="coupon__desc">
-                        EXTRA SCONTO
-                      </p>
-                      <div class="button">
-                        <div class="button__row">
-                          <a href="#" class="button__item">ACCEDI E ACQUISTA</a>
+                  <div class="coupon-list">
+                    <div class="coupon">
+                      <div class="coupon__left">
+                        <p class="coupon__title">Solo per utenti registrati</p>
+                        <div class="coupon__group">
+                          <em>20<span>%</span></em>
+                        </div>
+                        <p class="coupon__desc">
+                          EXTRA SCONTO
+                        </p>
+                        <div class="button">
+                          <div class="button__row">
+                            <a href="#" class="button__item">ACCEDI E ACQUISTA</a>
+                          </div>
                         </div>
                       </div>
+                      <div class="coupon__right">
+                        <p>BENEFIT</p>
+                      </div>
                     </div>
-                    <div class="coupon__right">
-                      <p>BENEFIT</p>
+                    <div class="coupon coupon--secondary">
+                      <div class="coupon__left">
+                        <p class="coupon__title">Solo per utenti registrati</p>
+                        <div class="coupon__group">
+                          <em>20<span>%</span></em>
+                        </div>
+                      </div>
+                      <div class="coupon__right">
+                        <p>BENEFIT</p>
+                      </div>
+                    </div>
+                    <div class="coupon coupon--secondary">
+                      <div class="coupon__left">
+                        <p class="coupon__title">Solo per utenti registrati</p>
+                        <div class="coupon__group">
+                          <em>20<span>%</span></em>
+                        </div>
+                      </div>
+                      <div class="coupon__right">
+                        <p>BENEFIT</p>
+                      </div>
                     </div>
                   </div>
                   <div class="button">
@@ -432,12 +457,12 @@
                     <div class="best-item">
                       <div class="best-item__row">
                         <div class="best-item__item">
-                          <img src="./assets/images/img_item01.png" alt="" />
+                          <img src="../assets/images/img_item01.png" alt="" />
                           <p class="best-item__text">InstaView Door-in-Door</p>
                         </div>
                         <div class="best-item__item">
                           <div class="best-item__img">
-                            <img src="./assets/images/img_item02.png" alt="" />
+                            <img src="../assets/images/img_item02.png" alt="" />
                           </div>
                         </div>
                       </div>
@@ -452,7 +477,7 @@
                                 <span class="product__flag">CASHBACK</span>
                               </div>
                               <img
-                                src="./assets/images/@img_product.png"
+                                src="../assets/images/@img_product.png"
                                 alt="Exclusive Model gram 17 Limited to 100 units"
                               />
                             </div>
@@ -503,7 +528,7 @@
                           <div class="product__item">
                             <div class="product__img">
                               <img
-                                src="./assets/images/@img_product.png"
+                                src="../assets/images/@img_product.png"
                                 alt="Exclusive Model gram 17 Limited to 100 units"
                               />
                             </div>
@@ -559,12 +584,12 @@
                     <div class="best-item">
                       <div class="best-item__row">
                         <div class="best-item__item">
-                          <img src="./assets/images/img_item01.png" alt="" />
+                          <img src="../assets/images/img_item01.png" alt="" />
                           <p class="best-item__text">InstaView Door-in-Door</p>
                         </div>
                         <div class="best-item__item">
                           <div class="best-item__img">
-                            <img src="./assets/images/img_item02.png" alt="" />
+                            <img src="../assets/images/img_item02.png" alt="" />
                           </div>
                         </div>
                       </div>
@@ -579,7 +604,7 @@
                                 <span class="product__flag">CASHBACK</span>
                               </div>
                               <img
-                                src="./assets/images/@img_product.png"
+                                src="../assets/images/@img_product.png"
                                 alt="Exclusive Model gram 17 Limited to 100 units"
                               />
                             </div>
@@ -630,7 +655,7 @@
                           <div class="product__item">
                             <div class="product__img">
                               <img
-                                src="./assets/images/@img_product.png"
+                                src="../assets/images/@img_product.png"
                                 alt="Exclusive Model gram 17 Limited to 100 units"
                               />
                             </div>
@@ -686,12 +711,12 @@
                     <div class="best-item">
                       <div class="best-item__row">
                         <div class="best-item__item">
-                          <img src="./assets/images/img_item01.png" alt="" />
+                          <img src="../assets/images/img_item01.png" alt="" />
                           <p class="best-item__text">InstaView Door-in-Door</p>
                         </div>
                         <div class="best-item__item">
                           <div class="best-item__img">
-                            <img src="./assets/images/img_item02.png" alt="" />
+                            <img src="../assets/images/img_item02.png" alt="" />
                           </div>
                         </div>
                       </div>
@@ -706,7 +731,7 @@
                                 <span class="product__flag">CASHBACK</span>
                               </div>
                               <img
-                                src="./assets/images/@img_product.png"
+                                src="../assets/images/@img_product.png"
                                 alt="Exclusive Model gram 17 Limited to 100 units"
                               />
                             </div>
@@ -757,7 +782,7 @@
                           <div class="product__item">
                             <div class="product__img">
                               <img
-                                src="./assets/images/@img_product.png"
+                                src="../assets/images/@img_product.png"
                                 alt="Exclusive Model gram 17 Limited to 100 units"
                               />
                             </div>
@@ -853,7 +878,7 @@
       </div>
 
       <!-- footer -->
-      @@include('./inc/footer.inc',{ "webroot":"." })
+      @@include('../inc/footer.inc',{ "webroot":"." })
       <!--// footer -->
     </div>
     <script src="https://www.lg.com/lg5-common-gp/library/jquery.min.js"></script>
@@ -931,7 +956,7 @@
     <script src="https://www.lg.com/lg5-common-gp/js/customer/add-to-cart.min.js"></script>
     <script src="https://www.lg.com/lg5-common-gp/js/customer/wishlist.min.js"></script>
     <!-- UI Script -->
-    <script src="./assets/js/index.js"></script>
+    <script src="../assets/js/index.js"></script>
     <!--// UI Script -->
   </body>
 </html>
