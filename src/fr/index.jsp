@@ -78,9 +78,9 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 		
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07561927|MD07563351|MD07571592|MD07560453|MD07561897|MD07561874|MD07559637|MD07571517|MD07570652|MD07563338|MD07553857|MD07553753|MD07553723|MD07545436|MD07535617|MD07534521"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07579366|MD07579448|MD07579475|MD07561927|MD07563351|MD07571592|MD07560453|MD07561897|MD07561874|MD07559637|MD07571517|MD07570652|MD07563338|MD07553857|MD07553753|MD07553723|MD07545436|MD07535617|MD07534521"/>
 		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07520419|MD07559263|MD07519854|MD07563396|MD07533041|MD07554880|MD07537460|MD07559452|MD07538377|MD07506342|MD07560905|MD07560597|MD07512623|MD07546554|MD05609836"/>
-		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07574145|MD07574377|MD07573914|MD07573798|MD06211097|MD07553582"/>
+		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07579511|MD07579468|MD07578424|MD07579350|MD07574145|MD07574377|MD07573914|MD07573798|MD06211097|MD07553582"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -91,10 +91,12 @@
 				<div class="visual__visual">
 					<div class="visual__inner">
 						<p class="visual__logo">LG Member Days*</p>
-						<h1 class="title">Vente flash sur nos<br>Best-sellers</h1>
+						<h1 class="title">Vente Flash</h1>
 						<p class="desc">
-							Bénéficiez d’une réduction supplémentaire de 20% sur nos best-sellers réservée aux membres LG.<br>
-							Offre valable du 15 juin au 27 juin 2023,<br>uniquement sur LG.com<br>
+							Bénéficiez d’une réduction supplémentaire de 20% sur
+							une sélection de produits réservée aux membres LG.<br>
+							Offre valable du 14 juin au 27 juin 2023,<br>
+							uniquement sur LG.com
 							<span>*LG MEMBER DAYS = Les journées membres LG</span>
 						</p>
 						<div class="visual__bottom">
@@ -178,7 +180,7 @@
 					<div class="anchors" id="BestHomeAppliance"></div>
 					<div class="anchors" id="BestComputerProducts"></div>
 					<div id="box_content" class="section" data-list="hottest">
-						<p class="title title--center">Best-sellers des Membres</p>
+						<p class="title title--center">Vente Flash</p>
 						<p class="desc desc--center">
 							Transformez votre expérience visuelle avec les téléviseurs LG
 						</p>

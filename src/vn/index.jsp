@@ -87,6 +87,7 @@
 	
 		<!--  Content Start  -->
 		<link rel="stylesheet" href="${path}/assets/css/index.css">
+		<link rel="stylesheet" href="${path}/assets/css/index_vn.css">
 		<div class="lgmembersdays" data-locale="vn" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
@@ -137,28 +138,58 @@
 										Đăng nhập/ đăng ký ngay và<br>áp dụng voucher tại bước thanh toán
 									</p>
 								</div>
-								<div class="coupon">
-									<div class="coupon__left">
-										<p class="coupon__title">Sản phẩm bán chạy nhất</p>
-										<p class="coupon__desc">
-											Giảm thêm
-										</p>
-										<div class="coupon__group">
-											<em>20<span>%</span></em>
-										</div>
-										<div class="button">
-											<div class="button__row">
-												<a href="https://www.lg.com/vn/my-lg " target="_blank" role="button" 
-												data-track-group="MICROSITE" data-track-name="Offer_link_click"
-												data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
-												data-link-name="memberdays_2023H2" 
-												class="button__item"
-												>TÀI KHOẢN CỦA TÔI</a>
+								<div class="coupon-list">
+									<div class="coupon">
+										<div class="coupon__left">
+											<p class="coupon__title">Sản phẩm bán chạy nhất</p>
+											<p class="coupon__desc">
+												Giảm thêm
+											</p>
+											<div class="coupon__group">
+												<em>20<span>%</span></em>
+											</div>
+											<div class="button">
+												<div class="button__row">
+													<a href="https://www.lg.com/vn/my-lg " target="_blank" role="button" 
+													data-track-group="MICROSITE" data-track-name="Offer_link_click"
+													data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
+													data-link-name="memberdays_2023H2" 
+													class="button__item"
+													>TÀI KHOẢN CỦA TÔI</a>
+												</div>
 											</div>
 										</div>
+										<div class="coupon__right">
+											<p>BENEFIT</p>
+										</div>
 									</div>
-									<div class="coupon__right">
-										<p>BENEFIT</p>
+									<div class="coupon coupon--secondary">
+										<div class="coupon__left">
+											<p class="coupon__title">Quyền lợi thành viên mới</p>
+											<div class="coupon__desc">
+												<p>Giảm giá</p>
+											</div>
+											<div class="coupon__group">
+												<em>5<span>%</span></em>
+											</div>
+										</div>
+										<div class="coupon__right">
+											<p>BENEFIT</p>
+										</div>
+									</div>
+									<div class="coupon coupon--secondary">
+										<div class="coupon__left">
+											<p class="coupon__title">Giá dành cho thành viên</p>
+											<div class="coupon__desc">
+												<p>Giảm</p>
+											</div>
+											<div class="coupon__group">
+												<em>2<span>%</span></em>
+											</div>
+										</div>
+										<div class="coupon__right">
+											<p>BENEFIT</p>
+										</div>
 									</div>
 								</div>
 								<div class="button">

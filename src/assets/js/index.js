@@ -87,7 +87,7 @@ $(document).ready(function () {
           .parents("#box_content")
           .find(".desc:not(.desc--secondary)")
           .html(
-            "Découvrez les appareils électroménagers de pointe de LG qui amélioreront votre maison et votre mode de vie."
+            "Découvrez les appareils électroménagers de LG qui apporteront une dose de magie à votre quotidien."
           );
       }
       if ($(this).attr("data-tab-name") == "it") {
