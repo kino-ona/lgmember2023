@@ -99,9 +99,16 @@
 					&__left {
 						padding: 0 19px;
 						border-radius: 15px 0 0 0;
-						background: radial-gradient(circle 15px at top right, rgba(0, 0, 0, 0) 100%, #fff) top right,radial-gradient(circle 15px at bottom right, rgba(0, 0, 0, 0) 100%, #fff) bottom right;
+						background: radial-gradient(15px at top right, #0000 98%, #fff);
 						background-size: 100% 50%;
 						background-repeat: no-repeat;
+
+						&:before {
+							background: radial-gradient(15px at bottom right, #0000 98%, #fff);
+							background-size: 100% 100%;
+							background-position: 0 50%;
+							background-repeat: no-repeat;
+						}
 
 						.coupon__title {
 							font-size: 13px;
@@ -121,9 +128,16 @@
 					&__right {
 						width: 50px;
 						border-radius: 0 0 15px 0;
-						background: radial-gradient(circle 15px at top left, rgba(0, 0, 0, 0) 100%, #CEC8BD) top left,radial-gradient(circle 15px at bottom left, rgba(0, 0, 0, 0) 100%, #CEC8BD) bottom left;
+						background: radial-gradient(15px at top left, #0000 98%, #CEC8BD);
 						background-size: 100% 50%;
 						background-repeat: no-repeat;
+
+						&:before {
+							background: radial-gradient(15px at bottom left, #0000 98%, #CEC8BD);
+							background-size: 100% 100%;
+							background-position: 0 50%;
+							background-repeat: no-repeat;
+						}
 
 						p {
 							font-size: 8px;
@@ -158,9 +172,16 @@
 
 						&__left {
 							border-radius: 20px 0 0 0;
-							background: radial-gradient(circle 12px at top right, rgba(0, 0, 0, 0) 100%, #fff) top right,radial-gradient(circle 12px at bottom right, rgba(0, 0, 0, 0) 100%, #fff) bottom right;
+							background: radial-gradient(12px at top right, #0000 98%, #fff);
 							background-size: 100% 50%;
 							background-repeat: no-repeat;
+
+							&:before {
+								background: radial-gradient(12px at bottom right, #0000 98%, #fff);
+								background-size: 100% 100%;
+								background-position: 0 50%;
+								background-repeat: no-repeat;
+							}
 
 							.coupon {
 
@@ -185,9 +206,16 @@
 						&__right {
 							width: 66px;
 							border-radius: 0 0 20px 0;
-							background: radial-gradient(circle 12px at top left, rgba(0, 0, 0, 0) 100%, #CEC8BD) top left,radial-gradient(circle 12px at bottom left, rgba(0, 0, 0, 0) 100%, #CEC8BD) bottom left;
+							background: radial-gradient(12px at top left, #0000 98%, #CEC8BD);
 							background-size: 100% 50%;
 							background-repeat: no-repeat;
+							
+							&:before {
+								background: radial-gradient(12px at bottom left, #0000 98%, #CEC8BD);
+								background-size: 100% 100%;
+								background-position: 0 50%;
+								background-repeat: no-repeat;
+							}
 
 							p {
 								font-size: 12px;
