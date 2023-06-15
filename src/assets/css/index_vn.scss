@@ -11,6 +11,14 @@
 		&__contents {
 			flex: 1;
 		}
+		&__row {
+			.title {
+				font-size: 48px;
+				@media screen and (max-width: 1024px) {
+					font-size: 32px;
+				}
+			}
+		}
 	}
 	.benefit-more {
 		&__item {

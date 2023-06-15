@@ -1451,6 +1451,29 @@
 			}
 		}
 	}
+
+	&[data-locale=it] {
+		.product {
+			@media screen and (max-width: 768px) {
+				&__flags {
+					flex-direction: column;
+				}
+				&__flag {
+					width: max-content;
+				}
+			}
+		}
+	}
+	&[data-locale=de] {
+		.visual {
+			&__visual {
+				@media screen and (max-width: 1024px) {
+					background-position: 70% 100%;
+    			background-size: 107%;
+				}
+			}
+		}
+	}
 }
 .memberdays-tnc {
 	.footer-component {

@@ -92,9 +92,9 @@
 				<div class="visual__visual">
 					<div class="visual__inner">
 						<p class="visual__logo">LG 週年會員日</p>
-						<h1 class="title">會員獨享<br />熱銷精選 優惠延長</h1>
+						<h1 class="title">熱銷精選 優惠延長</h1>
 						<p class="desc">
-							熱銷商品全面補貨, 88折優惠延長至<br />2023/07/07。
+							熱銷商品全面補貨, 88折優惠延長至2023/07/07。
 						</p>
 						<div class="visual__bottom">
 							<div class="button">
@@ -113,7 +113,7 @@
 								data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H2_Mainbanner_click_Terms Conditions" 
 								data-link-name="memberdays_2023H2">
-									*詳細活動優惠辦法請見本頁最下方。
+								*詳細活動優惠辦法請見本頁最下方。
 									<i></i>
 								</a>
 							</div>
@@ -269,9 +269,10 @@
 												<p class="best-item__text">LG OLED evo C3 55</p>
 											</div>
 											<div class="best-item__item">
-												<div class="best-item__img">
+												<video src="${path}/assets/TV_1.mp4" muted></video>
+												<!-- <div class="best-item__img">
 													<img src="${path}/assets/images/tw/img_item02.png" alt="">
-												</div>
+												</div> -->
 											</div>
 										</div>
 									</div>
@@ -289,9 +290,10 @@
 												<p class="best-item__text">InstaView Door-in-Door</p>
 											</div>
 											<div class="best-item__item">
-												<div class="best-item__img">
+												<video src="${path}/assets/RF_1.mp4" muted></video>
+												<!-- <div class="best-item__img">
 													<img src="${path}/assets/images/tw/img_item12.png" alt="">
-												</div>
+												</div> -->
 											</div>
 										</div>
 									</div>
@@ -309,9 +311,10 @@
 												<p class="best-item__text">InstaView Door-in-Door</p>
 											</div>
 											<div class="best-item__item">
-												<div class="best-item__img">
+												<video src="${path}/assets/LT_1.mp4" muted></video>
+												<!-- <div class="best-item__img">
 													<img src="${path}/assets/images/tw/img_item22.png" alt="">
-												</div>
+												</div> -->
 											</div>
 										</div>
 									</div>

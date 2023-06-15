@@ -79,9 +79,9 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07576230"/>
-		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07570423"/>
-		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07570423"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07547403|MD07570422|MD07547419|MD07560003|MD07572763|MD07572708|MD07576073|MD07576017|MD07575961|MD07548340|MD07555691|MD07559564|MD07536043"/>
+		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07540676|MD07521445|MD07539373|MD07522656|MD07527562|MD07559984|MD07542794|MD07578958|MD07578960|MD05774871|MD06149356|MD05879679"/>
+		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07575876|MD07575492|MD07555423|MD07571513|MD07571411|MD07571462|MD07568250|MD07568226|MD07570855|MD07572386|MD07572298|MD07570903|MD07572299|MD07554813|MD07558814"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -275,7 +275,7 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">TV OLED evo Serie C34 55” + Soundbar</p>
+												<p class="best-item__text">TV OLED evo Serie C3 + Soundbar</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
@@ -315,7 +315,7 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item21.png" alt="">
-												<p class="best-item__text">LG gram 14’’ Ultra-lightweight</p>
+												<p class="best-item__text">LG Gram 16" Notebook Ultraleggero</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
