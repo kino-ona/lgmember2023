@@ -454,7 +454,7 @@
 			height: 150px;
 
 			&__left {
-				padding: 0 20px;
+				padding: 0 10px;
 				border-radius: 20px 0 0 0;
 				background: 
 					radial-gradient(circle 12px at top right, #0000 100%, #fff) top right,
@@ -1289,9 +1289,12 @@
 			.desc {
 				max-width: 35%;
 			}
-			@media screen and (min-width: 390px) and (max-width: 768px) {
+			// @media screen and (min-width: 390px) and (max-width: 768px) {
+			@media screen and (max-width: 768px) {
 				&__visual {
-					height: 85vh;
+					// height: 75vh;
+					background-size: 120%;
+					background-position: 63% 100%;
 				}
 			}
 			@media screen and (max-width: 1024px) {

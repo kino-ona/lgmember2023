@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Consumer &amp; Business Electronics | LG Deutschland</title>
+	<title>LG MEMBER DAYS: Flash Sale für LG MEMBER | LG Deutschland</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Entdecken Sie die neuesten Consumer und Business Electronics von LG. Lassen Sie sich von unseren aktuellen Produktinnovationen inspirieren| LG Deutschland">
+	<meta name="description" content="Nur für LG Member: 20% Rabatt auf ausgewählte Produkte">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/de/lgmemberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Deutschland">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Consumer &amp; Business Electronics | LG Deutschland">
-	<meta property="og:description" content="Entdecken Sie die neuesten Consumer und Business Electronics von LG. Lassen Sie sich von unseren aktuellen Produktinnovationen inspirieren| LG Deutschland">
+	<meta property="og:title" content="LG MEMBER DAYS: Flash Sale für LG MEMBER | LG Deutschland">
+	<meta property="og:description" content="Nur für LG Member: 20% Rabatt auf ausgewählte Produkte">
 	<meta property="og:url" content="https://www.lg.com/de/lgmemberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -42,10 +42,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Consumer &amp; Business Electronics | LG Deutschland"/>
+		<meta itemprop="name" content="LG MEMBER DAYS: Flash Sale für LG MEMBER | LG Deutschland"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.lg.com/de/lgmemberdays" />
-		<meta itemprop="description" content="Entdecken Sie die neuesten Consumer und Business Electronics von LG. Lassen Sie sich von unseren aktuellen Produktinnovationen inspirieren| LG Deutschland" />
+		<meta itemprop="description" content="Nur für LG Member: 20% Rabatt auf ausgewählte Produkte" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -79,7 +79,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07571148|MD07571149"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07571147|MD07571148|MD07571149|MD07580210|MD07580214|MD07580216|MD07580218"/>
 		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07556670|MD07556806|MD07554217|MD06020158|MD07546828|MD07561724|MD07561610|MD07561481|MD07561613"/>
 		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07563970|MD07568101|MD07568092|MD07571278|MD07558252|MD07571585|MD07572903|MD07571342|MD07571342|MD06075496|MD07564951"/>
 		<!-- Required input ## Model List End -->
@@ -111,7 +111,7 @@
 								</div>
 							</div>
 							<div class="term">
-								<a href="#" role="button"
+								<a href="https://www.lg.com/de/member-days-lg-tnc" role="button" target="_blank"
 								data-track-group="MICROSITE" data-track-name="memberdays_mainbanner_click"
 								data-link-area="memberdays_H2_Mainbanner_click_Terms Conditions" 
 								data-link-name="memberdays_2023H2" 
@@ -359,7 +359,7 @@
 							</div>
 						</div>
 						<div class="term">
-							<a href="#" role="button" target="_blank"
+							<a href="https://www.lg.com/de/member-days-lg-tnc" role="button" target="_blank"
 							data-track-group="MICROSITE" data-track-name="Offer_link_click"
 							data-link-area="memberdays_H2_Offer_click_Terms Conditions" 
 							data-link-name="memberdays_2023H2" 

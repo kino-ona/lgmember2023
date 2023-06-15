@@ -98,7 +98,7 @@
 							Lựa chọn tốt nhất<br>không thể bỏ lỡ<br>dành riêng cho bạn
 						</h1>
 						<p class="desc">
-							Giảm thêm 20% cho những sản phẩm bán chạy nhất(*)<br>
+							Giảm thêm 20% cho những sản phẩm bán chạy nhất<br>
 							Ưu đãi đển hết 02.07.2023<br>Chỉ có tại LG.com/vn
 						</p>
 						<div class="visual__bottom">
@@ -133,9 +133,9 @@
 						<div class="benefit__container">
 							<div class="benefit__row">
 								<div class="benefit__contents">
-									<p class="title">Ưu Đãi Chỉ Dành Cho<br>Thành Viên LG</p>
+									<p class="title">GIẢM GIÁ đến 27% các<br>sản phẩm dưới đây</p>
 									<p class="desc">
-										Đăng nhập/ đăng ký ngay và<br>áp dụng voucher tại bước thanh toán
+										Đăng nhập/ đăng ký ngay và<br>áp dụng voucher tại bước giỏ hàng
 									</p>
 								</div>
 								<div class="coupon-list">
@@ -265,10 +265,16 @@
 											<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div>
+										<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
 										<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
+										</a>
 									</div>
 									<div class="product__info">
-										<p class="product__name">*userFriendlyName*</p>
+										<p class="product__name">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
+											*userFriendlyName*
+											</a>
+										</p>
 										<p class="product__sn sku">*modelName*</p>
 										<div class="product__price">
 											<p class="product__cost">
@@ -296,15 +302,18 @@
 											</div>
 										</div>
 										<div class="product__bottom">
-											<!-- <div class="learn-more">
-												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
-													<span class="learn-more__text"><spring:message code='component-learnMore' text='Learn More'/></span>
-												</a>
-											</div> -->
-											<div class="button">
-												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item atc-members-weeks" data-track-group="product" data-track-name="add_to_cart" data-link-area="add_to_cart_click" data-link-name="add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='Add to Basket'/></a>
-												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-weeks d-none" data-track-group="product" data-track-name="move_to_stock_request"  data-link-area="move_to_stock_request_click"  data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+											<div class="learn-more">
 											</div>
+											<div class="button">
+												<a role="button" href="*modelUrlPath*" class="button__item" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
+													<span class="learn-more__text">MUA NGAY</span>
+												</a>
+											</div>
+											<!-- <div class="button">
+												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item atc-members-weeks" data-track-group="product" data-track-name="add_to_cart" data-link-area="add_to_cart_click" data-link-name="add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*">
+													<spring:message code='component-addToCart' text='Add to Basket'/></a>
+												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-weeks d-none" data-track-group="product" data-track-name="move_to_stock_request"  data-link-area="move_to_stock_request_click"  data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+											</div> -->
 										</div>
 									</div>
 								</div>
@@ -397,27 +406,47 @@
 
 					<div class="section">
 						<p class="title title--secondary">Nhiều Quyền Lợi Hơn Cho Thành Viên LG</p>
-						<div class="benefit-more">
-							<div class="benefit-more__row">
-								<div class="benefit-more__item">
-									<div class="benefit-more__group">
-										<p class="benefit-more__text">Miễn phí vận chuyển,<br>công lắp đặt và đổi trả<br>trong vòng 15 ngày</p>
-										<i class="benefit-more__ico"></i>
-									</div>
+						<div class="benefit-more__row">
+							<div class="benefit-more__item">
+								<div class="benefit-more__group">
+									<p class="benefit-more__text">
+										Miễn phí vận chuyển, công lắp đặt và đổi<br>trả trong vòng 15 ngày
+									</p>
+									<i class="benefit-more__ico"></i>
 								</div>
-								<div class="benefit-more__item">
-									<div class="benefit-more__group">
-										<p class="benefit-more__text">
-											Trả góp 0% lãi suất<br>không mất phí lên đến<br>12 tháng
-										</p>
-										<i class="benefit-more__ico"></i>
-									</div>
+							</div>
+							<div class="benefit-more__item">
+								<div class="benefit-more__group">
+									<p class="benefit-more__text">
+										Trả góp 0% lãi suất không mất phí lên<br>đến 12 tháng
+									</p>
+									<i class="benefit-more__ico"></i>
 								</div>
-								<div class="benefit-more__item">
-									<div class="benefit-more__group">
-										<p class="benefit-more__text">Voucher giảm thêm 2%<br>cho toàn bộ đơn hàng<br>và thêm 5% cho đơn<br>hàng đầu tiên</p>
-										<i class="benefit-more__ico"></i>
-									</div>
+							</div>
+						</div>
+						<div class="benefit-more__row">
+							<div class="benefit-more__item">
+								<div class="benefit-more__group">
+									<p class="benefit-more__text">
+										Voucher giảm thêm 2% cho toàn bộ đơn<br>hàng và thêm 5% cho đơn hàng đầu tiên
+									</p>
+									<i class="benefit-more__ico"></i>
+								</div>
+							</div>
+							<div class="benefit-more__item">
+								<div class="benefit-more__group">
+									<p class="benefit-more__text">
+										Dịch vụ Premier Care
+										<span>Tận hưởng các đặc quyền và ưu tiên<br>
+											khi chọn các sản phẩm cao cấp của LG</span>
+									</p>
+									<a href="https://www.lg.com/vn/chuong-trinh-cham-soc-khach-hang" role="button" target="_blank" 
+									data-track-group="MICROSITE" data-track-name="Offer_link_click"
+									data-link-area="memberdays_H2_Offer_click_BENEFIT" 
+									data-link-name="memberdays_2023H2" 
+									class="benefit-more__link">
+										TÌM HIỂU THÊM
+									</a>
 								</div>
 							</div>
 						</div>
@@ -528,10 +557,10 @@
 			if(href.indexOf('BestTVAudio') != -1) {    
 				$('#box_content .tab__list .tab__panel').attr('display', 'none')
         $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content .tab__list .tab__item').eq(0).addClass('tab__item--active');    
+        $('#box_content .tab__list .tab__item').eq(3).addClass('tab__item--active');    
 				var timer = setTimeout(function() {         
-					$('#box_content .tab__list .tab__item').eq(0).find('.tab__button').click();
-					$('#box_content .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
+					$('#box_content .tab__list .tab__item').eq(3).find('.tab__button').click();
+					$('#box_content .tab__list .tab__item').eq(3).find('.tab__button').trigger('click')    
 					    
 					clearTimeout(timer);     
 				}, 600);
@@ -561,10 +590,10 @@
 			if(href.indexOf('BestComputerProducts') != -1) {    
 				$('#box_content .tab__list .tab__panel').attr('display', 'none')
         $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content .tab__list .tab__item').eq(3).addClass('tab__item--active');    
+        $('#box_content .tab__list .tab__item').eq(0).addClass('tab__item--active');    
 				var timer = setTimeout(function() {         
-					$('#box_content .tab__list .tab__item').eq(3).find('.tab__button').click();
-					$('#box_content .tab__list .tab__item').eq(3).find('.tab__button').trigger('click')    
+					$('#box_content .tab__list .tab__item').eq(0).find('.tab__button').click();
+					$('#box_content .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
 					    
 					clearTimeout(timer);     
 				}, 600);
