@@ -429,11 +429,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="benefit-more__row">
+						<div class="benefit-more__row __last">
 							<div class="benefit-more__item">
 								<div class="benefit-more__group">
 									<p class="benefit-more__text">
-										Voucher giảm thêm 2% cho toàn bộ đơn<br>hàng và thêm 5% cho đơn hàng đầu tiên<br>Đổi trả trong vòng 15 ngày
+										Đổi trả trong vòng 15 ngày
 									</p>
 									<!-- <i class="benefit-more__ico"></i> -->
 									<a href="https://www.lg.com/vn/chinhsachmuahangvadoitra" role="button" target="_blank" 

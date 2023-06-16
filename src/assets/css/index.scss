@@ -588,6 +588,12 @@
 				top: 10px;
 				font-size: 16px;
 			}
+			&.desc--center {
+				margin-bottom: 25px;
+				@media screen and (max-width: 1024px) {
+					font-size: 24px;
+				}
+			}
 		}
 
 		@media (max-width: 1024px) {
@@ -1465,12 +1471,28 @@
 			}
 		}
 	}
+
 	&[data-locale=de] {
 		.visual {
 			&__visual {
 				@media screen and (max-width: 1024px) {
 					background-position: 70% 100%;
     			background-size: 107%;
+				}
+			}
+		}
+	}
+
+	&[data-locale=tw] {
+		.benefit-more__item {
+			&:nth-child(2) {
+				.benefit-more__ico {
+					background-image: url(../images/ico_benefit03.png);
+				}
+			}
+			&:nth-child(3) {
+				.benefit-more__ico {
+					background-image: url(../images/ico_benefit02.png);
 				}
 			}
 		}

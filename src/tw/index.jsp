@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>熱銷商品全面補貨, 88折優惠延長至2023/07/07。 | LG 台灣</title>
+	<title>會員日 88折優惠延長 | LG台灣</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。">
+	<meta name="description" content="會員日 88折優惠延長 | LG台灣">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/tw/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG 台灣">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。 | LG 台灣">
-	<meta property="og:description" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。">
+	<meta property="og:title" content="會員日 88折優惠延長 | LG台灣">
+	<meta property="og:description" content="會員日 88折優惠延長 | LG台灣">
 	<meta property="og:url" content="https://www.lg.com/tw/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -42,10 +42,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。 | LG 台灣"/>
+		<meta itemprop="name" content="會員日 88折優惠延長 | LG台灣"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.lg.com/tw/memberdays" />
-		<meta itemprop="description" content="熱銷商品全面補貨, 88折優惠延長至2023/07/07。" />
+		<meta itemprop="description" content="會員日 88折優惠延長 | LG台灣" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -94,7 +94,8 @@
 						<p class="visual__logo">LG 週年會員日</p>
 						<h1 class="title">熱銷精選 優惠延長</h1>
 						<p class="desc">
-							熱銷商品全面補貨, 88折優惠延長至2023/07/07。
+							本頁指定產品,88折優惠延長至2023/07/07,<br>
+            	指定平台最高另享15%回饋。
 						</p>
 						<div class="visual__bottom">
 							<div class="button">
@@ -153,7 +154,7 @@
 								<div class="button">
 									<div class="button__row">
 										<a
-											href="#" target="_blank" role="button"
+											href="https://www.lg.com/tw/my-lg" target="_blank" role="button"
 											data-track-group="MICROSITE" data-track-name="Offer_link_click"
 											data-link-area="memberdays_H2_Offer_click_MY ACCOUNT" 
 											data-link-name="memberdays_2023H2" 
@@ -266,17 +267,14 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/tw/img_item01.png" alt="">
-												<p class="best-item__text">LG OLED evo C3 55</p>
 											</div>
 											<div class="best-item__item">
 												<video src="${path}/assets/TV_1.mp4" muted></video>
-												<!-- <div class="best-item__img">
-													<img src="${path}/assets/images/tw/img_item02.png" alt="">
-												</div> -->
 											</div>
 										</div>
 									</div>
 									<div class="product">
+										<p class="title--secondary desc--center">優惠型號</p>
 										<div class="product__mask">
 											<div class="product__list"></div>
 										</div>
@@ -287,17 +285,14 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/tw/img_item11.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
 											</div>
 											<div class="best-item__item">
 												<video src="${path}/assets/RF_1.mp4" muted></video>
-												<!-- <div class="best-item__img">
-													<img src="${path}/assets/images/tw/img_item12.png" alt="">
-												</div> -->
 											</div>
 										</div>
 									</div>
 									<div class="product">
+										<p class="title--secondary desc--center">優惠型號</p>
 										<div class="product__mask">
 											<div class="product__list"></div>
 										</div>
@@ -308,17 +303,14 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/tw/img_item21.png" alt="">
-												<p class="best-item__text">InstaView Door-in-Door</p>
 											</div>
 											<div class="best-item__item">
 												<video src="${path}/assets/LT_1.mp4" muted></video>
-												<!-- <div class="best-item__img">
-													<img src="${path}/assets/images/tw/img_item22.png" alt="">
-												</div> -->
 											</div>
 										</div>
 									</div>
 									<div class="product">
+										<p class="title--secondary desc--center">優惠型號</p>
 										<div class="product__mask">
 											<div class="product__list"></div>
 										</div>
@@ -349,7 +341,7 @@
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="benefit-more__text">
-											新會員享95折歡迎禮,<br />不定期新品早鳥價、祕<br />密優惠資訊
+											新會員享95折歡迎禮,<br />不定期新品早鳥價、<br />秘密優惠資訊
 										</p>
 										<i class="benefit-more__ico"></i>
 									</div>
