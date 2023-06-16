@@ -133,9 +133,9 @@
 						<div class="benefit__container">
 							<div class="benefit__row">
 								<div class="benefit__contents">
-									<p class="title">GIẢM GIÁ đến 27% các<br>sản phẩm dưới đây</p>
+									<p class="title">Ưu Đãi Chỉ Dành Cho<br>Thành Viên LG</p>
 									<p class="desc">
-										Đăng nhập/ đăng ký ngay và<br>áp dụng voucher tại bước giỏ hàng
+										Đăng ký/ đăng nhập<br>và nhập mã voucher tại bước Xem Giỏ Hàng
 									</p>
 								</div>
 								<div class="coupon-list">
@@ -148,6 +148,9 @@
 											<div class="coupon__group">
 												<em>20<span>%</span></em>
 											</div>
+											<p class="coupon__desc--secondary">
+												Voucher chỉ áp dụng cho sản phẩm<br>thuộc danh sách khuyến mại
+											</p>
 											<div class="button">
 												<div class="button__row">
 													<a href="https://www.lg.com/vn/my-lg " target="_blank" role="button" 
@@ -158,6 +161,7 @@
 													>TÀI KHOẢN CỦA TÔI</a>
 												</div>
 											</div>
+											<p class="coupon__desc--secondary">Tổng giá trị giảm giá không vượt quá 50%</p>
 										</div>
 										<div class="coupon__right">
 											<p>BENEFIT</p>
@@ -165,23 +169,9 @@
 									</div>
 									<div class="coupon coupon--secondary">
 										<div class="coupon__left">
-											<p class="coupon__title">Quyền lợi thành viên mới</p>
+											<p class="coupon__title">Cho mọi đơn hàng</p>
 											<div class="coupon__desc">
-												<p>Giảm giá</p>
-											</div>
-											<div class="coupon__group">
-												<em>5<span>%</span></em>
-											</div>
-										</div>
-										<div class="coupon__right">
-											<p>BENEFIT</p>
-										</div>
-									</div>
-									<div class="coupon coupon--secondary">
-										<div class="coupon__left">
-											<p class="coupon__title">Giá dành cho thành viên</p>
-											<div class="coupon__desc">
-												<p>Giảm</p>
+												<p>Giảm thêm</p>
 											</div>
 											<div class="coupon__group">
 												<em>2<span>%</span></em>
@@ -191,8 +181,23 @@
 											<p>BENEFIT</p>
 										</div>
 									</div>
+									<div class="coupon coupon--secondary">
+										<div class="coupon__left">
+											<p class="coupon__title">Đơn hàng đầu tiên</p>
+											<div class="coupon__desc">
+												<p>Giảm thêm</p>
+											</div>
+											<div class="coupon__group">
+												<em>5<span>%</span></em>
+											</div>
+										</div>
+										<div class="coupon__right">
+											<p>BENEFIT</p>
+										</div>
+									</div>
 								</div>
 								<div class="button">
+									<p class="coupon__desc--secondary">Tổng giá trị giảm giá không vượt quá 50%</p>
 									<div class="button__row">
 										<a href="https://www.lg.com/vn/my-lg " target="_blank" role="button" 
 										data-track-group="MICROSITE" data-track-name="Offer_link_click"
@@ -410,7 +415,7 @@
 							<div class="benefit-more__item">
 								<div class="benefit-more__group">
 									<p class="benefit-more__text">
-										Miễn phí vận chuyển, công lắp đặt và đổi<br>trả trong vòng 15 ngày
+										Miễn phí vận chuyển, công lắp đặt
 									</p>
 									<i class="benefit-more__ico"></i>
 								</div>
@@ -428,9 +433,16 @@
 							<div class="benefit-more__item">
 								<div class="benefit-more__group">
 									<p class="benefit-more__text">
-										Voucher giảm thêm 2% cho toàn bộ đơn<br>hàng và thêm 5% cho đơn hàng đầu tiên
+										Voucher giảm thêm 2% cho toàn bộ đơn<br>hàng và thêm 5% cho đơn hàng đầu tiên<br>Đổi trả trong vòng 15 ngày
 									</p>
-									<i class="benefit-more__ico"></i>
+									<!-- <i class="benefit-more__ico"></i> -->
+									<a href="https://www.lg.com/vn/chinhsachmuahangvadoitra" role="button" target="_blank" 
+									data-track-group="MICROSITE" data-track-name="Offer_link_click"
+									data-link-area="memberdays_H2_Offer_click_BENEFIT" 
+									data-link-name="memberdays_2023H2" 
+									class="benefit-more__link">
+										TÌM HIỂU THÊM
+									</a>
 								</div>
 							</div>
 							<div class="benefit-more__item">

@@ -114,7 +114,7 @@ $(document).ready(function () {
           .parents("#box_content")
           .find(".desc:not(.desc--secondary)")
           .html(
-            "Nâng cầm chăm sóc nhà cửa cùng sản phẩm gia dụng LG"
+            "Nâng tầm chăm sóc nhà cửa cùng sản phẩm gia dụng LG"
           );
       }
       if ($(this).attr("data-tab-name") == "it") {
@@ -165,21 +165,22 @@ $(document).ready(function () {
   });
 });
 
-// $(document).ready(function () {
-
-//   $(window).scroll(function() {
-
-// 		if ($(window).scrollTop() >= $('.lgmembersdays .main').offset().top) {
-// 			$('.lgmembersdays .tab__panel--he').find('video').get(0).play();
-// 		}
-// 	});
-
-// 	if ($(window).scrollTop() >= $('.lgmembersdays .main').offset().top) {
-// 		$('.lgmembersdays .tab__panel--he').find('video').get(0).play();
-// 	}
-
-// 	$('.lgmembersdays .tab__button').on('click', function() {
-// 		$(this).closest('.tab').find('.tab__panel').find('video').get(0).pause();
-// 		$($(this).attr("href")).find('video').get(0).play();
-// 	});
-// });
+$(document).ready(function () {
+	if ($(".lgmembersdays").attr("data-locale") === "tw") {
+		$(window).scroll(function() {
+	
+			if ($(window).scrollTop() >= $('.lgmembersdays .main').offset().top) {
+				$('.lgmembersdays .tab__panel--he').find('video').get(0).play();
+			}
+		});
+	
+		if ($(window).scrollTop() >= $('.lgmembersdays .main').offset().top) {
+			$('.lgmembersdays .tab__panel--he').find('video').get(0).play();
+		}
+	
+		$('.lgmembersdays .tab__button').on('click', function() {
+			$(this).closest('.tab').find('.tab__panel').find('video').get(0).pause();
+			$($(this).attr("href")).find('video').get(0).play();
+		});
+	}
+});

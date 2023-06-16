@@ -18,6 +18,15 @@
 					font-size: 32px;
 				}
 			}
+			@media screen and (max-width: 1024px) {
+				.button {
+					.coupon__desc--secondary {
+						margin-bottom: 10px;
+						text-align: center;
+						font-size: 12px;
+					}
+				}
+			}
 		}
 	}
 	.benefit-more {
@@ -41,6 +50,16 @@
 				letter-spacing: -1px;
 			}
 			&:last-child {
+				@media screen and (max-width: 1024px) {
+					.benefit-more__group {
+						flex-direction: column;
+						.benefit-more__text {
+							width: 100%;
+							padding-right: 0;
+							br {display: none;}
+						}
+					}
+				}
 				.benefit-more__item {
 					&:nth-child(1) {
 						.benefit-more__ico {
@@ -93,7 +112,36 @@
 				margin-bottom: 5px;
 			}
 			&__desc {
+				margin-top: 5px;
 				font-size: 22px;
+			}
+			&__desc--secondary {
+				position: relative;
+				font-size: 14px;
+				text-align: center;
+				@media screen and (max-width: 1024px) {
+					font-size: 11px;
+				}
+				&:last-of-type {
+					font-size: 10px;
+					@media screen and (max-width: 1024px) {
+						display: none;
+					}
+				}
+			}
+			&__left {
+				.button {
+					margin-top: 10px;
+					margin-bottom: 5px;
+				}
+			}
+			&__group {
+				em {
+					font-size: 60px;
+					span {
+						font-size: 30px;
+					}
+				}
 			}
 
 			&--secondary {

@@ -134,7 +134,8 @@
 								<div class="benefit__contents">
 									<p class="title">LG Member Vorteile</p>
 									<p class="desc">
-										Jetzt registrieren oder<br>einloggen und den Coupon im Checkout anwenden
+										Wende deinen exklusiven Code aus der E-Mail im Checkout an!<br>
+										Einfach rauskopieren und einfügen
 									</p>
 								</div>
 								<div class="coupon">
@@ -145,7 +146,7 @@
 										<p class="coupon__desc">
 											auf ausgewählte Produkte
 										</p>
-										<div class="button">
+										<!-- <div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/de/my-lg" target="_blank" role="button" 
 												data-track-group="MICROSITE" data-track-name="Offer_link_click"
@@ -154,13 +155,13 @@
 												class="button__item"
 												>Mein Account</a>
 											</div>
-										</div>
+										</div> -->
 									</div>
 									<div class="coupon__right">
 										<p>BENEFIT</p>
 									</div>
 								</div>
-								<div class="button">
+								<!-- <div class="button">
 									<div class="button__row">
 										<a href="https://www.lg.com/de/my-lg" target="_blank" role="button" 
 										data-track-group="MICROSITE" data-track-name="Offer_link_click"
@@ -168,7 +169,7 @@
 										data-link-name="memberdays_2023H2" 
 										class="button__item">Mein Account</a>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
