@@ -6,6 +6,14 @@
 		border: 0;
 	}
 
+	@media screen and (max-width: 1024px) {
+		.visual {
+			&__visual {
+				background-size: 110%
+			}
+		}
+	}
+
 	.benefit {
 
 		&__contents {
@@ -21,9 +29,9 @@
 			@media screen and (max-width: 1024px) {
 				.button {
 					.coupon__desc--secondary {
-						margin-bottom: 10px;
+						margin-bottom: 15px;
 						text-align: center;
-						font-size: 12px;
+						font-size: 14px;
 					}
 				}
 			}
@@ -50,16 +58,6 @@
 				letter-spacing: -1px;
 			}
 			&.__last {
-				@media screen and (max-width: 1024px) {
-					.benefit-more__group {
-						flex-direction: column;
-						.benefit-more__text {
-							width: 100%;
-							padding-right: 0;
-							br {display: none;}
-						}
-					}
-				}
 				.benefit-more__item {
 					&:nth-child(1) {
 						.benefit-more__ico {
@@ -67,6 +65,16 @@
 						}
 					}
 					&:nth-child(2) {
+						@media screen and (max-width: 1024px) {
+							.benefit-more__group {
+								flex-direction: column;
+								.benefit-more__text {
+									width: 100%;
+									padding-right: 0;
+									br {display: none;}
+								}
+							}
+						}
 						.benefit-more__ico {
 							background-image: none;
 						}
@@ -98,6 +106,7 @@
 	}
 
 	.coupon-list {
+		position: relative;
 		display: grid;
 		grid-template-columns: 460px 220px;
 		grid-gap: 10px 40px;
@@ -152,6 +161,16 @@
 					@media screen and (max-width: 1024px) {
 						display: none;
 					}
+				}
+			}
+			&__desc--over {
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				bottom: -25px;
+				z-index: 1;
+				@media screen and (max-width: 1024px) {
+					display: none;
 				}
 			}
 			&__left {

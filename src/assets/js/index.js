@@ -101,12 +101,12 @@ $(document).ready(function () {
     }
 
     if ($(".lgmembersdays").attr("data-locale") === "vn") {
-      if ($(this).attr("data-tab-name") == "he") {
+      if ($(this).attr("data-tab-name") == "it") {
         $(this)
           .parents("#box_content")
           .find(".desc:not(.desc--secondary)")
           .html(
-            "Nâng tầm giải trí cùng Tivi LG"
+            "Nâng tầm làm việc cùng Laptop và Màn hình LG"
           );
       }
       if ($(this).attr("data-tab-name") == "ha") {
@@ -114,15 +114,7 @@ $(document).ready(function () {
           .parents("#box_content")
           .find(".desc:not(.desc--secondary)")
           .html(
-            "Nâng tầm chăm sóc nhà cửa cùng sản phẩm gia dụng LG"
-          );
-      }
-      if ($(this).attr("data-tab-name") == "it") {
-        $(this)
-          .parents("#box_content")
-          .find(".desc:not(.desc--secondary)")
-          .html(
-            "Nâng tầm làm việc cùng Laptop LG Gram"
+            "Nâng tầm chăm sóc nhà cửa cùng Sản phẩm gia dụng LG"
           );
       }
       if ($(this).attr("data-tab-name") == "airsolution") {
@@ -130,7 +122,15 @@ $(document).ready(function () {
           .parents("#box_content")
           .find(".desc:not(.desc--secondary)")
           .html(
-            "Nâng cấp độ mát cùng điều hoà LG"
+            "Nâng tầm sức khỏe cùng Sản phẩm chăm sóc không khí LG"
+          );
+      }
+      if ($(this).attr("data-tab-name") == "he") {
+        $(this)
+          .parents("#box_content")
+          .find(".desc:not(.desc--secondary)")
+          .html(
+            "Nâng tầm giải trí cùng Tivi và Loa LG"
           );
       }
     }

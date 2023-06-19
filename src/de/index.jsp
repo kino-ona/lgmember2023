@@ -80,7 +80,7 @@
 
 		<!-- Hottest Gift Model -->
 		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07571147|MD07571148|MD07571149|MD07580210|MD07580214|MD07580216|MD07580218"/>
-		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07556670|MD07556806|MD07554217|MD06020158|MD07546828|MD07561724|MD07561610|MD07561481|MD07561613"/>
+		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07556670|MD06020158|MD07546828|MD07561724|MD07561610|MD07561613"/>
 		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07563970|MD07568101|MD07568092|MD07571278|MD07558252|MD07571585|MD07572903|MD07571342|MD07571342|MD06075496|MD07564951"/>
 		<!-- Required input ## Model List End -->
 	
@@ -378,6 +378,16 @@
 		</div>
 
 		<!-- // Content End  -->
+	</div>
+
+	<div class="container-fluid memberdays-tnc">
+		<div class="footer-box">
+			<div class="footer-component">
+				<div class="footer-caution">
+					*Das Angebot ist nur gültig exklusiv auf LG.com und nur vom 19.06.2023. bis 28.06.2023. Nicht mit anderen Rabattaktionen oder Gutscheincodes (z.B. Cashback, Wunschgutschein, Willkommensrabatt etc.) auf LG.com kombinierbar und nur verfügbar solange der Vorrat reicht. LG behält sich in Ausnahmefällen vor, das Angebot frühzeitig zu beenden oder abzuändern
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	<!-- top button -->

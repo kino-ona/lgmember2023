@@ -99,7 +99,7 @@
 						</h1>
 						<p class="desc">
 							Giảm thêm 20% cho những sản phẩm bán chạy nhất<br>
-							Ưu đãi đển hết 02.07.2023<br>Chỉ có tại LG.com/vn
+							Ưu đãi đến hết 02.07.2023<br>Chỉ có tại LG.com/vn
 						</p>
 						<div class="visual__bottom">
 							<div class="button">
@@ -135,7 +135,7 @@
 								<div class="benefit__contents">
 									<p class="title">Ưu Đãi Chỉ Dành Cho<br>Thành Viên LG</p>
 									<p class="desc">
-										Đăng ký/ đăng nhập<br>và nhập mã voucher tại bước Xem Giỏ Hàng
+										Đăng ký/ Đăng nhập<br>và áp dụng voucher tại bước Xem Giỏ Hàng
 									</p>
 								</div>
 								<div class="coupon-list">
@@ -161,7 +161,6 @@
 													>TÀI KHOẢN CỦA TÔI</a>
 												</div>
 											</div>
-											<p class="coupon__desc--secondary">Tổng giá trị giảm giá không vượt quá 50%</p>
 										</div>
 										<div class="coupon__right">
 											<p>BENEFIT</p>
@@ -195,6 +194,7 @@
 											<p>BENEFIT</p>
 										</div>
 									</div>
+									<p class="coupon__desc--over">Tổng giá trị giảm giá không vượt quá 50%</p>
 								</div>
 								<div class="button">
 									<p class="coupon__desc--secondary">Tổng giá trị giảm giá không vượt quá 50%</p>
@@ -218,7 +218,7 @@
 					<div id="box_content" class="section" data-list="hottest">
 						<p class="title title--center">Lựa chọn sản phẩm tốt nhất dành cho thành viên</p>
 						<p class="desc desc--center">
-							Nâng tầm làm việc cùng Laptop LG Gram
+							Nâng tầm làm việc cùng Laptop và Màn hình LG
 						</p>
 						<div class="tab">
 							<div class="tab__list">
@@ -330,7 +330,7 @@
 										<div class="best-item__row">
 											<div class="best-item__item">
 												<img src="${path}/assets/images/img_item01.png" alt="">
-												<p class="best-item__text">Nâng tầm làm việc cùng Laptop LG Gram</p>
+												<p class="best-item__text">LG gram SuperSlim OLED 15.6’’</p>
 											</div>
 											<div class="best-item__item">
 												<div class="best-item__img">
@@ -435,14 +435,14 @@
 									<p class="benefit-more__text">
 										Đổi trả trong vòng 15 ngày
 									</p>
-									<!-- <i class="benefit-more__ico"></i> -->
-									<a href="https://www.lg.com/vn/chinhsachmuahangvadoitra" role="button" target="_blank" 
+									<i class="benefit-more__ico"></i>
+									<!-- <a href="https://www.lg.com/vn/chinhsachmuahangvadoitra" role="button" target="_blank" 
 									data-track-group="MICROSITE" data-track-name="Offer_link_click"
 									data-link-area="memberdays_H2_Offer_click_BENEFIT" 
 									data-link-name="memberdays_2023H2" 
 									class="benefit-more__link">
 										TÌM HIỂU THÊM
-									</a>
+									</a> -->
 								</div>
 							</div>
 							<div class="benefit-more__item">
