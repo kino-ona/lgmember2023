@@ -1,11 +1,13 @@
 https://admin50.cms.lg.com/
 
 User ID : eugene.bae
-lgmemberevent2023
+lgmemberevent2023v2
+
+export NODE_ENV=production  
 
 <2차 오픈일>
 프랑스 : 6월 15일
-스페인 : 6월 19일
+<!-- 스페인 : 6월 19일 -->
 이탈리아 : 6월 19일
 독일 : 6월 19일
 호주 : 6월 21일
@@ -14,6 +16,13 @@ lgmemberevent2023
 
 프랑스 wwwstg.lg.com/fr/lgmemberdays
 베트남 wwwstg.lg.com/vn/memberdays
+wwwstg.lg.com/vn/memberdays/BestPick
+wwwstg.lg.com/vn/memberdays/BestTVAudio
+wwwstg.lg.com/vn/memberdays/BestHomeAppliance
+wwwstg.lg.com/vn/memberdays/BestAirSolutions
+wwwstg.lg.com/vn/memberdays/BestComputerProducts
+
+
 이탈리아 wwwstg.lg.com/it/promozioni-esclusive
 
 wwwstg.lg.com/it/promozioni-esclusive#TV/Audio
@@ -27,6 +36,11 @@ wwwstg.lg.com/it/promozioni-esclusive#TV/Audio
 <!-- 호주 wwwstg.lg.com/au/lgmemberdays -->
 
 대만 wwwstg.lg.com/tw/memberdays
+
+https://wwwstg.lg.com/tw/memberdays/index.jsp
+https://wwwstg.lg.com/tw/memberdays/index.jsp#BestTVAudio
+https://wwwstg.lg.com/tw/memberdays/index.jsp#BestHomeAppliance
+https://wwwstg.lg.com/tw/memberdays/index.jsp#BestComputerProducts
 
 ============================
 <1차 오픈일>

@@ -590,6 +590,7 @@
 
 		&--secondary {
 			font-size: 16px;
+			line-height: 1.2em;
 			&.desc--center {
 				margin-top: -35px;
 			}
@@ -604,6 +605,9 @@
 			}
 			&--secondary {
 				font-size: 14px;
+				br {
+					display: none;
+				}
 				&.desc--center {
 					margin-top: -10px;
 				}
@@ -1440,6 +1444,12 @@
 	}
 
 	&[data-locale=tw] {
+		.visual__visual {
+			@media screen and (max-width: 1024px) {
+				background-size: 113%;
+				background-position: 53% 100%;
+			}
+		}
 		.benefit-more__item {
 			&:nth-child(2) {
 				.benefit-more__ico {
@@ -1449,6 +1459,27 @@
 			&:nth-child(3) {
 				.benefit-more__ico {
 					background-image: url(../images/ico_benefit02.png);
+				}
+			}
+		}
+
+		.benefit-more__row{
+			&.__last {
+				margin-top: 15px;
+				.benefit-more__item {
+					&:nth-child(1) {
+						.benefit-more__ico {
+							background-image: url(../images/ico_benefit04.png);
+						}
+					}
+					&:nth-child(2) {
+						.benefit-more__ico {
+							background-image: url(../images/ico_benefit05.png);
+						}
+					}
+				}
+				@media screen and (max-width: 1024px) {
+					margin-top: 10px;
 				}
 			}
 		}

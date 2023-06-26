@@ -137,6 +137,10 @@
 										Wende deinen exklusiven Code aus der E-Mail im Checkout an!<br>
 										Einfach rauskopieren und einfügen
 									</p>
+									<p class="desc--secondary">
+										*Rabattcode nutzbar mit Account Registrierung auf LG.com. <br>
+										Abonniere auch den LG.com Newsletter, wenn du keine Aktion mehr verpassen willst.
+									</p>
 								</div>
 								<div class="coupon">
 									<div class="coupon__left">

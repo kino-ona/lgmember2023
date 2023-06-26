@@ -79,7 +79,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
 
 		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07546009|MD07553837|MD07553841|MD07554848|MD07557424|MD07554617|MD07554628|MD07563893|MD07563854|MD07562207"/>
+		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07546009|MD07553837|MD07553841|MD07554848|MD07557424|MD07554640|MD07554471|MD07563893|MD07563854|MD07562207"/>
 		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07567133|MD07565206|MD07566472|MD07515571|MD07515582|MD07537152|MD07520268|MD07548653|MD07563591|MD07521664"/>
 		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07572416|MD07572426|MD07569834|MD07569834|MD07569835|MD07547394|MD07560934|MD07567372|MD07562883|MD07567380"/>
 		<!-- Required input ## Model List End -->
@@ -248,7 +248,7 @@
 										</div>
 										<div class="product__bottom">
 											<div class="learn-more">
-												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="learn_more_click" data-link-name="offer_learn_more">
+												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="learn_more_click" data-link-name="learn_more">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='Learn More'/></span>
 												</a>
 											</div>
@@ -269,12 +269,12 @@
 												<img src="${path}/assets/images/tw/img_item01.png" alt="">
 											</div>
 											<div class="best-item__item">
-												<video src="${path}/assets/TV_1.mp4" muted></video>
+												<video src="${path}/assets/TV_1.mp4" muted playsinline></video>
 											</div>
 										</div>
 									</div>
 									<div class="product">
-										<p class="title--secondary desc--center">優惠型號</p>
+										<!-- <p class="title--secondary desc--center">優惠型號</p> -->
 										<div class="product__mask">
 											<div class="product__list"></div>
 										</div>
@@ -287,12 +287,11 @@
 												<img src="${path}/assets/images/tw/img_item11.png" alt="">
 											</div>
 											<div class="best-item__item">
-												<video src="${path}/assets/RF_1.mp4" muted></video>
+												<video src="${path}/assets/RF_1.mp4" muted playsinline></video>
 											</div>
 										</div>
 									</div>
 									<div class="product">
-										<p class="title--secondary desc--center">優惠型號</p>
 										<div class="product__mask">
 											<div class="product__list"></div>
 										</div>
@@ -305,12 +304,11 @@
 												<img src="${path}/assets/images/tw/img_item21.png" alt="">
 											</div>
 											<div class="best-item__item">
-												<video src="${path}/assets/LT_1.mp4" muted></video>
+												<video src="${path}/assets/LT_1.mp4" muted playsinline></video>
 											</div>
 										</div>
 									</div>
 									<div class="product">
-										<p class="title--secondary desc--center">優惠型號</p>
 										<div class="product__mask">
 											<div class="product__list"></div>
 										</div>
@@ -343,6 +341,22 @@
 										<p class="benefit-more__text">
 											新會員享95折歡迎禮,<br />不定期新品早鳥價、<br />秘密優惠資訊
 										</p>
+										<i class="benefit-more__ico"></i>
+									</div>
+								</div>
+							</div>
+							<div class="benefit-more__row __last">
+								<div class="benefit-more__item">
+									<div class="benefit-more__group">
+										<p class="benefit-more__text">
+											LINE 購物 最高回饋 LINE POINTS 15%
+										</p>
+										<i class="benefit-more__ico"></i>
+									</div>
+								</div>
+								<div class="benefit-more__item">
+									<div class="benefit-more__group">
+										<p class="benefit-more__text">ShopBack 現金回饋 4%</p>
 										<i class="benefit-more__ico"></i>
 									</div>
 								</div>

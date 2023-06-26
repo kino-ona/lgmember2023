@@ -82,7 +82,7 @@
 		<input type="hidden" data-model-group="hottest" data-type="he" value="MD07572158|MD07572157|MD07572745|MD07572744|MD07572741|MD07572853|MD07572852|MD07572822|MD07572197|MD07572240|MD07530013|MD07530005|MD07559899|MD07559969"/>
 		<input type="hidden" data-model-group="hottest" data-type="airsolution" value="MD07565035|MD07565009|MD07550260|MD07544671|MD07544681|MD07520996|MD07564471|MD07544683|MD07544682|MD07564333|MD07530319|MD07555673|MD07554691|MD07553698|MD07569325|MD07530466"/>
 		<input type="hidden" data-model-group="hottest" data-type="ha" value="MD07544285|MD07544333|MD07544338|MD07566123|MD07566122|MD06061396|MD07550509|MD07527542|MD07527476|MD07549194|MD07549316|MD07564131|MD07521230|MD07559324|MD07548889|MD07541676|MD06187777|MD07542146|MD07515551|MD07542553|MD07542556|MD07543388"/>
-		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07574806|MD07572778|MD07563896|MD07527366|MD07524665|MD07506953|MD07524754|MD07553545|MD07565854|MD07560604"/>
+		<input type="hidden" data-model-group="hottest" data-type="it" value="MD07574806|MD07572972|MD07563896|MD07527366|MD07524665|MD07506953|MD07524754|MD07553545|MD07565854|MD07560604"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -270,13 +270,13 @@
 											<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div>
-										<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
+										<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="learn_more_click" data-link-name="learn_more">
 										<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 										</a>
 									</div>
 									<div class="product__info">
 										<p class="product__name">
-											<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="learn_more_click" data-link-name="learn_more">
 											*userFriendlyName*
 											</a>
 										</p>
@@ -310,15 +310,10 @@
 											<div class="learn-more">
 											</div>
 											<div class="button">
-												<a role="button" href="*modelUrlPath*" class="button__item" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_learn_more_click" data-track-name="offer_learn_more_click" data-link-name="offer_learn_more">
+												<a role="button" href="*modelUrlPath*" class="button__item" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-name="learn_more_click" data-link-name="learn_more">
 													<span class="learn-more__text">MUA NGAY</span>
 												</a>
 											</div>
-											<!-- <div class="button">
-												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item atc-members-weeks" data-track-group="product" data-track-name="add_to_cart" data-link-area="add_to_cart_click" data-link-name="add_to_cart_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*">
-													<spring:message code='component-addToCart' text='Add to Basket'/></a>
-												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-weeks d-none" data-track-group="product" data-track-name="move_to_stock_request"  data-link-area="move_to_stock_request_click"  data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
-											</div> -->
 										</div>
 									</div>
 								</div>
