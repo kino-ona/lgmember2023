@@ -1,0 +1,7 @@
+<svg id="Arrow" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="타원_9" data-name="타원 9" fill="rgba(255,255,255,0.3)" stroke="#646464" stroke-width="0.75">
+    <circle cx="22" cy="22" r="22" stroke="none"/>
+    <circle cx="22" cy="22" r="21.625" fill="none"/>
+  </g>
+  <path id="패스_6" data-name="패스 6" d="M28.791,21.6l-6.646-6.854.688-.667,7.758,8-7.758,8-.688-.667,6.646-6.854H14.59V21.6Z" transform="translate(-0.59 -0.076)" fill="#262626" fill-rule="evenodd"/>
+</svg>

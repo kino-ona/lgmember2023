@@ -893,6 +893,18 @@
 			}
 		}
 
+		&__button {
+			display: block;
+			width: 44px;
+			height: 44px;
+			background: url('../images/ico_anchor.svg') no-repeat 0 0;
+			background-size: 100% 100%;
+
+			&:not(:first-child) {
+				margin-top: 24px;
+			}
+		}
+
 		@media (max-width: 1024px) {
 
 			&:not(:first-child) {
@@ -912,6 +924,13 @@
 				.title {
 					font-size: 28px;
 					line-height: 32px;
+				}
+			}
+
+			&__button {
+	
+				&:not(:first-child) {
+					margin-top: 16px;
 				}
 			}
 		}
