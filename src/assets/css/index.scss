@@ -2,45 +2,28 @@
 @use 'mixins';
 
 @font-face {
-  font-family: 'LG EI';
-  font-weight: 300;
-  font-style: normal;
-  src: url("../fonts/LG EI_Text Light.ttf") format("truetype");
+	font-family:'LG Smart UI';
+	src: url('../fonts/LGSmartUI-Bold.woff2') format('woff2');
+	font-weight:700;
+	font-style:normal;
 }
-
 @font-face {
-  font-family: 'LG EI';
-  font-weight: 400;
-  font-style: normal;
-  src: url("../fonts/LG EI_Text Regular.ttf") format("truetype");
+	font-family:'LG Smart UI';
+	src: url('../fonts/LGSmartUI-SemiBold.woff2') format('woff2');
+	font-weight:600;
+	font-style:normal;
 }
-
 @font-face {
-  font-family: 'LG EI';
-  font-weight: 600;
-  font-style: normal;
-  src: url("../fonts/LG EI_Text SemiBold.ttf") format("truetype");
+	font-family:'LG Smart UI';
+	src: url('../fonts/LGSmartUI-Regular.woff2') format('woff2');
+	font-weight:400;
+	font-style:normal;
 }
-
 @font-face {
-  font-family: 'LG EI';
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/LG EI_Text Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "LG EI HD";
-  font-weight: 600;
-  font-style: normal;
-  src: url("../fonts/LG EI_Headline Semibold.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "LG EI HD";
-  font-weight: 700;
-  font-style: normal;
-  src: url("../fonts/LG EI_Headline Bold.otf") format("opentype");
+	font-family:'LG Smart UI';
+	src: url('../fonts/LGSmartUI-Light.woff2') format('woff2');
+	font-weight:300;
+	font-style:normal;
 }
 
 .lgmembersdays {
@@ -49,7 +32,7 @@
 	overflow: hidden;
 	* {
 		font-weight: 400;
-		font-family: 'LG EI', "Segoe UI","Microsoft Sans Serif",sans-serif;
+		font-family: 'LG Smart UI', "Segoe UI","Microsoft Sans Serif",sans-serif;
 	}
 	
 	figure {
@@ -78,8 +61,7 @@
 
 		&__visual {
 			position: relative;
-			height: 500px;
-			padding: 80px 20px 188px;
+			padding-top: 26.05%;
 			background: {
 				image: url('../images/bg_visual.png');
 				repeat: no-repeat;
@@ -89,7 +71,12 @@
 		}
 
 		&__inner {
+			position: absolute;
+			top: 80px;
+			left: 50%;
+			transform: translateX(-50%);
 			max-width: 1440px;
+			width: 100%;
 			margin: 0 auto;
 		}
 
@@ -136,11 +123,15 @@
 		@media (max-width: 1024px) {
 			
 			&__visual {
-				padding: 24px 25px 263px;
+				height: 69vh;
 				background-image: url('../images/m_bg_visual.png');
+				background-color: #E5E1D6;
+				background-position: center bottom;
+				background-size: 100%;
 			}
 
 			&__inner {
+				top: 24px;
 				text-align: center;
 			}
 
@@ -347,6 +338,7 @@
 		color: #333;
 		font-size: 24px;
 		line-height: 28px;
+		font-weight: 300;
 
 		&:not(:last-child) {
 			margin-bottom: 20px;
@@ -401,10 +393,10 @@
 			display: grid;
 			row-gap: 24px;
 			grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-
-			&:not(:first-child) {
-				margin-top: 20px;
-			}
+			margin-top: 20px;
+			// &:not(:first-child) {
+			// 	margin-top: 20px;
+			// }
 		}
 
 		&__item {
@@ -535,7 +527,7 @@
 			padding: 0 8px;
 			border-radius: 100vw;
 			background-color: #FFC834;
-			font-weight: 700;
+			font-weight: 500;
 			font-family: 'LG EI HD';
 			font-size: 14px;
 			line-height: 20px;
@@ -548,6 +540,7 @@
 		}
 		
 		&__price {
+			min-height: 32px;
 			font-weight: 600;
 			font-size: 32px;
 			line-height: 32px;
@@ -721,6 +714,7 @@
 			font-weight: 600;
 			font-size: 16px;
 			text-align: center;
+			line-height: 1.1;
 
 			&--secondary {
 				border: 1px solid #646464;
@@ -1059,8 +1053,11 @@
 		}
 	}
 
-
-
+	#sectionBuy {
+		.tab {
+			margin-top: 64px;
+		}
+	}
 
 	/* Slider */
 	.slick-slider
