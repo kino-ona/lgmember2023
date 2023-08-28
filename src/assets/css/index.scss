@@ -114,6 +114,10 @@
 		.desc {
 			font-size: 16px;
 			line-height: 20px;
+
+			&:not(:last-child) {
+				margin-bottom: 8px;
+			}
 		}
 
 		.term {
@@ -364,12 +368,12 @@
 			display: inline-flex;
 			justify-content: center;
 			font-weight: 600;
-			font-size: 14px;
-			line-height: 14px;
+			font-size: 16px;
+			line-height: 16px;
 
 			i {
 				margin-left: 10px;
-				@include mixins.iconAngle($direction: 'right', $width: 8px, $height: 16px, $thick: 2px, $color: #000, $display: block, $position: relative);
+				@include mixins.iconAngle($direction: 'right', $width: 10px, $height: 18px, $thick: 2px, $color: #000, $display: block, $position: relative);
 			}
 		}
 
