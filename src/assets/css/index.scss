@@ -61,7 +61,8 @@
 
 		&__visual {
 			position: relative;
-			padding-top: 26.05%;
+			min-height: 500px;
+			padding: 80px 20px 167px;
 			background: {
 				image: url('../images/bg_visual.png');
 				repeat: no-repeat;
@@ -71,12 +72,7 @@
 		}
 
 		&__inner {
-			position: absolute;
-			top: 80px;
-			left: 50%;
-			transform: translateX(-50%);
 			max-width: 1440px;
-			width: 100%;
 			margin: 0 auto;
 		}
 
