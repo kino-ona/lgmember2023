@@ -123,7 +123,7 @@
 		@media (max-width: 1024px) {
 			
 			&__visual {
-				height: 69vh;
+				padding: 24px 25px 276px;
 				background-image: url('../images/m_bg_visual.png');
 				background-color: #E5E1D6;
 				background-position: center bottom;
@@ -153,6 +153,8 @@
 
 			.term {
 				margin-top: 12px;
+				display: flex;
+				justify-content: center;
 			}
 		}
 	}
