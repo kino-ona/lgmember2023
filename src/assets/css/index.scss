@@ -125,11 +125,14 @@
 			margin-top: 24px;
 		}
 
+		@media (max-width: 1023px) {
+			background-image: url('../images/m_bg_visual.png');
+		}
 		@media (max-width: 1024px) {
 			
 			&__visual {
+				height: 72vh;
 				padding: 24px 25px 276px;
-				background-image: url('../images/m_bg_visual.png');
 				background-color: #E5E1D6;
 				background-position: center bottom;
 				background-size: 100%;
@@ -160,6 +163,22 @@
 				margin-top: 12px;
 				display: flex;
 				justify-content: center;
+			}
+		}
+
+		@media screen and (min-width: 1920px) {
+			&__visual {
+				min-height: 550px;
+			}
+		}
+		@media screen and (min-width: 2000px) {
+			&__visual {
+				height: 580px;
+			}
+		}
+		@media screen and (min-width: 2200px) {
+			&__visual {
+				height: 600px;
 			}
 		}
 	}
@@ -212,6 +231,7 @@
 			}
 
 			.title {
+				margin-right: 15px;
 				font-size: 36px;
 				line-height: 42px;
 			}
