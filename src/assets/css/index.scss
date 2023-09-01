@@ -126,7 +126,10 @@
 		}
 
 		@media (max-width: 1023px) {
-			background-image: url('../images/m_bg_visual.png');
+
+			&__visual {
+				background-image: url('../images/m_bg_visual.png');
+			}
 		}
 		@media (max-width: 1024px) {
 			
