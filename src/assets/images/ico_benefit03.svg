@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
   <defs>
     <clipPath id="clip-path">
-      <rect id="mask" width="64" height="64" fill="none"/>
+      <rect id="View_box" data-name="View box" width="64" height="64" transform="translate(-6.736 -7.111)" fill="none"/>
     </clipPath>
   </defs>
-  <g id="Icon_Free_Delivery" data-name="Icon / Free Delivery" clip-path="url(#clip-path)">
-    <path id="패스_17" data-name="패스 17" d="M3,7H2V46.083H7.251a6.921,6.921,0,0,0,13.777,0H42.975a6.921,6.921,0,0,0,13.777,0H62V32.516l-.592-.265-4.8-2.14-6.8-14.453-.269-.575H39.591V7H3ZM49.863,38.492a6.922,6.922,0,0,0-6.792,5.591H39.595v-12.5H55l5,2.231V44.083H56.656a6.923,6.923,0,0,0-6.793-5.591M20.932,44.083H37.591V32.9H4V44.083H7.347a6.922,6.922,0,0,1,13.585,0M37.591,9H4V30.9H37.591Zm2,20.583v-12.5h8.681l5.88,12.5ZM19.06,45.412a4.921,4.921,0,1,1-4.921-4.92,4.922,4.922,0,0,1,4.921,4.92m30.8,4.921a4.921,4.921,0,1,0-4.92-4.921,4.922,4.922,0,0,0,4.92,4.921m-42.312-26H9.135V20.769h3.288V19.485H9.135V17.553h3.54V16.269H7.551Zm8.088-4.452V17.553h1.524a1.433,1.433,0,0,1,.96.288,1.277,1.277,0,0,1,0,1.752,1.433,1.433,0,0,1-.96.288Zm-1.584-3.612v8.064h1.584V21.165H17.1l1.644,3.168h1.68l-1.776-3.42a2.266,2.266,0,0,0,1.068-.852,2.35,2.35,0,0,0,.4-1.344,2.218,2.218,0,0,0-.744-1.836,3.39,3.39,0,0,0-2.2-.612Zm13.183,8.064V23.049H23.4V20.757h3.588V19.5H23.4V17.553h3.72V16.269h-5.3v8.064Zm6.984,0V23.049h-3.84V20.757h3.588V19.5H30.381V17.553H34.1V16.269H28.8v8.064Z" transform="translate(0.667 2.333)" fill-rule="evenodd"/>
+  <g id="Icon_24_Interest-free" data-name="Icon / 24 / Interest-free" transform="translate(6.736 7.111)" clip-path="url(#clip-path)">
+    <line id="선_21" data-name="선 21" x2="52" transform="translate(-1.736 16.889)" fill="none" stroke="#000" stroke-width="2"/>
+    <text id="_0_" data-name="0%" transform="translate(28.264 40.889)" font-size="22" font-family="Pretendard-SemiBold, Pretendard" font-weight="600" letter-spacing="-0.02em"><tspan x="0" y="0">0</tspan><tspan y="0" font-size="13" font-family="Pretendard-Black, Pretendard" font-weight="800">%</tspan></text>
+    <path id="패스" d="M28.495,36H3a2,2,0,0,1-2-2V3A2,2,0,0,1,3,1H51a2,2,0,0,1,2,2V20.056" transform="translate(-2.736 3.889)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
   </g>
 </svg>

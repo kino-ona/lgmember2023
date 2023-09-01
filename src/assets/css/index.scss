@@ -994,18 +994,13 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 
-			.desc {
-				font-size: 16px;
-				line-height: 20px;
+			.button {
+				margin-top: 24px;
 
-				&:not(:first-child) {
-					margin-bottom: 24px;
+				&__item {
+					flex: none;
+					padding: 0 20px;
 				}
-			}
-
-			.button__item {
-				flex: none;
-				padding: 0 20px;
 			}
 		}
 
@@ -1018,7 +1013,8 @@
 			}
 
 			&__banner {
-				min-height: 480px;
+				min-height: auto;
+				height: 100vw;
 				padding: 24px 25px 0;
 				border-radius: 0;
 				background-image: url('../images/m_bg_banner01.png');
@@ -1029,15 +1025,8 @@
 					line-height: 42px;
 				}
 
-				.desc {
-					line-height: 18px;
-
-					&:not(:last-child) {
-						margin-bottom: 12px;
-					}
-				}
-
 				.button {
+					margin-top: 12px;
 
 					&__row {
 						justify-content: center;
