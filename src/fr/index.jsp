@@ -64,7 +64,7 @@
    </c:import>
    <!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/lgmemberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->
@@ -134,7 +134,7 @@
 							<div class="list-item__row">
 								<div class="list-item__item">
 									<div class="img">
-										<img src="${path}/assets/images/fr/img_deals01.png" alt="">
+										<img src="${path}/assets/images/img_deals01.png" alt="">
 									</div>
 									<p class="title">Nos Offres Spéciales</p>
 									<p class="desc">Bénéficiez de remises spéciales pour des quantités limitées sur vos produits LG préférés</p>
@@ -142,7 +142,7 @@
 								</div>
 								<div class="list-item__item">
 									<div class="img">
-										<img src="${path}/assets/images/fr/img_deals02.png" alt="">
+										<img src="${path}/assets/images/img_deals02.png" alt="">
 									</div>
 									<p class="title">Des offres encore plus importantes</p>
 									<p class="desc">Réalisez une économie de 15% sur 2 produits ou de 20% sur 3 réservé aux membres de LG</p>
@@ -219,7 +219,7 @@
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal01.png" alt="">
+												<img src="${path}/assets/images/img_hotdeal_tab01.png" alt="">
 											</div>
 										</div>
 										<div class="product__mask">
@@ -231,7 +231,7 @@
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tv.png" alt="">
+												<img src="${path}/assets/images/img_hotdeal_tab02.png" alt="">
 											</div>
 										</div>
 										<div class="product__list product__list--slick"></div>
@@ -241,7 +241,7 @@
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tv.png" alt="">
+												<img src="${path}/assets/images/img_hotdeal_tab03.png" alt="">
 											</div>
 										</div>
 										<div class="product__list product__list--slick"></div>
@@ -376,18 +376,19 @@
 
 				<div id="BrandCampaign" class="section">
 					<div class="section__inner">
-						<p class="title">Join the Challenge</p>
-              <div class="banner">
-                <div class="banner__banner">
-                  <p class="title">Headline Headline</p>
-                  <p class="desc">Body Copy Body Copy Body Copy </p>
-                  <div class="button">
-                    <div class="button__row">
-                      <a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" class="button__item button__item--secondary">En savoir plus</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+						<p class="title">Check our Life’s Good story</p>
+						<div class="banner">
+							<div class="banner__banner">
+								<p class="title">
+									Brining the smile<br>
+									to the world
+								</p>
+								<div class="button">
+									<div class="button__row">
+										<a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" class="button__item button__item--secondary">En savoir plus</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -508,6 +509,15 @@
 		// 		fbq('trackCustom', '2023H2GMCMemberDay LearnMore');
 		// 	});
 		// }
+		$(document).ready(function() {
+			$('.lgmembersdays .tab__button').on('click', function() {
+				var idx = $(this).index();
+				$(this).addClass('tab__button--selected').siblings('.tab__button').removeClass('tab__button--selected');
+				$(this).closest('.tab').find('.tab__panel').eq(idx).addClass('tab__panel--opened').siblings('.tab__panel').removeClass('tab__panel--opened');
+				$(this).closest('.tab').find('.tab__panel').eq(idx).find('.product__list').slick('refresh');
+			});
+		});
+			
 		$(document).ready(function(){
 			var href = window.location.href;
 
@@ -548,7 +558,6 @@
 	</script>
 	
 	<!-- UI Script -->
-	<script src="${path}/assets/js/index.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
 	<script src="${path}/assets/js/index-add-to-cart.js"></script>
 	<!--// UI Script -->

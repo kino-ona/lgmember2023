@@ -6,13 +6,13 @@
 	.visual {
 
 		&__visual {
-			background-image: url('../images/fr/bg_visual.png');
+			background-image: url('../images/bg_visual.png');
 		}
 
 		@media (max-width: 1023px) {
 			
 			&__visual {
-				background-image: url('../images/fr/m_bg_visual.png');
+				background-image: url('../images/m_bg_visual.png');
 			}
 		}
 	}
