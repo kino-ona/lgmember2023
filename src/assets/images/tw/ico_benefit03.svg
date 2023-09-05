@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="mask" width="64" height="64" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_Free_Delivery" data-name="Icon / Free Delivery" clip-path="url(#clip-path)">
+    <path id="패스_17" data-name="패스 17" d="M3,7H2V46.083H7.251a6.921,6.921,0,0,0,13.777,0H42.975a6.921,6.921,0,0,0,13.777,0H62V32.516l-.592-.265-4.8-2.14-6.8-14.453-.269-.575H39.591V7H3ZM49.863,38.492a6.922,6.922,0,0,0-6.792,5.591H39.595v-12.5H55l5,2.231V44.083H56.656a6.923,6.923,0,0,0-6.793-5.591M20.932,44.083H37.591V32.9H4V44.083H7.347a6.922,6.922,0,0,1,13.585,0M37.591,9H4V30.9H37.591Zm2,20.583v-12.5h8.681l5.88,12.5ZM19.06,45.412a4.921,4.921,0,1,1-4.921-4.92,4.922,4.922,0,0,1,4.921,4.92m30.8,4.921a4.921,4.921,0,1,0-4.92-4.921,4.922,4.922,0,0,0,4.92,4.921" transform="translate(0.667 2.333)" fill-rule="evenodd"/>
+  </g>
+</svg>

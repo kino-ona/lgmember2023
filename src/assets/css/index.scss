@@ -89,24 +89,6 @@
 			line-height: 42px;
 		}
 
-		&__bottom {
-			display: flex;
-			align-items: flex-start;
-			flex-direction: column;
-			row-gap: 20px;
-
-			.button {
-
-				&__item {
-					padding: 0 24px;
-					background-color: #fff;
-					color: #000;
-					font-weight: 700;
-					font-size: 16px;
-				}
-			}
-		}
-
 		.desc {
 			font-size: 16px;
 			line-height: 20px;
@@ -118,6 +100,10 @@
 			&--secondary {
 				font-size: 12px;
 				line-height: 16px;
+			}
+
+			& + .desc:not(.desc--secondary) {
+				margin-top: 24px;
 			}
 		}
 
@@ -445,7 +431,6 @@
 			border-radius: 8px 8px 8px 0;
 			background: transparent linear-gradient(90deg, #363636 0%, #727272 6%, #363636 12%, #1A1A1A 100%) 0% 0% no-repeat padding-box;
 			color: #ccc;
-			font-family: 'LG EI HD';
 			font-weight: 600;
 			font-size: 14px;
 			line-height: 20px;

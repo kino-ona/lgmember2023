@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+@use 'mixins';
+
+.lgmembersdays {
+
+	.visual {
+
+		&__visual {
+			background-image: url('../images/tw/bg_visual.png');
+		}
+
+		@media (max-width: 1023px) {
+
+			&__visual {
+				background-image: url('../images/tw/m_bg_visual.png');
+			}
+		}
+	}
+
+	.benefit-more {
+
+		&__item {
+			display: flex;
+			flex: 1;
+			padding: 32px;
+			border-radius: 28px;
+			background-color: #fff;
+
+			&:nth-child(1) {
+
+				.benefit-more__ico {
+					background-image: url('../images/tw/ico_benefit01.svg');
+				}
+			}
+
+			&:nth-child(2) {
+
+				.benefit-more__ico {
+					background-image: url('../images/tw/ico_benefit02.svg');
+				}
+			}
+
+			&:nth-child(3) {
+
+				.benefit-more__ico {
+					background-image: url('../images/tw/ico_benefit03.svg');
+				}
+			}
+		}
+	}
+}
