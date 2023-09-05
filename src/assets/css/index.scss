@@ -146,6 +146,17 @@
 			.title {
 				font-size: 36px;
 				line-height: 42px;
+
+				& + .desc {
+					letter-spacing: -0.096px;
+				}
+			}
+
+			.desc {
+	
+				& + .desc:not(.desc--secondary) {
+					margin-top: 8px;
+				}
 			}
 
 			.term {
