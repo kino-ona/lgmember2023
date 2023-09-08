@@ -76,15 +76,36 @@
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07538608|MD07554888|MD07557483|MD06046316|MD05610414|MD07569389"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
+		
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07538608|MD07554888|MD07557483|MD06046316|MD05610414|MD07569389"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="wireless" value="MD07563708|MD07535617|MD07560431|MD07572229|MD07572201|MD07572186"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07565648|MD07571072|MD07538377"/>
+		
+		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Deal Closed"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Hot Deal"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_flag100.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
-		<!-- <input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07563708|MD07535617|MD07560431|MD07572229|MD07572201|MD07572186"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07565648|MD07571072|MD07538377"/>
-		 -->
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07538608" value="Limited to 1_1 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07554888" value="Limited to 1_2 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07557483" value="Limited to 1_3 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06046316" value="Limited to 1_4 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05610414" value="Limited to 1_5 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569389" value="Limited to 1_6 units"/>
+
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563708" value="Limited to 2_1 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07535617" value="Limited to 2_2 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07560431" value="Limited to 2_3 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572229" value="Limited to 2_4 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572201" value="Limited to 2_5 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572186" value="Limited to 3_6 units"/>
+
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565648" value="Limited to 3_1 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571072" value="Limited to 3_2 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07538377" value="Limited to 3_3 units"/>
+		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07538377|MD07520419|MD06186616|MD07542783|MD07560556|MD05769328|MD07569388"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07553857|MD07571592|MD07571517|MD07527413|MD07566065|MD07570652|MD07577052|MD07560453|MD07560453|MD07573053|MD07573052|MD07573049|MD07573142|MD07572196|MD07579005|MD07577199"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07553857|MD07571592|MD07571517|MD07527413|MD07566065|MD07570652|MD07577052|MD07560453|MD07560453|MD07573053|MD07573052|MD07573049|MD07573142|MD07572196|MD07579005|MD07577199"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07538377|MD07520419|MD06186616|MD07542783|MD07560556|MD05769328|MD07569388"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07569643|MD07569571|MD07568654|MD07579540|MD07579502|MD07579666|MD07568969|MD07570655|MD07568248|MD07560595|MD07568656|MD07576977|MD07534417|MD05763528|MD07568843|MD07568767|MD07570974|MD07574518|MD07568825|MD07570706|MD07576876|MD07574525|MD07513652|MD07532083|MD07579511|MD07568947|MD07574425|MD06116276|MD06211097|MD07553582|MD07532089|MD06201616"/>
 		<!-- Required input ## Model List End -->
 	
@@ -125,8 +146,8 @@
 							</div>
 							<div class="button">
 								<div class="button__row">
-									<a href="https://www.lg.com/fr/my-lg" target="_blank" class="button__item button__item--secondary">Se connecter</a>
-									<a href="https://www.lg.com/fr/my-lg" target="_blank" class="button__item">S’inscrire</a>
+									<a href="https://www.lg.com/fr/my-lg" role="button" class="button__item button__item--secondary">Se connecter</a>
+									<a href="https://www.lg.com/fr/my-lg" role="button" class="button__item">S’inscrire</a>
 								</div>
 							</div>
 						</div>
@@ -170,18 +191,15 @@
 
 								<template class="contents-template">
 									<div class="product__item">
-										<span class="product__flag">
-											<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
-											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
-										</span>
+										<span class="product__flag"></span>
 										<p class="product__sn sku">*modelName*</p>
 										<p class="product__name">*userFriendlyName*</p>
 										<div class="product__img">
 											<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 										</div>
-										<!-- <p class="product__soldout product__noti d-none">
-											<span class="product__text">*reStockAlertText*</span>
-										</p> -->
+										<p class="product__soldout product__noti d-none">
+											<span class="product__text"></span>
+										</p>
 										<div class="product__group">
 											<span class="product__discount">
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
@@ -282,7 +300,7 @@
 									<!-- <p class="product__soldout product__noti d-none">
 										<span class="product__text">*reStockAlertText*</span>
 									</p> -->
-									<div class="product__group">
+									<div class="product__group product_discount">
 										<span class="product__discount">
 											<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 											<span class="number">*originPrice*</span>
@@ -315,7 +333,7 @@
 								</div>
 							</template>
 							<div class="tab__contents">
-								<div id="tvaudio" class="tab__panel tab__panel--opened">
+								<div id="tvaudio" class="tab__panel initTab tab__panel--opened">
 									<div class="product">
 										<div class="product__list product__list--slick-row">
 										</div>
@@ -509,14 +527,6 @@
 		// 		fbq('trackCustom', '2023H2GMCMemberDay LearnMore');
 		// 	});
 		// }
-		$(document).ready(function() {
-			$('.lgmembersdays .tab__button').on('click', function() {
-				var idx = $(this).index();
-				$(this).addClass('tab__button--selected').siblings('.tab__button').removeClass('tab__button--selected');
-				$(this).closest('.tab').find('.tab__panel').eq(idx).addClass('tab__panel--opened').siblings('.tab__panel').removeClass('tab__panel--opened');
-				$(this).closest('.tab').find('.tab__panel').eq(idx).find('.product__list').slick('refresh');
-			});
-		});
 			
 		$(document).ready(function(){
 			var href = window.location.href;
@@ -558,6 +568,7 @@
 	</script>
 	
 	<!-- UI Script -->
+	<script src="${path}/assets/js/index.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
 	<script src="${path}/assets/js/index-add-to-cart.js"></script>
 	<!--// UI Script -->

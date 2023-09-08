@@ -16,4 +16,11 @@
 			}
 		}
 	}
+
+	.product__discount,
+	.product__price {
+		.unit {
+			margin-left: -8px;
+		}
+	}
 }

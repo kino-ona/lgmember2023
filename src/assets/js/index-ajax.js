@@ -47,7 +47,12 @@ $(document).ready(function () {
   // login check
   let isLogin = false;
   setTimeout(function () {
-    if ($(".navigation .right-btm .login").hasClass("logged")) isLogin = true;
+    if ($(".navigation .right-btm .login").hasClass("logged")) {
+        isLogin = true;
+        $(".lgmembersdays .main .section .section__inner .section__header .button").addClass("d-none");
+    } else {
+        $(".lgmembersdays .main .section .section__inner .section__header .button").removeClass("d-none");
+    }
     lgMembersWeek.ajaxSubmitted("lifeStyle=");
   }, 200);
 
@@ -93,7 +98,7 @@ $(document).ready(function () {
 
       // Tab Type Model List - Default Display
       $("[data-list] .tab__panel").each(function () {
-        if ($(this).attr("style") != undefined) {
+        if ($(this).hasClass("initTab")) {
           let listName = $(this).closest(".section").data("list");
           lgMembersWeek.ajaxModelList($(this), listName);
         }
@@ -211,7 +216,6 @@ $(document).ready(function () {
     },
     ajaxModelList: function ($targetPanel, listName) {
       $("body").trigger("ajaxLoadBefore");
-
       let targetModelType = $targetPanel.attr("id"),
         $target,
         paramModel = listArray[listName][targetModelType],
@@ -271,13 +275,10 @@ $(document).ready(function () {
                 );
                 $target.html(html);
 
-                // if (listName == "hottest" || listName == "hotDeal") {
-                //   let SlickOpt = listName + "SlickOpt";
-                //   $target.slick(lgMembersWeek[SlickOpt]);
-                // }
-								
-								let SlickOpt = listName + "SlickOpt";
-								$target.slick(lgMembersWeek[SlickOpt]);
+                if (listName == "hottest" || listName == "hotDeal") {
+                  let SlickOpt = listName + "SlickOpt";
+                  $target.slick(lgMembersWeek[SlickOpt]);
+                }
 
                 // Identification class to enter ajax logic only when clicking the model list tab for the first time
                 // (모델리스트 탭 클릭 시, 최초 클릭 시에만 ajax 로직 진입하기 위한 식별 클래스)
@@ -394,7 +395,7 @@ $(document).ready(function () {
             /\*originPrice\*/g,
             p.rPrice ? changeFormatFullPrice(p.rPrice, p.rPriceCent) : "null"
           )
-          .replace(/\*finalPrice\*/g, priceValue)
+          .replace(/\*finalPrice\*/g, priceValue ? priceValue : changeFormatFullPrice(p.rPrice, p.rPriceCent))
           .replace(
             /\*membershipPriceValue\*/g,
             p.rMembershipPrice
@@ -433,7 +434,7 @@ $(document).ready(function () {
         }
 
         // OBS vip level tag
-        let $productTag = $template.find(".product__flags"),
+        let $productTag = $template.find(".product__flag"),
           $productTag1 = $productTag.find('[data-key="productTag1"]'),
           $productTag2 = $productTag.find('[data-key="productTag2"]'),
           obsTagfilter1 =
@@ -447,7 +448,19 @@ $(document).ready(function () {
           $productTag1.closest(".d-none").css("background", "#a50034"); // productTag1
         if ($productTag2.length && obsTagfilter1)
           $productTag2.closest(".d-none").css("background", "#a50034"); // productTag2
-
+		if(listName =="hotDeal"){
+			if(obsTagfilter1){
+				$productTag.text(listArray[listName]['alt_'+p.modelId])
+				$template.find(".product__soldout").addClass('d-none');
+				$template.find(".product__group").removeClass('d-none');
+			}else{
+				$productTag.text(listArray[listName]['alt_'+listName])
+				$template.find(".product__soldout").removeClass('d-none');
+				$template.find(".product__soldout .product__text").text(listArray[listName]['altClose']);
+				$template.find(".product__group").addClass('d-none');
+				$template.find(".atc-members-week").addClass("d-none");
+			}
+		}
         $productTag
           .find(
             '[data-user-type=""], [data-user-type=ALL], [data-user-type=NON_VIP]'
@@ -462,17 +475,20 @@ $(document).ready(function () {
         // Price Display setting
         if (p.rPrice == "0" || p.rPrice == null)
           $template.find('[class^="product__price"] > span').html("");
-        if (p.rPromoPrice == null)
-          $template.find(".product__price > span").html("");
+        /*if (p.rPromoPrice == null)
+          $template.find(".product__price > span").html("");*/
         if (p.rMembershipPrice == null)
           $template
             .find(".product__members > span:not(.product__noti)")
             .html("");
         if (p.discountMsg == null)
-          $template.find(".product__price .product__discount").html("");
+          $template.find(".product__discount").parent().html("");
 
+	 if(p.addToCartFlag=="N"){
+        	$template.find(".atc-members-week").addClass("d-none");
+        }
         // sold out product btn
-        if (p.reStockAlertFlag == "Y") {
+        if (listName !== "hotDeal" && p.reStockAlertFlag == "Y") {
           $template
             .find(".atc-members-week")
             .addClass("d-none")
