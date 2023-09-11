@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+@use 'mixins';
+
+.lgmembersdays {
+
+	.visual {
+
+		&__visual {
+			background-image: url('../images/au/bg_visual.png');
+		}
+		
+		@media (max-width: 1023px) {
+			
+			&__visual {
+				background-image: url('../images/au/m_bg_visual.png');
+			}
+		}
+	}
+
+	.benefit-more {
+
+		&__item {
+
+			&:nth-child(1) {
+
+				.benefit-more__ico {
+					background-image: url('../images//au/ico_benefit01.svg');
+				}
+			}
+
+			&:nth-child(3) {
+
+				.benefit-more__ico {
+					background-image: url('../images/au/ico_benefit03.svg');
+				}
+			}
+		}
+	}
+}
