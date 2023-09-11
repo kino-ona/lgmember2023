@@ -20,11 +20,6 @@
 	.benefit-more {
 
 		&__item {
-			display: flex;
-			flex: 1;
-			padding: 32px;
-			border-radius: 28px;
-			background-color: #fff;
 
 			&:nth-child(1) {
 
@@ -35,6 +30,10 @@
 
 			&:nth-child(2) {
 
+				.benefit-more__group {
+					margin-right: 32px;
+				}
+
 				.benefit-more__ico {
 					background-image: url('../images/ico_benefit02.png');
 				}
@@ -44,6 +43,19 @@
 
 				.benefit-more__ico {
 					background-image: url('../images/ico_benefit03.svg');
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+
+			&__item {
+
+				&:nth-child(2) {
+					
+					.benefit-more__group {
+						margin-right: 12px;
+					}
 				}
 			}
 		}
