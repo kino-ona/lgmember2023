@@ -6,13 +6,13 @@
 	.visual {
 
 		&__visual {
-			background-image: url('../images/tw/bg_visual.png');
+			background-image: url('../images/bg_visual.png');
 		}
 
 		@media (max-width: 1023px) {
 
 			&__visual {
-				background-image: url('../images/tw/m_bg_visual.png');
+				background-image: url('../images/m_bg_visual.png');
 			}
 		}
 	}
@@ -29,21 +29,21 @@
 			&:nth-child(1) {
 
 				.benefit-more__ico {
-					background-image: url('../images/tw/ico_benefit01.svg');
+					background-image: url('../images/ico_benefit01.svg');
 				}
 			}
 
 			&:nth-child(2) {
 
 				.benefit-more__ico {
-					background-image: url('../images/tw/ico_benefit02.png');
+					background-image: url('../images/ico_benefit02.png');
 				}
 			}
 
 			&:nth-child(3) {
 
 				.benefit-more__ico {
-					background-image: url('../images/tw/ico_benefit03.svg');
+					background-image: url('../images/ico_benefit03.svg');
 				}
 			}
 		}

@@ -525,15 +525,20 @@
 			.product__members {
 				margin-left: 8px;
 
-				span {
+				span:not(.unit):not(.number) {
 					display: block;
 					font-size: 16px;
 					line-height: 16px;
 
 					&:first-child {
 						color: #646464;
-						margin-bottom: -1px;
+						margin-bottom: 3px;
 					}
+				}
+				.unit {
+					margin-left: 0;
+					font-size: 16px;
+					line-height: 16px;
 				}
 			}
 		}

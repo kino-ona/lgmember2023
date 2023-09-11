@@ -220,8 +220,8 @@
 										</p>
 										<div class="product__group">
 											<span class="product__discount">
-												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 												<span class="number">*originPrice*</span>
+												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 											</span>
 											<span class="product__belt">
 												*discountMsg*
@@ -229,8 +229,8 @@
 										</div>
 										<div class="product__group">
 											<span class="product__price">
-												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 												<span class="number">*finalPrice*</span>
+												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 											</span>
 											<div class="product__members">
 												<span>Members only</span>
@@ -318,20 +318,20 @@
 									</p> -->
 									<div class="product__group product_discount">
 										<span class="product__discount">
-											<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 											<span class="number">*originPrice*</span>
+											<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 										</span>
 									</div>
 									<div class="product__group">
 										<span class="product__price">
-											<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 											<span class="number">*finalPrice*</span>
+											<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 										</span>
 										<div class="product__members">
 											<span>Members only</span>
 											<span>
-												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 												<span class="number">*membershipPriceValue*</span>
+												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 											</span>
 										</div>
 									</div>
