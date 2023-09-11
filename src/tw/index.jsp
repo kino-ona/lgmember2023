@@ -77,8 +77,8 @@
 		<!-- Hot Deal Model / thumb - alt text -->
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07544691|MD07520255|MD07573086|MD07519593|MD07580096|MD07515582|MD07565218|MD07565193|MD07515571|MD07520201|MD07580839|MD05864356|MD07546944|MD06249381|MD07510584|MD07510111|MD07566472|MD07555403|MD07581798|MD07580929|MD07583447|MD07557909|MD07548653|MD07563594|MD07573954|MD07567133"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07529177|MD07528566|MD07539127|MD07559882|MD07567822|MD06149522|MD07568140|MD07555758|MD07560054|MD07544223||MD07580138|MD05879679|MD07567842"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="wireless" value="MD07578166|MD07583459|MD07563893|MD07546009|MD07582363|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07580007"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07544691|MD07520255|MD07573086|MD07519593|MD07580096|MD07515582|MD07565218|MD07565193|MD07515571|MD07520201|MD07580839|MD05864356|MD07546944|MD06249381|MD07510584|MD07510111|MD07566472|MD07555403|MD07581798|MD07580929|MD07583447|MD07557909|MD07548653|MD07563594|MD07573954|MD07567133"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07578166|MD07583459|MD07563893|MD07546009|MD07582363|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07580007"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07558410|MD07569834|MD07569835|MD07577254|MD07567372|MD07558671|MD07577498|MD07574585|MD07560934|MD07577839|MD07572416"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Deal Closed"/>
@@ -225,8 +225,8 @@
             <p class="desc">指定商品64折起</p>
 						<div class="tab">
 							<div class="tab__list">
-								<a href="#homeappliance" role="button" class="tab__button tab__button--selected">電視視聽</a>
-								<a href="#wireless" role="button" class="tab__button">生活家電</a>
+								<a href="#tv" role="button" class="tab__button tab__button--selected">電視視聽</a>
+								<a href="#homeappliance" role="button" class="tab__button">生活家電</a>
 								<a href="#computerproduct" role="button" class="tab__button">筆電/螢幕顯示器</a>
 							</div>
 							<div id="hotdeal" class="tab__contents product--hotdeal">
@@ -275,7 +275,7 @@
 										</div>
 									</div>
 								</template>
-								<div id="homeappliance" class="tab__panel tab__panel--opened">
+								<div id="tv" class="tab__panel tab__panel--opened">
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
@@ -287,7 +287,7 @@
 										</div>
 									</div>
 								</div>
-								<div id="wireless" class="tab__panel">
+								<div id="homeappliance" class="tab__panel">
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
