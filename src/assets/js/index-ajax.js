@@ -395,7 +395,7 @@ $(document).ready(function () {
             /\*originPrice\*/g,
             p.rPrice ? changeFormatFullPrice(p.rPrice, p.rPriceCent) : "null"
           )
-          .replace(/\*finalPrice\*/g, priceValue)
+          .replace(/\*finalPrice\*/g, priceValue ? priceValue : changeFormatFullPrice(p.rPrice, p.rPriceCent))
           .replace(
             /\*membershipPriceValue\*/g,
             p.rMembershipPrice
@@ -475,17 +475,20 @@ $(document).ready(function () {
         // Price Display setting
         if (p.rPrice == "0" || p.rPrice == null)
           $template.find('[class^="product__price"] > span').html("");
-        if (p.rPromoPrice == null)
-          $template.find(".product__price > span").html("");
+        /*if (p.rPromoPrice == null)
+          $template.find(".product__price > span").html("");*/
         if (p.rMembershipPrice == null)
           $template
             .find(".product__members > span:not(.product__noti)")
             .html("");
         if (p.discountMsg == null)
-          $template.find(".product__price .product__discount").html("");
+          $template.find(".product__discount").parent().html("");
 
+	 if(p.addToCartFlag=="N"){
+        	$template.find(".atc-members-week").addClass("d-none");
+        }
         // sold out product btn
-        if (p.reStockAlertFlag == "Y") {
+        if (listName !== "hotDeal" && p.reStockAlertFlag == "Y") {
           $template
             .find(".atc-members-week")
             .addClass("d-none")

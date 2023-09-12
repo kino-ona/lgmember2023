@@ -854,6 +854,8 @@
               </div>
             </div>
           </div>
+					<div id="BuymoreSavemoreHomeAppliance"></div>
+					<div id="BuymoreSavemoreComputerProducts"></div>
           <div class="section" id="sectionBuy">
             <div class="section__inner">
               <p class="title">開啟組合優惠</p>
@@ -873,7 +875,7 @@
                     <div class="product">
                       <div class="product__list product__list--slick-row">
                         <div class="product__item">
-                          <p class="product__sn">GSJV70PZTF</p>
+                          <p class="product__sn">11111111111</p>
                           <p class="product__name">American Fridge Freezer 635L Water & Ice Dispenser</p>
                           <div class="product__img">
                             <img src="../assets/images/@img_product.png" alt="">
@@ -1124,7 +1126,7 @@
                     <div class="product">
                       <div class="product__list product__list--slick-row">
                         <div class="product__item">
-                          <p class="product__sn">GSJV70PZTF</p>
+                          <p class="product__sn">22222222</p>
                           <p class="product__name">American Fridge Freezer 635L Water & Ice Dispenser</p>
                           <div class="product__img">
                             <img src="../assets/images/@img_product.png" alt="">
@@ -1375,7 +1377,7 @@
                     <div class="product">
                       <div class="product__list product__list--slick-row">
                         <div class="product__item">
-                          <p class="product__sn">GSJV70PZTF</p>
+                          <p class="product__sn">333333333</p>
                           <p class="product__name">American Fridge Freezer 635L Water & Ice Dispenser</p>
                           <div class="product__img">
                             <img src="../assets/images/@img_product.png" alt="">
@@ -1758,5 +1760,81 @@
     <!-- UI Script -->
     <script src="../assets/js/index.js"></script>
     <!--// UI Script -->
+
+
+	<script>
+		// if($('.learn-more__link').length > 0) {
+		// 	$('.learn-more__link').on('click', function (e) {
+		// 		fbq('trackCustom', '2023H2GMCMemberDay LearnMore');
+		// 	});
+		// }
+			
+		$(document).ready(function(){
+			var href = window.location.href;
+			// hotdeal
+			if(href.indexOf('HotDealTVAudio') != -1) {    
+				var timer = setTimeout(function() {         
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).click();
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).trigger('click');
+					$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');
+					$('.sectionHotdeal .tab__contents').find('.tab__panel').eq(0).addClass('tab__panel--opened');   
+					    
+					clearTimeout(timer);   
+				}, 3000);
+			}
+			if(href.indexOf('HotDealHomeAppliance') != -1) {    
+				var timer = setTimeout(function() {         
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).click();
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).trigger('click');
+					$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');
+					$('.sectionHotdeal .tab__contents').find('.tab__panel').eq(1).addClass('tab__panel--opened');   
+					    
+					clearTimeout(timer);   
+				}, 3000);
+			}
+			if(href.indexOf('HotDealComputerProducts') != -1) {     
+				var timer = setTimeout(function() {         
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(2).click();
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(2).trigger('click');
+					$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');
+					$('.sectionHotdeal .tab__contents').find('.tab__panel').eq(2).addClass('tab__panel--opened');       
+					    
+					clearTimeout(timer);    
+				}, 3000);
+			}
+
+			// multibuying
+			if(href.indexOf('BuymoreSavemoreTVAudio') != -1) {     
+				var timer = setTimeout(function() {         
+					$('#sectionBuy .tab__list').find('.tab__button').eq(0).click();
+					$('#sectionBuy .tab__list').find('.tab__button').eq(0).trigger('click');
+					// $('#sectionBuy .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');
+					// $('#sectionBuy .tab__contents').find('.tab__panel').eq(0).addClass('tab__panel--opened');    
+					    
+					clearTimeout(timer);     
+				}, 3000);
+			}
+			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {      
+				var timer = setTimeout(function() {         
+					$('#sectionBuy .tab__list').find('.tab__button').eq(1).click();
+					$('#sectionBuy .tab__list').find('.tab__button').eq(1).trigger('click');
+					// $('#sectionBuy .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');
+					// $('#sectionBuy .tab__contents').find('.tab__panel').eq(1).addClass('tab__panel--opened');  
+					    
+					clearTimeout(timer);     
+				}, 3000);
+			}
+			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {     
+				var timer = setTimeout(function() {         
+					$('#sectionBuy .tab__list').find('.tab__button').eq(2).click();
+					$('#sectionBuy .tab__list').find('.tab__button').eq(2).trigger('click');
+					// $('#sectionBuy .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');
+					// $('#sectionBuy .tab__contents').find('.tab__panel').eq(2).addClass('tab__panel--opened');      
+					    
+					clearTimeout(timer);    
+				}, 3000);
+			}
+		});
+	</script>
   </body>
 </html>

@@ -150,20 +150,20 @@
 			<div class="visual">
 				<div class="visual__visual">
 					<div class="visual__inner">
-            <p class="visual__logo">LG 全球會員日</p>
-            <h1 class="title">
-              Life’s Good<br>
-              會員優惠專屬獻禮
-            </h1>
-            <p class="desc">指定商品64折起,兩件以上再享83折</p>
-            <p class="desc">優惠至10/10</p>
-            <div class="term">
-              <a href="#TermsAndConditions" role="button">
-                活動辦法
-                <i></i>
-              </a>
-            </div>
-          </div>
+						<p class="visual__logo">會員專屬優惠</p>
+						<h1 class="title">
+							Life’s Good<br>
+							LG 全球會員日
+						</h1>
+						<p class="desc">指定商品64折起,兩件以上再享9折</p>
+						<p class="desc">優惠至10/10</p>
+						<div class="term">
+							<a href="#TermsAndConditions" role="button">
+								活動辦法
+								<i></i>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -172,8 +172,8 @@
           <div class="section__inner">
             <div class="section__header">
               <div class="section__group">
-                <p class="title">揭曉年度優惠</p>
-                <p class="desc">簡單登入/註冊 享受超值優惠</p>
+								<p class="title">揭曉年度優惠</p>
+								<p class="desc">簡單登入/註冊 享受超值優惠</p>
               </div>
               <div class="button">
                 <div class="button__row">
@@ -188,27 +188,24 @@
                   <div class="img">
                     <img src="${path}/assets/images/img_deals01.png" alt="">
                   </div>
-                  <p class="title">熱銷精選</p>
-                  <p class="desc">解鎖限量驚喜折扣，將心儀家電帶回家</p>
+									<p class="title">熱銷精選</p>
+									<p class="desc">解鎖限量驚喜折扣，將心儀家電帶回家</p>
                   <a href="#HotDeal" class="list-item__button"></a>
                 </div>
                 <div class="list-item__item">
                   <div class="img">
                     <img src="${path}/assets/images/img_deals02.png" alt="">
                   </div>
-                  <p class="title">搭配買更划算</p>
-                  <p class="desc">
-                    購買2件以上指定商品再享83折<br>
-                    LG 官方會員獨享
-                  </p>
+									<p class="title">搭配買更划算</p>
+									<p class="desc">購買2件以上指定商品再享9折</p>
                   <a href="#BuymoreSavemore" class="list-item__button"></a>
                 </div>
                 <div class="list-item__item">
                   <div class="img">
                     <img src="${path}/assets/images/img_deals03.png" alt="">
                   </div>
-                  <p class="title">會員獨享 件件98折</p>
-                  <p class="desc">立即加入會員 獨享額外優惠</p>
+									<p class="title">會員獨享 件件98折</p>
+									<p class="desc">新會員再贈95折券 立即加入會員</p>
                   <a href="#BuymoreSavemore" class="list-item__button"></a>
                 </div>
               </div>
@@ -219,10 +216,10 @@
 				<div class="anchors" id="HotDealTVAudio"></div>
 				<div class="anchors" id="HotDealHomeAppliance"></div>
 				<div class="anchors" id="HotDealComputerProducts"></div>
-				<div id="HotDeal" class="section" data-list="hotDeal">
+				<div id="HotDeal" class="section sectionHotdeal" data-list="hotDeal">
 					<div class="section__inner">
-            <p class="title">引頸期盼的年度優惠！</p>
-            <p class="desc">指定商品64折起</p>
+						<p class="title">單件商品年度優惠</p>
+						<p class="desc">指定商品64折起</p>
 						<div class="tab">
 							<div class="tab__list">
 								<a href="#tv" role="button" class="tab__button tab__button--selected">電視視聽</a>
@@ -279,7 +276,8 @@
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab01.png" alt="">
+												<img src="${path}/assets/images/img_hotdeal_tab01.png" class="img__pc" alt="">
+												<img src="${path}/assets/images/m_img_hotdeal_tab01.png" class="img__mo" alt="">
 											</div>
 										</div>
 										<div class="product__mask">
@@ -291,7 +289,8 @@
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab02.png" alt="">
+												<img src="${path}/assets/images/img_hotdeal_tab02.png" class="img__pc" alt="">
+												<img src="${path}/assets/images/m_img_hotdeal_tab02.png" class="img__mo" alt="">
 											</div>
 										</div>
 										<div class="product__list product__list--slick"></div>
@@ -301,7 +300,8 @@
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab03.png" alt="">
+												<img src="${path}/assets/images/img_hotdeal_tab03.png" class="img__pc" alt="">
+												<img src="${path}/assets/images/m_img_hotdeal_tab03.png" class="img__mo" alt="">
 											</div>
 										</div>
 										<div class="product__list product__list--slick"></div>
@@ -317,11 +317,8 @@
 				<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
 				<div id="BuymoreSavemore" class="section" data-list="hottest">
 					<div class="section__inner">
-            <p class="title">開啟組合優惠</p>
-            <p class="desc">
-              期間限定,購買2件以上指定產品,結帳即可查看獨家折扣<br>
-              新會員最高再享83折
-            </p>
+						<p class="title">開啟組合優惠</p>
+						<p class="desc">期間限定,購買2件以上指定產品,結帳即可再享9折</p>
 						<div class="img">
 							<img src="${path}/assets/images/img_discount_pc.png" alt="" class="img__pc">
 							<img src="${path}/assets/images/img_discount_mo.png" alt="" class="img__mo">
@@ -436,16 +433,13 @@
 
 				<div id="BrandCampaign" class="section">
 					<div class="section__inner">
-						<p class="title">Check our Life’s Good story</p>
+						<p class="title">一起探索讓Life's good的秘笈</p>
 						<div class="banner">
 							<div class="banner__banner">
-								<p class="title">
-									Brining the smile<br>
-									to the world
-								</p>
+								<p class="title">讓生活更多微笑</p>
 								<div class="button">
 									<div class="button__row">
-										<a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" class="button__item button__item--secondary">了解更多</a>
+										<a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" class="button__item button__item--secondary">查看更多</a>
 									</div>
 								</div>
 							</div>
@@ -455,20 +449,30 @@
 
 				<div id="MoreBenefits" class="section">
 					<div class="section__inner">
-            <p class="title">更多加碼優惠</p>
+						<p class="title">更多加碼優惠</p>
 						<div class="benefit-more">
 							<div class="benefit-more__row">
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-                    <p class="title">指定回饋平台 期間加碼優惠</p>
-                    <p class="desc">LINE 購物再享最高15% LINE POINTS:ShopBack 每週2-4加碼6%現金回饋無上限；街口支付領券加碼</p>
+										<p class="title">最高24期0利率</p>
+										<p class="desc">指定銀行分期0利率,最高24期</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-                    <p class="title">免運基本安裝</p>
-                    <p class="desc">全館免運費，免基本安裝費，指定舊四機免費回收</p>
+										<p class="title">
+											指定回饋平台<br>
+											期間加碼
+										</p>
+										<p class="desc">LINE 購物再享最高15% LINE POINTS;ShopBack 每週2-4加碼6%現金回饋無上限；街口支付領券加碼</p>
+									</div>
+									<i class="benefit-more__ico"></i>
+								</div>
+								<div class="benefit-more__item">
+									<div class="benefit-more__group">
+										<p class="title">免運基本安裝</p>
+										<p class="desc">全館免運費，免基本安裝費，指定舊四機免費回收</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
@@ -565,40 +569,93 @@
 			
 		$(document).ready(function(){
 			var href = window.location.href;
+			// hotdeal
+			if(href.indexOf('HotDealTVAudio') != -1) { 
+				$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');    
+				var timer = setTimeout(function() {         
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).click();
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).trigger('click');
+					 
+					var timer0 = setTimeout(function() {   
+						$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).trigger('click');
+						clearTimeout(timer0);   
+					}, 1000);    
+					    
+					clearTimeout(timer);   
+				}, 1000);
+			}
+			if(href.indexOf('HotDealHomeAppliance') != -1) {  
+				$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');  
+				var timer = setTimeout(function() {         
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).click();
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('.sectionHotdeal .tab__list').find('.tab__button').eq(1).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
+			if(href.indexOf('HotDealComputerProducts') != -1) { 
+				$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');     
+				var timer = setTimeout(function() {         
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(2).click();
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(2).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('.sectionHotdeal .tab__list').find('.tab__button').eq(2).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
 
-			// if(href.indexOf('BestTVAudio') != -1) {    
-			// 	$('#box_content .tab__list .tab__panel').attr('display', 'none')
-      //   $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
-      //   $('#box_content .tab__list .tab__item').eq(0).addClass('tab__item--active');    
-			// 	var timer = setTimeout(function() {         
-			// 		$('#box_content .tab__list .tab__item').eq(0).find('.tab__button').click();
-			// 		$('#box_content .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
-					    
-			// 		clearTimeout(timer);     
-			// 	}, 600);
-			// }
-			// if(href.indexOf('BestComputerProducts') != -1) {    
-			// 	$('#box_content .tab__list .tab__panel').attr('display', 'none')
-      //   $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
-      //   $('#box_content .tab__list .tab__item').eq(1).addClass('tab__item--active');    
-			// 	var timer = setTimeout(function() {         
-			// 		$('#box_content .tab__list .tab__item').eq(1).find('.tab__button').click();
-			// 		$('#box_content .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
-					    
-			// 		clearTimeout(timer);     
-			// 	}, 600);
-			// }
-			// if(href.indexOf('BestHomeAppliance') != -1) {    
-			// 	$('#box_content .tab__list .tab__panel').attr('display', 'none')
-      //   $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
-      //   $('#box_content .tab__list .tab__item').eq(2).addClass('tab__item--active');    
-			// 	var timer = setTimeout(function() {         
-			// 		$('#box_content .tab__list .tab__item').eq(2).find('.tab__button').click();
-			// 		$('#box_content .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
-					    
-			// 		clearTimeout(timer);     
-			// 	}, 600);
-			// }
+			// multibuying
+			if(href.indexOf('BuymoreSavemoreTVAudio') != -1) {  
+				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');   
+				var timer = setTimeout(function() {         
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(0).click();
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(0).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#BuymoreSavemore .tab__list').find('.tab__button').eq(0).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
+			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {    
+				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');    
+				var timer = setTimeout(function() {         
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(1).click();
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(1).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#BuymoreSavemore .tab__list').find('.tab__button').eq(1).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
+			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {    
+				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');   
+				var timer = setTimeout(function() {         
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(2).click();
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(2).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#BuymoreSavemore .tab__list').find('.tab__button').eq(2).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
 		});
 	</script>
 	
