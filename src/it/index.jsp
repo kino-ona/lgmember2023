@@ -111,8 +111,10 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07527572" value="Limited to 3_4 units"/>
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07580409|MD07536714|MD07535702|MD07528459|MD07521819|MD07544189|MD07579021|MD07547531|MD07539373|MD05774448|MD07577777|MD07544234|MD07516887|MD07527381|MD06149356|MD07579430|MD07555797|MD07578290|MD07546727|MD07536713|MD07572952|MD07515738|MD07579999|MD07527380|MD07579006|MD07544843|MD07580092|MD07521762|MD07581819|MD07567829|MD07578958"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07572631|MD07572631|MD07564173|MD07555539|MD07570428|MD07572708|MD07555667|MD07581160|MD07572763|MD07555691|MD07564148|MD07570421|MD07573987|MD07547142|MD07570423|MD07576074|MD07552401|MD07575961|MD07581152|MD07572626|MD07572218|MD07572761|MD07572564|MD07572757|MD07572179|MD07573986|MD07572768|MD07550685|MD07581159|MD07576073|MD07572217|MD07578633|MD07574049|MD07576072|MD07574050"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07572631|MD07564173|MD07555539|MD07570428|MD07572708|MD07555667|MD07581160|MD07572763|MD07555691|MD07564148|MD07570421|MD07573987|MD07547142|MD07570423|MD07576074|MD07552401|MD07575961|MD07581152|MD07572626|MD07572218|MD07572761|MD07572564|MD07572757|MD07572179|MD07573986|MD07572768|MD07550685|MD07581159|MD07576073|MD07572217|MD07578633|MD07574049|MD07576072|MD07574050"/>
+		<input type="hidden" data-model-group="hottest" data-type="frigoriferi" value="MD07535702|MD07539373|MD07577777|MD07544234|MD07527381|MD07555797|MD07572952|MD07527380"/>
+		<input type="hidden" data-model-group="hottest" data-type="lavatrici" value="MD07580409|MD07536714|MD07521819|MD07544189|MD07547531|MD07516887|MD07546727|MD07536713|MD07515738|MD07579999|MD07544843|MD07580092|MD07521762|MD07581819|MD07567829"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07528459|MD07579021|MD05774448|MD06149356|MD07579430|MD07578290|MD07579006|MD07578958"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07570366|MD07551674|MD07568226|MD06056796|MD07572299|MD07581830|MD07572296|MD07562461|MD07571766|MD07561313|MD07557393|MD07570903|MD07561315|MD06115737|MD07551513|MD07522455"/>
 		<!-- Required input ## Model List End -->
 	
@@ -132,9 +134,8 @@
 						<p class="desc">
 							Approfitta di Offerte Top sui prodotti selezionati,<br>
 							oppure crea la tua offerta e ottieni fino al 20% di sconto.<br>
-							Solo per clienti Member LG, fino all’11/10
+							Solo per clienti Member LG, fino all’11/10.
 						</p>
-						<p class="desc">September 21st - October 11th</p>
 						<div class="term">
 							<a href="#Terminiecondizioni" role="button">
 								Termini &amp; Condizioni
@@ -147,48 +148,48 @@
 
 			<div class="main">
 				<div id="OfferteEsclusive" class="section section--notborder">
-						<div class="section__inner">
-							<div class="section__header">
-								<div class="section__group">
-									<p class="title">Life’s Good offerte e vantaggi esclusivi</p>
-									<p class="desc">Registrati ora e accedi a sconti speciali e a servizi su misura per te</p>
-								</div>
-								<div class="button">
-									<div class="button__row">
-										<a href="https://sso.lg.com/oauth/page/login?authorizeKey=11f06f29-b694-424c-9176-c6fb66389807&funnel=%2Fit%2FMemberDays23" role="button" class="button__item button__item--secondary">Registrati</a>
-										<a href="https://sso.lg.com/oauth/page/login?authorizeKey=11f06f29-b694-424c-9176-c6fb66389807&funnel=%2Fit%2FMemberDays23" role="button" class="button__item">Scopri di più</a>
-									</div>
-								</div>
+					<div class="section__inner">
+						<div class="section__header">
+							<div class="section__group">
+								<p class="title">Life’s Good offerte e vantaggi esclusivi</p>
+								<p class="desc">Registrati ora e accedi a sconti speciali e a servizi su misura per te</p>
 							</div>
-							<div class="list-item">
-								<div class="list-item__row">
-									<div class="list-item__item">
-										<div class="img">
-											<img src="${path}/assets/images/img_deals01.png" alt="">
-										</div>
-										<p class="title">Offerte Top</p>
-										<p class="desc">Approfitta subito delle Offerte Top sui prodotti selezionati. Affrettati le quantità sono limitate!</p>
-										<a href="#sectionHotdeal" class="list-item__button"></a>
-									</div>
-									<div class="list-item__item">
-										<div class="img">
-											<img src="${path}/assets/images/img_deals02.png" alt="">
-										</div>
-										<p class="title">Più acquisti, più risparmi!</p>
-										<p class="desc">Crea la tua offerta e ottieni fino al 20% di sconto a carrello acquistando 2 o più prodotti</p>
-										<a href="#BuymoreSavemore" class="list-item__button"></a>
-									</div>
-									<div class="list-item__item">
-										<div class="img">
-											<img src="${path}/assets/images/img_deals03.png" alt="">
-										</div>
-										<p class="title">Più vantaggi per te che sei Member LG</p>
-										<p class="desc">Registrati e ricevi 5% coupon di Benvenuto più 2% sconto a carrello valido per tuoi acquisti futuri</p>
-										<a href="#BuymoreSavemore" class="list-item__button"></a>
-									</div>
+							<div class="button">
+								<div class="button__row">
+									<a href="https://sso.lg.com/oauth/page/login?authorizeKey=11f06f29-b694-424c-9176-c6fb66389807&funnel=%2Fit%2FMemberDays23" role="button" class="button__item button__item--secondary">Registrati</a>
+									<a href="https://sso.lg.com/oauth/page/login?authorizeKey=11f06f29-b694-424c-9176-c6fb66389807&funnel=%2Fit%2FMemberDays23" role="button" class="button__item">Scopri di più</a>
 								</div>
 							</div>
 						</div>
+						<div class="list-item">
+							<div class="list-item__row">
+								<div class="list-item__item">
+									<div class="img">
+										<img src="${path}/assets/images/img_deals01.png" alt="">
+									</div>
+									<p class="title">Offerte Top</p>
+									<p class="desc">Approfitta subito delle Offerte Top sui prodotti selezionati. Affrettati le quantità sono limitate!</p>
+									<a href="#sectionHotdeal" class="list-item__button"></a>
+								</div>
+								<div class="list-item__item">
+									<div class="img">
+										<img src="${path}/assets/images/img_deals02.png" alt="">
+									</div>
+									<p class="title">Più acquisti, più risparmi!</p>
+									<p class="desc">Crea la tua offerta e ottieni fino al 20% di sconto a carrello acquistando 2 o più prodotti.</p>
+									<a href="#BuymoreSavemore" class="list-item__button"></a>
+								</div>
+								<div class="list-item__item">
+									<div class="img">
+										<img src="${path}/assets/images/img_deals03.png" alt="">
+									</div>
+									<p class="title">Più vantaggi per te che sei Member LG</p>
+									<p class="desc">Registrati e ricevi 5% coupon di Benvenuto più 2% sconto a carrello valido per tuoi acquisti futuri.</p>
+									<a href="#BuymoreSavemore" class="list-item__button"></a>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<div class="anchors" id="OfferteTop"></div>
@@ -235,6 +236,7 @@
 											<div class="product__members">
 												<span>Members only</span>
 												<span class="number">*membershipPriceValue*</span>
+												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 											</div>
 										</div>
 										<div class="button">
@@ -255,7 +257,8 @@
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab01.png" alt="">
+												<img src="${path}/assets/images/img_hotdeal_tab01.png" class="img__pc" alt="">
+												<img src="${path}/assets/images/m_img_hotdeal_tab01.png" class="img__mo" alt="">
 											</div>
 										</div>
 										<div class="product__mask">
@@ -267,7 +270,8 @@
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab02.png" alt="">
+												<img src="${path}/assets/images/img_hotdeal_tab02.png" class="img__pc" alt="">
+												<img src="${path}/assets/images/m_img_hotdeal_tab02.png" class="img__mo" alt="">
 											</div>
 										</div>
 										<div class="product__list product__list--slick"></div>
@@ -277,7 +281,8 @@
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab03.png" alt="">
+												<img src="${path}/assets/images/img_hotdeal_tab03.png" class="img__pc" alt="">
+												<img src="${path}/assets/images/m_img_hotdeal_tab03.png" class="img__mo" alt="">
 											</div>
 										</div>
 										<div class="product__list product__list--slick"></div>
@@ -290,6 +295,8 @@
 
 				<div class="anchors" id="CrealatuaOfferta"></div>
 				<div class="anchors" id="CrealatuaOfferta-TV/Audio"></div>
+				<div class="anchors" id="CrealatuaOfferta-FRIGORIFERI"></div>
+				<div class="anchors" id="CrealatuaOfferta-LAVATRICI"></div>
 				<div class="anchors" id="CrealatuaOfferta-Elettrodomestici"></div>
 				<div class="anchors" id="CrealatuaOfferta-Informatica"></div>
 				<div id="BuymoreSavemore" class="section" data-list="hottest">
@@ -302,9 +309,11 @@
 						</div>
 						<div class="tab">
 							<div class="tab__list">
-								<a href="#tvaudio" data-tab-name="tvaudio" role="button" class="tab__button tab__button--selected">TV / Audio</a>
-								<a href="#homeapplianceB" data-tab-name="homeapplianceB" role="button" class="tab__button">Elettrodomestici</a>
-								<a href="#computerproductB" data-tab-name="computerproductB" role="button" class="tab__button">Informatica</a>
+								<a href="#tvaudio" data-tab-name="tvaudio" role="button" class="tab__button tab__button--selected">TV/AUDIO</a>
+								<a href="#frigoriferi" data-tab-name="frigoriferi" role="button" class="tab__button">FRIGORIFERI</a>
+								<a href="#lavatrici" data-tab-name="lavatrici" role="button" class="tab__button">LAVATRICI E ASCIUGATRICI</a>
+								<a href="#homeapplianceB" data-tab-name="homeapplianceB" role="button" class="tab__button">ALTRI ELETTRODOMESTICI</a>
+								<a href="#computerproductB" data-tab-name="computerproductB" role="button" class="tab__button">INFORMATICA</a>
 							</div>
 							<template class="contents-template">
 								<div class="product__item">
@@ -367,6 +376,42 @@
 										</div>
 									</div>
 								</div>
+								<div id="frigoriferi" class="tab__panel">
+									<div class="product">
+										<div class="product__list product__list--slick-row">
+										</div>
+										<div class="button">
+											<div class="button__row">
+												<a href="https://www.lg.com/it/frigoriferi" target="_blank" role="button" tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="" 
+												data-track-name="plpClick" 
+												data-link-area=""
+												data-link-name=""
+												class="button__item button__item--tertiary">Scopri di più FRIGORIFERI</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="lavatrici" class="tab__panel">
+									<div class="product">
+										<div class="product__list product__list--slick-row">
+										</div>
+										<div class="button">
+											<div class="button__row">
+												<a href="https://www.lg.com/it/lavatrici" target="_blank" role="button" tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="" 
+												data-track-name="plpClick" 
+												data-link-area=""
+												data-link-name=""
+												class="button__item button__item--tertiary">Scopri di più LAVATRICI E ASCIUGATRICI</a>
+											</div>
+										</div>
+									</div>
+								</div>
 								<div id="homeapplianceB" class="tab__panel">
 									<div class="product">
 										<div class="product__list product__list--slick-row">
@@ -410,16 +455,15 @@
 
 				<div id="Life'sGood-campaign" class="section">
 					<div class="section__inner">
-						<p class="title">Check our Life’s Good story</p>
+						<p class="title">Life’s Good: scopri la nostra storia</p>
 						<div class="banner">
 							<div class="banner__banner">
 								<p class="title">
-									Brining the smile<br>
-									to the world
+									Regaliamo sorrisi
 								</p>
 								<div class="button">
 									<div class="button__row">
-										<a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" class="button__item button__item--secondary">En savoir plus</a>
+										<a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" class="button__item button__item--secondary">Scopri di più</a>
 									</div>
 								</div>
 							</div>
@@ -455,7 +499,7 @@
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-										<p class="title">Finanziamento a Tasso Zero</p>
+										<p class="title">Finanziamento Tasso Zero</p>
 										<p class="desc">Scegli il prodotto adatto alle tue necessità e paga in 10, 20 e 30 rate a Tasso Zero. Valido su prodotti selezionati</p>
 									</div>
 									<i class="benefit-more__ico"></i>
@@ -468,6 +512,34 @@
 			</div>
 		</div>
 		<!-- // Content End  -->
+
+		<div id="TerminieCondizioni" class="container-fluid">
+			<div class="footer-box">
+				<div class="footer-component">
+					<div class="footer-caution">CRM 5%<br>
+						<div>Iniziativa promozionale valida dal 21/9 al 11/10/2023 per clienti Member LG sui prodotti disponibili presenti all'interno della pagina https://www.lg.com/it/MemberDays23.<br>Coupon del 5% cumulabile solo con sconto a carrello del 13%.
+						</div>
+					</div>
+				</div>
+			</div>                  
+			<div class="footer-box">
+				<div class="footer-component">
+					<div class="footer-caution">
+						QUANTITA' LIMITATE<br>
+						<div>*Iniziativa promozionale valida dal 21/9 al 11/10/2023 per i clienti Member LG soggetta a quantità limitate.</div>
+					</div>
+				</div>
+			</div>                
+			<div class="footer-box">
+				<div class="footer-component">
+					<div class="footer-caution">
+						MULTIPURCHASE<br>
+						<div>"**Iniziativa promozionale valida dal 21/9 al 11/10/2023 per clienti Member LG sui prodotti disponibili presenti all'interno della pagina https://www.lg.com/it/MemberDays23.
+							Ulteriore sconto a carrello del 13% acquistando 2 o più prodotti disponibili sul sito https://www.lg.com/it su una spesa minima: 1.000€. Sono esclusi i prodotti contrassegnati dal tag ""OFFERTA TOP"", i Kit Esclusivi presenti alla pagina https://www.lg.com/it/kit-esclusivi e gli utenti Vip Program). Sconto a carrello cumulabile solo con coupon di benvenuto 5%."</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	<!-- top button -->
@@ -553,40 +625,121 @@
 			
 		$(document).ready(function(){
 			var href = window.location.href;
+			// hotdeal
+			if(href.indexOf('OfferteTop-TV/Audio') != -1) { 
+				$('#sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');    
+				var timer = setTimeout(function() {         
+					$('#sectionHotdeal .tab__list').find('.tab__button').eq(0).click();
+					$('#sectionHotdeal .tab__list').find('.tab__button').eq(0).trigger('click');
+					 
+					var timer0 = setTimeout(function() {   
+						$('#sectionHotdeal .tab__list').find('.tab__button').eq(0).trigger('click');
+						clearTimeout(timer0);   
+					}, 1000);    
+					    
+					clearTimeout(timer);   
+				}, 1000);
+			}
+			if(href.indexOf('OfferteTop-Elettrodomestici') != -1) {  
+				$('#sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');  
+				var timer = setTimeout(function() {         
+					$('#sectionHotdeal .tab__list').find('.tab__button').eq(1).click();
+					$('#sectionHotdeal .tab__list').find('.tab__button').eq(1).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#sectionHotdeal .tab__list').find('.tab__button').eq(1).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
+			if(href.indexOf('OfferteTop-Informatica') != -1) { 
+				$('#sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');     
+				var timer = setTimeout(function() {         
+					$('#sectionHotdeal .tab__list').find('.tab__button').eq(2).click();
+					$('#sectionHotdeal .tab__list').find('.tab__button').eq(2).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#sectionHotdeal .tab__list').find('.tab__button').eq(2).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
 
-			// if(href.indexOf('BestTVAudio') != -1) {    
-			// 	$('#box_content .tab__list .tab__panel').attr('display', 'none')
-      //   $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
-      //   $('#box_content .tab__list .tab__item').eq(0).addClass('tab__item--active');    
-			// 	var timer = setTimeout(function() {         
-			// 		$('#box_content .tab__list .tab__item').eq(0).find('.tab__button').click();
-			// 		$('#box_content .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
-					    
-			// 		clearTimeout(timer);     
-			// 	}, 600);
-			// }
-			// if(href.indexOf('BestComputerProducts') != -1) {    
-			// 	$('#box_content .tab__list .tab__panel').attr('display', 'none')
-      //   $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
-      //   $('#box_content .tab__list .tab__item').eq(1).addClass('tab__item--active');    
-			// 	var timer = setTimeout(function() {         
-			// 		$('#box_content .tab__list .tab__item').eq(1).find('.tab__button').click();
-			// 		$('#box_content .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
-					    
-			// 		clearTimeout(timer);     
-			// 	}, 600);
-			// }
-			// if(href.indexOf('BestHomeAppliance') != -1) {    
-			// 	$('#box_content .tab__list .tab__panel').attr('display', 'none')
-      //   $('#box_content .tab__list .tab__item').removeClass('tab__item--active');
-      //   $('#box_content .tab__list .tab__item').eq(2).addClass('tab__item--active');    
-			// 	var timer = setTimeout(function() {         
-			// 		$('#box_content .tab__list .tab__item').eq(2).find('.tab__button').click();
-			// 		$('#box_content .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
-					    
-			// 		clearTimeout(timer);     
-			// 	}, 600);
-			// }
+			// multibuying
+			if(href.indexOf('CrealatuaOfferta-TV/Audio') != -1) {  
+				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');   
+				var timer = setTimeout(function() {         
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(0).click();
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(0).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#BuymoreSavemore .tab__list').find('.tab__button').eq(0).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
+			if(href.indexOf('CrealatuaOfferta-FRIGORIFERI') != -1) {    
+				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');    
+				var timer = setTimeout(function() {         
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(1).click();
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(1).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#BuymoreSavemore .tab__list').find('.tab__button').eq(1).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
+			if(href.indexOf('CrealatuaOfferta-LAVATRICI') != -1) {    
+				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');   
+				var timer = setTimeout(function() {         
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(2).click();
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(2).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#BuymoreSavemore .tab__list').find('.tab__button').eq(2).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
+			if(href.indexOf('CrealatuaOfferta-Elettrodomestici') != -1) {    
+				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');   
+				var timer = setTimeout(function() {         
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(3).click();
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(3).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#BuymoreSavemore .tab__list').find('.tab__button').eq(3).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
+			if(href.indexOf('CrealatuaOfferta-Informatic') != -1) {    
+				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');   
+				var timer = setTimeout(function() {         
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(4).click();
+					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(4).trigger('click');
+					 
+					 var timer0 = setTimeout(function() {   
+						 $('#BuymoreSavemore .tab__list').find('.tab__button').eq(4).trigger('click');
+						 clearTimeout(timer0);   
+					 }, 1000);    
+							 
+					 clearTimeout(timer);   
+				 }, 1000);
+			}
 		});
 	</script>
 	
