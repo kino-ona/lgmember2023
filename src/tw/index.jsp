@@ -75,13 +75,13 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07544691|MD07520255|MD07573086|MD07519593|MD07580096|MD07515582|MD07565218|MD07565193|MD07515571|MD07520201|MD07580839|MD05864356|MD07546944|MD06249381|MD07510584|MD07510111|MD07566472|MD07555403|MD07581798|MD07580929|MD07583447|MD07557909|MD07548653|MD07563594|MD07573954|MD07567133"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07578166|MD07583459|MD07563893|MD07546009|MD07582363|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07580007"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07544691|MD07520255|MD07573086|MD07519593|MD07580096|MD07515582|MD07565218|MD07565193|MD07515571|MD07520201|MD07580839|MD05864356|MD07546944|MD06249381|MD07510584|MD07510111|MD07566472|MD07555403|MD07581798|MD07580929|MD07583447|MD07557909|MD07548653|MD07563594|MD07573954|MD07567133"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07578166|MD07583459|MD07563893|MD07546009|MD07582363|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07580007"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07578166|MD07583459|MD07563893|MD07546009|MD07582363|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07580007"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="	MD07544691|MD07520255|MD07573086|MD07519593|MD07580096|MD07515582|MD07565218|MD07565193|MD07515571|MD07520201|MD07580839|MD05864356|MD07546944|MD06249381|MD07510584|MD07510111|MD07566472|MD07555403|MD07581798|MD07580929|MD07583447|MD07557909|MD07548653|MD07563594|MD07573954|MD07567133"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07558410|MD07569834|MD07569835|MD07577254|MD07567372|MD07558671|MD07577498|MD07574585|MD07560934|MD07577839|MD07572416"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Deal Closed"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="銷售一空"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Hot Deal"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_flag100.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
@@ -206,7 +206,7 @@
                   </div>
 									<p class="title">會員獨享 件件98折</p>
 									<p class="desc">新會員再贈95折券 立即加入會員</p>
-                  <a href="#BuymoreSavemore" class="list-item__button"></a>
+                  <a href="#MoreBenefits" class="list-item__button"></a>
                 </div>
               </div>
             </div>
@@ -254,7 +254,7 @@
 												<span class="number">*finalPrice*</span>
 											</span>
 											<div class="product__members">
-												<span>Members only</span>
+												<span>會員獨家</span>
 												<span class="number">*membershipPriceValue*</span>
 											</div>
 										</div>
@@ -315,7 +315,7 @@
 				<div class="anchors" id="BuymoreSavemoreTVAudio"></div>
 				<div class="anchors" id="BuymoreSavemoreHomeAppliance"></div>
 				<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
-				<div id="BuymoreSavemore" class="section" data-list="hottest">
+				<div id="BuymoreSavemore" class="section sectionBuying" data-list="hottest">
 					<div class="section__inner">
 						<p class="title">開啟組合優惠</p>
 						<p class="desc">期間限定,購買2件以上指定產品,結帳即可再享9折</p>
@@ -351,7 +351,7 @@
 											<span class="number">*finalPrice*</span>
 										</span>
 										<div class="product__members">
-											<span>Members only</span>
+											<span>會員獨家</span>
 											<span>
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 												<span class="number">*membershipPriceValue*</span>
@@ -431,22 +431,6 @@
 					</div>
 				</div>
 
-				<div id="BrandCampaign" class="section">
-					<div class="section__inner">
-						<p class="title">一起探索讓Life's good的秘笈</p>
-						<div class="banner">
-							<div class="banner__banner">
-								<p class="title">讓生活更多微笑</p>
-								<div class="button">
-									<div class="button__row">
-										<a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" class="button__item button__item--secondary">查看更多</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
 				<div id="MoreBenefits" class="section">
 					<div class="section__inner">
 						<p class="title">更多加碼優惠</p>
@@ -475,6 +459,22 @@
 										<p class="desc">全館免運費，免基本安裝費，指定舊四機免費回收</p>
 									</div>
 									<i class="benefit-more__ico"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="BrandCampaign" class="section">
+					<div class="section__inner">
+						<p class="title">一起探索讓Life's good的秘笈</p>
+						<div class="banner">
+							<div class="banner__banner">
+								<p class="title">讓生活更多微笑</p>
+								<div class="button">
+									<div class="button__row">
+										<a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" class="button__item button__item--secondary">查看更多</a>
+									</div>
 								</div>
 							</div>
 						</div>

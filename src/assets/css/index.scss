@@ -333,6 +333,15 @@
 			}
 		}
 
+		&.sectionBuying {
+			.tab {
+				margin-top: 64px;
+				@media (max-width: 1024px) {
+					margin-top: 24px;
+				}
+			}
+		}
+
 		@media (max-width: 1024px) {
 			padding: 24px 16px;
 

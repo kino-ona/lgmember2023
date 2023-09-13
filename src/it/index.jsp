@@ -75,10 +75,11 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07529177|MD07528566|MD07539127|MD07559882|MD07567822|MD06149522|MD07568140|MD07555758|MD07560054|MD07544223||MD07580138|MD05879679|MD07567842"/>
+		
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07576894|MD07576990|MD07576998|MD07570953|MD07570952|MD07582920|MD07583004|MD07554992|MD07575695|MD07573981|MD07547412|MD07581138|MD07551327|MD07548340|MD07559233|MD07555550|MD07559564"/>
 
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07529177|MD07528566|MD07539127|MD07559882|MD07567822|MD06149522|MD07568140|MD07555758|MD07560054|MD07544223||MD07580138|MD05879679|MD07567842"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07576894|MD07576990|MD07576998|MD07570953|MD07570952|MD07582920|MD07583004|MD07554992|MD07575695|MD07573981|MD07547412|MD07581138|MD07551327|MD07548340|MD07559233|MD07555550|MD07559564"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07576894|MD07576990|MD07576998|MD07570953|MD07570952|MD07582920|MD07583004|MD07554992|MD07575695|MD07573981|MD07547412|MD07581138|MD07551327|MD07548340|MD07559233|MD07555550|MD07559564"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07529177|MD07528566|MD07539127|MD07559882|MD07567822|MD06149522|MD07568140|MD07555758|MD07560054|MD07544223||MD07580138|MD05879679|MD07567842"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07571513|MD07583899|MD07583272|MD07584095|MD07554813|MD07559748|MD07573308|MD07527572"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Deal Closed"/>
@@ -185,7 +186,7 @@
 									</div>
 									<p class="title">Più vantaggi per te che sei Member LG</p>
 									<p class="desc">Registrati e ricevi 5% coupon di Benvenuto più 2% sconto a carrello valido per tuoi acquisti futuri.</p>
-									<a href="#BuymoreSavemore" class="list-item__button"></a>
+									<a href="#VantaggiEsclusivi" class="list-item__button"></a>
 								</div>
 							</div>
 						</div>
@@ -299,7 +300,7 @@
 				<div class="anchors" id="CrealatuaOfferta-LAVATRICI"></div>
 				<div class="anchors" id="CrealatuaOfferta-Elettrodomestici"></div>
 				<div class="anchors" id="CrealatuaOfferta-Informatica"></div>
-				<div id="BuymoreSavemore" class="section" data-list="hottest">
+				<div id="BuymoreSavemore" class="section sectionBuying" data-list="hottest">
 					<div class="section__inner">
 						<p class="title">Più acquisti, più risparmi!</p>
 						<p class="desc">Crea la tua offerta e ottieni fino al 20% di sconto acquistando 2 o più prodotti.</p>
