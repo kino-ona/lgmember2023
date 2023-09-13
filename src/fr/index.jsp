@@ -270,7 +270,7 @@
 					</div>
 				</div>
 
-				<div id="BuymoreSavemore" class="section" data-list="hottest">
+				<div id="BuymoreSavemore" class="section sectionBuying" data-list="hottest">
 					<div class="section__inner">
 						<p class="title">
 							Découvrez les bundles<br>

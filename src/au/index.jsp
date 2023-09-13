@@ -272,7 +272,7 @@
 				<div class="anchors" id="BuymoreSavemoreTVAudio"></div>
 				<div class="anchors" id="BuymoreSavemoreHomeAppliance"></div>
 				<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
-				<div id="BuymoreSavemore" class="section" data-list="hottest">
+				<div id="BuymoreSavemore" class="section sectionBuying" data-list="hottest">
 					<div class="section__inner">
 						<p class="title">Choose your bundles</p>
 						<p class="desc">Unveil great savings when you bundle some of your favourite LG products</p>
