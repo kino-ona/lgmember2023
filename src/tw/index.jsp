@@ -31,8 +31,9 @@
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-CWVL');</script>
+	})(window,document,'script','dataLayer','GTM-W9G72C');</script>
 	<!-- End Google Tag Manager -->
+
 </head>
 
 <body>
@@ -178,8 +179,18 @@
               </div>
               <div class="button">
                 <div class="button__row">
-                  <a href="https://www.lg.com/tw/my-lg" role="button" class="button__item button__item--secondary">登入</a>
-                  <a href="https://www.lg.com/tw/my-lg" role="button" class="button__item">加入會員</a>
+                  <a href="https://www.lg.com/tw/my-lg" role="button" 
+										data-track-group="MICROSITE"
+										data-track-name="memberdays_click"
+										data-link-area="memberdays_Q3_sign_in_click"
+										data-link-name="memberdays_2023Q3"
+										class="button__item button__item--secondary">登入</a>
+                  <a href="https://www.lg.com/tw/my-lg" role="button" 
+										data-track-group="MICROSITE"
+										data-track-name="memberdays_click"
+										data-link-area="memberdays_Q3_join_us_click"
+										data-link-name="memberdays_2023Q3"
+										class="button__item">加入會員</a>
                 </div>
               </div>
             </div>
@@ -263,12 +274,12 @@
 											<div class="button__row">
 												<a role="button" href="*modelUrlPath*" 
 												class="button__item button__item--secondary learn-more__link"  target="_blank" 
-												data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="" data-track-name="" data-link-name="">
+												data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-group="MICROSITE" data-link-name="learn_more">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												</a>
-												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="" data-link-name="" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO CART'/></a>
+												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-link-area="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO CART'/></a>
 
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="" data-link-name="" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 										</div>
 									</div>
@@ -361,13 +372,14 @@
 									</div>
 									<div class="button">
 										<div class="button__row">
-											<a role="button" href="*modelUrlPath*" class="button__item button__item--secondary learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="" data-track-name="" data-link-name="">
+											<a role="button" href="*modelUrlPath*" 
+											class="button__item button__item--secondary learn-more__link"  target="_blank" 
+											data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-group="MICROSITE" data-link-name="learn_more">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 											</a>
+											<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-link-area="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO CART'/></a>
 
-											<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-track-name="" data-link-name="" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO CART'/></a>
-
-											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="" data-link-name="" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 									</div>
 								</div>
@@ -474,7 +486,12 @@
 								<p class="title">讓生活更多微笑</p>
 								<div class="button">
 									<div class="button__row">
-										<a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" class="button__item button__item--secondary">查看更多</a>
+										<a href="https://www.lg.com/global/lifes-good-in-action/" role="button" 
+											data-track-group="MICROSITE"
+											data-track-name="memberdays_click"
+											data-link-area="memberdays_Q3_lifeisgood_learn_more_click"
+											data-link-name="memberdays_2023Q3"
+											target="_blank" class="button__item button__item--secondary">查看更多</a>
 									</div>
 								</div>
 							</div>
@@ -516,7 +533,7 @@
 		_dl = 
 		{
 			"page_name" : {
-				"super_category" : "memberdays2023H2",
+				"super_category" : "memberdays2023H1",
 				"bu" : "",
 				"gmc_bu" : "",
 				"sub_category_list" : "",
@@ -535,7 +552,7 @@
 			"isLogin" : "",
 			"country_code" : "${country}",
 			"language_code" : "${language}",
-			"page_category_l1" : "${country}:memberdays2023H2",
+			"page_category_l1" : "${country}:memberdays2023H1",
 			"page_category_l2" : "",
 			"page_category_l3" : "",
 			"page_category_l4" : "",
