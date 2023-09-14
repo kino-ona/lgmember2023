@@ -97,5 +97,27 @@
 		}
 	}
 
-	
+
+	@media (min-width: 1025px) and (max-width: 1280px) {
+		.button__item {
+			font-size: 11px;
+		}
+		.product__item {
+			padding-left: 16px;
+			padding-right: 16px;
+		}
+		.product__price {
+			font-size: 22px;
+			line-height: 23px;
+		}
+
+		.product__members {
+			font-size: 12px;
+
+			span:not(.unit):not(.number) {
+				font-size: 12px;
+				line-height: 13px;
+			}
+		}
+	}
 }

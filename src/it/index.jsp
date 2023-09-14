@@ -553,15 +553,10 @@
 				<div class="footer-component">
 					<div class="footer-caution">
 						<div>*Iniziativa promozionale valida dal 21/9 al 11/10/2023 per i clienti Member LG soggetta a quantità limitate.</div>
-					</div>
-				</div>
-			</div>                
-			<div class="footer-box">
-				<div class="footer-component">
-					<div class="footer-caution">
-						**Iniziativa promozionale valida dal 21/9 al 11/10/2023 per clienti Member LG sui prodotti disponibili presenti all'interno della pagina
-						https://www.lg.com/it/MemberDays23. Ulteriore sconto a carrello del 13% acquistando 2 o più prodotti disponibili sul sito https://www.lg.com/it su una
-						spesa minima: 1.000€. Sono esclusi i prodotti contrassegnati dal tag "OFFERTA TOP", i Kit Esclusivi presenti alla pagina https://www.lg.com/it/kit-esclusivi egli utenti Vip Program). Sconto a carrello cumulabile solo con coupon di benvenuto 5%
+						<div>
+							**Iniziativa promozionale valida dal 21/9 al 11/10/2023 per clienti Member LG sui prodotti disponibili presenti all'interno della pagina
+						https://www.lg.com/it/MemberDays23. Ulteriore sconto a carrello del 13% acquistando 2 o più prodotti disponibili sul sito https://www.lg.com/it su una spesa minima: 1.000€. Sono esclusi i prodotti contrassegnati dal tag "OFFERTA TOP", i Kit Esclusivi presenti alla pagina https://www.lg.com/it/kit-esclusivi egli utenti Vip Program). Sconto a carrello cumulabile solo con coupon di benvenuto 5%
+						</div>
 					</div>
 				</div>
 			</div>

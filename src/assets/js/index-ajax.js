@@ -61,13 +61,13 @@ $(document).ready(function () {
     ctaBtn: $(".lgmembersdays .button a, .lgmembersdays .learn-more"),
     hottestSlickOpt: {
       infinite: false,
-			slidesToShow: 4,
-			slidesToScroll: 4,
+			slidesPerRow: 4,
 			rows: 2,
 			responsive: [
 				{
 					breakpoint: 1024,
 					settings: {
+						slidesPerRow: 1,
 						slidesToShow: 1.01,
 						slidesToScroll: 1,
 						rows: 1
