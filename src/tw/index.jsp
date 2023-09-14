@@ -82,62 +82,63 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07558410|MD07569834|MD07569835|MD07577254|MD07567372|MD07558671|MD07577498|MD07574585|MD07560934|MD07577839|MD07572416"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="銷售一空"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Hot Deal"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_flag100.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07544691" value="Limited to 1_1 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520255" value="Limited to 1_2 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573086" value="Limited to 1_3 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07519593" value="Limited to 1_4 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580096" value="Limited to 1_5 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515582" value="Limited to 1_6 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565218" value="Limited to 1_7 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565193" value="Limited to 1_8 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515571" value="Limited to 1_9 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520201" value="Limited to 1_10 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580839" value="Limited to 1_11 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05864356" value="Limited to 1_12 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546944" value="Limited to 1_13 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06249381" value="Limited to 1_14 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510584" value="Limited to 1_15 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510111" value="Limited to 1_16 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07566472" value="Limited to 1_17 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555403" value="Limited to 1_18 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581798" value="Limited to 1_19 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580929" value="Limited to 1_20 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583447" value="Limited to 1_21 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07557909" value="Limited to 1_22 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07548653" value="Limited to 1_23 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563594" value="Limited to 1_24 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573954" value="Limited to 1_25 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567133" value="Limited to 1_26 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="限量"/>
+		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_flag100.png"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07578166" value="Limited to 2_1 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583459" value="Limited to 2_2 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563893" value="Limited to 2_3 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546009" value="Limited to 2_4 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07582363" value="Limited to 2_5 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580478" value="Limited to 2_6 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580477" value="Limited to 2_7 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579904" value="Limited to 2_8 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580475" value="Limited to 2_9 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580501" value="Limited to 2_10 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580007" value="Limited to 2_11 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07544691" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520255" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573086" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07519593" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580096" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515582" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565218" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565193" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515571" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520201" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580839" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05864356" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546944" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06249381" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510584" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510111" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07566472" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555403" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581798" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580929" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583447" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07557909" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07548653" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563594" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573954" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567133" value="限量"/>
 
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558410" value="Limited to 3_1 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569834" value="Limited to 3_2 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569835" value="Limited to 3_3 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577254" value="Limited to 3_4 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567372" value="Limited to 3_5 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558671" value="Limited to 3_6 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577498" value="Limited to 3_7 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07574585" value="Limited to 3_8 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07560934" value="Limited to 3_9 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577839" value="Limited to 3_10 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572416" value="Limited to 3_11 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07578166" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583459" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563893" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546009" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07582363" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580478" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580477" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579904" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580475" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580501" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580007" value="限量"/>
+
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558410" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569834" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569835" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577254" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567372" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558671" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577498" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07574585" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07560934" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577839" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572416" value="限量"/>
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07544691|MD07559316|MD07559274|MD07566412|MD06160717|MD06015536|MD07565193|MD06133296|MD07565206|MD07581884|MD07520201|MD07580128|MD07544495|MD07567192|MD07580100|MD06141816|MD07559123|MD06141837|MD07537639|MD07566531|MD07566472|MD07557910|MD07570828|MD07557909|MD07548653|MD07563594|MD07563591|MD07567133|MD07567095|MD07569991|MD07564750|MD07542594"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07544691|MD07559316|MD07559274|MD07566412|MD06160717|MD07565193|MD06133296|MD07565206|MD07581884|MD07520201|MD07580128|MD07544495|MD07567192|MD07580100|MD06141816|MD07559123|MD06141837|MD07537639|MD07566531|MD07566472|MD07557910|MD07570828|MD07557909|MD07548653|MD07563594|MD07563591|MD07567133|MD07567095|MD07569991|MD07564750|MD07542594"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07578166|MD07583459|MD07583432|MD07583081|MD07583386|MD07580478|MD07580477|MD07580475|MD07580464|MD07580007"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07510584|MD07567372|MD07558781|MD07577839|MD07558671"/>
 		<!-- Required input ## Model List End -->
@@ -485,7 +486,7 @@
 		</div>
 		<!-- // Content End  -->
 	</div>
-	
+	<div class="anchors" id="TermsAndConditions"></div>
 	<!-- top button -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/top.jsp" />
 	<!-- // top button -->

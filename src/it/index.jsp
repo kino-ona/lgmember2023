@@ -82,34 +82,51 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07529177|MD07528566|MD07539127|MD07559882|MD07567822|MD06149522|MD07568140|MD07555758|MD07560054|MD07544223||MD07580138|MD05879679|MD07567842"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07571513|MD07583899|MD07583272|MD07584095|MD07554813|MD07559748|MD07573308|MD07527572"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Deal Closed"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Hot Deal"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_flag100.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
-		<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt_MD07538608" value="Limited to 1_1 units"/> -->
+		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Offerta Terminata"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="OFFERTA TOP"/>
+		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_flag100.png"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576894" value="Limited to 2_1 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576990" value="Limited to 2_2 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576998" value="Limited to 2_3 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570953" value="Limited to 2_4 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570952" value="Limited to 2_5 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07582920" value="Limited to 2_6 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583004" value="Limited to 2_7 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07554992" value="Limited to 2_8 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07575695" value="Limited to 2_9 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573981" value="Limited to 2_10 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07547412" value="Limited to 2_11 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581138" value="Limited to 2_12 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07551327" value="Limited to 2_13 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07548340" value="Limited to 2_14 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559233" value="Limited to 2_15 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555550" value="Limited to 2_16 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559564" value="Limited to 2_17 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576894" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576990" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576998" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570953" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570952" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07582920" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583004" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07554992" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07575695" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573981" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07547412" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581138" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07551327" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07548340" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559233" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555550" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559564" value="QUANTITÀ LIMITATE"/>
 
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07554813" value="Limited to 3_1 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559748" value="Limited to 3_2 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573308" value="Limited to 3_3 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07527572" value="Limited to 3_4 units"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07529177" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07528566" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07539127" value="LQUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559882" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567822" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06149522" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07568140" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555758" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07560054" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07544223" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580138" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05879679" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567842" value="QUANTITÀ LIMITATE"/>
+
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571513" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583899" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583272" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07584095" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07554813" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559748" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573308" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07527572" value="QUANTITÀ LIMITATE"/>
 		
 		<!-- Volume Model -->
 		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07572631|MD07564173|MD07555539|MD07570428|MD07572708|MD07555667|MD07581160|MD07572763|MD07555691|MD07564148|MD07570421|MD07573987|MD07547142|MD07570423|MD07576074|MD07552401|MD07575961|MD07581152|MD07572626|MD07572218|MD07572761|MD07572564|MD07572757|MD07572179|MD07573986|MD07572768|MD07550685|MD07581159|MD07576073|MD07572217|MD07578633|MD07574049|MD07576072|MD07574050"/>
@@ -138,7 +155,7 @@
 							Solo per clienti Member LG, fino all’11/10.
 						</p>
 						<div class="term">
-							<a href="#Terminiecondizioni" role="button">
+							<a href="#Terminiecondizioni" class="btnTerm" role="button">
 								Termini &amp; Condizioni
 								<i></i>
 							</a>
@@ -203,9 +220,9 @@
               <p class="desc">Approfitta subito delle Offerte Top sui prodotti selezionati. Affrettati le quantità sono limitate*!</p>
 						<div class="tab">
 							<div class="tab__list">
-								<a href="#tv" role="button" class="tab__button tab__button--selected">TV/Audio</a>
-								<a href="#homeappliance" role="button" class="tab__button">Elettrodomestici</a>
-								<a href="#computerproduct" role="button" class="tab__button">Informatica</a>
+								<a href="#tv" role="button" class="tab__button tab__button--selected">TV/AUDIO</a>
+								<a href="#homeappliance" role="button" class="tab__button">ELETTRODOMESTICI</a>
+								<a href="#computerproduct" role="button" class="tab__button">INFORMATICA</a>
 							</div>
 							<div id="hotdeal" class="tab__contents product--hotdeal">
 
@@ -235,7 +252,7 @@
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 											</span>
 											<div class="product__members">
-												<span>Members only</span>
+												<span>Solo per clienti<br>Member LG</span>
 												<span class="number">*membershipPriceValue*</span>
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 											</div>
@@ -338,7 +355,7 @@
 											<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 										</span>
 										<div class="product__members">
-											<span>Members only</span>
+											<span>Solo per clienti<br>Member LG</span>
 											<span>
 												<span class="number">*membershipPriceValue*</span>
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
@@ -514,19 +531,10 @@
 		</div>
 		<!-- // Content End  -->
 
-		<div id="TerminieCondizioni" class="container-fluid">
-			<div class="footer-box">
-				<div class="footer-component">
-					<div class="footer-caution">CRM 5%<br>
-						<div>Iniziativa promozionale valida dal 21/9 al 11/10/2023 per clienti Member LG sui prodotti disponibili presenti all'interno della pagina https://www.lg.com/it/MemberDays23.<br>Coupon del 5% cumulabile solo con sconto a carrello del 13%.
-						</div>
-					</div>
-				</div>
-			</div>                  
+		<div id="TerminieCondizioni" class="container-fluid">                
 			<div class="footer-box">
 				<div class="footer-component">
 					<div class="footer-caution">
-						QUANTITA' LIMITATE<br>
 						<div>*Iniziativa promozionale valida dal 21/9 al 11/10/2023 per i clienti Member LG soggetta a quantità limitate.</div>
 					</div>
 				</div>
@@ -534,9 +542,9 @@
 			<div class="footer-box">
 				<div class="footer-component">
 					<div class="footer-caution">
-						MULTIPURCHASE<br>
-						<div>"**Iniziativa promozionale valida dal 21/9 al 11/10/2023 per clienti Member LG sui prodotti disponibili presenti all'interno della pagina https://www.lg.com/it/MemberDays23.
-							Ulteriore sconto a carrello del 13% acquistando 2 o più prodotti disponibili sul sito https://www.lg.com/it su una spesa minima: 1.000€. Sono esclusi i prodotti contrassegnati dal tag ""OFFERTA TOP"", i Kit Esclusivi presenti alla pagina https://www.lg.com/it/kit-esclusivi e gli utenti Vip Program). Sconto a carrello cumulabile solo con coupon di benvenuto 5%."</div>
+						**Iniziativa promozionale valida dal 21/9 al 11/10/2023 per clienti Member LG sui prodotti disponibili presenti all'interno della pagina
+						https://www.lg.com/it/MemberDays23. Ulteriore sconto a carrello del 13% acquistando 2 o più prodotti disponibili sul sito https://www.lg.com/it su una
+						spesa minima: 1.000€. Sono esclusi i prodotti contrassegnati dal tag "OFFERTA TOP", i Kit Esclusivi presenti alla pagina https://www.lg.com/it/kit-esclusivi egli utenti Vip Program). Sconto a carrello cumulabile solo con coupon di benvenuto 5%
 					</div>
 				</div>
 			</div>
@@ -623,6 +631,12 @@
 		// 		fbq('trackCustom', '2023H2GMCMemberDay LearnMore');
 		// 	});
 		// }
+
+		$(".btnTerm").click(function() {
+			$([document.documentElement, document.body]).animate({
+					scrollTop: $("#TerminieCondizioni").offset().top
+			}, 2000);
+		});
 			
 		$(document).ready(function(){
 			var href = window.location.href;
