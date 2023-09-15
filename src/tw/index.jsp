@@ -83,60 +83,60 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07558410|MD07569834|MD07569835|MD07577254|MD07567372|MD07558671|MD07577498|MD07574585|MD07560934|MD07577839|MD07572416"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="銷售一空"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="特價"/>
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_flag100.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07544691" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520255" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573086" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07519593" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580096" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515582" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565218" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565193" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515571" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520201" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580839" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05864356" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546944" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06249381" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510584" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510111" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07566472" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555403" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581798" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580929" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583447" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07557909" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07548653" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563594" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573954" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567133" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07544691" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520255" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573086" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07519593" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580096" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515582" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565218" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565193" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515571" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520201" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580839" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05864356" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546944" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06249381" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510584" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510111" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07566472" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555403" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581798" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580929" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583447" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07557909" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07548653" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563594" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573954" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567133" value="特價"/>
 
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07578166" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583459" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563893" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546009" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07582363" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580478" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580477" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579904" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580475" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580501" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580007" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07578166" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583459" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563893" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546009" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07582363" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580478" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580477" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579904" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580475" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580501" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580007" value="特價"/>
 
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558410" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569834" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569835" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577254" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567372" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558671" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577498" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07574585" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07560934" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577839" value="限量"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572416" value="限量"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558410" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569834" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569835" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577254" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567372" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558671" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577498" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07574585" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07560934" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577839" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572416" value="特價"/>
 		
 		<!-- Volume Model -->
 		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07578166|MD07583459|MD07583432|MD07583081|MD07583386|MD07580478|MD07580477|MD07580475|MD07580464|MD07580007"/>
@@ -201,7 +201,7 @@
                     <img src="${path}/assets/images/img_deals01.png" alt="">
                   </div>
 									<p class="title">熱銷精選</p>
-									<p class="desc">解鎖限量驚喜折扣，將心儀家電帶回家</p>
+									<p class="desc">解鎖特價驚喜折扣，將心儀家電帶回家</p>
                   <a href="#HotDeal" class="list-item__button"></a>
                 </div>
                 <div class="list-item__item">

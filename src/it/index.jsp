@@ -175,18 +175,18 @@
 							</div>
 							<div class="button">
 								<div class="button__row">
-									<a href="https://sso.lg.com/oauth/page/login?authorizeKey=11f06f29-b694-424c-9176-c6fb66389807&funnel=%2Fit%2FMemberDays23" role="button" 
+									<a href="https://www.lg.com/it/my-lg/login?state=/it/MemberDays23" role="button" 
 										data-track-group="MICROSITE"
 										data-track-name="memberdays_click"
 										data-link-area="memberdays_Q3_sign_in_click"
 										data-link-name="memberdays_2023Q3"
 										class="button__item button__item--secondary">Registrati</a>
-									<a href="https://sso.lg.com/oauth/page/login?authorizeKey=11f06f29-b694-424c-9176-c6fb66389807&funnel=%2Fit%2FMemberDays23" role="button" 
+									<a href="https://www.lg.com/it/my-lg/login?state=/it/MemberDays23" role="button" 
 										data-track-group="MICROSITE"
 										data-track-name="memberdays_click"
 										data-link-area="memberdays_Q3_join_us_click"
 										data-link-name="memberdays_2023Q3"
-										class="button__item">Scopri di più</a>
+										class="button__item">Accedi</a>
 								</div>
 							</div>
 						</div>
