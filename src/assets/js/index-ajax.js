@@ -455,6 +455,7 @@ $(document).ready(function () {
 				$template.find(".product__group").removeClass('d-none');
 			}else{
 				$productTag.text(listArray[listName]['alt_'+listName])
+				$productTag.hide();
 				$template.find(".product__soldout").removeClass('d-none');
 				$template.find(".product__soldout .product__text").text(listArray[listName]['altClose']);
 				$template.find(".product__group").addClass('d-none');

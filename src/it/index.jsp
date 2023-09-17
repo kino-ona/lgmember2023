@@ -638,12 +638,6 @@
 	
 	<!-- your js -->
 	<script>
-		// if($('.learn-more__link').length > 0) {
-		// 	$('.learn-more__link').on('click', function (e) {
-		// 		fbq('trackCustom', '2023H2GMCMemberDay LearnMore');
-		// 	});
-		// }
-
 		$(".btnTerm").click(function() {
 			$([document.documentElement, document.body]).animate({
 					scrollTop: $("#TerminieCondizioni").offset().top

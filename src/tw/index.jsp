@@ -179,13 +179,13 @@
               </div>
               <div class="button">
                 <div class="button__row">
-                  <a href="https://www.lg.com/tw/my-lg" role="button" 
+                  <a href="https://www.lg.com/tw/my-lg/login?state=/tw/memberdays23H2" role="button" 
 										data-track-group="MICROSITE"
 										data-track-name="memberdays_click"
 										data-link-area="memberdays_Q3_sign_in_click"
 										data-link-name="memberdays_2023Q3"
 										class="button__item button__item--secondary">登入</a>
-                  <a href="https://www.lg.com/tw/my-lg" role="button" 
+                  <a href="https://www.lg.com/tw/my-lg/login?state=/tw/memberdays23H2" role="button" 
 										data-track-group="MICROSITE"
 										data-track-name="memberdays_click"
 										data-link-area="memberdays_Q3_join_us_click"
