@@ -108,7 +108,7 @@
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07580743|MD07584291|MD07552663|MD07540845|MD07540834|MD07555444|MD07555441|MD06071037|MD06061416|MD06114037|MD07530439|MD07530444|MD07583242|MD07576213|MD07576147|MD07515427|MD07573775|MD07554695|MD07549265"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD06114896|MD07577820|MD07582245|MD07560204|MD07577830|MD07538827|MD06173456|MD07577031|MD07560114|MD07560104|MD06117156|MD07539695|MD07539028|MD07520224|MD07504296|MD06114817|MD07538738|MD07538843"/>
 		<!-- Required input ## Model List End -->
-	
+		<input type="hidden" id="discountRateMsg" value="<spring:message code='discount_percent_message' text='{1}% Off'/>"/>
 		<!--  Content Start  -->
 		<link rel="stylesheet" href="${path}/assets/css/index.css">
 		<link rel="stylesheet" href="${path}/assets/css/index_au.css" />
@@ -227,7 +227,7 @@
 												<span class="number">*originPrice*</span>
 											</span>
 											<span class="product__belt">
-												*discountedRate*
+												*discountMsg*
 											</span>
 										</div>
 										<div class="product__group">
@@ -243,11 +243,11 @@
 										<div class="button">
 											<div class="button__row">
 												<a role="button" href="*modelUrlPath*" 
-												class="button__item button__item--secondary learn-more__link"  target="_blank" 
+												class="button__item learn-more__link" target="_blank" 
 												data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-group="MICROSITE" data-link-name="learn_more">
 													<span class="learn-more__text">Shop Now</span>
 												</a>
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+												<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 										</div>
 									</div>
@@ -339,11 +339,11 @@
 									<div class="button">
 										<div class="button__row">
 											<a role="button" href="*modelUrlPath*" 
-											class="button__item button__item--secondary learn-more__link"  target="_blank" 
+											class="button__item learn-more__link" target="_blank" 
 											data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-group="MICROSITE" data-link-name="learn_more">
 												<span class="learn-more__text">Shop Now</span>
 											</a>
-											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*">Pre-order</a>
+											<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*">Pre-order</a>
 										</div>
 									</div>
 								</div>
