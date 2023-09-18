@@ -407,9 +407,9 @@ $(document).ready(function () {
           )
           .replace(
             /\*discountMsg\*/g,
-            p.discountMsg == null
+            p.discountedRate == null
               ? ""
-              : p.discountMsg.replace(/&lt;/gi, "<").replace(/&gt;/gi, ">")
+              : $("#discountRateMsg").val().replace('{1}',p.discountedRate)
           )
           .replace(/\*salesSuffixCode\*/g, p.salesSuffixCode || "")
           .replace(/\*modelYear\*/g, nvl(p.modelYear, "") || "")
