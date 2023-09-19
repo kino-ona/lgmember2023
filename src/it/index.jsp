@@ -77,11 +77,11 @@
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07576894|MD07576990|MD07576998|MD07570953|MD07570952|MD07582920|MD07583004|MD07554992|MD07572564|MD07573981|MD07572763|MD07581138|MD07547436|MD07572708|MD07559233|MD07555550|MD07551049"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07576894|MD07576990|MD07576998|MD07570953|MD07570952|MD07582920|MD07583004|MD07554992|MD07573981|MD07559233|MD07555550|MD07572564|MD07572763|MD07547436|MD07572708|MD07551049|MD07584905|MD07570370|MD07564074|MD07548157|MD07583901|MD07569633|MD07555667|MD07564173"/>
 
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07576894|MD07576990|MD07576998|MD07570953|MD07570952|MD07582920|MD07583004|MD07554992|MD07572564|MD07573981|MD07572763|MD07581138|MD07547436|MD07572708|MD07559233|MD07555550|MD07551049|MD07570370|MD07564074|MD07548157|MD07584905|MD07569633|MD07555667|MD07564173"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07529177|MD07579021|MD07539127|MD07559882|MD07567822|MD06149522|MD07568140|MD07535702|MD07528566|MD07584811|MD07544223||MD07580138|MD05879679|MD07567842"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07571411|MD07583899|MD07583272|MD07584095|MD07554813|MD07559748|MD07573308|MD07527572|MD07577651|MD07573101"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07576894|MD07576990|MD07576998|MD07570953|MD07570952|MD07582920|MD07583004|MD07554992|MD07573981|MD07559233|MD07555550|MD07572564|MD07572763|MD07547436|MD07572708|MD07551049|MD07584905|MD07570370|MD07564074|MD07548157|MD07583901|MD07569633|MD07555667|MD07564173"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07529177|MD07539127|MD07559882|MD07527380|MD06149522|MD07568140|MD07544223|MD07580138|MD05879679|MD07567842|MD07579021|MD07535702|MD07528566|MD07584811"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07583899|MD07583272|MD07584095|MD07554813|MD07559748|MD07585049|MD07571411|MD07573308|MD07577651|MD07573101"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Offerta Terminata"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="OFFERTA TOP"/>
@@ -94,45 +94,46 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07582920" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583004" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07554992" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572564" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573981" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572763" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581138" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07547436" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572708" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559233" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555550" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572564" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572763" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07547436" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572708" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07551049" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07584905" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570370" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07564074" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07548157" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07584905" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583901" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569633" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555667" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07564173" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555667" value="QUANTITÀ LIMITATE"/>
 
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07529177" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07528566" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07539127" value="LQUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07539127" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559882" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567822" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07527380" value="LQUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06149522" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07568140" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555758" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07560054" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07544223" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580138" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05879679" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567842" value="QUANTITÀ LIMITATE"/>
-
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571411" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579021" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07535702" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07528566" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07584811" value="QUANTITÀ LIMITATE"/>
+		
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583899" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583272" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07584095" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07554813" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07559748" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07585049" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571411" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573308" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07527572" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577651" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573101" value="QUANTITÀ LIMITATE"/>
 		
@@ -205,7 +206,7 @@
 									</div>
 									<p class="title">Offerte Top</p>
 									<p class="desc">Approfitta subito delle Offerte Top sui prodotti selezionati. Affrettati le quantità sono limitate!</p>
-									<a href="#sectionHotdeal" class="list-item__button"></a>
+									<a href="#OfferteTop" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
 									<div class="img">
@@ -213,7 +214,7 @@
 									</div>
 									<p class="title">Più acquisti, più risparmi!</p>
 									<p class="desc">Crea la tua offerta e ottieni fino al 20% di sconto a carrello acquistando 2 o più prodotti.</p>
-									<a href="#BuymoreSavemore" class="list-item__button"></a>
+									<a href="#CrealatuaOfferta" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
 									<div class="img">

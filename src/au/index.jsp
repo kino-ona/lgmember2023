@@ -82,26 +82,26 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07558747|MD07540359|MD07540296|MD06078081|MD06069996|MD07540250|MD07540344|MD07515415|MD05925096|MD07504245|MD05769247|MD07541490|MD06061416|MD06032796|MD07561212|MD06061297|MD07561277|MD07539025|MD07538981|MD07548507|MD06164402|MD07575595|MD07569894|MD06164256|MD07534829|MD07572245|MD07535988|MD07583594|MD07581342|MD07581235"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07570025|MD07576423|MD07578001|MD07570626|MD07543932|MD07566061|MD07560541|MD07539285|MD07560202|MD07551485"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Deal Closed"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570970" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571080" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571128" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571130" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579513" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579538" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579638" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07550462" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07550779" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07506339" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569326" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569289" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569288" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07537497" value="Limited Offer"/>
-		<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/> -->
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570970" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571080" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571128" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571130" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579513" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579538" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579638" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07550462" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07550779" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07506339" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569326" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569289" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569288" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07537497" value="Special Offer"/>
+		<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/> -->
 		
 		<!-- Volume Model -->
 		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07570927|MD07570902|MD07570913|MD07570947|MD07570951|MD07570955|MD07570959|MD07571131|MD07571137|MD07571136|MD07571078|MD07579561|MD07579762|MD07579771|MD07579775|MD07579821"/>
@@ -119,7 +119,7 @@
 					<div class="visual__inner">
 						<p class="visual__logo">LG MEMBER DAYS</p>
 						<h1 class="title">Unbox the Good Life</h1>
-						<p class="desc">Life's Good with great offers prepared just for you</p>
+						<p class="desc">Life’s Good with great offers prepared just for you</p>
 						<p class="desc">September 22nd  - October 5th</p>
 						<div class="term">
 							<a href="#TermsAndConditions" role="button" class="btnTerm">
@@ -163,7 +163,7 @@
 										<img src="${path}/assets/images/img_deals01.png" alt="">
 									</div>
 									<p class="title">Start saving now</p>
-									<p class="desc">Secure some of your favourite LG products at a great price. T&Cs apply#</p>
+									<p class="desc">Secure some of your favourite LG products at a great price. #T&Cs apply</p>
 									<a href="#HotDeal" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
@@ -171,7 +171,7 @@
 										<img src="${path}/assets/images/img_deals02.png" alt="">
 									</div>
 									<p class="title">Bundle and Save</p>
-									<p class="desc">Buy 2, save 15%*. Buy 3 or more, save 20%*. Exclusive to MyLG Members & eligible products only. T&Cs apply</p>
+									<p class="desc">Buy 2, save 15%*. Buy 3 or more, save 20%*. Exclusive to MyLG Members & eligible products only. *T&Cs apply</p>
 									<a href="#HotDeal" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
@@ -179,15 +179,15 @@
 										<img src="${path}/assets/images/img_deals03.png" alt="">
 									</div>
 									<p class="title">Limited Edition Gift</p>
-									<p class="desc">The first 280 MyLG Members who purchase orders placed will also receive a limited edition LG gift pack. T&Cs apply**</p>
+									<p class="desc">The first 280 MyLG Members who complete a transaction will also receive a limited edition LG gift pack. **T&Cs apply</p>
 									<a href="#BuymoreSavemore" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
 									<div class="img">
 										<img src="${path}/assets/images/img_deals04.png" alt="">
 									</div>
-									<p class="title">10% off your next purchase</p>
-									<p class="desc">MyLG Members who purchase during Member Days and save 10% on your their next eligible purchase. T&Cs apply</p>
+									<p class="title">10% off on your next eligible purchase </p>
+									<p class="desc">MyLG Members who purchase during Member Days and save 10%^^ on your their next eligible purchase. ^^T&Cs apply</p>
 									<a href="#MemberExclusiveBenefit" class="list-item__button"></a>
 								</div>
 							</div>
@@ -201,7 +201,7 @@
 				<div id="HotDeal" class="section" data-list="hotDeal">
 					<div class="section__inner">
 						<p class="title">Deals you can't wait to unbox</p>
-						<p class="desc">Save up to 20% off* when you bundle select LG products</p>
+						<p class="desc">Save up to 20% off* on select LG products</p>
 						<div class="tab">
 							<div class="tab__list">
 								<a href="#tv" role="button" class="tab__button tab__button--selected">TV / Audio</a>
@@ -340,7 +340,7 @@
 										<div class="button__row">
 											<a role="button" href="*modelUrlPath*" 
 											class="button__item learn-more__link" target="_blank" 
-											data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-group="MICROSITE" data-link-name="learn_more">
+											data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-group="product" data-link-name="learn_more">
 												<span class="learn-more__text">Shop Now</span>
 											</a>
 											<a role="button" href="*modelUrlPath*" target="_blank" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*">Pre-order</a>
@@ -414,12 +414,12 @@
 						<div class="banner">
 							<div class="banner__banner">
 								<p class="title">
-									Brining the smile<br>
+									Brining a smile<br>
 									to the world
 								</p>
 								<div class="button">
 									<div class="button__row">
-										<a href="https://www.lg.com/global/lifes-good-in-action/" role="button" 
+										<a href="http://www.lg.com/AU/LIFESGOOD" role="button" 
 										data-track-group="MICROSITE"
 										data-track-name="memberdays_click"
 										data-link-area="memberdays_Q3_lifeisgood_learn_more_click"
@@ -454,7 +454,7 @@
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="title">Exclusive Member Events</p>
-										<p class="desc">Be amongst the first to know about products, events and exclusive offers3 Terms and Conditions apply</p>
+										<p class="desc">Be amongst the first to know about products, events and exclusive offers<sup>3</sup> Terms and Conditions apply</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
@@ -471,7 +471,29 @@
 			<div class="footer-box">
 				<div class="footer-component">
 					<div class="footer-caution">
-						<div>#Customers save up to 20% off select LG products from 00:01am (AEST) on Friday 22 September 2023 until 11:59pm (AEDT) on Thursday 5 October 2023, unless sold out prior. This promotion applies to eligible purchases of participating models (as displayed on www.lg.com/au/lgmemberdays) made on the LG Online Store only. Products subject to stock availability at time of purchase and cannot be used in conjunction with any other offer. Free delivery available for MyLG Members, subject to T&Cs (<a href="https://www.lg.com/au/membership" target="_blank">https://www.lg.com/au/membership</a>).</div>
+						<div>* 15% discount is applied when you purchase two eligible LG products in a single transaction (excluding Accessories). 20% discount is applied when you purchase three or more eligible LG products in a single transaction (excluding Accessories). Offer applies to eligible purchases of participating models (as displayed on www.lg.com/au/lgmemberdays) made on the LG Online Store only. Promotion period 00:01am (AEST) on Friday 22 September 2023 and closes 11:59pm (AEDT) on Thursday 5 October 2023, unless sold out prior. To redeem the offer, (1) log in or create an account via the LG Online Store and (2) apply the code LGMDAYS15 (for 15% off a bundle of two eligible LG products) or LGMDAYS20 (for 20% off a bundle of three or more eligible products) at checkout. Employees, directors and officers (and their immediate family members and members of their households) of LG and strategic partners with access to partnership portals on LG.com/au are ineligible to participate in the Offer.  Products subject to stock availability at time of purchase and cannot be used in conjunction with any other offer.<br><br></div>
+						<div>
+							** The first 280 MyLG Members to purchase an eligible product displayed on www.lg.com/au/lgmemberdays during the LG Member Days event, which runs from 00:01am (AEST) on Friday 22 September 2023 and closes 11:59pm (AEDT) on Thursday 5 October 2023, will receive an exclusive Members only LG gift pack consisting of 1 x Life’s Good beach towel, 1 x Life’s Good umbrella and 1 x Life’s Good tote bag. Limit of one (1) gift pack per MyLG Member (not exchangeable, transferable for cash or redeemable for products). If eligible purchases are cancelled or returned prior to the gift pack being shipped, customers will not receive the gift pack. The exclusive gift pack will be shipped separately to the purchased product. Please allow up to 60 days from purchase to receive the gift pack. 
+							Employees, directors and/or officers (and their immediate family members and members of their households) of LG or of its subsidiaries or related companies and retailers or agencies associated with the Promotion, LG VIP Partners and Business Partners are ineligible to participate in the Promotion. Immediate family means any of the following: spouse, ex-spouse, de-facto spouse, child or step-child (whether natural or by adoption), parent, step-parent, grandparent, step-grandparent, uncle, aunt, niece, nephew, brother, sister, step-brother, step-sister or first cousin.<br><br>
+						</div>
+						<div>
+							^ 10% off next purchase coupon: Offer applies to the first purchases of any LG product displayed on www.lg.com/au/lgmemberdays, made during the Member Days event which runs from 00:01am (AEST) on Friday 22 September 2023 to 11:59pm (AEST) on Thursday 5 October 2023.  MyLG Members who make an eligible purchase will receive a coupon code via email for 10% off their next eligible purchase from the LG Online Store only.  The coupon code will be valid for 12 months from the date of issue, must be used in a single transaction and applies to purchases of any LG product. Limit of one (1) coupon code per MyLG Member. The 10% coupon cannot be used in conjunction with any other offer. Employees, directors and officers (and their immediate family members and members of their households) of LG and strategic partners with access to partnership portals on LG.com/au are ineligible to participate in the Offer.<br><br>
+						</div>
+						<div>
+							^^ 10% off next purchase coupon: Offer applies to the first purchase of any LG product displayed on www.lg.com/au/lgmemberdays, made during the Member Days event which runs from 00:01am (AEST) on Friday 22 September 2023 to 11:59pm (AEST) on Thursday 5 October 2023. MyLG Members who make an eligible purchase will receive a coupon code via email for 10% off their next eligible purchase from the LG Online Store only. Please allow up to 30 days from purchase to receive the coupon code. This The coupon code will be valid for 12 months from the date of issue, must be used in a single transaction and can be applied to the purchase of any LG products made on the LG Online Store. Limit of one (1) coupon code per MyLG Member. The 10% coupon cannot be used in conjunction with any other offer. Employees, directors and officers (and their immediate family members and members of their households) of LG and strategic partners with access to partnership portals on LG.com/au are ineligible to participate in the Offer. <br><br>
+						</div>
+						<div>
+							# Customers save up to 20% off select LG products from 00:01am (AEST) on Friday 22 September 2023 until 11:59pm (AEDT) on Thursday 5 October 2023, unless sold out prior. This promotion applies to eligible purchases of participating models (as displayed on www.lg.com/au/lgmemberdays) made on the LG Online Store only. Products subject to stock availability at time of purchase and cannot be used in conjunction with any other offer. Free delivery available for MyLG Members, subject to T&Cs (https://www.lg.com/au/membership).<br><br>
+						</div>
+						<div>
+							1 Welcome $50 Coupon: When you join, you receive a $50 discount coupon to redeem on the LG online store when you spend over $350, valid for the first 12 months. Purchases exclude accessories. One voucher issued for each new Member account registered on LG.com/au between 1 January and 31 December 2023 in accordance with our Terms and Conditions (link https://www.lg.com/au/terms-and-conditions-of-sale). Voucher only valid for products enabled for purchase online on LG.com/au (other than accessories available at LG.com/au/accessories) Voucher is valid for 1 year from the date of issue.  Voucher code must be applied to cart to redeem offer. Offer may not be used in conjunction with any other offer.<br><br>
+						</div>
+						<div>
+							2 Products can only be delivered to addresses within Australia to which LG’s third-party delivery agent delivers. We are unable to deliver to certain parts of Australia and where this is the case you will not be able to process your order through the LG Online Store. Products cannot be delivered to a PO Box. For more info click Terms of Sale (link https://www.lg.com/au/terms-and-conditions-of-sale)<br><br>
+						</div>
+						<div>
+							3 Exclusive Member Event: Members must be logged in or agree to receive marketing in order to be notified for Member events and offers.
+						</div>
 					</div>
 				</div>
 			</div>

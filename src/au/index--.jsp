@@ -5,18 +5,18 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG MEMBER DAYS : Remises exclusives pour les membres | LG FR</title>
+	<title>LG MEMBER DAYS: Exclusive Member only offers | LG AU</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Profitez d'une offre à durée et quantité limitées, avec des avantages exclusifs pour les membres. Dépêchez-vous, l'offre se termine le 16 octobre !">
+	<meta name="description" content="Treat yourself with savings across some of your favourite LG products. Hurry, offer ends 5 Oct 2023.">
 	<meta name="robots" content="NOODP, NOYDIR">
-	<link rel="canonical" href="https://www.lg.com/fr/lgmemberdays">
+	<link rel="canonical" href="https://www.lg.com/au/lgmemberdays">
 	<meta property="fb:app_id" content="">
-	<meta property="og:locale" content="en_GB">
-	<meta property="og:site_name" content="LG France">
+	<meta property="og:locale" content="en_AU">
+	<meta property="og:site_name" content="LG Italia">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG MEMBER DAYS : Remises exclusives pour les membres | LG FR">
-	<meta property="og:description" content="Profitez d'une offre à durée et quantité limitées, avec des avantages exclusifs pour les membres. Dépêchez-vous, l'offre se termine le 16 octobre !">
-	<meta property="og:url" content="https://www.lg.com/fr/lgmemberdays">
+	<meta property="og:title" content="LG MEMBER DAYS: Exclusive Member only offers | LG AU">
+	<meta property="og:description" content="Treat yourself with savings across some of your favourite LG products. Hurry, offer ends 5 Oct 2023.">
+	<meta property="og:url" content="https://www.lg.com/au/lgmemberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@LGFR">
@@ -31,7 +31,7 @@
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-CWVL');</script>
+	})(window,document,'script','dataLayer','GTM-GKQX');</script>
 	<!-- End Google Tag Manager -->
 	
 </head>
@@ -42,10 +42,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG MEMBER DAYS : Remises exclusives pour les membres | LG FR"/>
+		<meta itemprop="name" content="LG MEMBER DAYS: Exclusive Member only offers | LG AU"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
-		<meta itemprop="url" content="https://www.lg.com/fr/lgmemberdays" />
-		<meta itemprop="description" content="Profitez d'une offre à durée et quantité limitées, avec des avantages exclusifs pour les membres. Dépêchez-vous, l'offre se termine le 16 octobre !" />
+		<meta itemprop="url" content="https://www.lg.com/au/lgmemberdays" />
+		<meta itemprop="description" content="Treat yourself with savings across some of your favourite LG products. Hurry, offer ends 5 Oct 2023." />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -65,7 +65,7 @@
    </c:import>
    <!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/lgmemberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->
@@ -76,69 +76,54 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07553857|MD07581594|MD07553836|MD07527413|MD07572229|MD07572201|MD07572186"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570970|MD07571080|MD07571128|MD07571130|MD07579513|MD07579538|MD07579638|MD07550462|MD07550779|MD07506339|MD07569326|MD07569289|MD07569288|MD07537497"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07553857|MD07581594|MD07553836|MD07527413|MD07572229|MD07572201|MD07572186"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07538608|MD07554888|MD07557483|MD06046316|MD05610414|MD07569389"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07565648|MD07571072|MD07579511|MD07574350"/>
-		
-		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Offre terminée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Nos Offres Spéciales"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07538608" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07554888" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07557483" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06046316" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05610414" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569389" value="Quantité limitée"/>
-
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07553857" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581594" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07553836" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07527413" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572229" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572201" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572186" value="Quantité limitée"/>
-
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565648" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571072" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579511" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07574350" value="Quantité limitée"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07570970|MD07571080|MD07571128|MD07571130|MD07579513|MD07579538|MD07579638|MD07550462|MD07550779|MD07506339|MD07569326|MD07569289|MD07569288|MD07537497"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07558747|MD07540359|MD07540296|MD06078081|MD06069996|MD07540250|MD07540344|MD07515415|MD05925096|MD07504245|MD05769247|MD07541490|MD06061416|MD06032796|MD07561212|MD06061297|MD07561277|MD07539025|MD07538981|MD07548507|MD06164402|MD07575595|MD07569894|MD06164256|MD07534829|MD07572245|MD07535988|MD07583594|MD07581342|MD07581235"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07570025|MD07576423|MD07578001|MD07570626|MD07543932|MD07566061|MD07560541|MD07539285|MD07560202|MD07551485"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Deal Closed"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570970" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571080" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571128" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571130" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579513" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579538" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579638" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07550462" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07550779" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07506339" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569326" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569289" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569288" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07537497" value="Limited Offer"/>
+		<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limited Offer"/> -->
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07553857|MD07571592|MD07571517|MD07527413|MD07566065|MD07570652|MD07577052|MD07560453|MD07560453|MD07573053|MD07573052|MD07573049|MD07573142|MD07572196|MD07579005|MD07577199"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07538377|MD07520419|MD06186616|MD07542783|MD07560556|MD05769328|MD07569388"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07569643|MD07569571|MD07568654|MD07579540|MD07579502|MD07579666|MD07568969|MD07570655|MD07568248|MD07560595|MD07568656|MD07576977|MD07534417|MD05763528|MD07568843|MD07568767|MD07570974|MD07574518|MD07568825|MD07570706|MD07576876|MD07574525|MD07513652|MD07532083|MD07579511|MD07568947|MD07574425|MD06116276|MD06211097|MD07553582|MD07532089|MD06201616"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07570927|MD07570902|MD07570913|MD07570947|MD07570951|MD07570955|MD07570959|MD07571131|MD07571137|MD07571136|MD07571078|MD07579561|MD07579762|MD07579771|MD07579775|MD07579821"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07580743|MD07584291|MD07552663|MD07540845|MD07540834|MD07555444|MD07555441|MD06071037|MD06061416|MD06114037|MD07530439|MD07530444|MD07583242|MD07576213|MD07576147|MD07515427|MD07573775|MD07554695|MD07549265"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD06114896|MD07577820|MD07582245|MD07560204|MD07577830|MD07538827|MD06173456|MD07577031|MD07560114|MD07560104|MD06117156|MD07539695|MD07539028|MD07520224|MD07504296|MD06114817|MD07538738|MD07538843"/>
 		<!-- Required input ## Model List End -->
 		<input type="hidden" id="discountRateMsg" value="<spring:message code='discount_percent_message' text='{1}% Off'/>"/>
-	
 		<!--  Content Start  -->
 		<link rel="stylesheet" href="${path}/assets/css/index.css">
-		<link rel="stylesheet" href="${path}/assets/css/index_fr.css">
-		<div class="lgmembersdays" data-locale="fr" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
+		<link rel="stylesheet" href="${path}/assets/css/index_au.css" />
+		<div class="lgmembersdays" data-locale="au" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
 				<div class="visual__visual">
 					<div class="visual__inner">
-						<p class="visual__logo">LG MEMBER DAYS*</p>
-						<h1 class="title">
-							<span class="break-desktop">La vie est belle</span>
-							avec des avantages exclusifs
-						</h1>
-						<p class="desc">
-							Obtenez jusqu’à 33% sur des offres spéciales<br>
-							Remises supplémentaires pour les packs
-						</p>
-						<p class="desc desc--secondary">
-							*LG MEMBER DAYS = Les journées membres LG<br>
-							*Unwrap the Good Life = La vie est belle
-						</p>
-						<p class="desc">
-							L’offre se termine le 16 octobre
-						</p>
-						
+						<p class="visual__logo">LG MEMBER DAYS</p>
+						<h1 class="title">Unbox the Good Life</h1>
+						<p class="desc">Life's Good with great offers prepared just for you</p>
+						<p class="desc">September 22nd  - October 5th</p>
 						<div class="term">
-							<a href="${path}/assets/Modalités_LG_MEMBER_DAYS.pdf" role="button" target="_blank">
-								Termes et conditions
+							<a href="#TermsAndConditions" role="button" class="btnTerm">
+								Terms and Conditions apply
 								<i></i>
 							</a>
 						</div>
@@ -147,27 +132,27 @@
 			</div>
 
 			<div class="main">
-				<div id="MemberExclusiveBenefits" class="section section--notborder">
+				<div id="MemberDaysBenefits" class="section section--notborder">
 					<div class="section__inner">
 						<div class="section__header">
 							<div class="section__group">
-								<p class="title">Découvrez nos offres</p>
-								<p class="desc">Se connecter et profiter des offres limitées</p>
+								<p class="title">What’s on offer</p>
+								<p class="desc">Login or join today and enjoy special offers. Get in quick before they run out.</p>
 							</div>
 							<div class="button">
 								<div class="button__row">
-									<a href="https://www.lg.com/fr/my-lg/login?state=/fr/memberdays" role="button" 
+									<a href="https://www.lg.com/it/my-lg/login?state=/au/lgmemberdays" role="button" 
 									data-track-group="MICROSITE"
 									data-track-name="memberdays_click"
 									data-link-area="memberdays_Q3_sign_in_click"
 									data-link-name="memberdays_2023Q3" 
-									class="button__item button__item--secondary">Se connecter</a>
-									<a href="https://www.lg.com/fr/my-lg/login?state=/fr/memberdays" role="button"  
+									class="button__item button__item--secondary">Sign in</a>
+									<a href="https://www.lg.com/it/my-lg/login?state=/au/lgmemberdays" role="button"  
 									data-track-group="MICROSITE"
 									data-track-name="memberdays_click"
 									data-link-area="memberdays_Q3_join_us_click"
-									data-link-name="memberdays_2023Q3"
-									class="button__item">S’inscrire</a>
+									data-link-name="memberdays_2023Q3" 
+									class="button__item">Join Now</a>
 								</div>
 							</div>
 						</div>
@@ -177,17 +162,33 @@
 									<div class="img">
 										<img src="${path}/assets/images/img_deals01.png" alt="">
 									</div>
-									<p class="title">Nos Offres spéciales</p>
-									<p class="desc">Profitez de remises exclusives<br>sur vos produits LG favoris, valables en quantités limitées.</p>
+									<p class="title">Start saving now</p>
+									<p class="desc">Secure some of your favourite LG products at a great price. T&Cs apply#</p>
 									<a href="#HotDeal" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
 									<div class="img">
 										<img src="${path}/assets/images/img_deals02.png" alt="">
 									</div>
-									<p class="title">Encore plus d'offres</p>
-									<p class="desc">Economisez 15% sur 2 produits, 20% sur 3 produits.<br>Réservé aux membres LG.</p>
+									<p class="title">Bundle and Save</p>
+									<p class="desc">Buy 2, save 15%*. Buy 3 or more, save 20%*. Exclusive to MyLG Members & eligible products only. T&Cs apply</p>
+									<a href="#HotDeal" class="list-item__button"></a>
+								</div>
+								<div class="list-item__item">
+									<div class="img">
+										<img src="${path}/assets/images/img_deals03.png" alt="">
+									</div>
+									<p class="title">Limited Edition Gift</p>
+									<p class="desc">The first 280 MyLG Members who purchase orders placed will also receive a limited edition LG gift pack. T&Cs apply**</p>
 									<a href="#BuymoreSavemore" class="list-item__button"></a>
+								</div>
+								<div class="list-item__item">
+									<div class="img">
+										<img src="${path}/assets/images/img_deals04.png" alt="">
+									</div>
+									<p class="title">10% off your next purchase</p>
+									<p class="desc">MyLG Members who purchase during Member Days and save 10% on your their next eligible purchase. T&Cs apply</p>
+									<a href="#MemberExclusiveBenefit" class="list-item__button"></a>
 								</div>
 							</div>
 						</div>
@@ -196,19 +197,16 @@
 
 				<div class="anchors" id="HotDealTVAudio"></div>
 				<div class="anchors" id="HotDealHomeAppliance"></div>
-				<div class="anchors" id="HotDealHomeAppliance"></div>
+				<div class="anchors" id="HotDealComputerProducts"></div>
 				<div id="HotDeal" class="section" data-list="hotDeal">
 					<div class="section__inner">
-						<p class="title">Les offres à ne pas manquer</p>
-						<p class="desc">
-							Bénéficiez de jusqu'à 33% de réduction<br>
-							sur notre sélection de produits ci-dessous.
-						</p>
+						<p class="title">Deals you can't wait to unbox</p>
+						<p class="desc">Save up to 20% off* when you bundle select LG products</p>
 						<div class="tab">
 							<div class="tab__list">
-								<a href="#tv" role="button" class="tab__button tab__button--selected">TV/Audio</a>
-								<a href="#homeappliance" role="button" class="tab__button">Electroménager</a>
-								<a href="#computerproduct" role="button" class="tab__button">Informatique</a>
+								<a href="#tv" role="button" class="tab__button tab__button--selected">TV / Audio</a>
+								<a href="#homeappliance" role="button" class="tab__button">Home Appliances</a>
+								<a href="#computerproduct" role="button" class="tab__button">Computer Products</a>
 							</div>
 							<div id="hotdeal" class="tab__contents product--hotdeal">
 
@@ -225,8 +223,8 @@
 										</p>
 										<div class="product__group">
 											<span class="product__discount">
-												<span class="number">*originPrice*</span>
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+												<span class="number">*originPrice*</span>
 											</span>
 											<span class="product__belt">
 												*discountMsg*
@@ -234,8 +232,8 @@
 										</div>
 										<div class="product__group">
 											<span class="product__price">
-												<span class="number">*finalPrice*</span>
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+												<span class="number">*finalPrice*</span>
 											</span>
 											<div class="product__members">
 												<span>Members only</span>
@@ -247,27 +245,14 @@
 												<a role="button" href="*modelUrlPath*" 
 												class="button__item button__item--secondary learn-more__link"  target="_blank" 
 												data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-group="MICROSITE" data-link-name="learn_more">
-													<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
+													<span class="learn-more__text">Shop Now</span>
 												</a>
-												<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-link-area="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO CART'/></a>
-
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 										</div>
 									</div>
 								</template>
 								<div id="tv" class="tab__panel tab__panel--opened">
-									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab02.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab02.png" class="img__mo" alt="">
-											</div>
-										</div>
-										<div class="product__list product__list--slick"></div>
-									</div>
-								</div>
-								<div id="homeappliance" class="tab__panel">
 									<div class="product">
 										<div class="product__visual">
 											<div class="img">
@@ -278,6 +263,17 @@
 										<div class="product__mask">
 											<div class="product__list product__list--slick"></div>
 										</div>
+									</div>
+								</div>
+								<div id="homeappliance" class="tab__panel">
+									<div class="product">
+										<div class="product__visual">
+											<div class="img">
+												<img src="${path}/assets/images/img_hotdeal_tab02.png" class="img__pc" alt="">
+												<img src="${path}/assets/images/m_img_hotdeal_tab02.png" class="img__mo" alt="">
+											</div>
+										</div>
+										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
 								<div id="computerproduct" class="tab__panel">
@@ -301,14 +297,8 @@
 				<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
 				<div id="BuymoreSavemore" class="section sectionBuying" data-list="hottest">
 					<div class="section__inner">
-						<p class="title">
-							Encore plus d'offres : découvrez les packs <br>
-							Cumulez des remises supplémentaires avec les packs
-						</p>
-						<p class="desc">
-							Economisez 15% sur 2 produits, 20% sur 3 produits <br>
-							Les coupons de réduction supplémentaires seront appliqués dans <strong>Mon Panier</strong>
-						</p>
+						<p class="title">Choose your bundles</p>
+						<p class="desc">Unveil great savings when you bundle some of your favourite LG products</p>
 						<div class="img">
 							<img src="${path}/assets/images/img_discount_pc.png" alt="" class="img__pc">
 							<img src="${path}/assets/images/img_discount_mo.png" alt="" class="img__mo">
@@ -316,8 +306,8 @@
 						<div class="tab">
 							<div class="tab__list">
 								<a href="#tvaudio" data-tab-name="tvaudio" role="button" class="tab__button tab__button--selected">TV / Audio</a>
-								<a href="#homeapplianceB" data-tab-name="homeapplianceB" role="button" class="tab__button">Electroménager</a>
-								<a href="#computerproductB" data-tab-name="computerproductB" role="button" class="tab__button">Informatique</a>
+								<a href="#homeapplianceB" data-tab-name="homeapplianceB" role="button" class="tab__button">Home Appliances</a>
+								<a href="#computerproductB" data-tab-name="computerproductB" role="button" class="tab__button">Computer Products</a>
 							</div>
 							<template class="contents-template">
 								<div class="product__item">
@@ -326,34 +316,34 @@
 									<div class="product__img">
 										<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 									</div>
+									                                                                                                                                        
 									<div class="product__group product_discount">
 										<span class="product__discount">
-											<span class="number">*originPrice*</span>
 											<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+											<span class="number">*originPrice*</span>
 										</span>
 									</div>
 									<div class="product__group">
 										<span class="product__price">
-											<span class="number">*finalPrice*</span>
 											<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+											<span class="number">*finalPrice*</span>
 										</span>
 										<div class="product__members">
 											<span>Members only</span>
 											<span>
-												<span class="number">*membershipPriceValue*</span>
 												<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+												<span class="number">*membershipPriceValue*</span>
 											</span>
 										</div>
 									</div>
 									<div class="button">
 										<div class="button__row">
-											<a role="button" href="*modelUrlPath*" class="button__item button__item--secondary learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-group="product" data-link-name="learn_more">
-												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
+											<a role="button" href="*modelUrlPath*" 
+											class="button__item button__item--secondary learn-more__link"  target="_blank" 
+											data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="learn_more_click" data-track-group="MICROSITE" data-link-name="learn_more">
+												<span class="learn-more__text">Shop Now</span>
 											</a>
-
-											<a role="button" href="#" class="button__item atc-members-week" data-track-group="product" data-link-area="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO CART'/></a>
-
-											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-link-area="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*">Pre-order</a>
 										</div>
 									</div>
 								</div>
@@ -365,14 +355,14 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/fr/tv" target="_blank" role="button" tabindex="0" 
+												<a href="https://www.lg.com/au/tv-audio-video" target="_blank" role="button" tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
 												data-track-val="" 
 												data-track-name="plpClick" 
 												data-link-area=""
 												data-link-name=""
-												class="button__item button__item--tertiary">Voir plus</a>
+												class="button__item button__item--tertiary">See More TV/Audio</a>
 											</div>
 										</div>
 									</div>
@@ -383,14 +373,14 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/fr/electromenager" target="_blank" role="button" tabindex="0" 
+												<a href="https://www.lg.com/au/home-appliances" target="_blank" role="button" tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
 												data-track-val="" 
 												data-track-name="plpClick" 
 												data-link-area=""
 												data-link-name=""
-												class="button__item button__item--tertiary">Voir plus</a>
+												class="button__item button__item--tertiary">See More Home Appliance</a>
 											</div>
 										</div>
 									</div>
@@ -401,14 +391,14 @@
 										</div>
 										<div class="button">
 											<div class="button__row">
-												<a href="https://www.lg.com/fr/produits-informatiques" target="_blank" role="button" tabindex="0" 
+												<a href="https://www.lg.com/au/computer-products" target="_blank" role="button" tabindex="0" 
 												data-track-group="mic" 
 												data-track-opt="category" 
 												data-track-val="" 
 												data-track-name="plpClick" 
 												data-link-area=""
 												data-link-name=""
-												class="button__item button__item--tertiary">Voir plus</a>
+												class="button__item button__item--tertiary">See More Computer Product</a>
 											</div>
 										</div>
 									</div>
@@ -420,20 +410,21 @@
 
 				<div id="BrandCampaign" class="section">
 					<div class="section__inner">
-						<p class="title">Découvrez l’histoire de la marque</p>
+						<p class="title">Check our Life’s Good story</p>
 						<div class="banner">
 							<div class="banner__banner">
 								<p class="title">
-									Apporter un sourire<br>au monde
+									Brining the smile<br>
+									to the world
 								</p>
 								<div class="button">
 									<div class="button__row">
-										<a href="https://www.lg.com/global/lifes-good-in-action/" target="_blank" role="button"
+										<a href="https://www.lg.com/global/lifes-good-in-action/" role="button" 
 										data-track-group="MICROSITE"
 										data-track-name="memberdays_click"
 										data-link-area="memberdays_Q3_lifeisgood_learn_more_click"
-										data-link-name="memberdays_2023Q3"
-										class="button__item button__item--secondary">En savoir plus</a>
+										data-link-name="memberdays_2023Q3" 
+										target="_blank" class="button__item button__item--secondary">Learn more</a>
 									</div>
 								</div>
 							</div>
@@ -443,26 +434,27 @@
 
 				<div id="MoreBenefits" class="section">
 					<div class="section__inner">
-						<p class="title">Encore plus d’avantages membre</p>
+						<p class="title">Member Benefits</p>
 						<div class="benefit-more">
 							<div class="benefit-more__row">
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-										<p class="title">Livraison et retour gratuits</p>
-										<p class="desc">Livraison gratuite et rapide jusqu’à votre porte</p>
+										<p class="title">$50 Welcome Coupon</p>
+										<p class="desc">$50 Welcome Coupon when you spend over $350 in a single transaction1 Terms and Conditions apply</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-										<p class="title">Installation et reprise gratuites</p>
+										<p class="title">Free Delivery</p>
+										<p class="desc">Get Free Delivery Straight to your door2 Terms and Conditions apply</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-										<p class="title">Paiement en plusieurs fois par carte de crédit sans frais*</p>
-										<p class="desc">*Sur certains produits haut de gamme</p>
+										<p class="title">Exclusive Member Events</p>
+										<p class="desc">Be amongst the first to know about products, events and exclusive offers3 Terms and Conditions apply</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
@@ -474,6 +466,16 @@
 			</div>
 		</div>
 		<!-- // Content End  -->
+
+		<div id="TermsAndConditions" class="container-fluid">                
+			<div class="footer-box">
+				<div class="footer-component">
+					<div class="footer-caution">
+						<div>#Customers save up to 20% off select LG products from 00:01am (AEST) on Friday 22 September 2023 until 11:59pm (AEDT) on Thursday 5 October 2023, unless sold out prior. This promotion applies to eligible purchases of participating models (as displayed on www.lg.com/au/lgmemberdays) made on the LG Online Store only. Products subject to stock availability at time of purchase and cannot be used in conjunction with any other offer. Free delivery available for MyLG Members, subject to T&Cs (<a href="https://www.lg.com/au/membership" target="_blank">https://www.lg.com/au/membership</a>).</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	<!-- top button -->
@@ -551,6 +553,12 @@
 	
 	<!-- your js -->
 	<script>
+		$(".btnTerm").click(function() {
+			$([document.documentElement, document.body]).animate({
+					scrollTop: $("#TermsAndConditions").offset().top
+			}, 2000);
+		});
+			
 		$(document).ready(function(){
 			var href = window.location.href;
 			// hotdeal

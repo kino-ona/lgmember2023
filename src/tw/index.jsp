@@ -631,12 +631,6 @@
 	
 	<!-- your js -->
 	<script>
-		// if($('.learn-more__link').length > 0) {
-		// 	$('.learn-more__link').on('click', function (e) {
-		// 		fbq('trackCustom', '2023H2GMCMemberDay LearnMore');
-		// 	});
-		// }
-			
 		$(document).ready(function(){
 			var href = window.location.href;
 			// hotdeal
