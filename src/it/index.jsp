@@ -77,16 +77,16 @@
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07576894|MD07576990|MD07576998|MD07570953|MD07570952|MD07582920|MD07583004|MD07554992|MD07573981|MD07559233|MD07555550|MD07572564|MD07572763|MD07547436|MD07572708|MD07551049|MD07584905|MD07570370|MD07564074|MD07548157|MD07583901|MD07569633|MD07555667|MD07564173"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07576998|MD07576990|MD07576894|MD07577390|MD07570952|MD07570953|MD07582920|MD07583004|MD07572564|MD07572218|MD07572217|MD07547436|MD07564173|MD07555667|MD07555550|MD07554992|MD07572763|MD07572708|MD07584905|MD07573981|MD07551049|MD07570370|MD07564074|MD07559233|MD07583901|MD07569633"/>
 
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07576894|MD07576990|MD07576998|MD07570953|MD07570952|MD07582920|MD07583004|MD07554992|MD07573981|MD07559233|MD07555550|MD07572564|MD07572763|MD07547436|MD07572708|MD07551049|MD07584905|MD07570370|MD07564074|MD07548157|MD07583901|MD07569633|MD07555667|MD07564173"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07529177|MD07539127|MD07559882|MD07527380|MD06149522|MD07568140|MD07544223|MD07580138|MD05879679|MD07567842|MD07579021|MD07535702|MD07528566|MD07584811"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07583899|MD07583272|MD07584095|MD07554813|MD07559748|MD07585049|MD07571411|MD07573308|MD07577651|MD07573101"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07576998|MD07576990|MD07576894|MD07577390|MD07570952|MD07570953|MD07582920|MD07583004|MD07572564|MD07572218|MD07572217|MD07547436|MD07564173|MD07555667|MD07555550|MD07554992|MD07572763|MD07572708|MD07584905|MD07573981|MD07551049|MD07570370|MD07564074|MD07559233|MD07583901|MD07569633"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07529177|MD07527380|MD05879679|MD07579021|MD07528566|MD07584811|MD07568140|MD07539127|MD07585424|MD07559882|MD07544223|MD07580138|MD07535702|MD06149522|MD07567842"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07554813|MD07559748|MD07585049|MD07573308|MD07577651|MD07573101|MD07571525|MD07583899|MD07583272|MD07584095"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Offerta Terminata"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="OFFERTA TOP"/>
 
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576894" value="QUANTITÀ LIMITATE"/>
+		<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576894" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576990" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07576998" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570953" value="QUANTITÀ LIMITATE"/>
@@ -135,13 +135,13 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571411" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573308" value="QUANTITÀ LIMITATE"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577651" value="QUANTITÀ LIMITATE"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573101" value="QUANTITÀ LIMITATE"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573101" value="QUANTITÀ LIMITATE"/> -->
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07572631|MD07564173|MD07555539|MD07570428|MD07572708|MD07555667|MD07581160|MD07572763|MD07555691|MD07564148|MD07570421|MD07573987|MD07547142|MD07570423|MD07576074|MD07552401|MD07575961|MD07581152|MD07572626|MD07572218|MD07572761|MD07572564|MD07572757|MD07572179|MD07573986|MD07572768|MD07550685|MD07581159|MD07576073|MD07572217|MD07578633|MD07574049|MD07576072|MD07574050"/>
-		<input type="hidden" data-model-group="hottest" data-type="frigoriferi" value="MD07535702|MD07539373|MD07577777|MD07544234|MD07527381|MD07555797|MD07572952|MD07527380"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07572631|MD07555539|MD07570428|MD07581160|MD07555691|MD07564148|MD07570421|MD07576894|MD07547142|MD07570423|MD07576074|MD07552401|MD07575961|MD07581152|MD07572626|MD07572761|MD07572757|MD07572179|MD07573986|MD07572768|MD07550685|MD07581159|MD07576073|MD07578633|MD07576998|MD07576072|MD07574050"/>
+		<input type="hidden" data-model-group="hottest" data-type="frigoriferi" value="MD07539373|MD07577777|MD07544234|MD07527381|MD07555797|MD07572952"/>
 		<input type="hidden" data-model-group="hottest" data-type="lavatrici" value="MD07580409|MD07536714|MD07521819|MD07544189|MD07547531|MD07516887|MD07546727|MD07536713|MD07515738|MD07579999|MD07544843|MD07580092|MD07521762|MD07581819|MD07567829"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07528459|MD07579021|MD05774448|MD06149356|MD07579430|MD07578290|MD07579006|MD07578958"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07528459|MD05774448|MD06149356|MD07579430|MD07578290|MD07579006|MD07578958"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07570366|MD07551674|MD07568226|MD06056796|MD07572299|MD07581830|MD07572296|MD07562461|MD07571766|MD07561313|MD07557393|MD07570903|MD07561315|MD06115737|MD07551513|MD07522455"/>
 		<!-- Required input ## Model List End -->
 	
@@ -247,7 +247,10 @@
 
 								<template class="contents-template">
 									<div class="product__item">
-										<span class="product__flag"></span>
+										<p class="flag__wrap">
+											<span class="product__flag"></span>
+											<span class="product__flag2"></span>
+										</p>
 										<p class="product__sn sku">*modelName*</p>
 										<p class="product__name">*userFriendlyName*</p>
 										<div class="product__img">

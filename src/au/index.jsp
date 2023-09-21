@@ -104,7 +104,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/> -->
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07570927|MD07570902|MD07570913|MD07570947|MD07570951|MD07570955|MD07570959|MD07571131|MD07571137|MD07571136|MD07571078|MD07579561|MD07579762|MD07579771|MD07579775|MD07579821"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07576995|MD07576896|MD07570913|MD07570947|MD07570951|MD07570955|MD07570959|MD07571131|MD07571137|MD07571136|MD07571078|MD07579561|MD07579762|MD07579771|MD07579775|MD07579821"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07580743|MD07584291|MD07552663|MD07540845|MD07540834|MD07555444|MD07555441|MD06071037|MD06061416|MD06114037|MD07530439|MD07530444|MD07583242|MD07576213|MD07576147|MD07515427|MD07573775|MD07554695|MD07549265"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD06114896|MD07577820|MD07582245|MD07560204|MD07577830|MD07538827|MD06173456|MD07577031|MD07560114|MD07560104|MD06117156|MD07539695|MD07539028|MD07520224|MD07504296|MD06114817|MD07538738|MD07538843"/>
 		<!-- Required input ## Model List End -->
@@ -141,13 +141,13 @@
 							</div>
 							<div class="button">
 								<div class="button__row">
-									<a href="https://www.lg.com/it/my-lg/login?state=/au/lgmemberdays" role="button" 
+									<a href="https://www.lg.com/au/my-lg/login?state=/au/lgmemberdays" role="button" 
 									data-track-group="MICROSITE"
 									data-track-name="memberdays_click"
 									data-link-area="memberdays_Q3_sign_in_click"
 									data-link-name="memberdays_2023Q3" 
 									class="button__item button__item--secondary">Sign in</a>
-									<a href="https://www.lg.com/it/my-lg/login?state=/au/lgmemberdays" role="button"  
+									<a href="https://www.lg.com/au/my-lg/login?state=/au/lgmemberdays" role="button"  
 									data-track-group="MICROSITE"
 									data-track-name="memberdays_click"
 									data-link-area="memberdays_Q3_join_us_click"
@@ -163,7 +163,7 @@
 										<img src="${path}/assets/images/img_deals01.png" alt="">
 									</div>
 									<p class="title">Start saving now</p>
-									<p class="desc">Secure some of your favourite LG products at a great price. #T&Cs apply</p>
+									<p class="desc">Secure some of your favourite LG products at a great price. <sup>#</sup>T&Cs apply</p>
 									<a href="#HotDeal" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
@@ -171,24 +171,24 @@
 										<img src="${path}/assets/images/img_deals02.png" alt="">
 									</div>
 									<p class="title">Bundle and Save</p>
-									<p class="desc">Buy 2, save 15%*. Buy 3 or more, save 20%*. Exclusive to MyLG Members & eligible products only. *T&Cs apply</p>
-									<a href="#HotDeal" class="list-item__button"></a>
+									<p class="desc">Buy 2, save 15%<sup>*</sup>. Buy 3 or more, save 20%*. Exclusive to MyLG Members & eligible products only. <sup>*</sup>T&Cs apply</p>
+									<a href="#BuymoreSavemore" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
 									<div class="img">
 										<img src="${path}/assets/images/img_deals03.png" alt="">
 									</div>
 									<p class="title">Limited Edition Gift</p>
-									<p class="desc">The first 280 MyLG Members who complete a transaction will also receive a limited edition LG gift pack. **T&Cs apply</p>
-									<a href="#BuymoreSavemore" class="list-item__button"></a>
+									<p class="desc">The first 280 MyLG Members who complete a transaction will also receive a limited edition LG gift pack. <sup>**</sup>T&Cs apply</p>
+									<a href="#HotDeal" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
 									<div class="img">
 										<img src="${path}/assets/images/img_deals04.png" alt="">
 									</div>
-									<p class="title">10% off on your next eligible purchase </p>
-									<p class="desc">MyLG Members who purchase during Member Days and save 10%^^ on your their next eligible purchase. ^^T&Cs apply</p>
-									<a href="#MemberExclusiveBenefit" class="list-item__button"></a>
+									<p class="title">10% off your next eligible purchase</p>
+									<p class="desc">Members who purchase during Member Days can save 10%<sup>^^</sup> on their next eligible purchase. <sup>^^</sup>T&Cs apply</p>
+									<a href="#HotDeal" class="list-item__button"></a>
 								</div>
 							</div>
 						</div>
@@ -201,7 +201,7 @@
 				<div id="HotDeal" class="section" data-list="hotDeal">
 					<div class="section__inner">
 						<p class="title">Deals you can't wait to unbox</p>
-						<p class="desc">Save up to 20% off* on select LG products</p>
+						<p class="desc">Save up to 20% off<sup>*</sup> on select LG products</p>
 						<div class="tab">
 							<div class="tab__list">
 								<a href="#tv" role="button" class="tab__button tab__button--selected">TV / Audio</a>
@@ -291,14 +291,17 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<div class="anchors" id="BuymoreSavemoreTVAudio"></div>
 				<div class="anchors" id="BuymoreSavemoreHomeAppliance"></div>
 				<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
 				<div id="BuymoreSavemore" class="section sectionBuying" data-list="hottest">
 					<div class="section__inner">
 						<p class="title">Choose your bundles</p>
-						<p class="desc">Unveil great savings when you bundle some of your favourite LG products</p>
+						<p class="desc">
+							Unveil great savings when you bundle some of your favourite LG products.<br>
+							* Must be logged into a valid <a href="https://sso.lg.com/oauth/page/login?authorizeKey=5e7fb2f4-702f-4091-a659-011cb5724b1b&funnel=%2Fau" target="_blank" style="text-decoration: underline;">MyLG account</a> to access the bundled discount.
+						</p>
 						<div class="img">
 							<img src="${path}/assets/images/img_discount_pc.png" alt="" class="img__pc">
 							<img src="${path}/assets/images/img_discount_mo.png" alt="" class="img__mo">
@@ -414,12 +417,12 @@
 						<div class="banner">
 							<div class="banner__banner">
 								<p class="title">
-									Brining a smile<br>
+									Bringing a smile<br>
 									to the world
 								</p>
 								<div class="button">
 									<div class="button__row">
-										<a href="http://www.lg.com/AU/LIFESGOOD" role="button" 
+										<a href="https://www.lg.com/au/lifesgood" role="button" 
 										data-track-group="MICROSITE"
 										data-track-name="memberdays_click"
 										data-link-area="memberdays_Q3_lifeisgood_learn_more_click"
@@ -440,21 +443,21 @@
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="title">$50 Welcome Coupon</p>
-										<p class="desc">$50 Welcome Coupon when you spend over $350 in a single transaction1 Terms and Conditions apply</p>
+										<p class="desc">$50 Welcome Coupon when you spend over $350<sup>1</sup> in a single transaction. <sup>1</sup>T&Cs apply</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="title">Free Delivery</p>
-										<p class="desc">Get Free Delivery Straight to your door2 Terms and Conditions apply</p>
+										<p class="desc">Get Free Delivery Straight to your door. <sup>2</sup>T&Cs apply</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
 										<p class="title">Exclusive Member Events</p>
-										<p class="desc">Be amongst the first to know about products, events and exclusive offers<sup>3</sup> Terms and Conditions apply</p>
+										<p class="desc">Be amongst the first to know about products, events and exclusive offers. <sup>3</sup>T&Cs apply</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
@@ -471,28 +474,25 @@
 			<div class="footer-box">
 				<div class="footer-component">
 					<div class="footer-caution">
-						<div>* 15% discount is applied when you purchase two eligible LG products in a single transaction (excluding Accessories). 20% discount is applied when you purchase three or more eligible LG products in a single transaction (excluding Accessories). Offer applies to eligible purchases of participating models (as displayed on www.lg.com/au/lgmemberdays) made on the LG Online Store only. Promotion period 00:01am (AEST) on Friday 22 September 2023 and closes 11:59pm (AEDT) on Thursday 5 October 2023, unless sold out prior. To redeem the offer, (1) log in or create an account via the LG Online Store and (2) apply the code LGMDAYS15 (for 15% off a bundle of two eligible LG products) or LGMDAYS20 (for 20% off a bundle of three or more eligible products) at checkout. Employees, directors and officers (and their immediate family members and members of their households) of LG and strategic partners with access to partnership portals on LG.com/au are ineligible to participate in the Offer.  Products subject to stock availability at time of purchase and cannot be used in conjunction with any other offer.<br><br></div>
+						<div><sup>*</sup> 15% discount is applied when you purchase two eligible LG products in a single transaction (excluding Accessories). 20% discount is applied when you purchase three or more eligible LG products in a single transaction (excluding Accessories). Offer applies to eligible purchases of participating models (as displayed on www.lg.com/au/lgmemberdays) made on the LG Online Store only. Promotion period 00:01am (AEST) on Friday 22 September 2023 and closes 11:59pm (AEDT) on Thursday 5 October 2023, unless sold out prior. To redeem the offer, (1) log in or create an account via the LG Online Store and (2) apply the code LGMDAYS15 (for 15% off a bundle of two eligible LG products) or LGMDAYS20 (for 20% off a bundle of three or more eligible products) at checkout. Employees, directors and officers (and their immediate family members and members of their households) of LG and strategic partners with access to partnership portals on LG.com/au are ineligible to participate in the Offer.  Products subject to stock availability at time of purchase and cannot be used in conjunction with any other offer.<br><br></div>
 						<div>
-							** The first 280 MyLG Members to purchase an eligible product displayed on www.lg.com/au/lgmemberdays during the LG Member Days event, which runs from 00:01am (AEST) on Friday 22 September 2023 and closes 11:59pm (AEDT) on Thursday 5 October 2023, will receive an exclusive Members only LG gift pack consisting of 1 x Life’s Good beach towel, 1 x Life’s Good umbrella and 1 x Life’s Good tote bag. Limit of one (1) gift pack per MyLG Member (not exchangeable, transferable for cash or redeemable for products). If eligible purchases are cancelled or returned prior to the gift pack being shipped, customers will not receive the gift pack. The exclusive gift pack will be shipped separately to the purchased product. Please allow up to 60 days from purchase to receive the gift pack. 
+							<sup>**</sup> The first 280 MyLG Members to purchase an eligible product displayed on www.lg.com/au/lgmemberdays during the LG Member Days event, which runs from 00:01am (AEST) on Friday 22 September 2023 and closes 11:59pm (AEDT) on Thursday 5 October 2023, will receive an exclusive Members only LG gift pack consisting of 1 x Life’s Good beach towel, 1 x Life’s Good umbrella and 1 x Life’s Good tote bag. Limit of one (1) gift pack per MyLG Member (not exchangeable, transferable for cash or redeemable for products). If eligible purchases are cancelled or returned prior to the gift pack being shipped, customers will not receive the gift pack. The exclusive gift pack will be shipped separately to the purchased product. Please allow up to 60 days from purchase to receive the gift pack. 
 							Employees, directors and/or officers (and their immediate family members and members of their households) of LG or of its subsidiaries or related companies and retailers or agencies associated with the Promotion, LG VIP Partners and Business Partners are ineligible to participate in the Promotion. Immediate family means any of the following: spouse, ex-spouse, de-facto spouse, child or step-child (whether natural or by adoption), parent, step-parent, grandparent, step-grandparent, uncle, aunt, niece, nephew, brother, sister, step-brother, step-sister or first cousin.<br><br>
 						</div>
 						<div>
-							^ 10% off next purchase coupon: Offer applies to the first purchases of any LG product displayed on www.lg.com/au/lgmemberdays, made during the Member Days event which runs from 00:01am (AEST) on Friday 22 September 2023 to 11:59pm (AEST) on Thursday 5 October 2023.  MyLG Members who make an eligible purchase will receive a coupon code via email for 10% off their next eligible purchase from the LG Online Store only.  The coupon code will be valid for 12 months from the date of issue, must be used in a single transaction and applies to purchases of any LG product. Limit of one (1) coupon code per MyLG Member. The 10% coupon cannot be used in conjunction with any other offer. Employees, directors and officers (and their immediate family members and members of their households) of LG and strategic partners with access to partnership portals on LG.com/au are ineligible to participate in the Offer.<br><br>
+							<sup>^^</sup> 10% off next purchase coupon: Offer applies to the first purchase of any LG product displayed on www.lg.com/au/lgmemberdays, made during the Member Days event which runs from 00:01am (AEST) on Friday 22 September 2023 to 11:59pm (AEST) on Thursday 5 October 2023. MyLG Members who make an eligible purchase will receive a coupon code via email for 10% off their next eligible purchase from the LG Online Store only. Please allow up to 30 days from purchase to receive the coupon code. This The coupon code will be valid for 12 months from the date of issue, must be used in a single transaction and can be applied to the purchase of any LG products made on the LG Online Store. Limit of one (1) coupon code per MyLG Member. The 10% coupon cannot be used in conjunction with any other offer. Employees, directors and officers (and their immediate family members and members of their households) of LG and strategic partners with access to partnership portals on LG.com/au are ineligible to participate in the Offer. <br><br>
 						</div>
 						<div>
-							^^ 10% off next purchase coupon: Offer applies to the first purchase of any LG product displayed on www.lg.com/au/lgmemberdays, made during the Member Days event which runs from 00:01am (AEST) on Friday 22 September 2023 to 11:59pm (AEST) on Thursday 5 October 2023. MyLG Members who make an eligible purchase will receive a coupon code via email for 10% off their next eligible purchase from the LG Online Store only. Please allow up to 30 days from purchase to receive the coupon code. This The coupon code will be valid for 12 months from the date of issue, must be used in a single transaction and can be applied to the purchase of any LG products made on the LG Online Store. Limit of one (1) coupon code per MyLG Member. The 10% coupon cannot be used in conjunction with any other offer. Employees, directors and officers (and their immediate family members and members of their households) of LG and strategic partners with access to partnership portals on LG.com/au are ineligible to participate in the Offer. <br><br>
+							<sup>#</sup> Customers save up to 20% off select LG products from 00:01am (AEST) on Friday 22 September 2023 until 11:59pm (AEDT) on Thursday 5 October 2023, unless sold out prior. This promotion applies to eligible purchases of participating models (as displayed on www.lg.com/au/lgmemberdays) made on the LG Online Store only. Products subject to stock availability at time of purchase and cannot be used in conjunction with any other offer. Free delivery available for MyLG Members, subject to T&Cs (https://www.lg.com/au/membership).<br><br>
 						</div>
 						<div>
-							# Customers save up to 20% off select LG products from 00:01am (AEST) on Friday 22 September 2023 until 11:59pm (AEDT) on Thursday 5 October 2023, unless sold out prior. This promotion applies to eligible purchases of participating models (as displayed on www.lg.com/au/lgmemberdays) made on the LG Online Store only. Products subject to stock availability at time of purchase and cannot be used in conjunction with any other offer. Free delivery available for MyLG Members, subject to T&Cs (https://www.lg.com/au/membership).<br><br>
+							<sup>1</sup> Welcome $50 Coupon: When you join, you receive a $50 discount coupon to redeem on the LG online store when you spend over $350, valid for the first 12 months. Purchases exclude accessories. One voucher issued for each new Member account registered on LG.com/au between 1 January and 31 December 2023 in accordance with our Terms and Conditions (link https://www.lg.com/au/terms-and-conditions-of-sale). Voucher only valid for products enabled for purchase online on LG.com/au (other than accessories available at LG.com/au/accessories) Voucher is valid for 1 year from the date of issue.  Voucher code must be applied to cart to redeem offer. Offer may not be used in conjunction with any other offer.<br>	<br>
 						</div>
 						<div>
-							1 Welcome $50 Coupon: When you join, you receive a $50 discount coupon to redeem on the LG online store when you spend over $350, valid for the first 12 months. Purchases exclude accessories. One voucher issued for each new Member account registered on LG.com/au between 1 January and 31 December 2023 in accordance with our Terms and Conditions (link https://www.lg.com/au/terms-and-conditions-of-sale). Voucher only valid for products enabled for purchase online on LG.com/au (other than accessories available at LG.com/au/accessories) Voucher is valid for 1 year from the date of issue.  Voucher code must be applied to cart to redeem offer. Offer may not be used in conjunction with any other offer.<br><br>
+							<sup>2</sup> Products can only be delivered to addresses within Australia to which LG’s third-party delivery agent delivers. We are unable to deliver to certain parts of Australia and where this is the case you will not be able to process your order through the LG Online Store. Products cannot be delivered to a PO Box. For more info click Terms of Sale (link https://www.lg.com/au/terms-and-conditions-of-sale)<br><br>
 						</div>
 						<div>
-							2 Products can only be delivered to addresses within Australia to which LG’s third-party delivery agent delivers. We are unable to deliver to certain parts of Australia and where this is the case you will not be able to process your order through the LG Online Store. Products cannot be delivered to a PO Box. For more info click Terms of Sale (link https://www.lg.com/au/terms-and-conditions-of-sale)<br><br>
-						</div>
-						<div>
-							3 Exclusive Member Event: Members must be logged in or agree to receive marketing in order to be notified for Member events and offers.
+							<sup>3</sup> Exclusive Member Event: Members must be logged in or agree to receive marketing in order to be notified for Member events and offers.
 						</div>
 					</div>
 				</div>

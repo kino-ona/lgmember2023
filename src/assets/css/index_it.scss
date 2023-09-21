@@ -7,12 +7,31 @@
 
 		&__visual {
 			background-image: url('../images/bg_visual.png');
+			background-position: right center;
+			@media screen and (min-width: 2000px) {
+				height: auto;
+			}
+
+			@media screen and (min-width: 1920px) {
+				min-height: 500px;
+			}
 		}
 
+		@media (max-width: 1440px) {
+			.title {
+				font-size: 50px;
+				line-height: 50px;
+			}
+		}
 		@media (max-width: 1023px) {
 
 			&__visual {
+				height: 560px;
 				background-image: url('../images/m_bg_visual.png');
+			}
+			.title {
+				font-size: 36px;
+				line-height: 42px;
 			}
 		}
 	}
@@ -69,7 +88,7 @@
 	}
 
 	.product__soldout {
-		min-height: 52px;
+		min-height: 72px;
 	}
 
 	.product__discount,
@@ -80,12 +99,44 @@
 	}
 
 	.product__group {
+		min-height: 24px;
 		.product__members {
 			span:not(.unit):not(.number) {
 				font-size: 13px;
 				line-height: 14px;
 			}
 		}
+	}
+
+	.flag__wrap {
+		display: flex;
+		align-items: center;
+		min-height: 32px;
+		margin: -40px 0 8px -32px;
+
+		@media (max-width: 1024px) {
+			margin: -12px 0 10px -32px;
+		}
+		.product__flag {
+			margin: 0;
+			margin-right: 5px;
+		}
+	}
+	.product__flag2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 107px;
+		height: 32px;
+		background: {
+			image: url(../images/hotdeal_flag2.png);
+			position: 0 0;
+			repeat: no-repeat;
+			size: cover;
+		}
+		color: #cccccc;
+		font-weight: 600;
+    font-size: 14px;
 	}
 
 	@media (max-width: 1024px) {
@@ -117,6 +168,26 @@
 			span:not(.unit):not(.number) {
 				font-size: 12px;
 				line-height: 13px;
+			}
+		}
+	}
+
+	.sectionBuying {
+		.product {
+			.slick-list {
+				@media screen and (min-width: 1024px) {
+					.slick-slide {
+						margin: 0 !important;
+					}
+					.product__item {
+						width: calc((100% / 4) - 18px) !important;
+						margin-left: 24px;
+						&:nth-child(1),
+						&:nth-child(4n + 1) {
+							margin-left: 0;
+						}
+					}
+				}
 			}
 		}
 	}

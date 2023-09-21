@@ -126,10 +126,10 @@
 		@media (max-width: 1024px) {
 			
 			&__visual {
-				height: 68vh;
+				height: 90vh;
 				padding: 24px 25px 276px;
 				background-color: #E5E1D6;
-				background-position: center bottom;
+				background-position: center bottom !important;
 				background-size: 100%;
 			}
 
