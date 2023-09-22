@@ -138,11 +138,11 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573101" value="QUANTITÀ LIMITATE"/> -->
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07572631|MD07555539|MD07570428|MD07581160|MD07555691|MD07564148|MD07570421|MD07576894|MD07547142|MD07570423|MD07576074|MD07552401|MD07575961|MD07581152|MD07572626|MD07572761|MD07572757|MD07572179|MD07573986|MD07572768|MD07550685|MD07581159|MD07576073|MD07578633|MD07576998|MD07576072|MD07574050"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07572631|MD07555539|MD07570428|MD07581160|MD07555691|MD07564148|MD07570421|MD07576894|MD07570423|MD07576074|MD07552401|MD07575961|MD07581152|MD07572626|MD07572761|MD07572757|MD07572179|MD07573986|MD07572768|MD07550685|MD07581159|MD07576073|MD07578633|MD07576998|MD07576072|MD07574050"/>
 		<input type="hidden" data-model-group="hottest" data-type="frigoriferi" value="MD07539373|MD07577777|MD07544234|MD07527381|MD07555797|MD07572952"/>
 		<input type="hidden" data-model-group="hottest" data-type="lavatrici" value="MD07580409|MD07536714|MD07521819|MD07544189|MD07547531|MD07516887|MD07546727|MD07536713|MD07515738|MD07579999|MD07544843|MD07580092|MD07521762|MD07581819|MD07567829"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07528459|MD05774448|MD06149356|MD07579430|MD07578290|MD07579006|MD07578958"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07570366|MD07551674|MD07568226|MD06056796|MD07572299|MD07581830|MD07572296|MD07562461|MD07571766|MD07561313|MD07557393|MD07570903|MD07561315|MD06115737|MD07551513|MD07522455"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07570366|MD07551674|MD07568226|MD06056796|MD07572299|MD07581830|MD07572296|MD07571766|MD07561313|MD07570903|MD07561315|MD06115737|MD07551513|MD07522455"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -202,7 +202,7 @@
 							<div class="list-item__row">
 								<div class="list-item__item">
 									<div class="img">
-										<img src="${path}/assets/images/img_deals01.png" alt="">
+										<img src="${path}/assets/images/img_deals01.png" alt="Offerte Top">
 									</div>
 									<p class="title">Offerte Top</p>
 									<p class="desc">Approfitta subito delle Offerte Top sui prodotti selezionati. Affrettati le quantità sono limitate!</p>
@@ -210,7 +210,7 @@
 								</div>
 								<div class="list-item__item">
 									<div class="img">
-										<img src="${path}/assets/images/img_deals02.png" alt="">
+										<img src="${path}/assets/images/img_deals02.png" alt="Più acquisti, più risparmi!">
 									</div>
 									<p class="title">Più acquisti, più risparmi!</p>
 									<p class="desc">Crea la tua offerta e ottieni fino al 20% di sconto a carrello acquistando 2 o più prodotti.</p>
@@ -218,7 +218,7 @@
 								</div>
 								<div class="list-item__item">
 									<div class="img">
-										<img src="${path}/assets/images/img_deals03.png" alt="">
+										<img src="${path}/assets/images/img_deals03.png" alt="Più vantaggi per te che sei Member LG">
 									</div>
 									<p class="title">Più vantaggi per te che sei Member LG</p>
 									<p class="desc">Registrati e ricevi 5% coupon di Benvenuto più 2% sconto a carrello valido per tuoi acquisti futuri.</p>
@@ -295,12 +295,6 @@
 								</template>
 								<div id="tv" class="tab__panel tab__panel--opened">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab01.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab01.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__mask">
 											<div class="product__list product__list--slick"></div>
 										</div>
@@ -308,23 +302,11 @@
 								</div>
 								<div id="homeappliance" class="tab__panel">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab02.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab02.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
 								<div id="computerproduct" class="tab__panel">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab03.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab03.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
@@ -566,7 +548,7 @@
 						<div>*Iniziativa promozionale valida dal 21/9 al 11/10/2023 per i clienti Member LG soggetta a quantità limitate.</div>
 						<div>
 							**Iniziativa promozionale valida dal 21/9 al 11/10/2023 per clienti Member LG sui prodotti disponibili presenti all'interno della pagina
-						https://www.lg.com/it/MemberDays23. Ulteriore sconto a carrello del 13% acquistando 2 o più prodotti disponibili sul sito https://www.lg.com/it su una spesa minima: 1.000€. Sono esclusi i prodotti contrassegnati dal tag "OFFERTA TOP", i Kit Esclusivi presenti alla pagina https://www.lg.com/it/kit-esclusivi egli utenti Vip Program). Sconto a carrello cumulabile solo con coupon di benvenuto 5%
+						https://www.lg.com/it/MemberDays23. Ulteriore sconto a carrello del 13% acquistando 2 o più prodotti disponibili sul sito https://www.lg.com/it su una spesa minima: 1.000€. Sono esclusi i prodotti contrassegnati dal tag "OFFERTA TOP", i Kit Esclusivi presenti alla pagina https://www.lg.com/it/kit-esclusivi egli utenti Vip Program. Sconto a carrello cumulabile solo con coupon di benvenuto 5%
 						</div>
 					</div>
 				</div>

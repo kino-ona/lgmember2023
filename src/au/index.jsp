@@ -78,9 +78,11 @@
 		<!-- Hot Deal Model / thumb - alt text -->
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570970|MD07571080|MD07571128|MD07571130|MD07579513|MD07579538|MD07579638|MD07550462|MD07550779|MD07506339|MD07569326|MD07569289|MD07569288|MD07537497"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07570970|MD07571080|MD07571128|MD07571130|MD07579513|MD07579538|MD07579638|MD07550462|MD07550779|MD07506339|MD07569326|MD07569289|MD07569288|MD07537497"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07558747|MD07540359|MD07540296|MD06078081|MD06069996|MD07540250|MD07540344|MD07515415|MD05925096|MD07504245|MD05769247|MD07541490|MD06061416|MD06032796|MD07561212|MD06061297|MD07561277|MD07539025|MD07538981|MD07548507|MD06164402|MD07575595|MD07569894|MD06164256|MD07534829|MD07572245|MD07535988|MD07583594|MD07581342|MD07581235"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07570025|MD07576423|MD07578001|MD07570626|MD07543932|MD07566061|MD07560541|MD07539285|MD07560202|MD07551485"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07570970|MD07571080|MD07571128|MD07571130|MD07579513|MD07579538|MD07579638|MD07550462|MD07550779|MD07506339|MD07569326|MD07569289|MD07569288|MD07537497|MD07562639"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07558747|MD07540359|MD07540296|MD06078081|MD06069996|MD05925096|MD07504245|MD06061416|MD06032796|MD07561212|MD06061297|MD07561277|MD07539025|MD07538981|MD06164256|MD07534829|MD07572245|MD07535988|MD07583594|MD07581342|MD07581235"/>
+		<!-- <input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07558747|MD07540359|MD07540296|MD06078081|MD06069996|MD07540250|MD07540344|MD07515415|MD05925096|MD07504245|MD05769247|MD07541490|MD06061416|MD06032796|MD07561212|MD06061297|MD07561277|MD07539025|MD07538981|MD07548507|MD06164402|MD07575595|MD07569894|MD06164256|MD07534829|MD07572245|MD07535988|MD07583594|MD07581342|MD07581235"/> -->
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07578755|MD07543932|MD07566061|MD07560541|MD07539285|MD07560202|MD07551485|MD07578001|MD07576423|MD07570025|MD07570626"/>
+		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Deal Closed"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Special Offer"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570970" value="Special Offer"/>
@@ -97,15 +99,10 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569289" value="Special Offer"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569288" value="Special Offer"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07537497" value="Special Offer"/>
-		<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Special Offer"/> -->
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07576995|MD07576896|MD07570913|MD07570947|MD07570951|MD07570955|MD07570959|MD07571131|MD07571137|MD07571136|MD07571078|MD07579561|MD07579762|MD07579771|MD07579775|MD07579821"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07580743|MD07584291|MD07552663|MD07540845|MD07540834|MD07555444|MD07555441|MD06071037|MD06061416|MD06114037|MD07530439|MD07530444|MD07583242|MD07576213|MD07576147|MD07515427|MD07573775|MD07554695|MD07549265"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07579808|MD07579814|MD07570913|MD07570947|MD07570951|MD07570955|MD07570959|MD07571131|MD07571137|MD07571136|MD07571078|MD07579561|MD07579762|MD07579771|MD07579775|MD07579821"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07580743|MD07584291|MD07552663|MD07540845|MD07540834|MD07555444|MD07555441|MD06071037|MD06114037|MD07530439|MD07530444|MD07583242|MD07576213|MD07576147|MD07515427|MD07573775|MD07554695|MD07549265"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD06114896|MD07577820|MD07582245|MD07560204|MD07577830|MD07538827|MD06173456|MD07577031|MD07560114|MD07560104|MD06117156|MD07539695|MD07539028|MD07520224|MD07504296|MD06114817|MD07538738|MD07538843"/>
 		<!-- Required input ## Model List End -->
 		<input type="hidden" id="discountRateMsg" value="<spring:message code='discount_percent_message' text='{1}% Off'/>"/>
@@ -160,7 +157,7 @@
 							<div class="list-item__row">
 								<div class="list-item__item">
 									<div class="img">
-										<img src="${path}/assets/images/img_deals01.png" alt="">
+										<img src="${path}/assets/images/img_deals01.png" alt="Start saving now">
 									</div>
 									<p class="title">Start saving now</p>
 									<p class="desc">Secure some of your favourite LG products at a great price. <sup>#</sup>T&Cs apply</p>
@@ -168,7 +165,7 @@
 								</div>
 								<div class="list-item__item">
 									<div class="img">
-										<img src="${path}/assets/images/img_deals02.png" alt="">
+										<img src="${path}/assets/images/img_deals02.png" alt="Bundle and Save">
 									</div>
 									<p class="title">Bundle and Save</p>
 									<p class="desc">Buy 2, save 15%<sup>*</sup>. Buy 3 or more, save 20%*. Exclusive to MyLG Members & eligible products only. <sup>*</sup>T&Cs apply</p>
@@ -176,15 +173,15 @@
 								</div>
 								<div class="list-item__item">
 									<div class="img">
-										<img src="${path}/assets/images/img_deals03.png" alt="">
+										<img src="${path}/assets/images/img_deals03.png" alt="Limited Edition Gift">
 									</div>
 									<p class="title">Limited Edition Gift</p>
-									<p class="desc">The first 280 MyLG Members who complete a transaction will also receive a limited edition LG gift pack. <sup>**</sup>T&Cs apply</p>
+									<p class="desc">The first 250 MyLG Members who complete a transaction will also receive a limited edition LG gift pack. <sup>**</sup>T&Cs apply</p>
 									<a href="#HotDeal" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
 									<div class="img">
-										<img src="${path}/assets/images/img_deals04.png" alt="">
+										<img src="${path}/assets/images/img_deals04.png" alt="10% off your next eligible purchase">
 									</div>
 									<p class="title">10% off your next eligible purchase</p>
 									<p class="desc">Members who purchase during Member Days can save 10%<sup>^^</sup> on their next eligible purchase. <sup>^^</sup>T&Cs apply</p>
@@ -254,12 +251,6 @@
 								</template>
 								<div id="tv" class="tab__panel tab__panel--opened">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab01.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab01.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__mask">
 											<div class="product__list product__list--slick"></div>
 										</div>
@@ -267,23 +258,11 @@
 								</div>
 								<div id="homeappliance" class="tab__panel">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab02.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab02.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
 								<div id="computerproduct" class="tab__panel">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab03.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab03.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
@@ -303,8 +282,8 @@
 							* Must be logged into a valid <a href="https://sso.lg.com/oauth/page/login?authorizeKey=5e7fb2f4-702f-4091-a659-011cb5724b1b&funnel=%2Fau" target="_blank" style="text-decoration: underline;">MyLG account</a> to access the bundled discount.
 						</p>
 						<div class="img">
-							<img src="${path}/assets/images/img_discount_pc.png" alt="" class="img__pc">
-							<img src="${path}/assets/images/img_discount_mo.png" alt="" class="img__mo">
+							<img src="${path}/assets/images/img_discount_pc.png" alt="Unveil great savings when you bundle some of your favourite LG products" class="img__pc">
+							<img src="${path}/assets/images/img_discount_mo.png" alt="Unveil great savings when you bundle some of your favourite LG products" class="img__mo">
 						</div>
 						<div class="tab">
 							<div class="tab__list">
@@ -476,7 +455,7 @@
 					<div class="footer-caution">
 						<div><sup>*</sup> 15% discount is applied when you purchase two eligible LG products in a single transaction (excluding Accessories). 20% discount is applied when you purchase three or more eligible LG products in a single transaction (excluding Accessories). Offer applies to eligible purchases of participating models (as displayed on www.lg.com/au/lgmemberdays) made on the LG Online Store only. Promotion period 00:01am (AEST) on Friday 22 September 2023 and closes 11:59pm (AEDT) on Thursday 5 October 2023, unless sold out prior. To redeem the offer, (1) log in or create an account via the LG Online Store and (2) apply the code LGMDAYS15 (for 15% off a bundle of two eligible LG products) or LGMDAYS20 (for 20% off a bundle of three or more eligible products) at checkout. Employees, directors and officers (and their immediate family members and members of their households) of LG and strategic partners with access to partnership portals on LG.com/au are ineligible to participate in the Offer.  Products subject to stock availability at time of purchase and cannot be used in conjunction with any other offer.<br><br></div>
 						<div>
-							<sup>**</sup> The first 280 MyLG Members to purchase an eligible product displayed on www.lg.com/au/lgmemberdays during the LG Member Days event, which runs from 00:01am (AEST) on Friday 22 September 2023 and closes 11:59pm (AEDT) on Thursday 5 October 2023, will receive an exclusive Members only LG gift pack consisting of 1 x Life’s Good beach towel, 1 x Life’s Good umbrella and 1 x Life’s Good tote bag. Limit of one (1) gift pack per MyLG Member (not exchangeable, transferable for cash or redeemable for products). If eligible purchases are cancelled or returned prior to the gift pack being shipped, customers will not receive the gift pack. The exclusive gift pack will be shipped separately to the purchased product. Please allow up to 60 days from purchase to receive the gift pack. 
+							<sup>**</sup> The first 250 MyLG Members to purchase an eligible product displayed on www.lg.com/au/lgmemberdays during the LG Member Days event, which runs from 00:01am (AEST) on Friday 22 September 2023 and closes 11:59pm (AEDT) on Thursday 5 October 2023, will receive an exclusive Members only LG gift pack consisting of 1 x Life’s Good beach towel, 1 x Life’s Good umbrella and 1 x Life’s Good tote bag. Limit of one (1) gift pack per MyLG Member (not exchangeable, transferable for cash or redeemable for products). If eligible purchases are cancelled or returned prior to the gift pack being shipped, customers will not receive the gift pack. The exclusive gift pack will be shipped separately to the purchased product. Please allow up to 60 days from purchase to receive the gift pack. 
 							Employees, directors and/or officers (and their immediate family members and members of their households) of LG or of its subsidiaries or related companies and retailers or agencies associated with the Promotion, LG VIP Partners and Business Partners are ineligible to participate in the Promotion. Immediate family means any of the following: spouse, ex-spouse, de-facto spouse, child or step-child (whether natural or by adoption), parent, step-parent, grandparent, step-grandparent, uncle, aunt, niece, nephew, brother, sister, step-brother, step-sister or first cousin.<br><br>
 						</div>
 						<div>

@@ -125,15 +125,15 @@
 							avec des avantages exclusifs
 						</h1>
 						<p class="desc">
-							Obtenez jusqu’à 33% sur des offres spéciales<br>
-							Remises supplémentaires pour les packs
+							Obtenez jusqu’à 33% sur les offres spéciales<br>
+							Remises supplémentaires sur les packs
 						</p>
 						<p class="desc desc--secondary">
 							*LG MEMBER DAYS = Les journées membres LG<br>
 							*Unwrap the Good Life = La vie est belle
 						</p>
 						<p class="desc">
-							L’offre se termine le 16 octobre
+							Valable jusqu'au 16 octobre
 						</p>
 						
 						<div class="term">
@@ -177,7 +177,7 @@
 									<div class="img">
 										<img src="${path}/assets/images/img_deals01.png" alt="">
 									</div>
-									<p class="title">Nos Offres spéciales</p>
+									<p class="title">Nos offres spéciales</p>
 									<p class="desc">Profitez de remises exclusives<br>sur vos produits LG favoris, valables en quantités limitées.</p>
 									<a href="#HotDeal" class="list-item__button"></a>
 								</div>
@@ -185,7 +185,7 @@
 									<div class="img">
 										<img src="${path}/assets/images/img_deals02.png" alt="">
 									</div>
-									<p class="title">Encore plus d'offres</p>
+									<p class="title">Les packs</p>
 									<p class="desc">Economisez 15% sur 2 produits, 20% sur 3 produits.<br>Réservé aux membres LG.</p>
 									<a href="#BuymoreSavemore" class="list-item__button"></a>
 								</div>
@@ -258,23 +258,11 @@
 								</template>
 								<div id="tv" class="tab__panel tab__panel--opened">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab02.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab02.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
 								<div id="homeappliance" class="tab__panel">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab01.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab01.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__mask">
 											<div class="product__list product__list--slick"></div>
 										</div>
@@ -282,12 +270,6 @@
 								</div>
 								<div id="computerproduct" class="tab__panel">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab03.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab03.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
@@ -302,8 +284,8 @@
 				<div id="BuymoreSavemore" class="section sectionBuying" data-list="hottest">
 					<div class="section__inner">
 						<p class="title">
-							Encore plus d'offres : découvrez les packs <br>
-							Cumulez des remises supplémentaires avec les packs
+							Encore plus d'offres : Composez votre pack <br>
+							Cumulez des remises supplémentaires
 						</p>
 						<p class="desc">
 							Economisez 15% sur 2 produits, 20% sur 3 produits <br>
@@ -424,7 +406,9 @@
 						<div class="banner">
 							<div class="banner__banner">
 								<p class="title">
-									Apporter un sourire<br>au monde
+									Apporter <br>
+									un sourire <br>
+									au monde
 								</p>
 								<div class="button">
 									<div class="button__row">

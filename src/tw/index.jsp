@@ -7,7 +7,7 @@
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 	<title>LG 全球會員日|全館最低64折 | LG 台灣</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="搶先週年慶,超級購物月,就在LG全球會員日!指定商品64折起,兩件以上再享9折,優惠只到10/10">
+	<meta name="description" content="搶先週年慶,超級購物月,就在LG全球會員日!指定商品64折起,兩件以上再享9折,優惠只到10/18">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/tw/memberdays23H2">
 	<meta property="fb:app_id" content="">
@@ -15,7 +15,7 @@
 	<meta property="og:site_name" content="LG 台灣">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LG 全球會員日|全館最低64折 | LG 台灣">
-	<meta property="og:description" content="搶先週年慶,超級購物月,就在LG全球會員日!指定商品64折起,兩件以上再享9折,優惠只到10/10">
+	<meta property="og:description" content="搶先週年慶,超級購物月,就在LG全球會員日!指定商品64折起,兩件以上再享9折,優惠只到10/18">
 	<meta property="og:url" content="https://www.lg.com/tw/memberdays23H2">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -45,7 +45,7 @@
 		<meta itemprop="name" content="LG 全球會員日|全館最低64折 | LG 台灣"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.lg.com/tw/memberdays23H2" />
-		<meta itemprop="description" content="搶先週年慶,超級購物月,就在LG全球會員日!指定商品64折起,兩件以上再享9折,優惠只到10/10" />
+		<meta itemprop="description" content="搶先週年慶,超級購物月,就在LG全球會員日!指定商品64折起,兩件以上再享9折,優惠只到10/18" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -79,13 +79,11 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07578166|MD07583459|MD07563893|MD07546009|MD07582363|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07580007"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07578166|MD07583459|MD07563893|MD07546009|MD07582363|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07580007"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07544691|MD07520255|MD07573086|MD07519593|MD07580096|MD07515582|MD07565218|MD07565193|MD07515571|MD07520201|MD07580839|MD05864356|MD07546944|MD06249381|MD07510584|MD07510111|MD07566472|MD07555403|MD07581798|MD07580929|MD07583447|MD07557909|MD07548653|MD07563594|MD07573954|MD07567133"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07544691|MD07520255|MD07573086|MD07519593|MD07580096|MD07515582|MD07565218|MD07565193|MD07515571|MD07573035|MD07580839|MD05864356|MD07546944|MD06249381|MD07510584|MD07510111|MD07566472|MD07570359|MD07581798|MD07580929|MD07583447|MD07570828|MD07557910|MD06224376|MD07573954|MD07567133"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07558410|MD07569834|MD07569835|MD07577254|MD07567372|MD07558671|MD07577498|MD07574585|MD07560934|MD07577839|MD07572416"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="銷售一空"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="特價"/>
-		<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_flag100.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07544691" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520255" value="特價"/>
@@ -96,7 +94,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565218" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565193" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515571" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520201" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573035" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580839" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05864356" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546944" value="特價"/>
@@ -104,13 +102,13 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510584" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510111" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07566472" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07555403" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570359" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581798" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580929" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583447" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07557909" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07548653" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563594" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570828" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07557910" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06224376" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573954" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567133" value="特價"/>
 
@@ -140,7 +138,7 @@
 		
 		<!-- Volume Model -->
 		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07578166|MD07583459|MD07583432|MD07583081|MD07583386|MD07580478|MD07580477|MD07580475|MD07580464|MD07580007"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07544691|MD07559316|MD07559274|MD07566412|MD06160717|MD07565193|MD06133296|MD07565206|MD07581884|MD07520201|MD07580128|MD07544495|MD07567192|MD07580100|MD06141816|MD07559123|MD06141837|MD07537639|MD07566531|MD07566472|MD07557910|MD07570828|MD07557909|MD07548653|MD07563594|MD07563591|MD07567133|MD07567095|MD07569991|MD07564750|MD07542594"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07544691|MD07559316|MD07559274|MD07566412|MD06249381|MD07565193|MD06141856|MD07565206|MD07564755|MD07573035|MD07580128|MD07544495|MD07567192|MD07580100|MD07510922|MD07559123|MD07522018|MD07537639|MD07566531|MD07566472|MD07557910|MD07570828|MD06224376|MD07563591|MD07567133|MD07567095|MD07569991|MD07564750|MD07542594"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07567372|MD07558781|MD07577839|MD07558671"/>
 		<!-- Required input ## Model List End -->
 	
@@ -158,7 +156,7 @@
 							LG 全球會員日
 						</h1>
 						<p class="desc">指定商品64折起,兩件以上再享9折</p>
-						<p class="desc">優惠至10/10</p>
+						<p class="desc">優惠至10/18</p>
 						<div class="term">
 							<a href="#TermsAndConditions" role="button">
 								活動辦法
@@ -198,7 +196,7 @@
               <div class="list-item__row">
                 <div class="list-item__item">
                   <div class="img">
-                    <img src="${path}/assets/images/img_deals01.png" alt="">
+                    <img src="${path}/assets/images/img_deals01.png" alt="熱銷精選">
                   </div>
 									<p class="title">熱銷精選</p>
 									<p class="desc">解鎖特價驚喜折扣,將心儀家電帶回家</p>
@@ -206,7 +204,7 @@
                 </div>
                 <div class="list-item__item">
                   <div class="img">
-                    <img src="${path}/assets/images/img_deals02.png" alt="">
+                    <img src="${path}/assets/images/img_deals02.png" alt="搭配買更划算">
                   </div>
 									<p class="title">搭配買更划算</p>
 									<p class="desc">購買2件以上指定商品再享9折</p>
@@ -214,7 +212,7 @@
                 </div>
                 <div class="list-item__item">
                   <div class="img">
-                    <img src="${path}/assets/images/img_deals03.png" alt="">
+                    <img src="${path}/assets/images/img_deals03.png" alt="會員獨享 件件98折">
                   </div>
 									<p class="title">會員獨享 件件98折</p>
 									<p class="desc">新會員再贈95折券 立即加入會員</p>
@@ -286,12 +284,6 @@
 								</template>
 								<div id="tv" class="tab__panel tab__panel--opened">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab01.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab01.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__mask">
 											<div class="product__list product__list--slick"></div>
 										</div>
@@ -299,23 +291,11 @@
 								</div>
 								<div id="homeappliance" class="tab__panel">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab02.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab02.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
 								<div id="computerproduct" class="tab__panel">
 									<div class="product">
-										<div class="product__visual">
-											<div class="img">
-												<img src="${path}/assets/images/img_hotdeal_tab03.png" class="img__pc" alt="">
-												<img src="${path}/assets/images/m_img_hotdeal_tab03.png" class="img__mo" alt="">
-											</div>
-										</div>
 										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
@@ -332,8 +312,8 @@
 						<p class="title">開啟組合優惠</p>
 						<p class="desc">期間限定,購買2件以上指定產品,結帳即可再享9折</p>
 						<div class="img">
-							<img src="${path}/assets/images/img_discount_pc.png" alt="" class="img__pc">
-							<img src="${path}/assets/images/img_discount_mo.png" alt="" class="img__mo">
+							<img src="${path}/assets/images/img_discount_pc.png" alt="開啟組合優惠" class="img__pc">
+							<img src="${path}/assets/images/img_discount_mo.png" alt="開啟組合優惠" class="img__mo">
 						</div>
 						<div class="tab">
 							<div class="tab__list">
