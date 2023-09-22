@@ -1,0 +1,47 @@
+@charset 'UTF-8';
+@use 'mixins';
+
+.lgmembersdays {
+
+	.list-item {
+
+		&__item {
+
+			.title,
+			.desc {
+
+				span {
+					display: block;
+					color: #4A4946;
+					font-size: 14px;
+					line-height: 16px;
+				}
+			}
+
+			.desc {
+
+				span {
+					margin-top: 4px;
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+			
+			&__item {
+
+				.title,
+				.desc {
+
+					span {
+						margin-top: 0;
+						color: inherit;
+						font-weight: inherit;
+						font-size: inherit;
+						line-height: inherit;
+					}
+				}
+			}
+		}
+	}
+}
