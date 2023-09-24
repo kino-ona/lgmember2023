@@ -144,6 +144,7 @@
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07528459|MD05774448|MD06149356|MD07579430|MD07578290|MD07579006|MD07578958"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07570366|MD07551674|MD07568226|MD06056796|MD07572299|MD07581830|MD07572296|MD07571766|MD07561313|MD07570903|MD07561315|MD06115737|MD07551513|MD07522455"/>
 		<!-- Required input ## Model List End -->
+		<input type="hidden" id="discountRateMsg" value="<spring:message code='discount_percent_message' text='{1}% Off'/>"/>
 	
 		<!--  Content Start  -->
 		<link rel="stylesheet" href="${path}/assets/css/index.css">
