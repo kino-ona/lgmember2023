@@ -1,8 +1,18 @@
 https://admin50.cms.lg.com/
 
 User ID : eugene.bae
+heejung1.kim
 lgmemberevent2023v2
 
+
+대만 https://wwwstg.lg.com/tw/memberdays23H2
+프랑스  https://wwwstg.lg.com/fr/memberdays
+이탈리아 https://wwwstg.lg.com/it/MemberDays23
+호주 https://wwwstg.lg.com/au/lgmemberdays
+
+독일 https://wwwstg.lg.com/de/memberdays23H2
+
+=================
 export NODE_ENV=production  
 
 <2차 오픈일>
@@ -14,7 +24,7 @@ export NODE_ENV=production
 베트남 : 6월 20일
 대만 : 6월 23일
 
-프랑스 wwwstg.lg.com/fr/lgmemberdays
+프랑스 wwwstg.lg.com/fr/memberdays
 베트남 wwwstg.lg.com/vn/memberdays
 wwwstg.lg.com/vn/memberdays/BestPick
 wwwstg.lg.com/vn/memberdays/BestTVAudio

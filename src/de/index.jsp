@@ -110,7 +110,10 @@
 						</h1>
 						<p class="desc">
 							Erhalte bis zu XX% Rabatt auf unsere Hot Deals und<br>
-							wähle deine eigene Bundle für extra Rabatt
+							wähle deine Bundle für extra Rabatt
+						</p>
+						<p class="desc">
+							Das Angebot endet am 18.10.2023
 						</p>
 						<div class="term">
 							<a href="https://www.lg.com/de/tncs/memberdays23H2" role="button" target="_blank">
@@ -128,7 +131,7 @@
 						<div class="section__header">
 							<div class="section__group">
 								<p class="title">Entdecke unsere Deals</p>
-								<p class="desc">Jetzt anmelden und erhalte exklusive Angebote. Nur für kurze Zeit!</p>
+								<p class="desc">Jetzt anmelden und exklusive Angebote erhalten. Nur für kurze Zeit!</p>
 							</div>
 							<div class="button">
 								<div class="button__row">
@@ -143,7 +146,7 @@
 									data-track-name="memberdays_click"
 									data-link-area="memberdays_Q3_join_us_click"
 									data-link-name="memberdays_2023Q3"
-									class="button__item">Jetzt mitmachen</a>
+									class="button__item">Jetzt registrieren</a>
 								</div>
 							</div>
 						</div>
@@ -165,7 +168,7 @@
 										<img src="${path}/assets/images/img_deals02.png" alt="Noch größere Bundles">
 									</div>
 									<p class="title">Noch größere Bundles</p>
-									<p class="desc">Spare 10% auf 2 oder mehr Produkte Exklusiv für alle LG Produkte in unserem Shop.</p>
+									<p class="desc">Spare 10% auf zwei oder mehr Produkte. Exklusive Bundle-Angebote jetzt sichern!</p>
 									<a href="#BuymoreSavemore" class="list-item__button"></a>
 								</div>
 								<div class="list-item__item">
@@ -174,7 +177,7 @@
 									</div>
 									<p class="title">
 										Life’s Good: Gratis Artikel
-										<span>*nur solange der Vorrat reicht</span>
+										<span>*begrenzte Tagesstückzahl (nur solange der Vorrat reicht)</span>
 									</p>
 									<p class="desc">
 										Nur verfügbar für LG Member Days Bestellungen während des Member Days Aktionszeitraumes.
@@ -341,12 +344,11 @@
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/de/tv-audio-video-bild" target="_blank" role="button" tabindex="0" 
-												data-track-group="mic" 
 												data-track-opt="category" 
-												data-track-val="" 
-												data-track-name="plpClick" 
-												data-link-area=""
-												data-link-name=""
+												data-track-group="MICROSITE"
+												data-track-name="memberdays_click"
+												data-link-area="memberdays_Q3_see_more_TV/Audio_click"
+												data-link-name="memberdays_2023Q3"
 												class="button__item button__item--tertiary">Mehr erfahren TV/Audio</a>
 											</div>
 										</div>
@@ -358,12 +360,11 @@
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/de/haushaltsgeraete" target="_blank" role="button" tabindex="0" 
-												data-track-group="mic" 
 												data-track-opt="category" 
-												data-track-val="" 
-												data-track-name="plpClick" 
-												data-link-area=""
-												data-link-name=""
+												data-track-group="MICROSITE"
+												data-track-name="memberdays_click"
+												data-link-area="memberdays_Q3_see_more_Haushaltsgeräte_click"
+												data-link-name="memberdays_2023Q3"
 												class="button__item button__item--tertiary">Mehr erfahren Haushaltsgeräte</a>
 											</div>
 										</div>
@@ -376,12 +377,11 @@
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/de/it-produkte" target="_blank" role="button" tabindex="0" 
-												data-track-group="mic" 
 												data-track-opt="category" 
-												data-track-val="" 
-												data-track-name="plpClick" 
-												data-link-area=""
-												data-link-name=""
+												data-track-group="MICROSITE"
+												data-track-name="memberdays_click"
+												data-link-area="memberdays_Q3_see_more_IT_click"
+												data-link-name="memberdays_2023Q3"
 												class="button__item button__item--tertiary">Mehr erfahren IT Produkte</a>
 											</div>
 										</div>
@@ -502,7 +502,7 @@
 			"isLogin" : "",
 			"country_code" : "${country}",
 			"language_code" : "${language}",
-			"page_category_l1" : "${country}:memberdays2023H2",
+			"page_category_l1" : "$countrymemberdays2023Q3",
 			"page_category_l2" : "",
 			"page_category_l3" : "",
 			"page_category_l4" : "",
