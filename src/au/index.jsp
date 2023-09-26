@@ -74,36 +74,34 @@
 		<input type="hidden" class="addtocart-datelayer-use-flag" value="<spring:message code='addtocart-datelayer-use-flag' text='addtocart-datelayer-use-flag'/>">
 		<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
 
+
+
+
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570970|MD07571080|MD07571128|MD07571130|MD07579513|MD07579538|MD07579638|MD07550462|MD07550779|MD07506339|MD07569326|MD07569289|MD07569288|MD07537497"/>
+		<!-- data-type="hotdeal" value"" ===  data-type="tv" value="" -->
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570970|MD07571128|MD07571130|MD07571080|MD07579513|MD07579538|MD07579638|MD07550779|MD07550462|MD07506339|MD07569326|MD07569289|MD07537497|MD07562639|MD07569288"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07570970|MD07571128|MD07571130|MD07571080|MD07579513|MD07579538|MD07579638|MD07550779|MD07550462|MD07506339|MD07569326|MD07569289|MD07537497|MD07562639|MD07569288"/>
+
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07570970|MD07571080|MD07571128|MD07571130|MD07579513|MD07579538|MD07579638|MD07550462|MD07550779|MD07506339|MD07569326|MD07569289|MD07569288|MD07537497|MD07562639"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07558747|MD07540359|MD07540296|MD06078081|MD06069996|MD05925096|MD07504245|MD06061416|MD06032796|MD07561212|MD06061297|MD07561277|MD07539025|MD07538981|MD06164256|MD07534829|MD07572245|MD07535988|MD07583594|MD07581342|MD07581235"/>
-		<!-- <input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07558747|MD07540359|MD07540296|MD06078081|MD06069996|MD07540250|MD07540344|MD07515415|MD05925096|MD07504245|MD05769247|MD07541490|MD06061416|MD06032796|MD07561212|MD06061297|MD07561277|MD07539025|MD07538981|MD07548507|MD06164402|MD07575595|MD07569894|MD06164256|MD07534829|MD07572245|MD07535988|MD07583594|MD07581342|MD07581235"/> -->
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07578755|MD07543932|MD07566061|MD07560541|MD07539285|MD07560202|MD07551485|MD07578001|MD07576423|MD07570025|MD07570626"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07540296|MD06069996|MD06078081|MD07540359|MD07558747|MD05925096|MD05769247|MD07504245|MD06061297|MD06032796|MD07561212|MD07561277|MD07538981|MD07539025|MD06164256|MD07534829|MD07572245|MD07535988|MD07583594|MD07581342|MD07581235"/>
+		<!-- 9/28 ~ 
+			<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07558747|MD07540359|MD07540296|MD06078081|MD06069996|MD07540250|MD07540344|MD07515415|MD05925096|MD07504245|MD05769247|MD07541490|MD06061416|MD06032796|MD07561212|MD06061297|MD07561277|MD07539025|MD07538981|MD07548507|MD06164402|MD07575595|MD07569894|MD06164256|MD07534829|MD07572245|MD07535988|MD07583594|MD07581342|MD07581235"/> -->
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07570025|MD07576423|MD07578001|MD07570626|MD07539285|MD07560202|MD07543932|MD07560541|MD07566061|MD07578755|MD07551485"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Deal Closed"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570970" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571080" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571128" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07571130" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579513" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579538" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579638" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07550462" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07550779" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07506339" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569326" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569289" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569288" value="Special Offer"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07537497" value="Special Offer"/>
 		
-		<!-- Volume Model -->
+		<!-- Volume Model(Bundle Product) -->
 		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07579808|MD07579814|MD07570913|MD07570947|MD07570951|MD07570955|MD07570959|MD07571131|MD07571137|MD07571136|MD07571078|MD07579561|MD07579762|MD07579771|MD07579775|MD07579821"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07580743|MD07584291|MD07552663|MD07540845|MD07540834|MD07555444|MD07555441|MD06071037|MD06114037|MD07530439|MD07530444|MD07583242|MD07576213|MD07576147|MD07515427|MD07573775|MD07554695|MD07549265"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD06114896|MD07577820|MD07582245|MD07560204|MD07577830|MD07538827|MD06173456|MD07577031|MD07560114|MD07560104|MD06117156|MD07539695|MD07539028|MD07520224|MD07504296|MD06114817|MD07538738|MD07538843"/>
+
+
+
+
+
+
 		<!-- Required input ## Model List End -->
 		<input type="hidden" id="discountRateMsg" value="<spring:message code='discount_percent_message' text='{1}% Off'/>"/>
 		<!--  Content Start  -->

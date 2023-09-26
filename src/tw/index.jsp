@@ -76,70 +76,21 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07578166|MD07583459|MD07563893|MD07546009|MD07582363|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07580007"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546009|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07583459|MD07563893|MD07578166|MD07582363|MD07580007"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07578166|MD07583459|MD07563893|MD07546009|MD07582363|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07580007"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07544691|MD07520255|MD07573086|MD07519593|MD07580096|MD07515582|MD07565218|MD07565193|MD07515571|MD07573035|MD07580839|MD05864356|MD07546944|MD06249381|MD07510584|MD07510111|MD07566472|MD07570359|MD07581798|MD07580929|MD07583447|MD07570828|MD07557910|MD06224376|MD07573954|MD07567133"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07558410|MD07569834|MD07569835|MD07577254|MD07567372|MD07558671|MD07577498|MD07574585|MD07560934|MD07577839|MD07572416"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07546009|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07583459|MD07563893|MD07578166|MD07582363|MD07580007"/>
+		
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07581798|MD06249381|MD07510584|MD07580839|MD07573035|MD07570359|MD07557910|MD05864356|MD07570828|MD06224376|MD07580096|MD07566472|MD07544691|MD07583447|MD07515582|MD07515571|MD07565218|MD07519593|MD07567133|MD07573086|MD07510111|MD07565193|MD07546944|MD07573954|MD07520255|MD07580929"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07577498|MD07572416|MD07577254|MD07574585|MD07569834|MD07569835|MD07577839|MD07567372|MD07560934|MD07558671|MD07558410"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="銷售一空"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="特價"/>
-
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07544691" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07520255" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573086" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07519593" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580096" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515582" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565218" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07565193" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07515571" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573035" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580839" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05864356" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546944" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06249381" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510584" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07510111" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07566472" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570359" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07581798" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580929" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583447" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07570828" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07557910" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD06224376" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07573954" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567133" value="特價"/>
-
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07578166" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07583459" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07563893" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07546009" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07582363" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580478" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580477" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579904" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580475" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580501" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07580007" value="特價"/>
-
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558410" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569834" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07569835" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577254" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07567372" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558671" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577498" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07574585" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07560934" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07577839" value="特價"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07572416" value="特價"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_limite" value="特價"/>
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07578166|MD07583459|MD07583432|MD07583081|MD07583386|MD07580478|MD07580477|MD07580475|MD07580464|MD07580007"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07544691|MD07559316|MD07559274|MD07566412|MD06249381|MD07565193|MD06141856|MD07565206|MD07564755|MD07573035|MD07580128|MD07544495|MD07567192|MD07580100|MD07510922|MD07559123|MD07522018|MD07537639|MD07566531|MD07566472|MD07557910|MD07570828|MD06224376|MD07563591|MD07567133|MD07567095|MD07569991|MD07564750|MD07542594"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07567372|MD07558781|MD07577839|MD07558671"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07580478|MD07580477|MD07580475|MD07583081|MD07583459|MD07578166|MD07583386|MD07580464|MD07580007"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD06141856|MD07510922|MD07573035|MD07559123|MD06249381|MD07557910|MD07570828|MD06224376|MD07559274|MD07559316|MD07537639|MD07566531|MD07544495|MD07566472|MD07544691|MD07567192|MD07569991|MD07567095|MD07567133|MD07542594|MD07565206|MD07565193|MD07522018|MD07580100|MD07580128|MD07566412|MD07564750|MD07564755"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07577839|MD07567372|MD07558781|MD07558671|MD07510584"/>
 		<!-- Required input ## Model List End -->
 		<input type="hidden" id="discountRateMsg" value="<spring:message code='discount_percent_message' text='{1}% Off'/>"/>
 	
@@ -488,20 +439,20 @@
 			<div class="footer-box">
 				<div class="footer-component">
 					<div class="footer-caution">
-						<div>活動期間:2023/9/19-2023/10/10<br><br>LG 官方線上商城 全球會員日活動辦法：<br><br></div>
+						<div>活動期間:2023/9/27-2023/10/18<br><br>LG 官方線上商城 全球會員日活動辦法:<br><br></div>
 						<div>
-							1. 優惠內容：<br>
+							1. 優惠內容:<br>
 							(1) 全館指定商品64折起, 兩件以上指定商品組合購再享9折
 						</div>
 						<div>
-							(2) LINE POINTS 回饋：經由 LINE 購物進入 LG 官方線上商城, 2023/9/19-2023/9/23期間, 結帳後加碼贈 LINE POINTS 15% (LINE POINTS 點數回饋上限為1500點)
+							(2) LINE POINTS 回饋:經由 LINE 購物進入 LG 官方線上商城,2023/9/27-2023/10/1期間,結帳後加碼贈 LINE POINTS 15% (LINE POINTS 點數回饋上限為1500點);2023/10/2-2023/10/18期間,結帳後加碼贈 LINE POINTS 15% (LINE POINTS 點數回饋上限為1200點) 
 						</div>
 						<div>
-							(3) SHOPBACK 回饋：經由 ShopBack 進入 LG 官方線上商城,2023/9/19-2023/10/10期間,每周二至周四結帳後現金回饋6% (無上限)。
+							(3) SHOPBACK 回饋:經由 ShopBack 進入 LG 官方線上商城,2023/9/27-2023/10/18期間,每周二至周四結帳後現金回饋6% (無上限)。
 						</div>
 						<div>
-							(4) 指定銀行活動：<br><br>
-							a. 永豐銀行：<br>
+							(4) 指定銀行活動:<br><br>
+							a. 永豐銀行 :<br>
 							*	永豐銀行信用卡卡友,於2023/9/11-2023/9/18 期間到LG官方線上商城購買LG指定型號小家電,輸入序號並使用永豐銀行信用卡結帳,即享卡友獨家專屬優惠。<br>
 							*	永豐銀行信用卡卡友購買LG指定小家電型號及優惠序號,如下：<br>
 							- LG CordZero™ A9T系列 All-in-One快清式無線吸塵器 (自動除塵)( A9T-LITE)

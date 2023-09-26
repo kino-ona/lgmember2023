@@ -77,21 +77,20 @@
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value=""/>
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value=""/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Auf XX Produkte begrenzt"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07529840|MD07552826|MD07537701|MD07573447|MD07573442|MD07536623|MD07536621|MD07570137|MD07570406|MD07570458|MD07570459|MD07570459|MD07580214|MD07580738|MD07580740|MD07573048|MD07574957"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07529840|MD07552826|MD07537701|MD07573447|MD07573442|MD07536623|MD07536621|MD07570137|MD07570406|MD07570458|MD07570459|MD07570459|MD07580214|MD07580738|MD07580740|MD07573048|MD07574957"/>
 
-
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value=""/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value=""/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07570362|MD07581936|MD06055076|MD07561610|MD07561481|MD07556836|MD07543991|MD07581794"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07568091|MD07576900|MD07571354|MD07563970|MD07571278|MD07568094|MD07564761|MD07569902|MD07580979|MD07581312|MD07558252|MD07568092|MD07571585|MD07572927|MD07582816|MD06189816|MD07545582|MD07530382|MD07542197"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Der Deal is beendet"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Hot Deal"/>
+		<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limitierte Anzahl"/> -->
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value=""/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value=""/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07552972|MD07549244|MD07570566|MD07559110|MD07551683|MD07549883|MD07559176|MD07534021|MD07529952"/>
+		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07521053|MD07581893|MD06055056|MD07522009|MD07538909|MD07566953|MD07543596|MD07538000|MD07532590|MD07557311|MD07538910|MD07542764"/>
+		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07571272|MD07568090|MD07577117|MD07568104|MD07571152|MD07568100|MD07568102|MD07571240|MD07571342"/>
 		<!-- Required input ## Model List End -->
 		<input type="hidden" id="discountRateMsg" value="<spring:message code='discount_percent_message' text='{1}% Off'/>"/>
 	
@@ -109,7 +108,7 @@
 							mit exklusiven Vorteilen
 						</h1>
 						<p class="desc">
-							Erhalte bis zu XX% Rabatt auf unsere Hot Deals und<br>
+							Erhalte bis zu 61% Rabatt auf unsere Hot Deals und<br>
 							wähle deine Bundle für extra Rabatt
 						</p>
 						<p class="desc">
@@ -197,7 +196,7 @@
 				<div id="sectionHotdeal" class="section" data-list="hotDeal">
 					<div class="section__inner">
 						<p class="title">Unsere Hot Deals warten auf dich</p>
-						<p class="desc">Spare bis zu XX% auf unsere ausgewählten Produkte. Nur für kurze Zeit.</p>
+						<p class="desc">Spare bis zu 61% auf unsere ausgewählten Produkte. Nur für kurze Zeit.</p>
 						<div class="tab">
 							<div class="tab__list">
 								<a href="#tv" role="button" class="tab__button tab__button--selected">TV / Audio</a>
@@ -283,7 +282,7 @@
 					<div class="section__inner">
 						<p class="title">
 							Entdecke unsere Bundles<br>
-							Spare bis zu XX% auf 2 oder mehr Produkte
+							Spare bis zu 10% auf 2 oder mehr Produkte
 						</p>
 						<p class="desc">Der extra Rabatt wird im Checkout angewendet.</p>
 						<div class="img">
@@ -340,7 +339,7 @@
 							<div class="tab__contents">
 								<div id="tvaudio" class="tab__panel initTab tab__panel--opened">
 									<div class="product">
-										<div class="product__list product__list--slick-row">
+										<div class="product__list product__list--slick-row"></div>
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/de/tv-audio-video-bild" target="_blank" role="button" tabindex="0" 
@@ -372,8 +371,7 @@
 								</div>
 								<div id="computerproductB" class="tab__panel">
 									<div class="product">
-										<div class="product__list product__list--slick-row">
-										</div>
+										<div class="product__list product__list--slick-row"></div>
 										<div class="button">
 											<div class="button__row">
 												<a href="https://www.lg.com/de/it-produkte" target="_blank" role="button" tabindex="0" 
