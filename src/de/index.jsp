@@ -77,8 +77,8 @@
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07529840|MD07552826|MD07537701|MD07573447|MD07573442|MD07536623|MD07536621|MD07570137|MD07570406|MD07570458|MD07570459|MD07570459|MD07580214|MD07580738|MD07580740|MD07573048|MD07574957"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07529840|MD07552826|MD07537701|MD07573447|MD07573442|MD07536623|MD07536621|MD07570137|MD07570406|MD07570458|MD07570459|MD07570459|MD07580214|MD07580738|MD07580740|MD07573048|MD07574957"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07529840|MD07552826|MD07537701|MD07573447|MD07573442|MD07536623|MD07536621|MD07570137|MD07570406|MD07570458|MD07570459|MD07570574|MD07570566|MD07570562|MD07580210|MD07580214|MD07580738|MD07580740|MD07573048|MD07574957"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07529840|MD07552826|MD07537701|MD07573447|MD07573442|MD07536623|MD07536621|MD07570137|MD07570406|MD07570458|MD07570459|MD07570574|MD07570566|MD07570562|MD07580210|MD07580214|MD07580738|MD07580740|MD07573048|MD07574957"/>
 
 		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07570362|MD07581936|MD06055076|MD07561610|MD07561481|MD07556836|MD07543991|MD07581794"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07568091|MD07576900|MD07571354|MD07563970|MD07571278|MD07568094|MD07564761|MD07569902|MD07580979|MD07581312|MD07558252|MD07568092|MD07571585|MD07572927|MD07582816|MD06189816|MD07545582|MD07530382|MD07542197"/>
@@ -88,7 +88,7 @@
 		<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt_" value="Limitierte Anzahl"/> -->
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07552972|MD07549244|MD07570566|MD07559110|MD07551683|MD07549883|MD07559176|MD07534021|MD07529952"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07552972|MD07549244|MD07559110|MD07551683|MD07549883|MD07559176|MD07534021|MD07529952"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07521053|MD07581893|MD06055056|MD07522009|MD07538909|MD07566953|MD07543596|MD07538000|MD07532590|MD07557311|MD07538910|MD07542764"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07571272|MD07568090|MD07577117|MD07568104|MD07571152|MD07568100|MD07568102|MD07571240|MD07571342"/>
 		<!-- Required input ## Model List End -->
@@ -193,7 +193,7 @@
 				<div id="HotDealTVAudio" class="anchors"></div>
 				<div id="HotDealHomeAppliance" class="anchors"></div>
 				<div id="HotDealComputerProducts" class="anchors"></div>
-				<div id="sectionHotdeal" class="section" data-list="hotDeal">
+				<div id="sectionHotdeal" class="section sectionHotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<p class="title">Unsere Hot Deals warten auf dich</p>
 						<p class="desc">Spare bis zu 61% auf unsere ausgewählten Produkte. Nur für kurze Zeit.</p>
@@ -402,7 +402,7 @@
 								</p>
 								<div class="button">
 									<div class="button__row">
-										<a href="www.lg.com/de/lifesgood" role="button" 
+										<a href="https://www.lg.com/de/lifesgood" role="button" 
 											data-track-group="MICROSITE"
 											data-track-name="memberdays_click"
 											data-link-area="memberdays_Q3_lifeisgood_learn_more_click"

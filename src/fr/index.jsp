@@ -76,15 +76,16 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07553857|MD07553836|MD07527413|MD07572229|MD07572201|MD07572186|MD07581594"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07553857|MD07553836|MD07527413|MD07572229|MD07572201"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07553857|MD07553836|MD07527413|MD07572229|MD07572201"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07553857|MD07553836|MD07527413|MD07572229|MD07572201|MD07572186|MD07581594"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07538608|MD07538525|MD05769090|MD07558526|MD07557481"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07565648|MD07571072|MD07569571|MD07570706|MD06211097|MD07553582|MD07579562|MD07579468|MD07532089"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07538608|MD07538525|MD05769090|MD07558526"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07565648|MD07571072|MD07569571|MD07570706|MD06211097|MD07553582|MD07579562|MD07579468"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Offre terminée"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Nos Offres Spéciales"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07538608" value="Quantité limitée"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_limite" value="Quantité limitée"/>
+		<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt_MD07538608" value="Quantité limitée"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07538525" value="Quantité limitée"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD05769090" value="Quantité limitée"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07558526" value="Quantité limitée"/>
@@ -106,10 +107,10 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07553582" value="Quantité limitée"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579562" value="Quantité limitée"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07579468" value="Quantité limitée"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07532089" value="Quantité limitée"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="alt_MD07532089" value="Quantité limitée"/> -->
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07570652|MD07577052|MD07560456|MD07573053|MD07573052|MD07573049|MD07573142|MD07572196|MD07579005|MD07577199|MD07571592|MD07566065|MD07571517|MD07560453"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07570652|MD07577052|MD07560456|MD07579005|MD07577199|MD07571592|MD07566065|MD07571517|MD07560453"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD07538377|MD07520419|MD07542783|MD05769328|MD07569388|MD07570739|MD07585904"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07574350|MD07560544|MD07568654|MD07579540|MD07579502|MD07579666|MD07568969|MD07570655|MD07568248|MD07568656|MD07576977|MD07534417|MD05763528|MD07568843|MD07568767|MD07570974|MD07568825|MD07576876|MD07574525|MD07579511|MD07574425|MD06201616|MD07560595|MD07574518|MD07532083|MD07568947|MD06116276"/>
 		<!-- Required input ## Model List End -->
@@ -129,7 +130,7 @@
 							avec des avantages exclusifs
 						</h1>
 						<p class="desc">
-							Obtenez jusqu’à 45% sur les offres spéciales<br>
+							Obtenez jusqu’à 33% sur les offres spéciales<br>
 							Remises supplémentaires sur les packs
 						</p>
 						<p class="desc desc--secondary">
@@ -200,12 +201,12 @@
 
 				<div class="anchors" id="HotDealTVAudio"></div>
 				<div class="anchors" id="HotDealHomeAppliance"></div>
-				<div class="anchors" id="HotDealHomeAppliance"></div>
-				<div id="HotDeal" class="section" data-list="hotDeal">
+				<div class="anchors" id="HotDealComputerProducts"></div>
+				<div id="HotDeal" class="section sectionHotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<p class="title">Les offres à ne pas manquer</p>
 						<p class="desc">
-							Bénéficiez de jusqu'à 45% de réduction<br>
+							Bénéficiez de jusqu'à 33% de réduction<br>
 							sur notre sélection de produits ci-dessous.
 						</p>
 						<div class="tab">

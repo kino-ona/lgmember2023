@@ -74,23 +74,48 @@
 		<input type="hidden" class="addtocart-datelayer-use-flag" value="<spring:message code='addtocart-datelayer-use-flag' text='addtocart-datelayer-use-flag'/>">
 		<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
 
+
+
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546009|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07583459|MD07563893|MD07578166|MD07582363|MD07580007"/>
+		<!-- 
+				<.. data-model-group="hotDeal" data-type="hotdeal" ..>
+				and 
+				<.. data-model-group="hotDeal" data-type="homeappliance" ..>
+				value code are the same
+		//-->
+		<!-- 
+				data-type="homeappliance" : HA
+				data-type="tv" : HE
+				data-type="computerproduct" : IT
+		//-->
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07581798|MD06249381|MD07510584|MD07580839|MD07573035|MD07570359|MD07557910|MD05864356|MD07570828|MD06224376|MD07580096|MD07566472|MD07544691|MD07583447|MD07515582|MD07515571|MD07565218|MD07519593|MD07567133|MD07573086|MD07510111|MD07565193|MD07573954|MD07520255|MD07580929|MD07546944"/>
+
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07581798|MD06249381|MD07510584|MD07580839|MD07573035|MD07570359|MD07557910|MD05864356|MD07570828|MD06224376|MD07580096|MD07566472|MD07544691|MD07583447|MD07515582|MD07515571|MD07565218|MD07519593|MD07567133|MD07573086|MD07510111|MD07565193|MD07573954|MD07520255|MD07580929|MD07546944"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07546009|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07583459|MD07563893|MD07578166|MD07582363|MD07580007"/>
-		
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07581798|MD06249381|MD07510584|MD07580839|MD07573035|MD07570359|MD07557910|MD05864356|MD07570828|MD06224376|MD07580096|MD07566472|MD07544691|MD07583447|MD07515582|MD07515571|MD07565218|MD07519593|MD07567133|MD07573086|MD07510111|MD07565193|MD07546944|MD07573954|MD07520255|MD07580929"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07577498|MD07572416|MD07577254|MD07574585|MD07569834|MD07569835|MD07577839|MD07567372|MD07560934|MD07558671|MD07558410"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07563893|MD07578166|MD07546009|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07583459|MD07582363|MD07580007"/>
+
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07577498|MD07572416|MD07577254|MD07574585|MD07569834|MD07569835|MD07577839|MD07567372|MD07560934|MD07558671"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="銷售一空"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="特價"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_limite" value="特價"/>
 		
-		<!-- Volume Model -->
+		<!-- Volume Model(Multi Buying) -->
+		<!-- 
+				data-type="tvaudio" : HE
+				data-type="homeapplianceB" : HA
+				data-type="computerproductB" : IT
+		//-->
 		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07580478|MD07580477|MD07580475|MD07583081|MD07583459|MD07578166|MD07583386|MD07580464|MD07580007"/>
+
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD06141856|MD07510922|MD07573035|MD07559123|MD06249381|MD07557910|MD07570828|MD06224376|MD07559274|MD07559316|MD07537639|MD07566531|MD07544495|MD07566472|MD07544691|MD07567192|MD07569991|MD07567095|MD07567133|MD07542594|MD07565206|MD07565193|MD07522018|MD07580100|MD07580128|MD07566412|MD07564750|MD07564755"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07577839|MD07567372|MD07558781|MD07558671|MD07510584"/>
+
+		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07577839|MD07567372|MD07558781|MD07558671"/>
+
+
+
+
 		<!-- Required input ## Model List End -->
 		<input type="hidden" id="discountRateMsg" value="<spring:message code='discount_percent_message' text='{1}% Off'/>"/>
 	
@@ -184,8 +209,8 @@
 						<p class="desc">指定商品64折起</p>
 						<div class="tab">
 							<div class="tab__list">
-								<a href="#tv" role="button" class="tab__button tab__button--selected">電視視聽</a>
-								<a href="#homeappliance" role="button" class="tab__button">生活家電</a>
+								<a href="#homeappliance" role="button" class="tab__button tab__button--selected">生活家電</a>
+								<a href="#tv" role="button" class="tab__button">電視視聽</a>
 								<a href="#computerproduct" role="button" class="tab__button">筆電/螢幕顯示器</a>
 							</div>
 							<div id="hotdeal" class="tab__contents product--hotdeal">
@@ -234,16 +259,16 @@
 										</div>
 									</div>
 								</template>
-								<div id="tv" class="tab__panel tab__panel--opened">
+								<div id="homeappliance" class="tab__panel tab__panel--opened">
+									<div class="product">
+										<div class="product__list product__list--slick"></div>
+									</div>
+								</div>
+								<div id="tv" class="tab__panel">
 									<div class="product">
 										<div class="product__mask">
 											<div class="product__list product__list--slick"></div>
 										</div>
-									</div>
-								</div>
-								<div id="homeappliance" class="tab__panel">
-									<div class="product">
-										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
 								<div id="computerproduct" class="tab__panel">
@@ -269,8 +294,8 @@
 						</div>
 						<div class="tab">
 							<div class="tab__list">
-								<a href="#tvaudio" data-tab-name="tvaudio" role="button" class="tab__button tab__button--selected">電視視聽</a>
-								<a href="#homeapplianceB" data-tab-name="homeapplianceB" role="button" class="tab__button">生活家電</a>
+								<a href="#homeapplianceB" data-tab-name="homeapplianceB" role="button" class="tab__button tab__button--selected">生活家電</a>
+								<a href="#tvaudio" data-tab-name="tvaudio" role="button" class="tab__button">電視視聽</a>
 								<a href="#computerproductB" data-tab-name="computerproductB" role="button" class="tab__button">筆電/螢幕顯示器</a>
 							</div>
 							<template class="contents-template">
@@ -317,25 +342,7 @@
 								</div>
 							</template>
 							<div class="tab__contents">
-								<div id="tvaudio" class="tab__panel initTab tab__panel--opened">
-									<div class="product">
-										<div class="product__list product__list--slick-row">
-										</div>
-										<div class="button">
-											<div class="button__row">
-												<a href="https://www.lg.com/tw/tv-home-entertainment" target="_blank" role="button" tabindex="0" 
-												data-track-group="mic" 
-												data-track-opt="category" 
-												data-track-val="" 
-												data-track-name="plpClick" 
-												data-link-area=""
-												data-link-name=""
-												class="button__item button__item--tertiary">查看更多 電視視聽</a>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div id="homeapplianceB" class="tab__panel">
+								<div id="homeapplianceB" class="tab__panel initTab tab__panel--opened">
 									<div class="product">
 										<div class="product__list product__list--slick-row">
 										</div>
@@ -349,6 +356,24 @@
 												data-link-area=""
 												data-link-name=""
 												class="button__item button__item--tertiary">查看更多 生活家電</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="tvaudio" class="tab__panel">
+									<div class="product">
+										<div class="product__list product__list--slick-row">
+										</div>
+										<div class="button">
+											<div class="button__row">
+												<a href="https://www.lg.com/tw/tv-home-entertainment" target="_blank" role="button" tabindex="0" 
+												data-track-group="mic" 
+												data-track-opt="category" 
+												data-track-val="" 
+												data-track-name="plpClick" 
+												data-link-area=""
+												data-link-name=""
+												class="button__item button__item--tertiary">查看更多 電視視聽</a>
 											</div>
 										</div>
 									</div>
@@ -453,18 +478,11 @@
 						<div>
 							(4) 指定銀行活動:<br><br>
 							a. 永豐銀行 :<br>
-							*	永豐銀行信用卡卡友,於2023/9/11-2023/9/18 期間到LG官方線上商城購買LG指定型號小家電,輸入序號並使用永豐銀行信用卡結帳,即享卡友獨家專屬優惠。<br>
-							*	永豐銀行信用卡卡友購買LG指定小家電型號及優惠序號,如下：<br>
-							- LG CordZero™ A9T系列 All-in-One快清式無線吸塵器 (自動除塵)( A9T-LITE)
-							優惠序號:LG永豐A9T ,專屬優惠價:21,900元 (建議售價26,900元),並加贈2組集塵袋<br>
-							- LG CordZero™ A9K 系列快清式無線吸塵器 (寵物家庭) (A9K-PRIME) 
-							優惠序號:LG永豐A9K,專屬優惠價:13,400元 (建議售價16,900元)<br>
-							- LG PuriCare™ 雙變頻除濕機 - 25.6公升( WD261VKF0)
-							優惠序號:LG永豐除濕機,專屬優惠價:24,690元 (建議售價28,900元)<br>
-							- LG PuriCare™ 360°空氣清淨機 - 寵物功能增加版 (單層)(AS651DSS0) 
-							優惠序號:LG永豐空清,專屬優惠價:20,900元 (建議售價26,800元)<br>
-							* LG官方線上商城登錄資料,兌換限量購物金：<br>
-							永豐銀行信用卡卡友於LG官方線上商城購買本活動LG指定型號商品,使用永豐銀行任一信用卡刷卡並指定分期,不限分期期數,即日起至2023/10/20 於https://bit.ly/3PduRZC登錄,即有機會兌換2,000元LG官方線上商城購物金,每一會員限一次兌換機會,限量共300名,依登錄順序贈送,兌完為止。LG官方線上商城購物金使用期限至2024/6/30止。<br><br>
+							*	LG官方線上商城登錄資料, 兌換限量購物金：
+							永豐銀行信用卡卡友於LG官方線上商城購買本活動LG指定型號商品,使用永豐銀行任一信用卡刷卡並指定分期,不限分期期數,即日起至2023/10/20 於https://bit.ly/3PduRZC登錄,即有機會兌換2,000元LG官方線上商城購物金,每一會員限一次兌換機會,限量共300名,依登錄順序贈送,兌完為止。LG官方線上商城購物金使用期限至2024/6/30止。
+							*	永豐銀行刷卡金回饋：
+							2023/9/1~9/30全月滿額送! 於LG官方線上商城刷永豐信用卡,單筆消費分期(限3期、6期、12期分期)滿額並完成登錄,可享最高刷卡金7,500元回饋(限量)。本活動之分期付款優惠,不另收取分期利息及其他相關費用,總費用年百分率為0%。登錄網址:mma.tw/C004X
+							<br><br>
 							b. 台新銀行：<br>
 							*	不限消費金額並至台新銀行官網活動頁登錄,有機會獲得限量2%刷卡金回饋,每月最高回饋上限新台幣600元。<br>
 							*	2023/9/19-2023/9/30間於 LG 官方線上商城刷台新信用卡並指定分期,不限期數,並於2023/9/30前至https://bit.ly/3POQNv6登錄資料,即有機會享消費滿萬即送千元 LG 官方線上商城購物金,滿新台幣10,000元享新台幣1,000元購物金、滿新台幣20,000元享新台幣2,000元購物金,以此類推,每人限一次登錄機會,限量300名額,依登錄順序贈送,送完為止。<br><br>
@@ -566,7 +584,7 @@
 		$(document).ready(function(){
 			var href = window.location.href;
 			// hotdeal
-			if(href.indexOf('HotDealTVAudio') != -1) { 
+			if(href.indexOf('HotDealHomeAppliance') != -1) { 
 				$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');    
 				var timer = setTimeout(function() {         
 					$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).click();
@@ -580,7 +598,7 @@
 					clearTimeout(timer);   
 				}, 1000);
 			}
-			if(href.indexOf('HotDealHomeAppliance') != -1) {  
+			if(href.indexOf('HotDealTVAudio') != -1) {  
 				$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');  
 				var timer = setTimeout(function() {         
 					$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).click();
@@ -610,7 +628,7 @@
 			}
 
 			// multibuying
-			if(href.indexOf('BuymoreSavemoreTVAudio') != -1) {  
+			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {  
 				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');   
 				var timer = setTimeout(function() {         
 					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(0).click();
@@ -624,7 +642,7 @@
 					 clearTimeout(timer);   
 				 }, 1000);
 			}
-			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {    
+			if(href.indexOf('BuymoreSavemoreTVAudio') != -1) {    
 				$('#BuymoreSavemore .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');    
 				var timer = setTimeout(function() {         
 					$('#BuymoreSavemore .tab__list').find('.tab__button').eq(1).click();
