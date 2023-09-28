@@ -499,6 +499,9 @@ $(document).ready(function () {
             .end()
             .find(".product__noti")
             .removeClass("d-none");
+					$template
+            .find(".learn-more__link")
+						.hide();
         }
 
         $template.find(".button a").each(function () {
