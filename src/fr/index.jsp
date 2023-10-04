@@ -79,7 +79,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07579181|MD07581594|MD07572186|MD07553857|MD07553836|MD07527413|MD07572229"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07579181|MD07581594|MD07572186|MD07553857|MD07553836|MD07527413|MD07572229"/>
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07583719|MD07583338|MD07538608|MD07538525|MD05769090|MD07558526"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07583719|MD07538608|MD07558526|MD07538525|MD05769090|MD07583338"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07560595|MD07574350|MD07565648|MD07571072|MD07569571|MD07570706|MD06211097|MD07553582|MD07579562|MD07579468|MD07582843"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Offre terminée"/>

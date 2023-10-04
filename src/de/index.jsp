@@ -81,7 +81,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07529840|MD07552826|MD07537701|MD07573447|MD07573442|MD07536623|MD07536621|MD07570137|MD07570406|MD07570458|MD07570459|MD07570574|MD07570566|MD07570562|MD07580210|MD07580214|MD07580738|MD07580740|MD07573048|MD07574957"/>
 
 		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07570362|MD07581936|MD06055076|MD07561610|MD07561481|MD07556836|MD07543991|MD07581794"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07568091|MD07576900|MD07571354|MD07563970|MD07571278|MD07568094|MD07564761|MD07569902|MD07580979|MD07581312|MD07558252|MD07568092|MD07571585|MD07572927|MD07582816|MD06189816|MD07545582|MD07530382|MD07542197"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07568091|MD07576900|MD07571354|MD07563970|MD07571278|MD07568094|MD07564761|MD07569902|MD07580979|MD07581312|MD07558252|MD07568092|MD07571585|MD07572927|MD07582816|MD06189816|MD07545582|MD07530382|MD07542197|MD06075536"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Der Deal is beendet"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Hot Deal"/>
@@ -134,13 +134,13 @@
 							</div>
 							<div class="button">
 								<div class="button__row">
-									<a href="https://www.lg.com/de/my-lg/login?state=/it/memberdays23H2" role="button" 
+									<a href="https://www.lg.com/de/my-lg/login?state=/de/memberdays23H2" role="button" 
 									data-track-group="MICROSITE"
 									data-track-name="memberdays_click"
 									data-link-area="memberdays_Q3_sign_in_click"
 									data-link-name="memberdays_2023Q3"
 									class="button__item button__item--secondary">Anmelden</a>
-									<a href="https://www.lg.com/de/my-lg/login?state=/it/memberdays23H2" role="button" 
+									<a href="https://www.lg.com/de/my-lg/login?state=/de/memberdays23H2" role="button" 
 									data-track-group="MICROSITE"
 									data-track-name="memberdays_click"
 									data-link-area="memberdays_Q3_join_us_click"
