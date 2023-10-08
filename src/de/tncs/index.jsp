@@ -102,20 +102,33 @@
       <div class="lgmembersdays-terms">
         <div class="lgmembersdays-terms__wrap">
           <h3>
-						Teilnahmebedingungen für die Aktion „LG Member Days“ vom 05.10.2023 (00:00 Uhr) bis 18.05.2023 (24:00 Uhr)
+						Teilnahmebedingungen für die Aktion „LG Member Days“ vom 05.10.2023 (00:00 Uhr) bis 18.10.2023 (24:00 Uhr)
           </h3>
           <ul class="list">
 						<li>
-							1. Veranstalter der Aktion „Member Days“ ist die LG Electronics Deutschland GmbH, Alfred- Herrhausen-Allee 3-5, 65760 Eschborn (im Folgenden „Hersteller“).
+							1. Veranstalter der Aktion „Member Days“ ist die LG Electronics Deutschland GmbH, AlfredHerrhausen-Allee 3-5, 65760 Eschborn (im Folgenden „Hersteller“).
 						</li>
 						<li>
 							2. Mit der Teilnahme an dieser Aktion erklärt sich der Teilnehmer mit diesen Teilnahmebedingungen einverstanden.
 						</li>
 						<li>
-							3. Der User erhält nach einer Account Registrierung auf lg.com/de und beim Kauf von 2 oder mehr teilnehmenden Produkten auf https://www.lg.com/de/memberdays23H2einen Rabatt von 10% auf den Gesamtpreis. Dieser Aktionsrabatt ist nicht mit anderen Rabatten oder Promotions kombinierbar. Der Coupon ist im Einkaufswagen einsehbar und einlösbar. „Gutscheincode auswählen“ klicken und den Gutscheincode LGMEMBERDAYS10 einlösen. Der Rabatt wird anschließend automatisch von der Gesamtsumme abgezogen.
+							3. Der User erhält nach einer Account Registrierung auf lg.com/de und beim Kauf von 2 oder mehr
+							teilnehmenden Produkten auf https://www.lg.com/de/memberdays23H2einen Rabatt von 10% auf den Gesamtpreis. Dieser Aktionsrabatt ist nicht mit anderen Rabatten oder Promotions  
+							kombinierbar. Der Coupon ist im Einkaufswagen einsehbar und einlösbar. „Gutscheincode auswählen“ klicken und den Gutscheincode <strong>LGMEMBERDAYS10</strong> einlösen. Der Rabatt wird anschließend automatisch von der Gesamtsumme abgezogen.
 						</li>
 						<li>
-							4. Teilnahmeberechtigt sind ausschließlich private, natürliche Personen, die zum Teilnahmezeitpunkt das 18. Lebensjahr überschritten haben. Nicht teilnahmeberechtigt sind Groß- und Einzelhändler, auch wenn sie im Namen von Teilnehmergemeinschaftenauftreten. Von der Teilnahme an der Aktion ausgeschlossen sind darüber hinaus Käufe über Online- Versteigerungsplattformen, Käufe von gebrauchten Geräten sowie gekennzeichneter B-Ware und Käufe über Privatpersonen, die nicht in Ausübung ihrer gewerblichen oder selbstständigen beruflichen Tätigkeit handeln. Ein Erwerb über eine schadensregulierende Versicherung, auch nur bei Übernahme von Teilbeträgen, ist von der Teilnahme ausgeschlossen und kann nicht berücksichtigt werden. Ebenfalls von der Aktion ausgeschlossen sind Teilnehmer, welche das Produkt im Rahmen des VIP-Programms über den Online-Shop der LG Electronics erworben haben oder Teilnehmer welche für den Erwerb des Produktes im LG Online Shop bereits Rabatte wie z.B. durch Gutscheincodes erhalten haben, die nicht mit der Aktion in Verbindung stehen. Die Aktion gilt nur für vorrätige bzw. sofort verfügbare Aktionsgeräte.
+							4. Teilnahmeberechtigt sind ausschließlich private, natürliche Personen, die zum
+							Teilnahmezeitpunkt das 18. Lebensjahr überschritten haben. Nicht teilnahmeberechtigt sind
+							Groß- und Einzelhändler, auch wenn sie im Namen von Teilnehmergemeinschaftenauftreten.
+							Von der Teilnahme an der Aktion ausgeschlossen sind darüber hinaus Käufe über OnlineVersteigerungsplattformen, Käufe von gebrauchten Geräten sowie gekennzeichneter B-Ware
+							und Käufe über Privatpersonen, die nicht in Ausübung ihrer gewerblichen oder selbstständigen
+							beruflichen Tätigkeit handeln. Ein Erwerb über eine schadensregulierende Versicherung, auch
+							nur bei Übernahme von Teilbeträgen, ist von der Teilnahme ausgeschlossen und kann nicht
+							berücksichtigt werden. Ebenfalls von der Aktion ausgeschlossen sind Teilnehmer, welche das
+							Produkt im Rahmen des VIP-Programms über den Online-Shop der LG Electronics erworben
+							haben oder Teilnehmer welche für den Erwerb des Produktes im LG Online Shop bereits Rabatte
+							wie z.B. durch Gutscheincodes erhalten haben, die nicht mit der Aktion in Verbindung stehen.
+							Die Aktion gilt nur für vorrätige bzw. sofort verfügbare Aktionsgeräte.
 						</li>
           </ul>
 					<p class="sub-title">Aktionsgeräte:</p>
@@ -126,11 +139,14 @@
 					</ul>
 					<ul class="list">
 						<li>
-							5. Die Aktion läuft vom 05.10.2023 (00:00 Uhr) bis einschließlich 18.05.2023 (24:00 Uhr) ("Aktionszeitraum"). Der Hersteller informiert für den Fall, dass der Aktionszeitraum aufgrund von außergewöhnlichen Umständen verkürzt werden muss.<br>Aktuelle Informationen zum Stand der Aktion können unter https://www.lg.com/de/memberdays23H2 eingesehen werden.
+							5. Die Aktion läuft vom 05.10.2023 (00:00 Uhr) bis einschließlich 18.10.2023 (24:00 Uhr)
+							("Aktionszeitraum"). Der Hersteller informiert für den Fall, dass der Aktionszeitraum aufgrund
+							von außergewöhnlichen Umständen verkürzt werden muss. Aktuelle Informationen zum Stand der Aktion können unter https://www.lg.com/de/memberdays23H2 eingesehen werden.
 							<ul class="list">
 								<li>
 									<strong>Giveaway:</strong>
-									LG legt einer bestimmten Anzahl von Bestellung, die über die Member Days Kampagne abgegeben werden, ein Giveaway bei. Dieses Giveaway ist in der Tagesstückzahl begrenzt (ca. 20 Stück). Zur Erfüllung der Zustellung nutzt LG einmalig die Adressdaten der Bestellung aus der Member Days Aktion.<br>
+									LG legt einer bestimmten Anzahl von Bestellung, die über die Member Days Kampagne abgegeben werden, ein Giveaway bei. Dieses Giveaway ist in der Tagesstückzahl begrenzt
+									(ca. 20 Stück). Zur Erfüllung der Zustellung nutzt LG einmalig die Adressdaten der Bestellung aus der Member Days Aktion.<br>
 									Diese werden dem Dienstleister zur Verfügung gestellt, um das Giveaway im Auftrag von LG zu versenden.
 								</li>
 							</ul>
@@ -139,23 +155,49 @@
 							6. Der Hersteller ist berechtigt, die Aktion vorzeitig zu beenden, falls eine ordnungsgemäße Durchführung der Aktion aus technischen und/oder rechtlichen Gründen nicht gewährleistet werden kann.
 						</li>
 						<li>
-							7. Der Hersteller ist berechtigt, Teilnehmer bei denen der Verdacht besteht, dass sie gegen die Teilnahmebedingungen verstoßen, falsche bzw. betrügerische Angaben machen, die Aktion manipulieren oder öfter als erlaubt teilnehmen oder dies versuchen, von der Teilnahme an der Aktion auszuschließen. Das Manipulieren von Rechnungsdaten und Bestellbestätigungen ist strafbar und kann zur Anzeige gebracht werden. Der Hersteller hält es sich vor, in Verdachtsfällen die eingereichten Unterlagen zu prüfen und ggf. Nachweise der Teilnehmer einzufordern. In diesen Fällen ist der Hersteller, gegebenenfalls auch nachträglich, dazu berechtigt, eine bereits ausgezahlte Erstattung zurückzufordern. Die Geltendmachung von Schadenersatzansprüchen bleibt insoweit vorbehalten.
+							7. Der Hersteller ist berechtigt, Teilnehmer bei denen der Verdacht besteht, dass sie gegen die
+							Teilnahmebedingungen verstoßen, falsche bzw. betrügerische Angaben machen, die Aktion manipulieren oder öfter als erlaubt teilnehmen oder dies versuchen, von der Teilnahme an der
+							Aktion auszuschließen. Das Manipulieren von Rechnungsdaten und Bestellbestätigungen ist strafbar und kann zur Anzeige gebracht werden. Der Hersteller hält es sich vor, in
+							Verdachtsfällen die eingereichten Unterlagen zu prüfen und ggf. Nachweise der Teilnehmer einzufordern. In diesen Fällen ist der Hersteller, gegebenenfalls auch nachträglich, dazu berechtigt, eine bereits ausgezahlte Erstattung zurückzufordern. Die Geltendmachung von Schadenersatzansprüchen bleibt insoweit vorbehalten.
 						</li>
 						<li>
-							8. Der Hersteller haftet nur für Schäden, die von ihm, seinen gesetzlichen Vertretern oder Erfüllungsgehilfen vorsätzlich oder grob fahrlässig oder durch die Verletzung wesentlicher Pflichten im Rahmen der Aktion (sog. Kardinalspflichten) verursacht wurden. Wesentliche Pflichten sind solche, deren Erfüllung zur Erreichung des Ziels der Aktion notwendig ist. In diesen Fällen ist die Haftung auf den vorhersehbaren, typischerweise eintretenden Schaden beschränkt. Die Haftung des Herstellers für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit bleibt davon unberührt.
+							8. Der Hersteller haftet nur für Schäden, die von ihm, seinen gesetzlichen Vertretern oder Erfüllungsgehilfen vorsätzlich oder grob fahrlässig oder durch die Verletzung wesentlicher
+							Pflichten im Rahmen der Aktion (sog. Kardinalspflichten) verursacht wurden. Wesentliche Pflichten sind solche, deren Erfüllung zur Erreichung des Ziels der Aktion notwendig ist. In diesen
+							Fällen ist die Haftung auf den vorhersehbaren, typischerweise eintretenden Schaden beschränkt. Die Haftung des Herstellers für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit bleibt davon unberührt. 
 						</li>
 						<li>
-							9. Wenn eine Bestimmung der Teilnahmebedingungen ganz oder teilweise unwirksam wird, bleibt davon die Gültigkeit der anderen Bestimmungen unberührt. Eine unwirksame Bestimmung ist durch eine solche zu ersetzen, die mit geltendem Recht vereinbar ist und der unwirksam gewordenen Klausel inhaltlich am nächsten kommt.<br>Für eventuelle Regelungslücken gilt das Gleiche.
+							9. Wenn eine Bestimmung der Teilnahmebedingungen ganz oder teilweise unwirksam wird, bleibt
+							davon die Gültigkeit der anderen Bestimmungen unberührt. Eine unwirksame Bestimmung ist
+							durch eine solche zu ersetzen, die mit geltendem Recht vereinbar ist und der unwirksam
+							gewordenen Klausel inhaltlich am nächsten kommt.
+							Für eventuelle Regelungslücken gilt das Gleiche.
 						</li>
-						<li>10. Es gilt das Recht der Bundesrepublik Deutschland.</li>
+						<li>10. Es gilt das Recht der Bundesrepublik Deutschland. </li>
 					</ul>
 					<p class="sub-title" style="text-align: center;">Informationen zum Datenschutz:</p>
 					<ul class="list">
 						<li>
-							Die Verarbeitung der Daten bei Teilnahme an der Aktion erfolgt durch den Hersteller. Den Datenschutzbeauftragten des Herstellers erreichen Sie unter dpo-eu@lge.com oder postalisch unter unserer Postadresse mit dem Zusatz „Datenschutzbeauftragter“.<br>
-							Sie haben jederzeit das Recht auf Auskunft über Ihre gespeicherten Daten. Darüber hinaus haben Sie bei Vorliegen der gesetzlichen Voraussetzungen das Recht auf Berichtigung, Sperrung oder Löschung Ihrer Daten und auf Übertragbarkeit bereitgestellter Daten. Ihre Einwilligung zur Speicherung und Nutzung der erhobenen Daten können Sie jederzeit mit Wirkung für die Zukunft unter dpo-eu@lge.com widerrufen.<br>
-							Bitte wenden Sie sich bezüglich der Geltendmachung Ihrer Rechte direkt an unseren Datenschutzbeauftragten. Außerdem können Sie sich jederzeit mit einer Beschwerde an eine Aufsichtsbehörde wenden. Die für den Hersteller zuständige Aufsichtsbehörde ist: Hessischer Landesdatenschutzbeauftragter, Postfach 3163, 65021 Wiesbaden.<br>
-							Ihre personenbezogenen Daten, welche Sie im Rahmen der Teilnahme an der Aktion an uns weitergeben (Vor- und Nachname, E-Mail-Adresse, Kontoverbindung, Modellbezeichnung und Seriennummer, Kaufdatum und Kaufpreis sowie Kopie der Originalrechnung mit Rechnungsdatum) werden lediglich zum Zweck der Durchführung der Aktion erhoben, verarbeitet und genutzt. Die Daten werden gegebenenfalls an Dritte, datenschutzkonform eingebundene Dienstleister zur Abwicklung der Aktion, inklusive Versendung der Erstattung, weitergegeben. Die Verarbeitung der Daten erfolgt aufgrund Ihrer Einwilligung nach Art. 6 Abs. 1 Buchstabe a) DSGVO und aufgrund Art. 6 Abs.1 Buchstabe b DSGVO, da die Datenverarbeitung zur Durchführung der Aktion notwendig ist.<br>
+							Die Verarbeitung der Daten bei Teilnahme an der Aktion erfolgt durch den Hersteller. Den
+							Datenschutzbeauftragten des Herstellers erreichen Sie unter dpo-eu@lge.com oder postalisch
+							unter unserer Postadresse mit dem Zusatz „Datenschutzbeauftragter“.
+							Sie haben jederzeit das Recht auf Auskunft über Ihre gespeicherten Daten. Darüber hinaus
+							haben Sie bei Vorliegen der gesetzlichen Voraussetzungen das Recht auf Berichtigung,
+							Sperrung oder Löschung Ihrer Daten und auf Übertragbarkeit bereitgestellter Daten. Ihre
+							Einwilligung zur Speicherung und Nutzung der erhobenen Daten können Sie jederzeit mit
+							Wirkung für die Zukunft unter dpo-eu@lge.com widerrufen.
+							Bitte wenden Sie sich bezüglich der Geltendmachung Ihrer Rechte direkt an unseren
+							Datenschutzbeauftragten. Außerdem können Sie sich jederzeit mit einer Beschwerde an eine
+							Aufsichtsbehörde wenden. Die für den Hersteller zuständige Aufsichtsbehörde ist: Hessischer
+							Landesdatenschutzbeauftragter, Postfach 3163, 65021 Wiesbaden.<br>
+							Ihre personenbezogenen Daten, welche Sie im Rahmen der Teilnahme an der Aktion an uns
+							weitergeben (Vor- und Nachname, E-Mail-Adresse, Kontoverbindung, Modellbezeichnung und
+							Seriennummer, Kaufdatum und Kaufpreis sowie Kopie der Originalrechnung mit
+							Rechnungsdatum) werden lediglich zum Zweck der Durchführung der Aktion erhoben, 
+							verarbeitet und genutzt. Die Daten werden gegebenenfalls an Dritte, datenschutzkonform
+							eingebundene Dienstleister zur Abwicklung der Aktion, inklusive Versendung der Erstattung,
+							weitergegeben. Die Verarbeitung der Daten erfolgt aufgrund Ihrer Einwilligung nach Art. 6 Abs.
+							1 Buchstabe a) DSGVO und aufgrund Art. 6 Abs.1 Buchstabe b DSGVO, da die
+							Datenverarbeitung zur Durchführung der Aktion notwendig ist.
 							Nach Abschluss der Aktion werden alle gespeicherten Daten wieder gelöscht.
 						</li>
 					</ul>

@@ -81,7 +81,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07580096|MD07566472|MD07573035|MD07510584|MD07580839|MD07570359|MD07557910|MD05864356|MD07570828|MD06224376|MD07583447|MD07515582|MD07515571|MD07565218|MD07519593|MD07567133|MD07573086|MD07510111|MD07565193|MD07573954|MD07520255|MD07580929|MD07546944|MD07581798|MD06249381|MD07544691"/>
 
 		
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07563893|MD07578166|MD07546009|MD07580478|MD07580477|MD07579904|MD07580475|MD07580501|MD07583459|MD07582363|MD07580007"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07546009|MD07578166|MD07580477|MD07580475|MD07563893|MD07580478|MD07579904|MD07580501|MD07583459|MD07582363|MD07580007|MD07582367|MD07582373|MD07582377|MD07582379|MD07583457"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07577498|MD07572416|MD07577254|MD07574585|MD07569834|MD07569835|MD07577839|MD07567372|MD07560934|MD07558671"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="銷售一空"/>
@@ -89,7 +89,7 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_limite" value="特價"/>
 		
 		<!-- Volume Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07580478|MD07580477|MD07580475|MD07583081|MD07583459|MD07578166|MD07583386|MD07580464|MD07580007"/>
+		<input type="hidden" data-model-group="hottest" data-type="tvaudio" value="MD07580478|MD07580477|MD07580475|MD07583081|MD07583459|MD07578166|MD07583386|MD07580464|MD07580007|MD07563893|MD07582363|MD07582367|MD07582373|MD07582377|MD07582379|MD07583457"/>
 		<input type="hidden" data-model-group="hottest" data-type="homeapplianceB" value="MD06141856|MD07510922|MD07573035|MD07559123|MD07557910|MD07570828|MD07566472|MD07566412|MD06224376|MD07559274|MD07559316|MD07537639|MD07566531|MD07544495|MD07567192|MD07569991|MD07567095|MD07567133|MD07542594|MD07565206|MD07565193|MD07522018|MD07580100|MD07580128|MD07564750|MD07564755|MD06249381|MD07544691"/>
 		<input type="hidden" data-model-group="hottest" data-type="computerproductB" value="MD07577839|MD07567372|MD07558781|MD07558671"/>
 		<!-- Required input ## Model List End -->
@@ -384,8 +384,8 @@
 							<div class="benefit-more__row">
 								<div class="benefit-more__item">
 									<div class="benefit-more__group">
-										<p class="title">最高24期0利率</p>
-										<p class="desc">指定銀行分期0利率,最高24期</p>
+										<p class="title">最高18期0利率</p>
+										<p class="desc">指定銀行分期0利率，最高18期。</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>
@@ -395,7 +395,9 @@
 											指定回饋平台<br>
 											期間加碼
 										</p>
-										<p class="desc">LINE 購物再享最高15% LINE POINTS;ShopBack 每週2-4加碼6%現金回饋無上限:街口支付領券加碼</p>
+										<p class="desc">LINE 購物 10/12-10/18 享18%回饋，
+											最高2,500點LINE POINTS;ShopBack 10/10-10/16 
+											6%現金回饋無上限；街口支付領券加碼。</p>
 									</div>
 									<i class="benefit-more__ico"></i>
 								</div>

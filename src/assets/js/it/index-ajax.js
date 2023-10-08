@@ -451,8 +451,8 @@ $(document).ready(function () {
           $productTag2.closest(".d-none").css("background", "#a50034"); // productTag2
 		if(listName =="hotDeal"){
 			if(obsTagfilter1){
-				$productTag.text('QUANTITÀ LIMITATE');
-				// $productTag.text(listArray[listName]['alt_'+p.modelId]);
+				// $productTag.text('QUANTITÀ LIMITATE');
+				$productTag.text(listArray[listName]['alt-'+p.modelId]);
 				$productTag0.text('OFFERTA TOP');
 				$template.find(".product__soldout").addClass('d-none');
 				$template.find(".product__group").removeClass('d-none');
