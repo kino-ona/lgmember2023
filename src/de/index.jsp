@@ -76,12 +76,13 @@
 
 		<!-- Required input ## Model List Start -->
 		<!-- Hot Deal Model / thumb - alt text -->
-		
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07570566|MD07570458|MD07580214|MD07570459|MD07570574|MD07586390|MD07586392|MD07586393|MD07580210|MD07580738|MD07574957|MD07580740|MD07586389|MD07570406|MD07570562|MD07573048|MD07570137|MD07537701|MD07573447|MD07573442|MD07536623|MD07536621|MD07529840|MD07552826"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07570566|MD07570458|MD07580214|MD07570459|MD07570574|MD07586390|MD07586392|MD07586393|MD07580210|MD07580738|MD07574957|MD07580740|MD07586389|MD07570406|MD07570562|MD07573048|MD07570137|MD07537701|MD07573447|MD07573442|MD07536623|MD07536621|MD07529840|MD07552826"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07568091|MD07580979|MD07581312|MD07563970|MD07571354|MD07571278|MD07568092|MD07569902|MD07558252|MD07568094|MD07564761|MD07576900|MD07572927|MD07571585|MD07582816|MD07545582|MD06189816|MD07530382|MD07542197|MD06075536"/>
 
-		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07570362|MD07581936|MD06055076|MD07561610|MD07561481|MD07556836|MD07543991|MD07581794"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07568091|MD07576900|MD07571354|MD07563970|MD07571278|MD07568094|MD07564761|MD07569902|MD07580979|MD07581312|MD07558252|MD07568092|MD07571585|MD07572927|MD07582816|MD06189816|MD07545582|MD07530382|MD07542197|MD06075536"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="computerproduct" value="MD07568091|MD07580979|MD07581312|MD07563970|MD07571354|MD07571278|MD07568092|MD07569902|MD07558252|MD07568094|MD07564761|MD07576900|MD07572927|MD07571585|MD07582816|MD07545582|MD06189816|MD07530382|MD07542197|MD06075536"/>
+
+		<input type="hidden" data-model-group="hotDeal" data-type="tv" value="MD07570566|MD07570458|MD07570459|MD07570574|MD07586392|MD07580210|MD07536623|MD07536621|MD07573447|MD07586393|MD07580214|MD07580738|MD07586390|MD07580740|MD07586389|MD07570406|MD07574957|MD07570562|MD07573048|MD07570137|MD07529840|MD07537701|MD07573442|MD07576068"/>
+
+		<input type="hidden" data-model-group="hotDeal" data-type="homeappliance" value="MD07556836|MD07581794|MD07543991|MD07581936|MD07570362|MD06055076|MD07561610|MD07561481"/>
 		
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Der Deal is beendet"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt_hotDeal" value="Hot Deal"/>
@@ -199,9 +200,9 @@
 						<p class="desc">Spare bis zu 61% auf unsere ausgewählten Produkte. Nur für kurze Zeit.</p>
 						<div class="tab">
 							<div class="tab__list">
-								<a href="#tv" role="button" class="tab__button tab__button--selected">TV / Audio</a>
+								<a href="#computerproduct" role="button" class="tab__button tab__button--selected">IT Produkte</a>
+								<a href="#tv" role="button" class="tab__button">TV / Audio</a>
 								<a href="#homeappliance" role="button" class="tab__button">Haushaltsgeräte</a>
-								<a href="#computerproduct" role="button" class="tab__button">IT Produkte</a>
 							</div>
 
 							<div id="hotdeal" class="tab__contents product--hotdeal">
@@ -254,17 +255,17 @@
 									</div>
 								</template>
 
-								<div id="tv" class="tab__panel tab__panel--opened">
+								<div id="computerproduct" class="tab__panel tab__panel--opened">
+									<div class="product">
+										<div class="product__list product__list--slick"></div>
+									</div>
+								</div>
+								<div id="tv" class="tab__panel">
 									<div class="product">
 										<div class="product__list product__list--slick"></div>
 									</div>
 								</div>
 								<div id="homeappliance" class="tab__panel">
-									<div class="product">
-										<div class="product__list product__list--slick"></div>
-									</div>
-								</div>
-								<div id="computerproduct" class="tab__panel">
 									<div class="product">
 										<div class="product__list product__list--slick"></div>
 									</div>
@@ -533,11 +534,11 @@
 			if(href.indexOf('HotDealTVAudio') != -1) { 
 				$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');    
 				var timer = setTimeout(function() {         
-					$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).click();
-					$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).trigger('click');
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).click();
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).trigger('click');
 					 
 					var timer0 = setTimeout(function() {   
-						$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).trigger('click');
+						$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).trigger('click');
 						clearTimeout(timer0);   
 					}, 1000);    
 					    
@@ -547,11 +548,11 @@
 			if(href.indexOf('HotDealHomeAppliance') != -1) {  
 				$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');  
 				var timer = setTimeout(function() {         
-					$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).click();
-					$('.sectionHotdeal .tab__list').find('.tab__button').eq(1).trigger('click');
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(2).click();
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(2).trigger('click');
 					 
 					 var timer0 = setTimeout(function() {   
-						 $('.sectionHotdeal .tab__list').find('.tab__button').eq(1).trigger('click');
+						 $('.sectionHotdeal .tab__list').find('.tab__button').eq(2).trigger('click');
 						 clearTimeout(timer0);   
 					 }, 1000);    
 							 
@@ -561,11 +562,11 @@
 			if(href.indexOf('HotDealComputerProducts') != -1) { 
 				$('.sectionHotdeal .tab__contents').find('.tab__panel').removeClass('tab__panel--opened');     
 				var timer = setTimeout(function() {         
-					$('.sectionHotdeal .tab__list').find('.tab__button').eq(2).click();
-					$('.sectionHotdeal .tab__list').find('.tab__button').eq(2).trigger('click');
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).click();
+					$('.sectionHotdeal .tab__list').find('.tab__button').eq(0).trigger('click');
 					 
 					 var timer0 = setTimeout(function() {   
-						 $('.sectionHotdeal .tab__list').find('.tab__button').eq(2).trigger('click');
+						 $('.sectionHotdeal .tab__list').find('.tab__button').eq(0).trigger('click');
 						 clearTimeout(timer0);   
 					 }, 1000);    
 							 
