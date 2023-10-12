@@ -444,16 +444,22 @@ $(document).ready(function () {
               ? true
               : false;
         // for obs tag class
+	console.log(p.modelId,obsTagfilter2);
+	
         if ($productTag1.length && (obsTagfilter1 || obsTagfilter2))
           $productTag1.closest(".d-none").css("background", "#a50034"); // productTag1
         if ($productTag2.length && obsTagfilter1)
           $productTag2.closest(".d-none").css("background", "#a50034"); // productTag2
 		if(listName =="hotDeal"){
-			if(obsTagfilter1){
+			if(obsTagfilter1  || obsTagfilter2){
 				$productTag.text('Limitierte Anzahl');
 				// $productTag.text(listArray[listName]['alt_'+p.modelId]);
 				$template.find(".product__soldout").addClass('d-none');
 				$template.find(".product__group").removeClass('d-none');
+              	if(obsTagfilter2){
+					$template.find(".atc-members-week").addClass("pre-order");
+					$template.find(".atc-members-week").text($template.find(".atc-members-week").data("preOrderText"))
+				} 
 			}else{
 				$productTag.text(listArray[listName]['alt_'+listName]);
 				$template.find(".product__soldout").removeClass('d-none');
@@ -461,6 +467,20 @@ $(document).ready(function () {
 				$template.find(".product__group").addClass('d-none');
 				$template.find(".atc-members-week").addClass("d-none");
 			}
+			
+			/*if(obsTagfilter2){
+				$productTag.text('Limitierte Anzahl');
+				// $productTag.text(listArray[listName]['alt_'+p.modelId]);
+				$template.find(".product__soldout").addClass('d-none');
+				$template.find(".product__group").removeClass('d-none');
+              
+			}else{
+				$productTag.text(listArray[listName]['alt_'+listName]);
+				$template.find(".product__soldout").removeClass('d-none');
+				$template.find(".product__soldout .product__text").text(listArray[listName]['altClose']);
+				$template.find(".product__group").addClass('d-none');
+				$template.find(".atc-members-week").addClass("d-none");
+			}*/
 		}
         $productTag
           .find(
@@ -486,7 +506,10 @@ $(document).ready(function () {
           $template.find(".product__discount").parent().html("");
 
 	 if(p.addToCartFlag=="N"){
-        	$template.find(".atc-members-week").addClass("d-none");
+       		if(listName =="hotDeal" && obsTagfilter2){
+             }else{
+        		$template.find(".atc-members-week").addClass("d-none");
+             }
         }
         // sold out product btn
         if (listName !== "hotDeal" && p.reStockAlertFlag == "Y") {
